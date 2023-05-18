@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Sample Asset Metadata Generator</title>
+  
+    <meta name="description" content="Assists the model submitter in generating the Metadata JSON file required for all models.">
+    <meta property="og:title" content="The Khronos Group">
+    <meta property="og:description" content="Deploying and developing royalty-free open standards for 3D graphics, Virtual and Augmented Reality, Parallel Computing, Neural Networks, and Vision Processing">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="The Khronos Group">
+	<style>
+.text-warning {color:red; }
+.col-12 {width:100%; }
+.col-6 {width:50%; float:left; }
+.col-4 {width:33.33%: float:left; }
+.col-3 {width:25%; float:left; }
+.col-2 {width:16.67%; float:left; }
+.col-1 {width:8.333%; float:left; }
+.left {align:left; text-align:left; }
+.right {align:right; text-align:right; }
+.row {clear:both; margin:2px 0;}
+.block {clear:both; margin-top:2em; }
+.outline {border:1px black solid; padding:3px; }
+.block-title {font-weight:700; font-size:122%; }
+.noshow {display:none; }
+	</style>
+  </head>
+  
+<body>
+<div class='container'>
+<h1>Metadata Generator for glTF Sample Assets</h1>
+<h2 class='text-warning'>DRAFT - Testing & Development Only</h2>
+<h2>Introduction</h2>
+<p>All submissions to the glTF Sample Asset repo must include a JSON file containing metadata. 
+This page prompts the user for the required and optional information and generates the
+JSON for the user.</p>
+
+<h2>Generator</h2>
+	<form method="GET" name="UserData" onsubmit='return false;'>
+		<div class='block-required block'>
+		<div class='outline'>
+			<div class='block-title row'>Required Data</div>
+			<div class='item-info info-required item-Name col-6 row'>
+				<div class='item-label col-6 right'>Model Name</div>
+				<div class='item-value col-6'><input id='itemName' data-json="name" data-type="string" type='text'></div>
+			</div>
+			<div class='item-info info-required item-Path col-6 row'>
+				<div class='item-label col-6 right'>Model Directory</div>
+				<div class='item-value col-6'>./Models/<input id='itemPath'  data-json="path" data-type="string" data-prefix='./2.0/' type='text'></div>
+			</div>
+			<div class='item-info info-required item-Screenshot col-6 row'>
+				<div class='item-label col-6 right'>Screenshot</div>
+				<div class='item-value col-6'><input id='itemScreenshot' data-json="screenshot" data-type="string" type='text' value="screenshot/screenshot"></div>
+			</div>
+			<div class='item-info info-required item-CreateReadme col-6 row'>
+				<div class='item-label col-6 right'>Automatically Create Readme</div>
+				<div class='item-value col-6' data-json="createReadme" data-type="string">
+					<input name='itemCreateReadmeNo' type='radio' value='false' checked="checked"> No
+					<input name='itemCreateReadmeYes' type='radio' value='true'> Yes
+				</div>
+			</div>
+			<div class='item-info info-required item-Tags col-6 row'>
+				<div class='item-label col-6 right'>Tags</div>
+				<div class='item-value col-6' id="itemTags" data-json="tags" data-type="array">
+					<input name="tag" type='checkbox' value='core'> Core<br>
+					<input name="tag" type='checkbox' value='extension'> Extension<br>
+					<input name="tag" type='checkbox' value='issues'> Issues<br>
+					<input name="tag" type='checkbox' value='showcase'> Showcase<br>
+					<input name="tag" type='checkbox' value='testing'> Testing<br>
+					<input name="tag" type='checkbox' value='video'> Video<br>
+					<input name="tag" type='checkbox' value='written'> Written
+				</div>
+			</div>
+			<div class='item-info info-required item-CreateReadme col-6 row'>
+				<div class='item-label col-6 right'>Description</div>
+				<div class='item-value col-6' >
+					<textarea id="itemSummary" data-json="summary" data-type="string" cols="66" rows="7" maxlength="1024" wrap="soft"></textarea>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class='block-required block row'>
+			<h3>Legal / Copyright / License</h3>
+			<div style='display:none; '>
+				<div id="legalZero" class="block-info info-legal legal-block col-6 outline">
+					<div class="item-info info-required item-Year row">
+						<div class="item-label col-6 right">Copyright Year</div>
+						<div class="item-value col-6"><input type="number" class="itemYear" data-json="year" data-type="number" min="1990" max="2023"></div>
+					</div>
+					<div class="item-info info-required item-Owner row">
+						<div class="item-label col-6 right">Copyright Owner</div>
+						<div class="item-value col-6"><input type="text" class="itemOwner" data-json="owner" data-type="string"></div>
+					</div>
+					<div class="item-info info-required item-License row">
+						<div class="item-label col-6 right">License</div>
+						<div class="item-value col-6">
+							<select class="itemLicense" data-json="license" data-type="select">
+								<option name="CC0">Public Domain / CC0</option>
+								<option name="CC-BY" selected>CC-BY International 4.0</option>
+								<option name="CC-BY-SA">CC-BY-SA International 4.0</option>
+								<option name="CC-BY-NC">CC-BY-NC International 4.0</option>
+								<option name="CC-BY-ND">CC-BY-ND International 4.0</option>
+								<option name="CC-BY-NC-ND">CC-BY-NC-ND International 4.0</option>
+								<option name="other">Other</option>
+							</select>
+						</div>
+					</div>
+					<div class='item-info info-required item-Artist row'>
+						<div class="item-label col-6 right">Artist</div>
+						<div class="item-value col-6"><input type="text" class="itemArtist" data-json="artist" data-type="string"></div>
+					</div>
+					<div class="item-info info-required item-What row">
+						<div class="item-label col-6 right">What was done</div>
+						<div class="item-value col-6"><input type="text" class="itemWhat" data-json="what" data-type="string"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id='legal' data-type="legal" data-type="object">
+			</div>
+			<div class="row">
+				<input type="hidden" id="LegalCount" value="1">
+				<input type="button" id="CreateLegal" value="Create Another Legal Record" data-count="#LegalCount">
+			</div>
+		</div>
+		
+		<div style="margin-top:2em; ">
+			<input id='CreateJson' type='submit' value='Create JSON'>
+		</div>
+	</form>
+	
+	<textarea id='JSON' cols='80' rows='24'>
+	</textarea>
+</div>
+
+<script>
+let metadata;
+metadata = '{\
+    "version": 2,\
+    "legal": [\
+        {\
+            "year": "#itemYear",\
+            "owner": "#itemOwner",\
+            "license": "#itemLicense",\
+            "artist": "#itemArtst",\
+            "what": "#itemWhat",\
+            "licenseUrl": "",\
+            "text": "",\
+            "spdx": "",\
+            "icon": ""\
+        }\
+    ],\
+    "tags": [ ],\
+    "screenshot": "#itemScreenshot",\
+    "name": "#itemName",\
+    "path": "#itemPath",\
+    "summary": "",\
+    "createReadme": false\
+}';
+metadata = '{\
+    "version": 2,\
+    "legal": [ ],\
+    "tags": [ ],\
+    "screenshot": "#itemScreenshot",\
+    "name": "#itemName",\
+    "path": "#itemPath",\
+    "summary": "",\
+    "createReadme": false\
+}';
+
+/*
+function documentReady (ev) {
+	let createButton = document.querySelector('#CreateJson');
+	createButton.onclick = generatedJson;
+}
+*/
+window.addEventListener("DOMContentLoaded", (event) => {
+	console.log("DOM fully loaded and parsed");
+	(document.getElementById('LegalCount')).value = 1;
+	addLegalBlock();		// OK, because the actual event is never used
+
+// Define action to create additional legal records
+	function addLegalBlock (event) {
+		let newBlock = (document.getElementById('legalZero')).cloneNode(true);
+		// Change 'id' in copy (use #LegalCount)
+		let currentCount = (document.getElementById('LegalCount')).value;
+		newBlock.id = 'legal_' + currentCount;
+		// Add copy to end of list
+		let newLegal = (document.getElementById('legal')).appendChild (newBlock);
+		// Update #LegalCount
+		currentCount++;
+		(document.getElementById('LegalCount')).value = currentCount;
+	}
+	function getScalarValues (element, Keys) {
+		let local,ele;
+		local = new Object();
+		for (id of Keys) {
+			ele = element.querySelector(id);
+			eData = ele.dataset;
+			if (ele.value == "") {
+				console.log ("Missing value for "+id);
+			} else {
+				local[eData.json] = ele.value;
+			}
+/*
+			if (eData.type == 'number' || eData.type == 'string') {
+				localMetadata[id] = ele.value;
+			}
+*/
+		}
+		return local;
+	}
+
+	let createButton = document.querySelector('#CreateLegal');
+	createButton.addEventListener("click", addLegalBlock, false);
+
+// Define action to create JSON
+	createButton = document.querySelector('#CreateJson');
+	createButton.addEventListener("click", (event) => {
+
+		let localMetadata, ScalarIds, LegalClass, ele, id, ii, tags, scalars, key;
+		localMetadata = JSON.parse (metadata);
+		ScalarIds = new Array ("#itemScreenshot", "#itemName", "#itemPath", "#itemSummary");
+		LegalClass = new Array (".itemYear", ".itemOwner", ".itemLicense", ".itemArtist", ".itemWhat");
+		scalars = getScalarValues (document, ScalarIds);
+		for (key in scalars) {
+			localMetadata[key] = scalars[key];
+		}
+		
+		// Deal with Arrays (just one)
+		// Process child elements (check boxes) for TAGS
+		ele = document.getElementById('itemTags');
+		tags = new Array();
+		for (ii=0; ii<ele.children.length; ii++) {
+			if (ele.children[ii].name == 'tag' && ele.children[ii].checked) {
+				tags.push (ele.children[ii].value);
+			}
+		}
+		if (tags.length > 0) {
+			localMetadata['tags'] = tags;
+		}
+		
+		// Deal with Objects (Legal)
+		for (ii=1; ii<(document.getElementById('LegalCount')).value; ii++) {
+			ele = document.getElementById('legal_'+ii);
+			console.log ("Processing Legal block #"+ii);
+			scalars = getScalarValues (ele, LegalClass);
+			scalars["licenseUrl"] = "";
+			scalars["text"] = "";
+			scalars["spdx"] = "";
+			scalars["icon"] = "";
+			localMetadata['legal'][localMetadata['legal'].length] = scalars;
+		}
+		
+		
+		// Convert to JSON
+		stringMetadata = JSON.stringify (localMetadata, null, 4);
+	
+		eOutput = document.getElementById ('JSON');
+		eOutput.value = stringMetadata;
+	});
+});
+
+</script>
+</body>
+</html>		

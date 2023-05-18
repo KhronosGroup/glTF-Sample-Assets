@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2019",
+            "owner": "Analytical Graphics, Inc.",
+            "what": "Everything",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Unlit Test",
+    "path": "./Models/UnlitTest",
+    "summary": "Tests if the KHR_materials_unlit extension is supported properly.",
+    "createReadme": false
+}

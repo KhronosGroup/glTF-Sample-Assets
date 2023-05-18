@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "DGG",
+            "year": "2021",
+            "owner": "DGG",
+            "what": "Everything",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Lamp with Punctual Lights",
+    "path": "./Models/LightsPunctualLamp",
+    "summary": "Lamp using punctual lights.",
+    "createReadme": false
+}

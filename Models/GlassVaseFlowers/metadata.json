@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "artist": "Eric Chadwick",
+            "owner": "Public",
+            "year": "2023",
+            "license": "CC0",
+            "what": "Glass vase",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "artist": "Rico Cilliers",
+            "owner": "Public",
+            "year": "2023",
+            "license": "CC0",
+            "what": "Flowers",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "video",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Glass Vase with Flowers",
+    "path": "./Models/GlassVaseFlowers",
+    "summary": "This model compares transparency methods for representing glass in glTF: alphaMode:'BLEND' (left) versus the extensions KHR_materials_transmission and KHR_materials_volume (right).",
+    "createReadme": false
+}

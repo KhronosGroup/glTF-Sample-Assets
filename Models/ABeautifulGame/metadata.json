@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "MaterialX Project",
+            "year": "2020",
+            "owner": "ASWF",
+            "what": "Original model",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2022",
+            "owner": "Ed Mackey",
+            "what": "Conversion to glTF",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "video",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "A Beautiful Game",
+    "path": "./Models/ABeautifulGame",
+    "summary": "Chess set using transmission and volume.",
+    "createReadme": true
+}

@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2023",
+            "owner": "Public",
+            "license": "Public Domain / CC0",
+            "artist": "Marco Hutter",
+            "what": "Everything",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Mesh Primitive Modes",
+    "path": "./Models/MeshPrimitiveModes",
+    "summary": "An example that shows rendering modes that are supported for mesh primitives in glTF.",
+    "createReadme": true
+}

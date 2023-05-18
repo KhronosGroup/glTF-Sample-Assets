@@ -1,0 +1,344 @@
+{
+    "asset": {
+        "version": "2.0",
+        "copyright": "CCBY 4.0, model by Eric Chadwick"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "WindowFrame"
+        },
+        {
+            "mesh": 1,
+            "name": "WindowsGlass"
+        },
+        {
+            "mesh": 2,
+            "name": "WindowClasp"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "WindowFrame"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4,
+                    "material": 1
+                }
+            ],
+            "name": "WindowsGlass"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8,
+                    "material": 2
+                }
+            ],
+            "name": "WindowClasp"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 2208,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 776,
+            "max": [
+                0.255940437,
+                0.506541431,
+                0.0196742862
+            ],
+            "min": [
+                -0.25205946,
+                0.000151759145,
+                -0.0184137151
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 9312,
+            "componentType": 5126,
+            "count": 776,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 776,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 4416,
+            "componentType": 5123,
+            "count": 6,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 18624,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.2221247,
+                0.4732467,
+                0.0006317319
+            ],
+            "min": [
+                -0.218243673,
+                0.0334649868,
+                0.0006317319
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 18672,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 6208,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 4428,
+            "componentType": 5123,
+            "count": 747,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 18720,
+            "componentType": 5126,
+            "count": 204,
+            "max": [
+                0.02858464,
+                0.5166226,
+                0.0159997828
+            ],
+            "min": [
+                -0.0222872924,
+                0.5065515,
+                -0.0038979766
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 21168,
+            "componentType": 5126,
+            "count": 204,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 6240,
+            "componentType": 5126,
+            "count": 204,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 5924,
+            "name": "bufferViewScalar",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5924,
+            "byteLength": 23616,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 29540,
+            "byteLength": 7872,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2",
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "GlassBrokenWindow.bin",
+            "byteLength": 37412
+        }
+    ],
+    "materials": [
+        {
+            "name": "WindowFrame",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.86,
+                    0.86,
+                    0.86,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            },
+            "occlusionTexture": {
+                "index": 3
+            }
+        },
+        {
+            "name": "WindowGlass",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6,
+                    0.85,
+                    1,
+                    1
+                ],
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicRoughnessTexture": {
+                    "index": 2
+                },
+                "roughnessFactor": 0.05
+            },
+            "normalTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            },
+            "alphaMode": "MASK",
+            "doubleSided": true
+        },
+        {
+            "name": "WindowClasp",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.18,
+                    0.14,
+                    0.09,
+                    1
+                ],
+                "roughnessFactor": 0.5,
+                "metallicFactor": 1
+            },
+            "occlusionTexture": {
+                "index": 4
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "WindowGlass_Normal.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "WindowGlass_ColorAlpha.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "WindowGlass_OcclusionRoughMetal.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "WindowFrame_Occlusion.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 4,
+            "name": "WindowClasp_Occlusion.jpg"
+        }
+    ],
+    "images": [
+        {
+            "uri": "WindowGlass_Normal.png"
+        },
+        {
+            "uri": "WindowGlass_ColorAlpha.png"
+        },
+        {
+            "uri": "WindowGlass_OcclusionRoughMetal.jpg"
+        },
+        {
+            "uri": "WindowFrame_Occlusion.jpg"
+        },
+        {
+            "uri": "WindowClasp_Occlusion.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_transmission"
+    ]
+}

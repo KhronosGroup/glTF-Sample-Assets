@@ -1,0 +1,323 @@
+{
+    "asset": {
+        "version": "2.0",
+        "copyright": "CC0, glass vase by Eric Chadwick, flowers by Rico Cilliers"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [
+                0.00157174421,
+                0.0380421355,
+                -0.00221169274
+            ],
+            "name": "Flowers1"
+        },
+        {
+            "mesh": 1,
+            "rotation": [
+                0.7071068,
+                0.0,
+                0.0,
+                0.7071067
+            ],
+            "name": "GlassAlpha"
+        },
+        {
+            "mesh": 0,
+            "translation": [
+                0.12157174421,
+                0.0380421355,
+                -0.00221169274
+            ],
+            "name": "Flowers2"
+        },
+        {
+            "mesh": 2,
+            "rotation": [
+                0.7071068,
+                0.0,
+                0.0,
+                0.7071067
+            ],
+            "translation": [
+                0.12,
+                0.0,
+                0.0
+            ],
+            "name": "GlassTransmission"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "Flowers"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4,
+                    "material": 1
+                }
+            ],
+            "name": "GlassAlpha"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4,
+                    "material": 2
+                }
+            ],
+            "name": "GlassTransmission"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 11454,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2561,
+            "max": [
+                0.0421853662,
+                0.165177226,
+                0.07641257
+            ],
+            "min": [
+                -0.0550890863,
+                0.000100584337,
+                -0.06608054
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 30732,
+            "componentType": 5126,
+            "count": 2561,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 2561,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 22908,
+            "componentType": 5123,
+            "count": 9600,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 61464,
+            "componentType": 5126,
+            "count": 1714,
+            "max": [
+                0.038417045,
+                0.03737088,
+                0.0
+            ],
+            "min": [
+                -0.03632475,
+                -0.0373709127,
+                -0.141060948
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 82032,
+            "componentType": 5126,
+            "count": 1714,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 20488,
+            "componentType": 5126,
+            "count": 1714,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 42108,
+            "name": "bufferViewScalar",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 42108,
+            "byteLength": 102600,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 144708,
+            "byteLength": 34200,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2",
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "GlassVaseFlowers.bin",
+            "byteLength": 178908
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 2
+                }
+            },
+            "normalTexture": {
+                "index": 0,
+                "scale": 1
+            },
+            "alphaMode": "MASK",
+            "doubleSided": true,
+            "name": "Flowers"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.3
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "GlassAlpha"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.075,
+                    "thicknessTexture": {
+                        "index": 3
+                    }
+                }
+            },
+            "name": "GlassTransmission"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "shrub_sorrel_01_normal_1k.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "shrub_sorrel_01_color_1k.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "shrub_sorrel_01_rough_1k.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "glass_vase_thickness_1k.jpg"
+        }
+    ],
+    "images": [
+        {
+            "uri": "shrub_sorrel_01_normal_1k.jpg"
+        },
+        {
+            "uri": "shrub_sorrel_01_color_1k.png"
+        },
+        {
+            "uri": "shrub_sorrel_01_rough_1k.jpg"
+        },
+        {
+            "uri": "glass_vase_thickness_1k.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_volume"
+    ]
+}

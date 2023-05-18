@@ -1,0 +1,19 @@
+# UNUSED LICENSES
+
+The following licenses are not used:
+* LicenseRef-Khronos-Assumed
+
+
+# SUMMARY
+
+* Bad licenses:
+* Deprecated licenses:
+* Licenses without file extension:
+* Missing licenses:
+* Unused licenses: LicenseRef-Khronos-Assumed
+* Used licenses: Apache-2.0, CC-BY-4.0, CC-BY-NC-4.0, CC0-1.0, LicenseRef-3DRT-Testing, LicenseRef-Adobe-Stock, LicenseRef-CC-BY-TM, LicenseRef-CRYENGINE-Agreement, LicenseRef-Poser-EULA, LicenseRef-Stanford-Graphics, SCEA
+* Read errors: 0
+* Files with copyright information: 1419 / 1419
+* Files with license information: 1419 / 1419
+
+Unfortunately, your project is not compliant with version 3.0 of the REUSE Specification :-(

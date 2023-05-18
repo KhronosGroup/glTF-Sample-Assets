@@ -1,0 +1,137 @@
+Poser End User License Agreement 
+(EULA) 
+
+Obtained from:
+https://archive.org/stream/poser-pro-2014-reference-manual/Poser_Pro_2014_reference_manual_djvu.txt
+
+
+This End User License Agreement (“EULA”) is between you 
+(both the individual installing the Program and any single legal 
+entity on behalf of which such individual is acting) (“you” or 
+“your”) and Smith Micro Software, Inc., and/or its subsidiaries 
+(“Company”). 
+
+
+PLEASE READ THIS EULA CAREFULLY BEFORE USING THE 
+SOFTWARE. BY CLICKING THE “I ACCEPT” BUTTON WHEN 
+INSTALLING THE PROGRAM, YOU ARE AGREEING TO BE 
+BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT 
+AGREE TO THE TERMS OF THIS EULA, CLICK ON THE “I 
+DO NOT ACCEPT” BUTTON. IF YOU DO NOT ACCEPT THIS 
+EULA, YOU MAY NOT USE OR ACCESS THE SOFTWARE. 
+USING OR ACCESSING ANY PART OF THE SOFTWARE 
+INDICATES THAT YOU ACCEPT THESE TERMS. 
+
+
+DEFINITIONS 
+
+
+* “Content” means animations, characters, clothing, faces, 
+hair, geometries, images, materials, meshes, morphs, 
+motion files, props, PoserPython scripts, textures, bump 
+maps, transparencies, and similar files and data created 
+with the intent of being used within the Program and/or 
+third party applications. 
+
+
+“Documentation” means any written material in any 
+form for installation and use of the Program provided by 
+authorized agents or representatives of the Company. 
+
+
+“Legitimate Uses” means (a) creating morph targets based 
+on the Restricted Content, provided that any distribution 
+
+of the morph targets will not include the original mesh 
+connectivity information (for example, distribution in 
+
+the form of data utilized with morph moving utilities or 
+
+in a .CR2 file that references the original geometry, but 
+
+no inclusion of the complete mesh); (b) creating texture 
+templates derived from the Restricted Content to create 
+new maps for either Restricted Content or Other Content; 
+(c) creating tutorials, books, or other educational materials 
+using images of the Program interface or Content for sale, 
+distribution, public display, or public performance, provided 
+such materials are intended to educate users as to use of the 
+Program; (d) creating original Content for sale, distribution, 
+public display, or public performance; (e) creating materials 
+(e.g., shader trees) for use with either Restricted Content 
+
+or Other Content; (f) creating characters or props based on 
+Restricted Content in Proprietary File Formats, where the 
+original (or modified) geometry, texture, or other Restricted 
+Content files are not distributed with such characters or 
+props; or (g) creating PoserPython scripts. 
+
+
+“Other Content” means Content that is not Restricted 
+Content or Unrestricted Content. Other Content may be 
+subject to license terms imposed by the Other Content’s 
+original creator. 
+
+
+“Program” means the Company computer software and 
+associated files in Proprietary File Formats delivered via the 
+accompanying physical media or electronic media. 
+
+
+“Proprietary File Formats” means any of Company’s 
+proprietary compressed and uncompressed formats and/ 
+or future proprietary file formats, including files with the 
+following extensions: CM2, CR2, FC2, HD2, HR2, LT2, 
+MC6, MTS, PP2, PZ2, PZ3. 
+
+
+“Restricted Content” means all Content included with 
+
+or part of the Program that is not Unrestricted Content, 
+including without limitation mesh objects (geometry) 
+
+in any format, files in Proprietary File Formats, images, 
+materials, texture, transparency maps, Documentation, and 
+Company’s proprietary data. 
+
+
+“Unrestricted Content” means Content included with 
+
+or part of the Program that is specifically identified in the 
+Documentation or listed in this EULA as Unrestricted 
+Content. The following figure geometries and their 
+associated textures are Unrestricted Content: low res male, 
+low res female, medium res male, medium res female. 
+
+THIRD-PARTY TECHNOLOGY AND 
+CONTENT 
+
+
+Portions of the Program and Other Content contain technology 
+and/or other components licensed by the Company from the 
+following third parties: Pixels Digital, Inc., Singular Inversions, 
+Inc., Size8 Software, Inc., and Automatic Sync Technologies 
+LLC, each of whom retain the ownership, copyrights, 
+trademarks, and patents to their respective contributions to 
+the Program. Open source components include: Open source 
+components include: Boost C++ http://www.boost.org, Bullet 
+
+
+Physics http://bulletphysics.org, Embree http://embree.github. 
+
+
+com, FreeImage http://freeimage.sourceforge.net, FreeType 
+http://freetype.sourceforge.net, Geometric Tools http://www. 
+geometrictools.com, k-d tree point cloud: Henrik Wann Jensen, 
+libCurl http://curl.haxx.se/libeurl/, libjpeg http://www.ijg. 
+org, libtiff http://www.libtiff.org, numpy http://www.numpy. 
+org, OpenEXR http://www.openexr.com, OpenSSL http:// 
+www.openssl.org, pcre http://www.pcre.org, PIL http://www. 
+pythonware.com/products/pil, pthreads http://sourceware. 
+org/pthreads-win32, Python http://www.python.org, pthreads 
+http://sourceware.org/pthreads-win32, SFMT http://www. 
+math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT, XMLRPC++ 
+http://xmlrpepp.sourceforge.net, XMP http://www.adobe. 
+com/products/xmp Other Content that is subject to third-party 
+rights included with Program and Documentation is copyrighted 
+and owned by the original Content creators. 

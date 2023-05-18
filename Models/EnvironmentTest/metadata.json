@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "LicenseRef-Adobe-Stock",
+            "licenseUrl": "https://stock.adobe.com/license-terms?prev_url=detail&comparison-full#enhanced-license-terms",
+            "artist": "Adobe",
+            "year": "2017",
+            "owner": "Adobe",
+            "what": "Everything",
+            "text": "Adobe Stock License",
+            "spdx": "LicenseRef-Adobe-Stock",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Environment Test",
+    "path": "./Models/EnvironmentTest",
+    "summary": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
+    "createReadme": false
+}

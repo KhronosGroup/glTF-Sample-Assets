@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Mathias Kanzler",
+            "year": "2022",
+            "owner": "UX3D",
+            "what": "Initial version",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Pascal Schoen",
+            "year": "2021",
+            "owner": "Pascal Schoen",
+            "what": "Internal clean-up",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Iridescence Suzanne",
+    "path": "./Models/IridescenceSuzanne",
+    "summary": "Further tests KHR_materials_iridescence.",
+    "createReadme": false
+}

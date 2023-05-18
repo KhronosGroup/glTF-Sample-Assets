@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2023",
+            "owner": "Analytical Graphics, Inc.",
+            "license": "CC-BY International 4.0",
+            "artist": "Ed Mackey",
+            "what": "Everthing",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "core",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Negative Scale Test",
+    "path": "./Models/NegativeScaleTest",
+    "summary": "This model tests what happens when a glTF node has negative scaling.",
+    "createReadme": true
+}

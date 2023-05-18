@@ -1,0 +1,35 @@
+3DRT.com License for Testing
+
+If you proceed to download any products, you hereby signify that you have 
+agreed to all of the terms and conditions set forth below. The products are 
+only licensed to you; they are not sold to you. 
+
+The products contained herein owned by 3DRT. 
+3DRT grants to you a perpetual, worldwide, non-exclusive, non-assignable, 
+non-transferable, non-sub-licensable license to use the products. This license 
+is valid only with respect to the products and only if you have paid the 
+applicable fee. All rights are reserved and will be revoked if you do not 
+follow these terms of use. 
+
+The products may be used Royalty Free: 
+
+1) For personal or commercial use. 
+2) For advertising or promotional use. 
+3) For website or in any electronic devices. 
+4) In broadcast, multimedia, video games or animation. 
+                          (in as many applications as necessary) 
+5) In books or magazines.
+6) The products may be modified for individual style and appearance. 
+
+
+You are not permitted to: 
+
+Market, distribute, give, transfer, sell or sublicense the products in any form 
+with the exception of a compiled application such as a video game.
+
+By special exemption for this model only, 3DRT allows the use of this model as follows:
+"It is for use *only* in testing your glTF tools such as loaders and importers. The 
+model, any portion of the model, the textures and the animation data, may *not* be 
+deployed in a commercial application without the developer purchasing their own 
+license to it. To purchase this model, please go to:
+http://3drt.com/store/environments/virtual-city-pack.html

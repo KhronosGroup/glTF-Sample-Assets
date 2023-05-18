@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2020",
+            "owner": "Analytical Graphics, Inc.",
+            "what": "Everything",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "KHR_materials_clearcoat Test",
+    "path": "./Models/ClearCoatTest",
+    "summary": "Tests if the KHR_materials_clearcoat extension is supported properly.",
+    "createReadme": false
+}

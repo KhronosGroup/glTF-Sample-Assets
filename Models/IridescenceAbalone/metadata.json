@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "artist": "Abby Crawford",
+            "owner": "Abby Crawford",
+            "year": "2015",
+            "license": "CC-BY 4.0",
+            "what": "Everything",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "artist": "Eric Chadwick",
+            "owner": "Eric Chadwick",
+            "year": "2023",
+            "license": "CC-BY 4.0",
+            "what": "Materials",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "IridescenceAbalone",
+    "path": "./Models/IridescenceAbalone",
+    "summary": "A model of an abalone shell with highly iridescent interior.",
+    "createReadme": false
+}

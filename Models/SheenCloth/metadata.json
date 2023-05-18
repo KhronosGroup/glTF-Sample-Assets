@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Microsoft",
+            "year": "2020",
+            "owner": "Microsoft",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "video",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Sheen Cloth",
+    "path": "./Models/SheenCloth",
+    "summary": "Fabric example using sheen.",
+    "createReadme": false
+}

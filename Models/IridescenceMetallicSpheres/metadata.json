@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "UX3D",
+            "year": "2022",
+            "owner": "UX3D",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Iridescence Metallic Spheres",
+    "path": "./Models/IridescenceMetallicSpheres",
+    "summary": "Tests KHR_materials_iridescence on a metallic material.",
+    "createReadme": false
+}

@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Ed Mackey",
+            "year": "2018",
+            "owner": "Analytical Graphics, Inc.",
+            "what": "Everything",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "core",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Normal-Tangent Mirror Test",
+    "path": "./Models/NormalTangentMirrorTest",
+    "summary": "Tests an engine's ability to load supplied tangent vectors for a normal map.",
+    "createReadme": false
+}

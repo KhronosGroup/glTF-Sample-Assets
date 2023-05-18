@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Loic Norgeot",
+            "year": "2018",
+            "owner": "Sketchfab",
+            "what": "Model",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Sketchfab",
+            "year": "2019",
+            "owner": "Sketchfab",
+            "what": "Real-time refraction",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Mosquito In Amber",
+    "path": "./Models/MosquitoInAmber",
+    "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
+    "createReadme": false
+}

@@ -1,0 +1,192 @@
+{
+    "asset": {
+        "version": "2.0",
+        "copyright": "Material by Eric Chadwick, model by Abby Crawford (https://skfb.ly/GTLF), both licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "rotation": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "name": "IridescenceAbalone"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "IridescenceAbalone"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 18108,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 3159,
+            "max": [
+                0.116056539,
+                0.07781754,
+                0.07919444
+            ],
+            "min": [
+                -0.116056576,
+                -0.07781754,
+                -0.07919447
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 37908,
+            "componentType": 5126,
+            "count": 3159,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 3159,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 36216,
+            "name": "bufferViewScalar",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 36216,
+            "byteLength": 75816,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 112032,
+            "byteLength": 50544,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2",
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "IridescenceAbalone.bin",
+            "byteLength": 162576
+        }
+    ],
+    "materials": [
+        {
+            "name": "IridescenceAbalone",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.5,
+                "metallicRoughnessTexture": {
+                    "index": 3
+                }
+            },
+            "normalTexture": {
+                "index": 2,
+                "scale": 1
+            },
+            "occlusionTexture": {
+                "index": 3
+            },
+            "extensions": {
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceTexture": {
+                        "index": 1
+                    },
+                    "iridescenceThicknessTexture": {
+                        "index": 1
+                    },
+                    "iridescenceThicknessMinimum": 600,
+                    "iridescenceThicknessMaximum": 800
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "IridescenceAbalone_BaseColor.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "IridescenceAbalone_Iridescence.jpg"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "IridescenceAbalone_NormalBump.png"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "IridescenceAbalone_ORM.jpg"
+        }
+    ],
+    "images": [
+        {
+            "uri": "IridescenceAbalone_BaseColor.jpg"
+        },
+        {
+            "uri": "IridescenceAbalone_Iridescence.jpg"
+        },
+        {
+            "uri": "IridescenceAbalone_NormalBump.png"
+        },
+        {
+            "uri": "IridescenceAbalone_ORM.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_iridescence"
+    ]
+}
