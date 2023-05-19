@@ -10,8 +10,8 @@ This model is a sphere using the glTF ClearCoat to create a wicker material cove
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -32,4 +32,4 @@ This model is a sphere using the glTF extension [`KHR_materials_clearcoat`](http
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

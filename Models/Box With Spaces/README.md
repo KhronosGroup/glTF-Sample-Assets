@@ -1,21 +1,34 @@
 # Box With Spaces
 
+## Tags
+
+![core](../../Models-core.md), ![testing](../../Models-testing.md)
+
+## Summary
+
+Box with URI-encoded spaces in the texture names used by a simple PBR material.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Box%20With%20Spaces/glTF/Box%20With%20Spaces.gltf) in SampleViewer
+* [Model Directory](./)
+
 ## Screenshot
 
-![screenshot](screenshot/screenshot_large.png)
+![screenshot](screenshot/screenshot.png)
 
 ## Description
 
-The binary file is called `Box With Spaces.bin`, testing runtime support for the presence of spaces in a URI.  Three textures
-also have spaces in their URIs, but each space character is URI-encoded as `%20`.
+_None provided._
 
-Client implementations are expected to URI-decode all URIs present in a glTF model, even when they represent files on a
-local disk.  See [#1449](https://github.com/KhronosGroup/glTF/issues/1449) for additional comments.
+## Legal
 
-## License Information
+&copy; 2017, Analytical Graphics, Inc.. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
-glTF™ is a trademark of the Khronos Group Inc.  Follow the [Khronos Logo Usage Guidelines](https://www.khronos.org/legal/trademarks/)
-when reproducing the glTF™ logo.
+ - Ed Mackey for Everything
 
-The cube model is [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
-To the extent possible under law, Analytical Graphics has waived all copyright and related or neighboring rights to this asset.
+&copy; 2017, Khronos Group. [Khronos Trademark or Logo]()
+
+ - Non-copyrightable logo for glTF logo
+
+#### Assembled by modelmetadata 1.0.14-beta

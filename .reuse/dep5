@@ -9,10 +9,512 @@ Files: *
 Copyright: 2017-2023 Khronos Group
 License: CC-BY-4.0
 
+Files: Models/ABeautifulGame/*
+Copyright: 
+ 2020 ASWF
+ 2022 Ed Mackey
+License: CC-BY-4.0
+
+Files: Models/AlphaBlendModeTest/*
+Copyright: 
+ 2018 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/AnimatedCube/*
+Copyright: 
+ 2017 UX3D
+License: CC0-1.0
+
+Files: Models/AnimatedMorphCube/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/AnimatedMorphSphere/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/AnimatedTriangle/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/AnisotropyBarnLamp/*
+Copyright: 
+ 2023 Copyright 2023 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: Models/AnisotropyRotationTest/*
+Copyright: 
+ 2023 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/AnisotropyStrengthTest/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/AntiqueCamera/*
+Copyright: 
+ 2018 UX3D
+ 2017 UX3D
+License: CC0-1.0 AND LicenseRef-LegalMark-UX3D
+
+Files: Models/AttenuationTest/*
+Copyright: 
+ 2021 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/Avocado/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/BarramundiFish/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/BoomBox/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/BoomBoxWithAxes/*
+Copyright: 
+ 2018 Public
+License: CC0-1.0
+
+Files: Models/Box/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/Box%20With%20Spaces/*
+Copyright: 
+ 2017 Analytical Graphics, Inc.
+ 2017 Khronos Group
+License: CC0-1.0 AND LicenseRef-LegalMark-Khronos
+
+Files: Models/BoxAnimated/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/BoxInterleaved/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/BoxTextured/*
+Copyright: 
+ 2017 Cesium
+ 2015 Cesium
+License: LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium
+
+Files: Models/BoxTexturedNonPowerOfTwo/*
+Copyright: 
+ 2017 Cesium
+ 2015 Cesium
+License: LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium
+
+Files: Models/BoxVertexColors/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/BrainStem/*
+Copyright: 
+ 2017 Smith Micro Software, Inc.
+License: LicenseRef-Poser-EULA
+
+Files: Models/Cameras/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/CesiumMan/*
+Copyright: 
+ 2017 Cesium
+ 2015 Cesium
+License: LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium
+
+Files: Models/CesiumMilkTruck/*
+Copyright: 
+ 2017 Cesium
+ 2015 Cesium
+License: LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium
+
+Files: Models/ClearCoatCarPaint/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/ClearCoatTest/*
+Copyright: 
+ 2020 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/ClearcoatWicker/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/Corset/*
+Copyright: 
+ 2017 UX3D
+License: CC0-1.0
+
+Files: Models/Cube/*
+Copyright: 
+ 2017 UX3D
+License: CC0-1.0
+
+Files: Models/DamagedHelmet/*
+Copyright: 
+ 2018 ctxwing
+ 2016 theblueturtle_
+License: CC-BY-4.0 AND CC-BY-NC-4.0
+
+Files: Models/DragonAttenuation/*
+Copyright: 
+ 1996 Stanford University Computer Graphics Laboratory
+ 2017 Morgan McGuire
+ 2021 Public
+License: LicenseRef-Stanford-Graphics AND CC0-1.0
+
+Files: Models/Duck/*
+Copyright: 
+ 2006 Sony
+License: SCEA
+
+Files: Models/EmissiveStrengthTest/*
+Copyright: 
+ 2022 AGI
+License: CC-BY-4.0
+
+Files: Models/EnvironmentTest/*
+Copyright: 
+ 2017 Adobe
+License: LicenseRef-Adobe-Stock
+
+Files: Models/FlightHelmet/*
+Copyright: 
+ 2018 Public
+License: CC0-1.0
+
+Files: Models/Fox/*
+Copyright: 
+ 2014 Public
+ 2014 tomkranis
+ 2017 @AsoboStudio and @scurest
+License: CC0-1.0 AND CC-BY-4.0
+
+Files: Models/GlamVelvetSofa/*
+Copyright: 
+ 2021 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: Models/GlassBrokenWindow/*
+Copyright: 
+ 2023 Wayfair
+License: CC-BY-4.0
+
 Files: Models/GlassHurricaneCandleHolder/*
 Copyright: 
  2021 Wayfair, LLC
  2015 Khronos Group
  2017 Khronos Group
-License: CC-BY-4.0 AND 
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
+Files: Models/GlassVaseFlowers/*
+Copyright: 
+ 2023 Public
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/InterpolationTest/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/IridescenceAbalone/*
+Copyright: 
+ 2015 Abby Crawford
+ 2023 Eric Chadwick
+License: CC-BY-4.0
+
+Files: Models/IridescenceDielectricSpheres/*
+Copyright: 
+ 2019 Public
+License: CC0-1.0
+
+Files: Models/IridescenceLamp/*
+Copyright: 
+ 2022 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: Models/IridescenceMetallicSpheres/*
+Copyright: 
+ 2022 UX3D
+License: CC0-1.0
+
+Files: Models/IridescenceSuzanne/*
+Copyright: 
+ 2022 UX3D
+ 2021 Pascal Schoen
+License: CC0-1.0
+
+Files: Models/IridescentDishWithOlives/*
+Copyright: 
+ 2020 Wayfair, LLC
+License: CC-BY-4.0
+
+Files: Models/Lantern/*
+Copyright: 
+ 2017 Microsoft
+ 2018 Frank Galligan
+License: CC0-1.0
+
+Files: Models/LightsPunctualLamp/*
+Copyright: 
+ 2021 DGG
+License: CC-BY-4.0
+
+Files: Models/MaterialsVariantsShoe/*
+Copyright: 
+ 2021 Shopify
+License: CC-BY-4.0
+
+Files: Models/MeshPrimitiveModes/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/MetalRoughSpheres/*
+Copyright: 
+ 2017 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/MetalRoughSpheresNoTextures/*
+Copyright: 
+ 2019 Public
+ 2019 Public
+License: CC0-1.0
+
+Files: Models/MorphPrimitivesTest/*
+Copyright: 
+ 2018 ft-lab
+ 2020 Frank Galligan
+License: CC-BY-4.0
+
+Files: Models/MorphStressTest/*
+Copyright: 
+ 2021 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/MosquitoInAmber/*
+Copyright: 
+ 2018 Sketchfab
+ 2019 Sketchfab
+License: CC-BY-4.0
+
+Files: Models/MultipleScenes/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/MultiUVTest/*
+Copyright: 
+ 2017 Hilo 3D
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
+Files: Models/NegativeScaleTest/*
+Copyright: 
+ 2023 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/NormalTangentMirrorTest/*
+Copyright: 
+ 2018 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/NormalTangentTest/*
+Copyright: 
+ 2018 Analytical Graphics, Inc.
+License: CC0-1.0
+
+Files: Models/OrientationTest/*
+Copyright: 
+ 2017 Unknown
+License: CC-BY-4.0
+
+Files: Models/RecursiveSkeletons/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/RiggedFigure/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/RiggedSimple/*
+Copyright: 
+ 2017 Cesium
+License: CC-BY-4.0
+
+Files: Models/SciFiHelmet/*
+Copyright: 
+ 2017 Public
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/SheenChair/*
+Copyright: 
+ 2020 Wayfair, LLC
+License: CC0-1.0
+
+Files: Models/SheenCloth/*
+Copyright: 
+ 2020 Microsoft
+License: CC0-1.0
+
+Files: Models/SimpleInstancing/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
+Files: Models/SimpleMeshes/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/SimpleMorph/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/SimpleSkin/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/SimpleSparseAccessor/*
+Copyright: 
+ 2017 Public
+License: CC-BY-4.0
+
+Files: Models/SpecGlossVsMetalRough/*
+Copyright: 
+ 2017 Microsoft
+License: CC-BY-4.0
+
+Files: Models/SpecularTest/*
+Copyright: 
+ 2021 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/Sponza/*
+Copyright: 
+ 2016 Crytek
+License: LicenseRef-CRYENGINE-Agreement
+
+Files: Models/StainedGlassLamp/*
+Copyright: 
+ 2021 Wayfair
+License: CC-BY-4.0
+
+Files: Models/Suzanne/*
+Copyright: 
+ 2017 UX3D
+License: CC0-1.0
+
+Files: Models/TextureCoordinateTest/*
+Copyright: 
+ 2017 Analytical Graphics, Inc.
+License: CC0-1.0
+
+Files: Models/TextureEncodingTest/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/TextureLinearInterpolationTest/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/TextureSettingsTest/*
+Copyright: 
+ 2017 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/TextureTransformMultiTest/*
+Copyright: 
+ 2020 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/TextureTransformTest/*
+Copyright: 
+ 2018 Microsoft
+License: CC0-1.0
+
+Files: Models/ToyCar/*
+Copyright: 
+ 2020 Public
+ 2020 Public
+License: CC0-1.0
+
+Files: Models/TransmissionRoughnessTest/*
+Copyright: 
+ 2021 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/TransmissionTest/*
+Copyright: 
+ 2020 Public
+License: CC0-1.0
+
+Files: Models/Triangle/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/TriangleWithoutIndices/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/TwoSidedPlane/*
+Copyright: 
+ 2017 UX3D
+License: CC0-1.0
+
+Files: Models/Unicode❤♻Test/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
+
+Files: Models/UnlitTest/*
+Copyright: 
+ 2019 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/VC/*
+Copyright: 
+ 2017 3DRT
+License: LicenseRef-3DRT-Testing
+
+Files: Models/VertexColorTest/*
+Copyright: 
+ 2018 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/WaterBottle/*
+Copyright: 
+ 2017 Public
+License: CC0-1.0
 

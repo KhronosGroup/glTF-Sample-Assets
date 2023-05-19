@@ -10,8 +10,8 @@ This model tests the strength parameter for KHR_materials_anisotropy.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -34,4 +34,4 @@ Note the `KHR_materials_anisotropy` specification provides formulas to clearly d
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

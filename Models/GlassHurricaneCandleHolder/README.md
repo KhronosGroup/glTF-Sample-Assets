@@ -10,8 +10,8 @@ Glass holder using Materials Tranmission and Materials Volume extensions.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -39,12 +39,12 @@ An earlier version of this model was used in the glTF tutorial [Adding Material 
 
  - Eric Chadwick for Model and textures
 
-&copy; 2015, Khronos Group. [LicenseRef-LegalMark-Khronos]()
+&copy; 2015, Khronos Group. [Khronos Trademark or Logo]()
 
  - Non-copyrightable logo for Khronos logo
 
-&copy; 2017, Khronos Group. [LicenseRef-LegalMark-Khronos]()
+&copy; 2017, Khronos Group. [Khronos Trademark or Logo]()
 
  - Non-copyrightable logo for glTF logo
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

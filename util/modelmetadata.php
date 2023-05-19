@@ -30,7 +30,7 @@
 // Define a script-wide constants
 
 	define ('AppName', 'modelmetadata');
-	define ('AppVersion', '1.0.12-beta');
+	define ('AppVersion', '1.0.14-beta');
 	define ('UrlSampleViewer', 'https://github.khronos.org/glTF-Sample-Viewer-Release/');
 	define ('UrlModelRepoRaw', 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main');
 	define ('DebugNone', 0);
@@ -178,6 +178,24 @@ class ModelMetadata
 							'link'=>'',
 							'text'=>'CC-BY 4.0 International with Trademark Limitations',
 							'spdx'=>'LicenseRef-CC-BY-TM',
+							),
+			'LicenseRef-LegalMark-Cesium'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Cesium Trademark or Logo',
+							'spdx'=>'LicenseRef-LegalMark-Cesium',
+							),
+			'LicenseRef-LegalMark-Khronos'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'Khronos Trademark or Logo',
+							'spdx'=>'LicenseRef-LegalMark-Khronos',
+							),
+			'LicenseRef-LegalMark-UX3D'	=> array (
+							'icon'=>'', 
+							'link'=>'',
+							'text'=>'UX3D Trademark or Logo',
+							'spdx'=>'LicenseRef-LegalMark-UX3D',
 							),
 			'LicenseRef-Khronos-Assumed'	=> array (
 							'icon'=>'', 
@@ -372,6 +390,7 @@ class ModelMetadata
 **/
 	public function writeReadme ($tagListings=null) {
 		$fileReadme = $this->metadata['basePath'] . 'README.md';
+		$fileReadme = str_replace ('%20', ' ', $fileReadme);
 		$fileReadmeBody = $this->metadata['basePath'] . 'README.body.md';
 		if (!$this->metadata['createReadme']) {return $this; }
 		if ($this->debugOutput >= DebugModel) 
@@ -444,7 +463,7 @@ class ModelMetadata
 
 		if ($this->debugOutput >= $this->DebugModel) 
 			print " .. writing README to $fileReadme\n";
-		$FO = fopen ($fileReadme, 'w');
+		$FO = fopen ("$fileReadme", 'w');
 		fwrite ($FO, $output);
 		fclose ($FO);
 
@@ -471,7 +490,9 @@ class ModelMetadata
 		$readme[] = '# LICENSE file for the model: ' . $this->modelName;
 		$readme[] = 'All files in this directory tree are licensed as indicated below.';
 		$readme[] = '* All files directly associated with the model including all text, image and binary files:';
-		$readme[] = '  * [' . $this->metadata['legal'][0]['text'] . ']("' . $this->metadata['legal'][0]['licenseUrl'] . '") [SPDX license identifier: "' . $this->metadata['legal'][0]['spdx'] . '"]';
+		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
+			$readme[] = '  * [' . $this->metadata['legal'][$ii]['text'] . ']("' . $this->metadata['legal'][$ii]['licenseUrl'] . '") [SPDX license identifier: "' . $this->metadata['legal'][$ii]['spdx'] . '"]';
+		}
 		$readme[] = '* This file and all other metadocumentation files including "metadata.json":';
 		$readme[] = '  * [Creative Commons Attribtution 4.0 International]("'.$this->LICENSE['CC-BY 4.0']['link'].'") [SPDX license identifier: "CC-BY-4.0"]';
 		$readme[] = 'Full license text of these licenses are available at the links above';
@@ -823,14 +844,16 @@ if (isset($runArgs['check']) || !isset($runArgs['build'])) {
 		$modelName = $allModels[$ii]->modelName;
 		$issues = $allModels[$ii]->reportIssues();
 		if (count($issues['error'])+count($issues['warning']) > 0) {
-			print sprintf ("Checking %s (%d issues; %d errors, %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
-			for ($jj=0; $jj<count($issues['error']); $jj++) {
-				print sprintf(" E-%d: %s\n", $jj+1, $issues['error'][$jj]);
+			if (!isset($runArgs['no-warn']) || (isset($runArgs['no-warn']) && count($issues['error']) > 0)) {
+				print sprintf ("Checking %s (%d issues; %d errors, %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
+				for ($jj=0; $jj<count($issues['error']); $jj++) {
+					print sprintf(" E-%d: %s\n", $jj+1, $issues['error'][$jj]);
+				}
+				for ($jj=0; $jj<count($issues['warning']); $jj++) {
+					print sprintf(" W-%d: %s\n", $jj+1, $issues['warning'][$jj]);
+				}
+				$errorCount =+ count($issues['error']);
 			}
-			for ($jj=0; $jj<count($issues['warning']); $jj++) {
-				print sprintf(" W-%d: %s\n", $jj+1, $issues['warning'][$jj]);
-			}
-			$errorCount =+ count($issues['error']);
 		}
 	}
 	
@@ -918,6 +941,7 @@ function clProcess($argv, $ModelDirectory) {
 	$clHelp = [	array('switch' => 'build', 'long' => 'build', 'short'=>'b', 'text' => 'Builds all necessary files for the asset.'),
 				array('switch' => 'check', 'long' => 'check', 'short'=>'c', 'text' => 'Checks consistency of the asset directory files.'),
 				array('switch' => 'help',  'long' => 'help', 'short'=>'h', 'text' => 'Displays this informaiton.'),
+				array('switch' => 'no-warn',  'long' => 'no-warn', 'short'=>'w', 'text' => 'Do not show warnings if there are no errors.'),
 				array('switch' => 'process-repo', 'long' => 'process-repo', 'short'=>'p', 'text' => 'Create repo-wide files.'),
 				];
 	$options = array();

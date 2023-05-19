@@ -11,6 +11,17 @@
             "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "Khronos Group",
+            "what": "glTF logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [

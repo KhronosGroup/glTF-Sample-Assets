@@ -10,8 +10,8 @@ This model is a sphere using the glTF ClearCoat extension overtop a car paint ba
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatCarPaint/glTF-Binary/ClearCoatCarPaint.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -43,4 +43,4 @@ Roughness was increased to 0.4 to scatter the reflected light and to provide a c
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

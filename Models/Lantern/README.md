@@ -10,8 +10,8 @@ Old wooden street light.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Lantern/glTF-Binary/Lantern.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/Lantern/glTF-Binary/Lantern.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Lantern/glTF-Binary/Lantern.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Lantern/glTF-Binary/Lantern.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -32,4 +32,4 @@ _None provided._
 
  - Frank Galligan for Draco compression
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

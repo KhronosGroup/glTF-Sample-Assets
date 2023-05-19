@@ -11,6 +11,17 @@
             "text": "CC0 1.0 Universal",
             "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-UX3D",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "UX3D",
+            "what": "UX3D logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [

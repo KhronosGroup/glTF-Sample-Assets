@@ -2,7 +2,8 @@ Use of Logo or Trademark Image owned by Cesium
 
 The logo or trademark incoirporated into this content is owned by 
 Cesium and is used by permission in accordance with the 
-Legal Mark Usage Guidelines at tbd.
+Legal Mark Usage Guidelines at 
+https://github.com/AnalyticalGraphicsInc/cesium/wiki/CesiumTrademark.pdf.
 
 Use in this model do not change the license of the model. The model 
 license does not confer any usage rights on the Mark beyond that 

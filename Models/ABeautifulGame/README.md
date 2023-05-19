@@ -10,7 +10,7 @@ Chess set using transmission and volume.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF/ABeautifulGame.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF/ABeautifulGame.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshots
@@ -72,4 +72,4 @@ inspiration for more automated conversion tooling in the future.
 
  - Ed Mackey for Conversion to glTF
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

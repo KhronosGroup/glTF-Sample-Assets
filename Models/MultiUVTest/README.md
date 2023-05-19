@@ -10,8 +10,8 @@ This model has two uv texture coordinates and tests a second set of texture coor
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MultiUVTest/glTF-Binary/MultiUVTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,4 +28,8 @@ _None provided._
 
  - Hilo 3D for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+&copy; 2017, Khronos Group. [Khronos Trademark or Logo]()
+
+ - Non-copyrightable logo for glTF logo
+
+#### Assembled by modelmetadata 1.0.14-beta

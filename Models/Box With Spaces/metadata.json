@@ -11,6 +11,17 @@
             "text": "CC0 1.0 Universal",
             "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "Khronos Group",
+            "what": "glTF logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -21,5 +32,5 @@
     "name": "Box With Spaces",
     "path": "./Models/Box%20With%20Spaces",
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
-    "createReadme": false
+    "createReadme": true
 }

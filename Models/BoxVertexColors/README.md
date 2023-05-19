@@ -10,8 +10,8 @@ A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxVertexColors/glTF-Binary/BoxVertexColors.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/BoxVertexColors/glTF-Binary/BoxVertexColors.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxVertexColors/glTF-Binary/BoxVertexColors.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxVertexColors/glTF-Binary/BoxVertexColors.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -29,4 +29,4 @@ A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. 
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

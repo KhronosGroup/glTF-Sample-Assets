@@ -10,8 +10,8 @@ A sample with three different animation interpolations
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/InterpolationTest/glTF-Binary/InterpolationTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,4 +28,4 @@ _None provided._
 
  - Khronos for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

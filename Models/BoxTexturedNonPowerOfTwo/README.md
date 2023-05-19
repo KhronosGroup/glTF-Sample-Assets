@@ -1,4 +1,24 @@
-# Box Textured
+# Box Textured not 2^N
+
+## Tags
+
+![core](../../Models-core.md), ![issues](../../Models-issues.md), ![testing](../../Models-testing.md)
+
+## Summary
+
+Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures. [Issues: non-Khronos mark]
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxTexturedNonPowerOfTwo/glTF-Binary/BoxTexturedNonPowerOfTwo.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxTexturedNonPowerOfTwo/glTF-Binary/BoxTexturedNonPowerOfTwo.glb)
+* [Model Directory](./)
+
+## Screenshot
+
+![screenshot](screenshot/screenshot.png)
+
+## Description
 
 This model uses a Non Power-Of-Two texture with REPEAT mode wrapping.  This is an edge case that is technically a valid gltf model, but needs some renderer work to resize the texture before uploading to the GPU.  According to the spec:
 
@@ -6,12 +26,15 @@ glTF does not guarantee that a texture's dimensions are a power-of-two. At runti
 
 See the Non-Power-Of-Two note at the bottom of the [Samplers section](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#samplers) of the spec.
 
-## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+## Legal
 
-## License Information
+&copy; 2017, Cesium. [CC-BY 4.0 International with Trademark Limitations]()
 
-Donated by Cesium for glTF testing.  Please follow the [Cesium Trademark Terms and Conditions](https://github.com/AnalyticalGraphicsInc/cesium/wiki/CesiumTrademark.pdf).
+ - Cesium for Everything
 
-This model is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+&copy; 2015, Cesium. [Cesium Trademark or Logo]()
+
+ - Non-copyrightable logo for Cesium logo
+
+#### Assembled by modelmetadata 1.0.14-beta

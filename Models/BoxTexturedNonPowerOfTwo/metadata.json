@@ -11,6 +11,17 @@
             "text": "CC-BY 4.0 International with Trademark Limitations",
             "spdx": "LicenseRef-CC-BY-TM",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Cesium",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2015",
+            "owner": "Cesium",
+            "what": "Cesium logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -22,5 +33,5 @@
     "name": "Box Textured not 2^N",
     "path": "./Models/BoxTexturedNonPowerOfTwo",
     "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures. [Issues: non-Khronos mark]",
-    "createReadme": false
+    "createReadme": true
 }

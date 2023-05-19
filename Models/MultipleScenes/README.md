@@ -10,7 +10,7 @@ A simple glTF asset with two scenes. Each scene consists of one node with one me
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/MultipleScenes/glTF/MultipleScenes.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MultipleScenes/glTF/MultipleScenes.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -33,4 +33,4 @@ property, so viewers should initially show the scene containing the square.
 
  - Public for Everthing
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

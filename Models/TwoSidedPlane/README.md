@@ -10,7 +10,7 @@ A plane having the two sided material parameter enabled.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/TwoSidedPlane/glTF/TwoSidedPlane.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TwoSidedPlane/glTF/TwoSidedPlane.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -27,4 +27,4 @@ _None provided._
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+#### Assembled by modelmetadata 1.0.14-beta

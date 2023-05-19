@@ -10,8 +10,8 @@ Static model of old camera on a tripod. [Issues: non-Khronos mark]
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,4 +28,8 @@ _None provided._
 
  - Maximillan Kamps for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+&copy; 2017, UX3D. [UX3D Trademark or Logo]()
+
+ - Non-copyrightable logo for UX3D logo
+
+#### Assembled by modelmetadata 1.0.14-beta

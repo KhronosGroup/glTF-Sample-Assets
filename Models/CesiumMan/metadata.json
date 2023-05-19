@@ -11,6 +11,17 @@
             "text": "CC-BY 4.0 International with Trademark Limitations",
             "spdx": "LicenseRef-CC-BY-TM",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Cesium",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2015",
+            "owner": "Cesium",
+            "what": "Cesium logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [

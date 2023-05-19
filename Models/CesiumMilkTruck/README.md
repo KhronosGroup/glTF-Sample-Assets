@@ -10,8 +10,8 @@ Textured. Multiple nodes/meshes. Animations. [Issues: non-Khronos mark]
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,4 +28,8 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.0.11-beta
+&copy; 2015, Cesium. [Cesium Trademark or Logo]()
+
+ - Non-copyrightable logo for Cesium logo
+
+#### Assembled by modelmetadata 1.0.14-beta
