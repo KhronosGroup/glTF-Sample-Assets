@@ -1,10 +1,10 @@
 <p align="center">
-<img src="Assets/glTF_RGB_June16.svg" height="100">
+<img src="Models/glTF_RGB_June16.svg" height="100">
 </p>
 
 # glTF V2.0 Sample Models
 
-[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
+[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=main)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
 
 
 |  |  |
