@@ -7,10 +7,32 @@
             "artist": "Eric Chadwick",
             "year": "2021",
             "owner": "Wayfair, LLC",
-            "what": "Everything",
+            "what": "Model and textures",
             "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
             "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2015",
+            "owner": "Khronos Group",
+            "what": "Khronos logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        },
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "Khronos Group",
+            "what": "glTF logo",
+            "text": "",
+            "spdx": "",
+            "icon": ""
         }
     ],
     "tags": [
@@ -23,5 +45,5 @@
     "name": "Glass Hurricane Candle Holder",
     "path": "./Models/GlassHurricaneCandleHolder",
     "summary": "Glass holder using Materials Tranmission and Materials Volume extensions.",
-    "createReadme": false
+    "createReadme": true
 }

@@ -1,18 +1,4 @@
-# Glass Hurricane Candle Holder
-
-## Tags
-
-![video](../../Models-video.md), ![written](../../Models-written.md), ![showcase](../../Models-showcase.md), ![extension](../../Models-extension.md)
-
-## Summary
-
-Glass holder using Materials Tranmission and Materials Volume extensions.
-
-## Operations
-
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Assets/main/./Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)
-* [Model Directory](./)
+# GlassHurricaneCandleHolder
 
 ## Screenshot
 
@@ -32,19 +18,6 @@ An earlier version of this model was used in the glTF tutorial [Adding Material 
 
 (above) The model viewed in four renderers, from left to right: [Microsoft Babylon.js](https://github.com/BabylonJS/Babylon.js#babylonjs), [Google Filament](https://github.com/BabylonJS/Babylon.js#babylonjs), [three.js](https://github.com/mrdoob/three.js#threejs), and [Dassault Systèmes Enterprise PBR](https://github.com/DassaultSystemes-Technology/EnterprisePBRShadingModel#enterprise-pbr-shading-model). The first three were rendered within Visual Studio Code using the glTF Tools extension.
 
+## License Information
 
-## Legal
-
-&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
-
- - Eric Chadwick for Model and textures
-
-&copy; 2015, Khronos Group. [LicenseRef-LegalMark-Khronos]()
-
- - Non-copyrightable logo for Khronos logo
-
-&copy; 2017, Khronos Group. [LicenseRef-LegalMark-Khronos]()
-
- - Non-copyrightable logo for glTF logo
-
-#### Assembled by modelmetadata 1.0.11-beta
+(C) 2023, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. Model and textures created by Eric Chadwick.

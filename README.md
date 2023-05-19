@@ -4,7 +4,7 @@
 
 # glTF V2.0 Sample Models
 
-[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
+[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
 
 
 |  |  |
@@ -69,7 +69,7 @@ If you have any questions, submit an [issue](https://github.com/KhronosGroup/glT
 
 To make this repository cleaner, the previous _glTF-Sample-Models_ repository was archived [in place](https://github.com/KhronosGroup/glTF-Sample-Models). All V1.0 and _sourceModels_ files were removed from this repository. The major changes to the report are:
 
-* The primary branch name was changed to _main_ (from _master).
+ * The primary branch name was changed to _main_ (from _master).
 * _2.0_ directory was renamed to _Models_
 * All non-model folder READMEs were also removed
 * Assets without licenses or licenses that were not suitable for use in this collection were removed
@@ -85,6 +85,7 @@ To make this repository cleaner, the previous _glTF-Sample-Models_ repository wa
   * Cesium Man
   * Cesium Milk Truck
 
-
 For the assets that remained, there were no changes to the Asset name. READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
 
+---
+&copy; 2023, The Khronos Group. Licensed as CC-BY 4.0 International
