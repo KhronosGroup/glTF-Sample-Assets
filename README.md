@@ -9,7 +9,7 @@
 
 |  |  |
 |-|-|
-| [![Glass Hurricane Candle Holder](Models/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](Models/GlassHurricaneCandleHolder/README.md)  | Glass holder using Materials Tranmission and Materials Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for Everything
+| [![Glass Hurricane Candle Holder](Models/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](Models/GlassHurricaneCandleHolder/README.md)  | Glass candle holder using Transmission and Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for everything
 
 
 ## Introduction
