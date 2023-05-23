@@ -30,7 +30,12 @@
 // Define a script-wide constants
 
 	define ('AppName', 'modelmetadata');
-	define ('AppVersion', '1.0.14-beta');
+	define ('AppVersionMajor', 1);
+	define ('AppVersionMinor', 0);
+	define ('AppVersionPatch', 15);
+	define ('AppVersionPrerelease', 'beta');
+	define ('AppVersion', sprintf('%d.%d,%d%s%s', AppVersionMajor, AppVersionMinor, AppVersionPatch, ((AppVersionPrerelease eq '') ? '' : '-'), AppVersionPrerelease);
+	//define ('AppVersion', '1.0.15-beta');
 	define ('UrlSampleViewer', 'https://github.khronos.org/glTF-Sample-Viewer-Release/');
 	define ('UrlModelRepoRaw', 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main');
 	define ('DebugNone', 0);
@@ -401,9 +406,9 @@ class ModelMetadata
 		for ($ii=0; $ii<count($this->metadata['tags']); $ii++) {
 			$path = $this->_getTagListingPath ($this->metadata['tags'][$ii], $tagListings);
 			if ($path == '') {
-				$tagList[] = sprintf ('%s', $this->metadata['tags'][$ii], $this->metadata['tags'][$ii]);
+				$tagList[] = sprintf ('%s', $this->metadata['tags'][$ii]);
 			} else {
-				$tagList[] = sprintf ('![%s](../../%s)', $this->metadata['tags'][$ii], $path);
+				$tagList[] = sprintf ('[%s](../../%s)', $this->metadata['tags'][$ii], $path);
 			}
 		}
 		$tagString = join (', ', $tagList);
