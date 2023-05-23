@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![issues](../../Models-issues.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [issues](../../Models-issues.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -32,4 +32,4 @@ _None provided._
 
  - Non-copyrightable logo for Cesium logo
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

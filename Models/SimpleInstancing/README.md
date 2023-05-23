@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
+[extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -48,4 +48,4 @@ This means that the first instance that is rendered is the unmodified unit cube,
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

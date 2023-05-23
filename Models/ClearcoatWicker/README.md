@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
+[extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -32,4 +32,4 @@ This model is a sphere using the glTF extension [`KHR_materials_clearcoat`](http
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -65,4 +65,4 @@ This problem with normal vectors is likely also the cause the upper "check" and 
 
  - Ed Mackey for Everthing
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

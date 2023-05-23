@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![showcase](../../Models-showcase.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [showcase](../../Models-showcase.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -27,4 +27,4 @@ _None provided._
 
  - Gary Hsu for Conversion from Maya
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

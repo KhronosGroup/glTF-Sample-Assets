@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -31,4 +31,4 @@ _None provided._
 
  - Norbert Nopper for Conversion to glTF
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

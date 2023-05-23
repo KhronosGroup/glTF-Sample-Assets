@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![testing](../../Models-testing.md), ![issues](../../Models-issues.md)
+[core](../../Models-core.md), [testing](../../Models-testing.md), [issues](../../Models-issues.md)
 
 ## Summary
 
@@ -32,4 +32,4 @@ _None provided._
 
  - Non-copyrightable logo for UX3D logo
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

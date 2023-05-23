@@ -34,7 +34,7 @@
 	define ('AppVersionMinor', 0);
 	define ('AppVersionPatch', 15);
 	define ('AppVersionPrerelease', 'beta');
-	define ('AppVersion', sprintf('%d.%d,%d%s%s', AppVersionMajor, AppVersionMinor, AppVersionPatch, ((AppVersionPrerelease eq '') ? '' : '-'), AppVersionPrerelease);
+	define ('AppVersion', sprintf('%d.%d,%d%s', AppVersionMajor, AppVersionMinor, AppVersionPatch, ((AppVersionPrerelease == "") ? "" : "-".AppVersionPrerelease)));
 	//define ('AppVersion', '1.0.15-beta');
 	define ('UrlSampleViewer', 'https://github.khronos.org/glTF-Sample-Viewer-Release/');
 	define ('UrlModelRepoRaw', 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main');

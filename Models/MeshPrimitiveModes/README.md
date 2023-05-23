@@ -2,7 +2,7 @@
 
 ## Tags
 
-![testing](../../Models-testing.md)
+[testing](../../Models-testing.md)
 
 ## Summary
 
@@ -45,4 +45,4 @@ Each mesh primitive has a different `mode`, corresponding to the glTF [mesh topo
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

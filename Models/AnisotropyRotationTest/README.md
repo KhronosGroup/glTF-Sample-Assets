@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
+[extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -40,4 +40,4 @@ This model tests rotational offsets for [`KHR_materials_anisotropy`](https://git
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

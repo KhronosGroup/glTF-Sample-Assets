@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![showcase](../../Models-showcase.md), ![written](../../Models-written.md)
+[extension](../../Models-extension.md), [showcase](../../Models-showcase.md), [written](../../Models-written.md)
 
 ## Summary
 
@@ -32,4 +32,4 @@ If each variant was a separate model, they would be 5.4 MB each. Combined they m
 
  - Shopify for Everthing
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

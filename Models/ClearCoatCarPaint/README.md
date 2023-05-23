@@ -2,7 +2,7 @@
 
 ## Tags
 
-![extension](../../Models-extension.md), ![testing](../../Models-testing.md)
+[extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -43,4 +43,4 @@ Roughness was increased to 0.4 to scatter the reflected light and to provide a c
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -33,4 +33,4 @@ property, so viewers should initially show the scene containing the square.
 
  - Public for Everthing
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

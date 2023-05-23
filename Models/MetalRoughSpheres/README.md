@@ -2,7 +2,7 @@
 
 ## Tags
 
-![core](../../Models-core.md), ![testing](../../Models-testing.md)
+[core](../../Models-core.md), [testing](../../Models-testing.md)
 
 ## Summary
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

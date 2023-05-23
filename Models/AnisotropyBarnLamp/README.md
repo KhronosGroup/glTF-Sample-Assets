@@ -2,7 +2,7 @@
 
 ## Tags
 
-![showcase](../../Models-showcase.md), ![extension](../../Models-extension.md)
+[showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
 ## Summary
 
@@ -118,4 +118,4 @@ The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max)
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta

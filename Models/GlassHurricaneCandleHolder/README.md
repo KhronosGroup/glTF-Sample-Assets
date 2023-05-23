@@ -2,7 +2,7 @@
 
 ## Tags
 
-![video](../../Models-video.md), ![written](../../Models-written.md), ![showcase](../../Models-showcase.md), ![extension](../../Models-extension.md)
+[video](../../Models-video.md), [written](../../Models-written.md), [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
 ## Summary
 
@@ -47,4 +47,4 @@ An earlier version of this model was used in the glTF tutorial [Adding Material 
 
  - Non-copyrightable logo for glTF logo
 
-#### Assembled by modelmetadata 1.0.14-beta
+#### Assembled by modelmetadata 1.0,15-beta
