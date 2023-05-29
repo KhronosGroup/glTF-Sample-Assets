@@ -25,7 +25,7 @@
 # Assumes PHP & Python are installed in C:\Applications (Windows 10)
 
 pushd ..
-/C/Applications/PHP/php util/modelmetadata.php
+/C/Applications/PHP/php util/modelmetadata.php --build --process-repo
 /C/Applications/Python311/Scripts/reuse lint >& ./.reuse/dep5.error
 /C/Applications/Python311/Scripts/reuse spdx -o ./.reuse/reuse.spdx
 
