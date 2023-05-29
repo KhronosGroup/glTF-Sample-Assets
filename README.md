@@ -9,7 +9,7 @@
 
 |  |  |
 |-|-|
-| [![Glass Hurricane Candle Holder](Models/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](Models/GlassHurricaneCandleHolder/README.md)  | Glass holder using Materials Tranmission and Materials Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for Everything
+| [![Glass Hurricane Candle Holder](Models/GlassHurricaneCandleHolder/screenshot/screenshot.jpg)](Models/GlassHurricaneCandleHolder/README.md)  | Glass candle holder using Transmission and Volume extensions. [[Show]](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/DRx3D/glTF-Sample-Models/main/Models/GlassHurricaneCandleHolder/glTF-Binary/GlassHurricaneCandleHolder.glb)<br>Credit:<br>&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)<br> - Eric Chadwick for everything
 
 
 ## Introduction
@@ -36,7 +36,7 @@ A summary of the model license is shown in each display, but see the `README.md`
 Sample glTF 2.0 models are provided in one or more of the following forms of glTF:
 
 * glTF (`.gltf`) with separate resources: `.bin` (geometry, animation, skins) and `.jpg` or `.png` image files.  The supporting files are easily examined when separated like this, but must be kept together with the parent glTF file for the model to work.
-* glTF (`.gltf`) with embedded resources (as Data URIs).  This form tends to be larger than the others, but Data URIs do have their uses.
+* glTF Embedded (`.gltf`) with embedded resources as Data URIs.  This form is intended for very small binary payloads, similar to the use of small data URIs in HTML/CSS.  This form should be avoided except as needed for a specific use case.
 * Binary glTF (`.glb`) using the [binary container format](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification).  These are easily shared due to the bundling of all the textures and mesh data into a single file.
 
 
