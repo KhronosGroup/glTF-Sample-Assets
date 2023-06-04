@@ -16,14 +16,14 @@ Wayfair AnisotropyBarnLamp model using anisotropy, clearcoat, emissive_strength,
 
 ## Screenshot
 
-![Screenshot from Babylon.js](screenshot/screenshot_Large.jpg)
+![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
 
-(above) Screenshot from [Babylon.js Sandbox](https://sandbox.babylonjs.com/).
+(above) Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) with the environment Studio Neutral and the tone map ACES Filmic Tone Mapping (Hill).
 
 
 ## Description
 
-This model represents a real Wayfair product, an [Antique Copper Barn Light](https://www.wayfair.com/lighting/pdp/beachcrest-home-clintonpark-1-light-dimmable-barn-light-bkwt7725.html?piid=33004628) with a brushed copper finish. This product was chosen as a stress-test for anisotropic reflections because it has multiple pieces with different brushed-metal directions.
+This model represents a real Wayfair product, an [Antique Copper Barn Light](https://www.wayfair.com/lighting/pdp/beachcrest-home-clintonpark-1-light-dimmable-barn-light-bkwt7725.html?piid=33004628) with a brushed copper finish. This product was chosen as a stress-test for anisotropic reflections because it has multiple pieces with different directions of brushed-metal micro-grooves.
 
 The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. Additional photo reference is available [on the Wayfair website](https://www.wayfair.com/lighting/pdp/beachcrest-home-clintonpark-1-light-dimmable-barn-light-bkwt7725.html?piid=33004628).
 
@@ -34,20 +34,24 @@ The use of real-world photographic reference is meant to help glTF developers wi
 
 ## Materials
 
-The asset has three meshes, each using its own material. 
+The asset has three meshes, each using their own materials:
 
-The incandescent filament inside the light bulb uses a PBR material with an emissive color and [KHR_materials_emissive_strength](https://github.com/KhronosGroup/gltf/tree/main/extensions/2.0/Khronos/KHR_materials_emissive_strength#khr_materials_emissive_strength) to create high-dynamic range emission. If the renderer supports it, the filament should glow with a bloom effect.
+1. The incandescent filament inside the light bulb uses a PBR material with an emissive color and [KHR_materials_emissive_strength](https://github.com/KhronosGroup/gltf/tree/main/extensions/2.0/Khronos/KHR_materials_emissive_strength#khr_materials_emissive_strength) to create high-dynamic range emission. If the renderer supports it, the filament should glow with a bloom effect.
 
-The light bulb glass uses [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_volume) for clear glass with reflection and refraction. 
+2. The light bulb glass uses [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_volume) for clear glass with reflection and refraction. 
 
-The metal parts have multi-layer surface reflections. The copper is covered with fine grooves which cause anisotropic-stretched reflections, here replicated with [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_anisotropy). Some of the copper has oxidized in the corners reducing reflectivity and metalness. The grooves and oxidation are present in the baseColorTexture and in the roughnessTexture, which is in the green channel of the `metallicRoughnessTexture`. The metal parts have additionally been covered in a glossy clearcoat glaze which contributes non-anisotropic reflections, here simulated with [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat). 
+3. The metal parts have multi-layer surface reflections. The copper is covered with fine grooves which cause anisotropic-stretched reflections, here replicated with [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_anisotropy). Some of the copper has oxidized in the corners reducing reflectivity and metalness. The grooves and oxidation are present in the baseColorTexture and in the roughnessTexture, which is in the green channel of the `metallicRoughnessTexture`. The metal parts have additionally been covered in a glossy clearcoat glaze which contributes non-anisotropic reflections, here simulated with [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat). 
+
+![Textures for the lamp material.](screenshot/anisotropy_Textures.jpg)
+
+(Above) Texture channels for the metal material, displayed on the model.
+
+
+## Anisotropy Texture
 
 ![Screenshots with Anisotropy enabled and disabled.](screenshot/anisotropy_WithWithout.jpg)
 
 Anisotropy enabled (above left), compared with disabled (above right).
-
-
-## Anisotropy Texture
 
 The anisotropy rotation is varied across the model using an `anisotropyTexture`. The red channel and green channel control the rotation relative to the surface tangents, while the blue channel acts as a scalar or mask for the overall anisotropy. Radial gradient sweeps are used to create the radial anisotropy where the metal parts have been brushed in a circular pattern. 
 
@@ -88,14 +92,16 @@ When normalizing an `anisotropyTexture`, the blue channel should be omitted from
 
 ![Screenshot of a normalization graph in Substance 3D Designer.](screenshot/anisotropy_Normalize.jpg)
 
-(above) Adobe Substance 3D Designer can be setup to ignore the blue channel `anisotropyStrength` during normalization, and add it back in afterwards. The first "Channels Shuffle" node removes the blue channel, the red and green channels are normalized, then the second "Channels Shuffle" node restores the original blue channel.
+(above) Adobe Substance 3D Designer can be setup to ignore the blue channel `anisotropyStrength` during normalization, and add it back in afterwards.
+
+This graph can be downloaded as a SBSAR file: [Substance_NormalizeRG.zip](screenshot/Substance_NormalizeRG.zip). This is a Substance 3D Asset which can be used to normalize anisotropy textures with [Adobe Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) and other [applications which support SBSAR](https://helpx.adobe.com/substance-3d-integrations/home.html).
 
 
 ## KTX2 BasisU Textures
 
 A variant of the asset is provided KTX2 textures using [Basis Universal texture compression](https://github.com/KhronosGroup/KTX-Software). The PNG textures were processed with UASTC compression using `toktx`, then referenced in the glTF using the [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/) extension. 
 
-The KTX2 textures end up with smaller file sizes (about half) and crucially with much smaller GPU memory footprint (about one fifth) than the PNG textures. With careful attention to compression settings, there is virtually no visual difference between the PNG and KTX2 textures, when the models are rendered side-by-side. For information on compression settings, see the [KTX Artist Guide](https://github.com/KhronosGroup/3D-Formats-Guidelines/blob/main/KTXArtistGuide.md#ktx-artist-guide). 
+The KTX2 textures end up with smaller file sizes (about half) and crucially with much smaller GPU memory footprint (about one fifth) compared to the PNG textures. With careful attention to compression settings, there is virtually no visual difference between the PNG and KTX2 textures when the models are rendered side-by-side. For more information on compression settings, see the [KTX Artist Guide](https://github.com/KhronosGroup/3D-Formats-Guidelines/blob/main/KTXArtistGuide.md#ktx-artist-guide). 
 
 ```
 toktx --t2 --encode uastc --uastc_quality 4 --uastc_rdo_l .25 --uastc_rdo_d 65536 --zcmp 22 --assign_oetf linear --assign_primaries none AnisotropyBarnLamp_anisotropy.ktx2 AnisotropyBarnLamp_anisotropy.png --verbose
@@ -112,10 +118,7 @@ toktx --t2 --encode uastc --uastc_quality 4 --uastc_rdo_l .25 --uastc_rdo_d 6553
 
 The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max), exported to glTF using [Max2Babylon](https://github.com/BabylonJS/Exporters#babylonjs-exporters), and materials were edited in [Visual Studio Code](https://code.visualstudio.com/) with [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode#gltf-tools-extension-for-visual-studio-code).
 
-## Legal
 
-&copy; 2023, Copyright 2023 Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+## License Information
 
- - Eric Chadwick for Everything
-
-#### Assembled by modelmetadata 1.0,15-beta
+Copyright 2023 Wayfair LLC, model and textures by Eric Chadwick, CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/

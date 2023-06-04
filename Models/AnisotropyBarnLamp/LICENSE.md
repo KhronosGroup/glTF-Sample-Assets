@@ -8,7 +8,7 @@ All files in this directory tree are licensed as indicated below.
 
 * This file and all other metadocumentation files including "metadata.json":
 
-  * [Creative Commons Attribtution 4.0 International]("https://creativecommons.org/licenses/by/4.0/legalcode") [SPDX license identifier: "CC-BY-4.0"]
+  * [Creative Commons Attribution 4.0 International]("https://creativecommons.org/licenses/by/4.0/legalcode") [SPDX license identifier: "CC-BY-4.0"]
 
 Full license text of these licenses are available at the links above
 
