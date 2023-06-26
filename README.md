@@ -20,13 +20,13 @@ This Repository is a curated collection of glTF models that illustrate one or mo
 
 All models are tagged to allow easier access. These lists simplify your access and review of the models. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available
 
-* [Showcase](./Models-showcase.md) (#showcase) for models that are showcased in Khronos publicity. These are usually complex models with high visual quality.
-* [Complete](./Models.md) for a complete list of all models.
-* [Testing](./Models-testing.md) (#testing) for models intended to be used for testing of viewers, converts, and other software systems.
-* [Core Only](./Models-core.md) (#core) for models that only use glTF Core V2.0 features and capabilities (no extensions).
-* [Video Tutorials](./Models-video.md) (#video) for models used in any glTF Tutorial video.
-* [Written Tutorials](./Models-written.md) (#written) for models used in a written glTF Tutorial.
-* [Issues](./Models-issues.md) (#issues) for models with one or more issues that need to be resolved.
+* [Showcase](./Models/Models-showcase.md) (#showcase) for models that are showcased in Khronos publicity. These are usually complex models with high visual quality.
+* [Complete](./Models/Models.md) for a complete list of all models.
+* [Testing](./Models/Models-testing.md) (#testing) for models intended to be used for testing of viewers, converts, and other software systems.
+* [Core Only](./Models/Models-core.md) (#core) for models that only use glTF Core V2.0 features and capabilities (no extensions).
+* [Video Tutorials](./Models/Models-video.md) (#video) for models used in any glTF Tutorial video.
+* [Written Tutorials](./Models/Models-written.md) (#written) for models used in a written glTF Tutorial.
+* [Issues](./Models/Models-issues.md) (#issues) for models with one or more issues that need to be resolved.
 
 A summary of the model license is shown in each display, but see the `README.md` in each model's directory for detailed license information.
 

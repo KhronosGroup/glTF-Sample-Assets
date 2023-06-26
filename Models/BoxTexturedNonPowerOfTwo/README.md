@@ -37,4 +37,4 @@ See the Non-Power-Of-Two note at the bottom of the [Samplers section](https://gi
 
  - Non-copyrightable logo for Cesium logo
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.1,16-beta

@@ -32,4 +32,4 @@ This model is a sphere using the glTF extension [`KHR_materials_clearcoat`](http
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.1,16-beta

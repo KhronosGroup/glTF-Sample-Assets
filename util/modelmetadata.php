@@ -31,8 +31,8 @@
 
 	define ('AppName', 'modelmetadata');
 	define ('AppVersionMajor', 1);
-	define ('AppVersionMinor', 0);
-	define ('AppVersionPatch', 15);
+	define ('AppVersionMinor', 1);
+	define ('AppVersionPatch', 16);
 	define ('AppVersionPrerelease', 'beta');
 	define ('AppVersion', sprintf('%d.%d,%d%s', AppVersionMajor, AppVersionMinor, AppVersionPatch, ((AppVersionPrerelease == "") ? "" : "-".AppVersionPrerelease)));
 	//define ('AppVersion', '1.0.15-beta');
@@ -805,14 +805,14 @@ $useUserModelData = false;		// Update model metadata
  *		need to be included here
 **/
 $listings = array (
-					array('type'=>'List', 'file'=>'Models.md', 'tags'=>array(), 'summary'=>'All models listed alphabetically.'),
-					array('type'=>'List', 'file'=>'Models-core.md', 'tags'=>array('core'), 'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
-					array('type'=>'List', 'file'=>'Models-extension.md', 'tags'=>array('extension'), 'summary'=>'Models that use one or more extensions.'),
-					array('type'=>'List', 'file'=>'Models-issues.md', 'tags'=>array('issues'), 'summary'=>'Models with one or more issues with respect to ownership, license, or markings.'),
-					array('type'=>'List', 'file'=>'Models-showcase.md', 'tags'=>array('showcase'), 'summary'=>'Models that are featured in some glTF/Khronos publicity.'),
-					array('type'=>'List', 'file'=>'Models-testing.md', 'tags'=>array('testing'), 'summary'=>'Models that are used for testing various features or capabilities of importers, viewers, or converters.'),
-					array('type'=>'List', 'file'=>'Models-video.md', 'tags'=>array('video'), 'summary'=>'Models used in any glTF video tutorial.'),
-					array('type'=>'List', 'file'=>'Models-written.md', 'tags'=>array('written'), 'summary'=>'Models used in any written glTF tutorial or guide.')
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models.md',			'tags'=>array(),			'summary'=>'All models listed alphabetically.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-core.md',		'tags'=>array('core'),		'summary'=>'Models that only use the core glTF V2.0 features and capabilities.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-extension.md','tags'=>array('extension'),	'summary'=>'Models that use one or more extensions.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-issues.md',	'tags'=>array('issues'),	'summary'=>'Models with one or more issues with respect to ownership, license, or markings.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-showcase.md',	'tags'=>array('showcase'),	'summary'=>'Models that are featured in some glTF/Khronos publicity.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-testing.md',	'tags'=>array('testing'),	'summary'=>'Models that are used for testing various features or capabilities of importers, viewers, or converters.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-video.md',	'tags'=>array('video'),		'summary'=>'Models used in any glTF video tutorial.'),
+					array('type'=>'List', 'path' =>"$ModelDirectory/", 'file'=>'Models-written.md',	'tags'=>array('written'),	'summary'=>'Models used in any written glTF tutorial or guide.')
 					);
 $tagList = [];
 for ($ii=0; $ii<count($listings); $ii++) {
@@ -1052,7 +1052,7 @@ function createDep5 ($allModels) {
 // Function for creating READMEs
 function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 	
-	$F = fopen ($tagStrcture['file'], 'w');
+	$F = fopen ($tagStrcture['path'].$tagStrcture['file'], 'w');
 	$section = 'Tagged...';
 	if (count($tags) == 0 || $tags[0] == '') {
 		$section = 'All models';
@@ -1073,7 +1073,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 		} else {
 			$tagItem = '#all';
 		}
-		$otherTags[] = sprintf ("[%s](%s) - %s", $tagItem, $listings[$ii]['file'], $listings[$ii]['summary']);
+		$otherTags[] = sprintf ("[%s](%s%s) - %s", $tagItem, $listings[$ii]['path'], $listings[$ii]['file'], $listings[$ii]['summary']);
 	}
 	fwrite ($F, "## Other Tagged Listings\n\n");
 	fwrite ($F, "* " . join("\n* ", $otherTags) . "\n\n");
