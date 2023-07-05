@@ -1,5 +1,5 @@
 <p align="center">
-<img src="2.0/glTF_RGB_June16.svg" height="100">
+<img src="Models/glTF_RGB_June16.svg" height="100">
 </p>
 
 # Managing Models in this Repo
