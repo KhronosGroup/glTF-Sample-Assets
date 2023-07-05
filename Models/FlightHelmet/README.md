@@ -27,4 +27,4 @@ _None provided._
 
  - Gary Hsu for Conversion from Maya
 
-#### Assembled by modelmetadata 1.1,16-beta
+#### Assembled by modelmetadata 1.1.16-beta

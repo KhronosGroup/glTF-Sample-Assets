@@ -32,4 +32,4 @@ _None provided._
 
  - Frank Galligan for Draco compression
 
-#### Assembled by modelmetadata 1.1,16-beta
+#### Assembled by modelmetadata 1.1.16-beta

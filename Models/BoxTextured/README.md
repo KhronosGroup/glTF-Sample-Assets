@@ -32,4 +32,4 @@ _None provided._
 
  - Non-copyrightable logo for Cesium logo
 
-#### Assembled by modelmetadata 1.1,16-beta
+#### Assembled by modelmetadata 1.1.16-beta
