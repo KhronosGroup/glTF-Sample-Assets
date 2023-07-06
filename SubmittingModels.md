@@ -45,8 +45,9 @@ There are a few things that are required for any contribution that are listed he
 To contribute a model, open a pull request with a new subdirectory containing the above listed items. many of the items go into subdirectories. The details are as follows:
 
 1. glTF Model
-    1. The model in as many glTF variations as reasonable (using the same directory structure as the others ([example](Models/Box))). Tools for converting to glTF are [here](https://github.com/KhronosGroup/glTF#converters).
-    1. Each format should be in its own separate directory
+    1. The model in as many glTF variations as reasonable (using the same directory structure as the others ([example](Models/Box))).
+        1. Each variant should be in its own separate directory
+        Tools for converting to glTF can be found with the [glTF-Project-Explorer](https://github.khronos.org/glTF-Project-Explorer/)
     1. The model must use glTF Core V2.0 format and structure
     1. The model should only use ratified glTF extensions
 1. A screenshot of the model, stored in a subdirectory called `/screenshot`
@@ -138,7 +139,7 @@ The _legal_ structure contains information about each owner of the model. It com
 * _what_: What was done to get the model to this stage. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materrials; _Animation_ for movement; and _Conversion_ for converting to glTF.
 * _artist_: The name of the artist(s) who performed the _what_.
 * _owner_: The owner of the model for this operation. This is may be the _artist_ or the organization responsible for the _artist_. If the work is in the Public Domain, then the _owner_ may be **Public**.
-* _year_: The year the work was performed.
+* _year_: The year the work was created or modified.
 * _license_: The licensed assigned by the owner. Standard license shorthand should be used. The known shorthand is
 
   * CCO
