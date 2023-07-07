@@ -2,6 +2,10 @@
 
 ![screenshot](screenshot/screenshot_large.png)
 
+## Description
+
+A test of instancing a box 125 times using `EXT_mesh_gpu_instancing`.
+
 ## Data
 
 The sample contains a single mesh, with a single mesh primitive of a unit cube. The node that contains this mesh defines the `EXT_mesh_gpu_instancing` extension object:
@@ -23,4 +27,3 @@ The object refers to three accessors: One for the `TRANSLATION`, one for the `RO
 - The scale ranges from 1.0 to 2.0 along each axis
 
 This means that the first instance that is rendered is the unmodified unit cube, and the last instance is a cube at (10.,10.0,10.0) that is rotated around the axis (1.0,1.0,1.0) by 90.0 degrees, and scaled by (2.0, 2.0, 2.0).
-
