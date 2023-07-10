@@ -75,7 +75,7 @@ To contribute a model, open a pull request with a new subdirectory containing th
 
 1. Metadata
     1. All metadata is stored in `metadata.json`. It contains various information about the model.
-    1. There is an [experimental HTML application](../util/CreateJson.html) to assist in the creation of the Metadata file
+    1. There is an [experimental HTML application](util/CreateJson.html) to assist in the creation of the Metadata file
     1. The Metadata file may be generated manually.
     1. The Metadata file will be automatically upgrade if needed during system upgrades.
     1. See **Example Metadata File** (below) for details
@@ -140,12 +140,18 @@ The _legal_ structure contains information about each owner of the model. It com
 * _artist_: The name of the artist(s) who performed the _what_.
 * _owner_: The owner of the model for this operation. This is may be the _artist_ or the organization responsible for the _artist_. If the work is in the Public Domain, then the _owner_ may be **Public**.
 * _year_: The year the work was created or modified.
-* _license_: The licensed assigned by the owner. Standard license shorthand should be used. The known shorthand is
-
-  * CCO
-  * PD
-  * CC-BY / CC-BY International 4.0
-  * CC-BY-ND
-  * CC-BY-NC
-  * CC-BY-NC-ND
+* _license_: The license assigned by the owner. Standard license names should be used and are listed in the table below.
+  * Only Creative Common liceses are listed here. These are generally the most suitable for use with creative content for this repoistory.
   * _Other_ licenses may be used with agreement prior to submitting the Pull Request.
+
+
+|  |  |  |  |
+|--|--|--|--|
+| Abbreviation | License Name | License | Legal 
+| CC BY | Attribution-ShareAlike | [Deed](https://creativecommons.org/licenses/by/4.0/) | [Code](https://creativecommons.org/licenses/by/4.0/legalcode)
+| CC BY-SA | Attribution-ShareAlike | [Deed](https://creativecommons.org/licenses/by-sa/4.0/) | [Code](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+| CC BY-ND | Attribution-NoDerivatives | [Deed](https://creativecommons.org/licenses/by-nd/4.0/) | [Code](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
+| CC BY-NC | Attribution-NonCommercial | [Deed](https://creativecommons.org/licenses/by-nc/4.0/) | [Code](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+| CC BY-NC-SA | Attribution-NonCommercial-ShareAlike | [Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/) | [Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+| CC BY-NC-ND | Attribution-NonCommercial-NoDerivatives | [Deed](https://creativecommons.org/licenses/by-nc-nd/4.0/) | [Code](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
+| CC0 | No Rights Reserved | [Deed](https://creativecommons.org/publicdomain/zero/1.0/) | [Code](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
