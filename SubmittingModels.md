@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Models/glTF_RGB_June16.svg" height="100">
+<img src="https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/glTF_RGB_June16.svg" height="100">
 </p>
 
 # Managing Models in this Repo
