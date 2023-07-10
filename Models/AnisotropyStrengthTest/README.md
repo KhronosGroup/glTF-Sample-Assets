@@ -34,4 +34,4 @@ Note the `KHR_materials_anisotropy` specification provides formulas to clearly d
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.1.16-beta
