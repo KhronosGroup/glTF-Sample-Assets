@@ -31,11 +31,10 @@
 
 	define ('AppName', 'modelmetadata');
 	define ('AppVersionMajor', 1);
-	define ('AppVersionMinor', 1);
-	define ('AppVersionPatch', 16);
-	define ('AppVersionPrerelease', 'beta');
+	define ('AppVersionMinor', 2);
+	define ('AppVersionPatch', 17);
+	define ('AppVersionPrerelease', '');
 	define ('AppVersion', sprintf('%d.%d.%d%s', AppVersionMajor, AppVersionMinor, AppVersionPatch, ((AppVersionPrerelease == "") ? "" : "-".AppVersionPrerelease)));
-	//define ('AppVersion', '1.0.15-beta');
 	define ('UrlSampleViewer', 'https://github.khronos.org/glTF-Sample-Viewer-Release/');
 	define ('UrlModelRepoRaw', 'https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main');
 	define ('DebugNone', 0);
@@ -290,6 +289,8 @@ class ModelMetadata
 			$this->isCurrent = false;
 		}
 
+		if ($this->debugOutput >= $this->DebugModel) 
+				print "Populating internal structures for ".$this->metadata['path']."\n";
 		$this->_populateInternal ();
 		$this->hasError = false;
 		$this->errorMessage = "";
@@ -591,8 +592,14 @@ class ModelMetadata
 		$this->metadata['legal'][$ndx]['text']			= (isset($license['text'])) ? $license['text'] : $this->metadata['legal'][$ndx]['license'];
 	}
 
-	
-// Populates internal values from the read in ones
+/*
+ * Populates internal values from the read in ones
+ *	Several data fields are populated based on the directory structure
+ *	This is done so the information does not need to be in the metadata File
+ *	The fields are
+ *		All fields related to screenshot (see _handleScreenshot)
+ *		The 'variants' field containing a dictionary of glTF directories with associated glTF file (see _findVariants)
+ */ 
 	private function _populateInternal () {
 		//$this->metadata->foo = f ($this->metadata->bar);
 		if (isset($this->metadata['name'])) {
@@ -615,8 +622,9 @@ class ModelMetadata
 		$this->metadata['createReadme'] = $this->TF[$this->metadata['createReadme']];
 		$this->metadata['AutoGenerateREADME']	= $this->metadata['createReadme'];
 		$this->metadata['credit']		= $this->_generateCredits();
-		$this->metadata['summary'] = ($this->metadata['summary'] == '') ? '_No Summary_' : $this->metadata['summary'];
+		$this->metadata['summary']		= ($this->metadata['summary'] == '') ? '_No Summary_' : $this->metadata['summary'];
 		$this->_handleScreenshot();
+		$this->_findVariants();
 
 		return;
 	}
@@ -657,6 +665,42 @@ class ModelMetadata
 		return;
 	}
 
+/*
+ * Populate the 'variants' field for later export
+ *	In the model directory, find all directories that start 'glTF'
+ *	In each of those, file the first file that ends '.glb' or '.gltf' and use that ones
+ *	The result is a structure containing at least one element of the form 'glTF*' with the value
+ *		of a file name that ends '.glb' or '.gltf'
+ */
+ 
+	private function _findVariants () {
+		// Get all directories of the form $this->metadata['path'] + '/glTF*
+		// Search each of those for .glb or .gltf. 
+		// Take first one
+		$variants = array();
+		$path = str_replace ('%20', ' ', $this->metadata['path']);
+
+		$folder = dir ($path);
+		while (false !== ($directory = $folder->read())) {
+			if (substr($directory, 0, 4) == 'glTF') {
+				$files = dir ($path . '/' . $directory);
+				$looking = true;
+				while ($looking && (false !== ($check = $files->read()))) {
+					if (substr($check, -4, 4) == '.glb') {
+						$variants[$directory] = $check;
+						$looking = false;
+					} else if (substr($check, -5, 5) == '.gltf') {
+						$variants[$directory] = $check;
+						$looking = false;
+					}
+				}
+				$files->close();
+			}
+		}
+		$folder->close();
+		$this->metadata['variants'] = $variants;
+		return;
+	}
 /*
  * Cleans up license information
 **/	

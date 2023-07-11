@@ -90,4 +90,4 @@ The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max)
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.1.16-beta
+#### Assembled by modelmetadata 1.2.17
