@@ -1,15 +1,5 @@
 [
   {
-    "name": "2CylinderEngine",
-    "screenshot": "screenshot/screenshot.png",
-    "variants": {
-      "glTF": "2CylinderEngine.gltf",
-      "glTF-Binary": "2CylinderEngine.glb",
-      "glTF-Draco": "2CylinderEngine.gltf",
-      "glTF-Embedded": "2CylinderEngine.gltf"
-    }
-  },
-  {
     "name": "ABeautifulGame",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -55,6 +45,31 @@
     "variants": {
       "glTF": "AnimatedTriangle.gltf",
       "glTF-Embedded": "AnimatedTriangle.gltf"
+    }
+  },
+  {
+    "name": "AnisotropyBarnLamp",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "AnisotropyBarnLamp.gltf",
+      "glTF-Binary": "AnisotropyBarnLamp.glb",
+      "glTF-KTX2-Basisu": "AnisotropyBarnLamp.gltf"
+    }
+  },
+  {
+    "name": "AnisotropyRotationTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "AnisotropyRotationTest.gltf",
+      "glTF-Binary": "AnisotropyRotationTest.glb"
+    }
+  },
+  {
+    "name": "AnisotropyStrengthTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "AnisotropyStrengthTest.gltf",
+      "glTF-Binary": "AnisotropyStrengthTest.glb"
     }
   },
   {
@@ -181,16 +196,6 @@
     }
   },
   {
-    "name": "Buggy",
-    "screenshot": "screenshot/screenshot.png",
-    "variants": {
-      "glTF": "Buggy.gltf",
-      "glTF-Binary": "Buggy.glb",
-      "glTF-Draco": "Buggy.gltf",
-      "glTF-Embedded": "Buggy.gltf"
-    }
-  },
-  {
     "name": "Cameras",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -219,11 +224,27 @@
     }
   },
   {
+    "name": "ClearCoatCarPaint",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearCoatCarPaint.gltf",
+      "glTF-Binary": "ClearCoatCarPaint.glb"
+    }
+  },
+  {
     "name": "ClearCoatTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "ClearCoatTest.gltf",
       "glTF-Binary": "ClearCoatTest.glb"
+    }
+  },
+  {
+    "name": "ClearcoatWicker",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearcoatWicker.gltf",
+      "glTF-Binary": "ClearcoatWicker.glb"
     }
   },
   {
@@ -302,16 +323,6 @@
     }
   },
   {
-    "name": "GearboxAssy",
-    "screenshot": "screenshot/screenshot.png",
-    "variants": {
-      "glTF": "GearboxAssy.gltf",
-      "glTF-Binary": "GearboxAssy.glb",
-      "glTF-Draco": "GearboxAssy.gltf",
-      "glTF-Embedded": "GearboxAssy.gltf"
-    }
-  },
-  {
     "name": "GlamVelvetSofa",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -320,11 +331,43 @@
     }
   },
   {
+    "name": "GlassBrokenWindow",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "GlassBrokenWindow.gltf",
+      "glTF-Binary": "GlassBrokenWindow.glb"
+    }
+  },
+  {
+    "name": "GlassHurricaneCandleHolder",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "GlassHurricaneCandleHolder.gltf",
+      "glTF-Binary": "GlassHurricaneCandleHolder.glb"
+    }
+  },
+  {
+    "name": "GlassVaseFlowers",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "GlassVaseFlowers.gltf",
+      "glTF-Binary": "GlassVaseFlowers.glb"
+    }
+  },
+  {
     "name": "InterpolationTest",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
       "glTF": "InterpolationTest.gltf",
       "glTF-Binary": "InterpolationTest.glb"
+    }
+  },
+  {
+    "name": "IridescenceAbalone",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "IridescenceAbalone.gltf",
+      "glTF-Binary": "IridescenceAbalone.glb"
     }
   },
   {
@@ -392,6 +435,14 @@
     }
   },
   {
+    "name": "MeshPrimitiveModes",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MeshPrimitiveModes.gltf",
+      "glTF-Embedded": "MeshPrimitiveModes.gltf"
+    }
+  },
+  {
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -443,6 +494,22 @@
     }
   },
   {
+    "name": "MultipleScenes",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MultipleScenes.gltf",
+      "glTF-Embedded": "MultipleScenes.gltf"
+    }
+  },
+  {
+    "name": "NegativeScaleTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "NegativeScaleTest.gltf",
+      "glTF-Binary": "NegativeScaleTest.glb"
+    }
+  },
+  {
     "name": "NormalTangentMirrorTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -467,16 +534,6 @@
       "glTF": "OrientationTest.gltf",
       "glTF-Binary": "OrientationTest.glb",
       "glTF-Embedded": "OrientationTest.gltf"
-    }
-  },
-  {
-    "name": "ReciprocatingSaw",
-    "screenshot": "screenshot/screenshot.png",
-    "variants": {
-      "glTF": "ReciprocatingSaw.gltf",
-      "glTF-Binary": "ReciprocatingSaw.glb",
-      "glTF-Draco": "ReciprocatingSaw.gltf",
-      "glTF-Embedded": "ReciprocatingSaw.gltf"
     }
   },
   {
@@ -527,6 +584,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
+    "name": "SimpleInstancing",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "SimpleInstancing.gltf",
+      "glTF-Binary": "SimpleInstancing.glb"
     }
   },
   {
