@@ -1,10 +1,6 @@
 <?php
 
 /*
- * =======================================================================================================
- * =======================================================================================================
- * =======================================================================================================
- *
  * Utility to process Assets. 
  *	php model [--check] [--build] [<asset1> [<asset2> ...]]
  *
@@ -234,7 +230,7 @@ function clProcess($argv, $ModelDirectory) {
  *	Each entry contains the model name, relative path, and tags for that model
 **/
 function createModelList ($allModels) {
-	$F = fopen ('./allModels.json', 'w');
+	$F = fopen ('./Models/model-index.json', 'w');
 	fwrite ($F, "[\n");
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
@@ -243,14 +239,13 @@ function createModelList ($allModels) {
 			$variants[] = sprintf ('"%s": "%s"', $folder, $file);
 		}
 		$variant = (count($variants) < 1) ? '' : 
-					"\n\t\t\t" . join(",\n\t\t\t", $variants) . "\n\t\t";
-		$modelEntry = sprintf ("\t{\n\t\t\"name\": \"%s\",\n\t\t\"path\": \"%s\",\n\t\t\"tags\": [\"%s\"],\n\t\t\"variants\": {%s}\n\t}", $modelMeta['name'], $modelMeta['path'], join('","', $modelMeta['tags']), $variant);
-		$modelEntry = sprintf ("\t{\n\t\t\"name\": \"%s\",\n\t\t\"path\": \"%s\",\n\t\t\"tags\": [\"%s\"],\n\t\t\"variants\": {%s}\n\t}", $modelMeta['name'], $modelMeta['path'], join('","', $modelMeta['tags']), $variant);
-		$modelEntry = sprintf ("\t{\n\t\t\"label\": \"%s\",\n\t\t\"name\": \"%s\",\n\t\t\"screenshot\": \"%s\",\n\t\t\"path\": \"%s\",\n\t\t\"tags\": [\"%s\"],\n\t\t\"variants\": {%s}\n\t}", 
+					"\n      " . join(",\n      ", $variants) . "\n    ";
+		//$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"path\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
+		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
 								$modelMeta['name'], 
 								$modelMeta['folder'], 
 								$modelMeta['screenshot'], 
-								$modelMeta['path'], 
+								//$modelMeta['path'], 
 								join('","', $modelMeta['tags']), 
 								$variant);
 		fwrite ($F, $modelEntry);
