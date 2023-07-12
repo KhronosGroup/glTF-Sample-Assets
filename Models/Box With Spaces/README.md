@@ -31,4 +31,4 @@ _None provided._
 
  - Non-copyrightable logo for glTF logo
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.2.17
