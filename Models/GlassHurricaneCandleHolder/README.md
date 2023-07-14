@@ -47,4 +47,4 @@ An earlier version of this model was used in the glTF tutorial [Adding Material 
 
  - Non-copyrightable logo for glTF logo
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.1.16-beta
