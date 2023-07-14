@@ -1,10 +1,6 @@
 <?php
 
 /*
- * =======================================================================================================
- * =======================================================================================================
- * =======================================================================================================
- *
  * Utility to process Assets. 
  *	php model [--check] [--build] [<asset1> [<asset2> ...]]
  *
@@ -12,7 +8,7 @@
  *	--check		Performs asset directory check. The specific checks are listed below
  *	--build		Builds the necessary support files in the asset directory
  *	--process-repo	Is unset if any assets are specified. If set, then all repo-wide files are generated.
- *	--no-update-models	Do not update model folders. This is probably only used for testing. It has no effect
+ *	--no-update		Do not update model folders. This is probably only used for testing. It has no effect
  *						if 'check' is set. Will set 'build'
  *
  *	Assets
@@ -57,6 +53,8 @@ $tagList = array_unique ($tagList);
 
 // Process Command Line arguments
 $runArgs = clProcess($argv, $ModelDirectory);
+print "Processing Command Args: \n";
+print_r($runArgs);
 
 // Set the correct directory
 $directories = explode (DIRECTORY_SEPARATOR, getcwd());
@@ -221,7 +219,6 @@ function clProcess($argv, $ModelDirectory) {
 		echo (sprintf ("  %-11s %s\n", '[asset]', "Folder name in $ModelDirectory to process"));
 		exit (0);
 	}
-	print_r($options['_values']);
 	return $options['_values'];
 }
 
@@ -233,14 +230,28 @@ function clProcess($argv, $ModelDirectory) {
  *	Each entry contains the model name, relative path, and tags for that model
 **/
 function createModelList ($allModels) {
-	$F = fopen ('./allModels.json', 'w');
+	$F = fopen ('./Models/model-index.json', 'w');
 	fwrite ($F, "[\n");
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
-		$modelEntry = sprintf ("\t{\n\t\t\"name\": \"%s\",\n\t\t\"path\": \"%s\",\n\t\t\"tags\": [\"%s\"]\n\t}", $modelMeta['name'], $modelMeta['path'], join('","', $modelMeta['tags']));
+		$variants = array();
+		foreach ($modelMeta['variants'] as $folder=>$file) {
+			$variants[] = sprintf ('"%s": "%s"', $folder, $file);
+		}
+		$variant = (count($variants) < 1) ? '' : 
+					"\n      " . join(",\n      ", $variants) . "\n    ";
+		//$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"path\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
+		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
+								$modelMeta['name'], 
+								$modelMeta['folder'], 
+								$modelMeta['screenshot'], 
+								//$modelMeta['path'], 
+								join('","', $modelMeta['tags']), 
+								$variant);
 		fwrite ($F, $modelEntry);
 		if ($ii == count($allModels)-1) {
 			fwrite ($F, "\n");
+			//print_r($modelMeta);
 		} else {
 			fwrite ($F, ",\n");
 		}

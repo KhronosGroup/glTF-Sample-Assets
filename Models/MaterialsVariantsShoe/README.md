@@ -32,4 +32,4 @@ If each variant was a separate model, they would be 5.4 MB each. Combined they m
 
  - Shopify for Everthing
 
-#### Assembled by modelmetadata 1.1.16-beta
+#### Assembled by modelmetadata 1.2.17

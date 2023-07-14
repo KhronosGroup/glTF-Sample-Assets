@@ -33,4 +33,4 @@ property, so viewers should initially show the scene containing the square.
 
  - Public for Everthing
 
-#### Assembled by modelmetadata 1.1.16-beta
+#### Assembled by modelmetadata 1.2.17
