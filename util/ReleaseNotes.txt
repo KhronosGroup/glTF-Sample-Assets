@@ -1,0 +1,4 @@
+Version		Change
+1.1.16		Changed location of Models*.md files to /Models/*
+1.1.17		Updated repo system code to generate model index file
+

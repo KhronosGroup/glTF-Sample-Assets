@@ -1,3 +1,0 @@
-Khronos Assumed
-
-Not a real license, but a placeholder until the correct license can be determined.

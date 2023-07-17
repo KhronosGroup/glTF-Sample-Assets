@@ -28,4 +28,4 @@ _None provided._
 
  - Khronos for Everything
 
-#### Assembled by modelmetadata 1.0,15-beta
+#### Assembled by modelmetadata 1.2.17

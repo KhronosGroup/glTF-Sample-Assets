@@ -118,7 +118,10 @@ toktx --t2 --encode uastc --uastc_quality 4 --uastc_rdo_l .25 --uastc_rdo_d 6553
 
 The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max), exported to glTF using [Max2Babylon](https://github.com/BabylonJS/Exporters#babylonjs-exporters), and materials were edited in [Visual Studio Code](https://code.visualstudio.com/) with [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode#gltf-tools-extension-for-visual-studio-code).
 
+## Legal
 
-## License Information
+&copy; 2023, Copyright 2023 Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-Copyright 2023 Wayfair LLC, model and textures by Eric Chadwick, CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/
+ - Eric Chadwick for Everything
+
+#### Assembled by modelmetadata 1.2.17
