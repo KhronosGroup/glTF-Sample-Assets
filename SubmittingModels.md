@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/glTF_RGB_June16.svg" height="100">
+<img src="Models/glTF_RGB_June16.svg" height="100">
 </p>
 
 # Managing Models in this Repo
@@ -39,6 +39,23 @@ There are a few things that are required for any contribution that are listed he
 1. Screen shot of the model for the catalog
 1. Description of the model and all important points for file structure, modeling, rendering, or animation.
 1. Metadata about the model and asset files
+
+### Folder and File Structure
+Folder and file names must be consistent as this helps with tooling and automation.
+* Asset top folder should use the same name as the `.gltf` file in the `/glTF` subfolder. 
+    - For example `Models/ABeautifulGame` matches `Models/ABeautifulGame/glTF/ABeautifulGame.gltf`
+* `metadata.json` file containing the asset metadata (see below).
+* `README.body.md` file containing the asset description (see below).
+* `/glTF` subfolder is mandatory, it should contain the asset with JSON .gltf, .bin, and all individual resources (such as textures). 
+    - PNG textures are preferred to avoid compression artifacts; if a variant is desired with .jpeg resources it can be provided in a `/glTF-JPG` subfolder (see below).
+* `/screenshot` subfolder is mandatory, it should contain the screenshot plus any other resources used in the README.md.
+* `/glTF-Binary` subfolder is optional, if a variant is included for a [binary .glb](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#file-extensions-and-media-types).
+* `/glTF-Draco` subfolder is optional, if a variant is included with compressed geometry using the extension [KHR_draco_mesh_compression](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_draco_mesh_compression).
+* `/glTF-Embedded` subfolder is optional, if a variant is included for an [embedded .gltf](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#gltf-basics).
+* `/glTF-IBL` subfolder is optional, if a variant is included using custom image-based lighting; for example with the extension [EXT_lights_image_based](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_lights_image_based).
+* `/glTF-JPG` subfolder is optional, if a variant is included using resources in compressed .jpeg format.
+* `/glTF-KTX-BasisU` subfolder is optional, if a variant is included with compressed textures using the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_basisu).
+* `/glTF-Quantized` subfolder is optional, if a variant is included with compressed geometry using the extension [KHR_mesh_quantization](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_mesh_quantization).
 
 ### Requirement Details
 
@@ -88,11 +105,11 @@ Each asset requires detailed information about the asset. The information includ
 * License
 * Credit name and work performed
 
-An asset may have multiple copyrights and/or credits. For example, if Acme, Inc. created a model rocket and Wyle E Coyote animated it; there would be two copyrights, one for the model and one for the animation.
+An asset may have multiple copyrights and/or credits. For example, if Acme, Inc. created a model rocket and Wile E Coyote animated it; there would be two copyrights, one for the model and one for the animation.
 
-Assets to be incldued in the Sample Asset repository must have a license that allows Khronos to publish the asset and allow others to use the asset in public. Khronos recommends use of a permissive license like [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) or even [Creative Commons 1.0 Universal Public Domain Dedication ](http://creativecommons.org/publicdomain/zero/1.0/). Assets with semi-restrictive licenses may be included in the repository provided arrangments are made prior to the Pull Request being posted.
+Assets to be included in the Sample Asset repository must have a license that allows Khronos to publish the asset and allow others to use the asset in public. Khronos recommends use of a permissive license like [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) or even [Creative Commons 1.0 Universal Public Domain Dedication ](http://creativecommons.org/publicdomain/zero/1.0/). Assets with semi-restrictive licenses may be included in the repository provided arrangements are made prior to the Pull Request being posted.
 
-The system will attemtp to list the copyrights with the oldest one first. Some manual adjustment may be necessary.
+The system will attempt to list the copyrights with the oldest one first. Some manual adjustment may be necessary.
 
 #### Displayed License & Credit Format
 
@@ -107,7 +124,7 @@ The format of the automatically generated credit block is:
 
 ### Tags
 
-All assets in the repository are assigned tags by the asset submittor and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays. 
+All assets in the repository are assigned tags by the asset submitter and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays. 
 
 ### Example Metadata File
 
@@ -136,12 +153,12 @@ The metadata file is always called metadata.json and is located in the model roo
 
 The _legal_ structure contains information about each owner of the model. It comprises of the following elements:
 
-* _what_: What was done to get the model to this stage. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materrials; _Animation_ for movement; and _Conversion_ for converting to glTF.
+* _what_: What was done to get the model to this stage. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materials; _Animation_ for movement; and _Conversion_ for converting to glTF.
 * _artist_: The name of the artist(s) who performed the _what_.
 * _owner_: The owner of the model for this operation. This is may be the _artist_ or the organization responsible for the _artist_. If the work is in the Public Domain, then the _owner_ may be **Public**.
 * _year_: The year the work was created or modified.
 * _license_: The license assigned by the owner. Standard license names should be used and are listed in the table below.
-  * Only Creative Common liceses are listed here. These are generally the most suitable for use with creative content for this repoistory.
+  * Only Creative Common licenses are listed here. These are generally the most suitable for use with creative content for this repository.
   * _Other_ licenses may be used with agreement prior to submitting the Pull Request.
 
 
