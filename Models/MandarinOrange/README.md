@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot_large.jpg)
+![screenshot](screenshot/screenshot-large.jpg)
 _Screenshot from the development version of the [glTF Sample Viewer](https://gltf.ux3d.io/) which supports KHR_materials_diffuse_transmission._
 
 ## Description
