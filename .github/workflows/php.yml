@@ -27,5 +27,6 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
         git add --verbose .
-        git diff-index --quiet HEAD || git commit -m "Updating generated Repo indices"
+        git diff-index  HEAD 
+        git commit -m "Updating generated Repo indices"
         git push
