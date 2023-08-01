@@ -19,5 +19,5 @@ jobs:
 
     - name: Execute PHP script
       run: |
-        php util/model.php --check
+        php util/model.php --check --no-warn
 

@@ -243,6 +243,16 @@ class ModelMetadata
 			$this->metadata[$key] = $value;
 		}
 		
+/*
+ *	// Special testing for "weird" directory paths
+		if ($path == './Models/Box With Spaces') {
+			//$this->debugOutput = $this->DebugModel;
+			$this->debugOutput = $this->DebugDetail;
+			print "$path: ".$this->debugOutput."\n";
+		} else {
+			$this->debugOutput = $this->DebugNone;
+		}
+*/		
 		if ($path != '') {
 			$this->load ($path, $file);
 		}
@@ -326,6 +336,7 @@ class ModelMetadata
 		}
 		
 		if (!file_exists($this->metadata['basePathShot'])) {
+			print 'Screenshot not fount: ' . $this->metadata['basePathShot'] . "\n";
 			$errors[] = 'Screenshot file not found';
 		} else {		// Check for proper size
 		}
@@ -634,10 +645,11 @@ class ModelMetadata
 **/	
 	private function _handleScreenshot () {
 		$path = $this->metadata['path'];
-		$path = str_replace (' ', '%20', $path);
+		$pathSafe = str_replace (' ', '%20', $path);
 		$this->metadata['path'] = $path;
+		$this->metadata['pathSafe'] = $pathSafe;
 
-		$tmp = explode ('/', $path);				// Get the model directory. It is 
+		$tmp = explode ('/', $pathSafe);				// Get the model directory. It is 
 		$modelDirectory = $tmp[count($tmp)-1];		// the last item in $path
 		
 		$shotHeight = 150;
@@ -649,17 +661,18 @@ class ModelMetadata
 // basePath* is from the repo root directory
 // path* is from the model directory
 		$this->metadata['screenshotType']	= $shotExtension;
-		$this->metadata['basePath']			= $path . '/';
+		$this->metadata['basePath']			= $pathSafe . '/';
 		$this->metadata['basePathModel']	= 'path-to-model';
 		$this->metadata['basePathShot']		= $path . '/' . $this->metadata['screenshot'];
+		$this->metadata['safePathShot']		= $pathSafe . '/' . $this->metadata['screenshot'];
 		$this->metadata['folderShot'] 		= $this->metadata['folder'] . '/' . $this->metadata['screenshot'];
 		$this->metadata['UriShot']			= $this->metadata['basePathShot'];
 		$this->metadata['shotHeight'] = sprintf ('%s-x%d.%s', $shotPathName, $shotHeight, $shotExtension);
 		$this->metadata['basePathHeight'] = $path . '/' . $this->metadata['shotHeight'];
 		
-		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $path, $modelDirectory);
+		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $pathSafe, $modelDirectory);
 		$this->metadata['pathModel']	= $this->metadata['modelPath'];
-		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $path, $modelDirectory);
+		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $pathSafe, $modelDirectory);
 		$this->metadata['hasGLB']		= file_exists ($this->metadata['pathGLB']);
 
 		return;

@@ -53,8 +53,10 @@ $tagList = array_unique ($tagList);
 
 // Process Command Line arguments
 $runArgs = clProcess($argv, $ModelDirectory);
-print "Processing Command Args: \n";
-print_r($runArgs);
+if (isset($runArgs['verbose'])) {
+	//print "Processing Command Args: \n";
+	//print_r($runArgs);
+}
 
 // Set the correct directory
 $directories = explode (DIRECTORY_SEPARATOR, getcwd());
@@ -76,6 +78,7 @@ $allModels = getAllModels ($assetList);
  
 if (isset($runArgs['check'])) {
 	$errorCount = 0;
+	$warningCount = 0;
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelName = $allModels[$ii]->modelName;
 		$issues = $allModels[$ii]->reportIssues();
@@ -88,11 +91,15 @@ if (isset($runArgs['check'])) {
 				for ($jj=0; $jj<count($issues['warning']); $jj++) {
 					print sprintf(" W-%d: %s\n", $jj+1, $issues['warning'][$jj]);
 				}
-				$errorCount =+ count($issues['error']);
+				$errorCount += count($issues['error']);
+				$warningCount += count($issues['warning']);
 			}
 		}
 	}
-	
+
+	if (isset($runArgs['verbose']) || $errorCount > 0) {
+		print sprintf ("Summary: %d issues; %d errors; %d warnings)\n", $errorCount+$warningCount, $errorCount, $warningCount);
+	}
 	exit (($errorCount == 0) ? 0 : 1);
 }
 
@@ -157,7 +164,9 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
 
 	$useModels = array();
 	$folder = dir ($modelFolder);
-	print "Using basepath of ".$folder->path."\n";
+	if (isset($clParameters['verbose'])) {
+		print "Using basepath of ".$folder->path."\n";
+	}
 	while (false !== ($model = $folder->read())) {
 		$modelDir = $folder->path . '/' . $model;
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
@@ -184,6 +193,7 @@ function clProcess($argv, $ModelDirectory) {
 				array('switch'=>'no-update',	'long'=>'no-update', 	'short'=>'u', 'text'=>'Do not update model folders. It has no effect "check" is set. Will set "build".'),
 				array('switch'=>'no-warn',		'long'=>'no-warn',		'short'=>'w', 'text'=>'Do not show warnings if there are no errors.'),
 				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "build".'),
+				array('switch'=>'verbose',		'long'=>'verbose',		'short'=>'v', 'text'=>'Dump intermediate and debug infomation.'),
 				];
 	$options = array();
 	$longOptions = array();
@@ -240,7 +250,6 @@ function createModelList ($allModels) {
 		}
 		$variant = (count($variants) < 1) ? '' : 
 					"\n      " . join(",\n      ", $variants) . "\n    ";
-		//$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"path\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
 		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
 								$modelMeta['name'], 
 								$modelMeta['folder'], 
@@ -251,7 +260,6 @@ function createModelList ($allModels) {
 		fwrite ($F, $modelEntry);
 		if ($ii == count($allModels)-1) {
 			fwrite ($F, "\n");
-			//print_r($modelMeta);
 		} else {
 			fwrite ($F, ",\n");
 		}
@@ -510,7 +518,6 @@ function getAllModels ($useModels) {
 	$allModels = array();
 	for ($ii=0; $ii<count($useModels); $ii++) {
 		$modelDir = $useModels[$ii];
-		//print "Processing $modelDir\n";
 		$mm = new ModelMetadata($modelDir, 'metadata');
 		if ($mm->hasError) {
 			print $mm->errorMessage."\n";
