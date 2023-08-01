@@ -475,7 +475,8 @@ class ModelMetadata
 		for ($ii=0; $ii<count($this->metadata['credit']); $ii++) {
 			$readme[] = $this->metadata['credit'][$ii];
 		}
-		$readme[] = "#### Assembled by " . AppName . ' ' . AppVersion;
+		//$readme[] = "#### Assembled by " . AppName . ' ' . AppVersion;
+		$readme[] = "#### Assembled by " . AppName;
 		$output = join ("\n\n", $readme);
 
 		if ($this->debugOutput >= $this->DebugModel) 

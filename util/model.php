@@ -122,7 +122,19 @@ if ($useUserModelTags) {
 //	Update all model support files
 if (isset($runArgs['update'])) {
 	if (isset($runArgs['verbose'])) {
-		print "Updating all model folders\n";
+		$list = '';
+		if (count($allModels) > 3) {
+			$list = count($allModels);
+			$ses = 's';
+		} else {
+			$list = [];
+			for ($ii=0; $ii<count($allModels); $ii++) {
+				$list[] = $allModels[$ii]->modelName;
+			}
+			$ses = (count($list) == 1) ? '' : 's';
+			$list = "'" . join ("', '", $list) . "'";
+		}
+		print "Updating $list model folder$ses\n";
 	}
 	updateAllModels ($allModels, $listings);
 }
@@ -195,13 +207,14 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
  *		position arguments
  */
 function clProcess($argv, $ModelDirectory) {
-	$clHelp = [	array('switch'=>'build',		'long'=>'build',		'short'=>'b', 'text'=>'Builds all necessary files for the asset.'),
-				array('switch'=>'check',		'long'=>'check',		'short'=>'c', 'text'=>'Checks consistency of the asset directory files.'),
+	$clHelp = [	
 				array('switch'=>'help',			'long'=>'help',			'short'=>'h', 'text'=>'Displays this informaiton.'),
-				array('switch'=>'update',		'long'=>'update', 		'short'=>'u', 'text'=>'Update model folders. It has no effect "check" is set and \'check\' fails. Will set "check" and "process-repo".'),
-				array('switch'=>'no-warn',		'long'=>'no-warn',		'short'=>'w', 'text'=>'Do not show warnings if there are no errors.'),
-				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "check".'),
 				array('switch'=>'verbose',		'long'=>'verbose',		'short'=>'v', 'text'=>'Dump intermediate and debug infomation.'),
+				array('switch'=>'no-warn',		'long'=>'no-warn',		'short'=>'w', 'text'=>'Do not show warnings if there are no errors.'),
+				array('switch'=>'check',		'long'=>'check',		'short'=>'c', 'text'=>'Checks consistency of the asset directory files.'),
+				array('switch'=>'update',		'long'=>'update', 		'short'=>'u', 'text'=>'Update model folders. It has no effect "check" fails. Will set "check".'),
+				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "check".'),
+				array('switch'=>'build',		'long'=>'build',		'short'=>'b', 'text'=>'OBSOLETE: Builds all necessary files for the asset.'),
 				];
 	$options = array();
 	$longOptions = array();
@@ -223,9 +236,9 @@ function clProcess($argv, $ModelDirectory) {
 	for ($ii=0; $ii<count($clParameters); $ii++) {
 		$options['_values'][] = $clParameters[$ii];
 	}
-	if (isset($options['_values'][1]))				unset ($options['_values']['process-repo']);
-	if (isset($options['_values']['update']))		$options['_values']['process-repo']=1;
+	if (isset($options['_values']['update']))		$options['_values']['check']=1;
 	if (isset($options['_values']['process-repo']))	$options['_values']['check']=1;
+	if (isset($options['_values'][1]))				unset ($options['_values']['process-repo']);
 	//if (isset($options['_values']['build']))		unset ($options['_values']['check']);
 
 // Handle --help
@@ -234,7 +247,7 @@ function clProcess($argv, $ModelDirectory) {
 		for ($ii=0; $ii<count($clHelp); $ii++) {
 			echo (sprintf (" --%-10s %s\n", $clHelp[$ii]['switch'], $clHelp[$ii]['text']));
 		}
-		echo (sprintf ("  %-11s %s\n", '[asset]', "Folder name in $ModelDirectory to process"));
+		echo (sprintf ("  %-11s %s\n", '[asset]', "Folder name in $ModelDirectory to process (defaults to all)"));
 		exit (0);
 	}
 	return $options['_values'];
