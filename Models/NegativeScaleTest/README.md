@@ -65,4 +65,4 @@ This problem with normal vectors is likely also the cause the upper "check" and 
 
  - Ed Mackey for Everthing
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

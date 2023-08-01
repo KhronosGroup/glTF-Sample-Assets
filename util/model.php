@@ -139,7 +139,6 @@ if (isset($runArgs['update'])) {
 	updateAllModels ($allModels, $listings);
 }
 
-print "===============================\n";
 
 /*
  * The following depend on having all models in the repo. These
@@ -150,6 +149,7 @@ print "===============================\n";
  
 if (isset($runArgs['process-repo'])) {
 	if (isset($runArgs['verbose'])) {
+		print "===============================\n";
 		print "Generating Repo files\n";
 	}
 	for ($ii=0; $ii<count($listings); $ii++) {

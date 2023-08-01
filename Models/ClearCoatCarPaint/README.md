@@ -43,4 +43,4 @@ Roughness was increased to 0.4 to scatter the reflected light and to provide a c
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

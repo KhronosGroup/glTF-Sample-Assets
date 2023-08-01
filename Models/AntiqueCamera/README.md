@@ -32,4 +32,4 @@ _None provided._
 
  - Non-copyrightable logo for UX3D logo
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata
