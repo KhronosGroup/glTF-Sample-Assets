@@ -22,7 +22,7 @@
  ^	$useUserModelData - reads the model metadata update file (). See getModelData
 **/
 
-require './modelmetadata.php';
+require __DIR__ . '/modelmetadata.php';
 
 $ModelDirectory = './Models';	// Directory relative to root containing all models
 $useUserModelTags = false;		// Update model tags

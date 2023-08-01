@@ -19,5 +19,5 @@ jobs:
 
     - name: Execute PHP script
       run: |
-        php util/helloWorld.php
+        php util/model.php --check
 
