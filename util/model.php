@@ -53,10 +53,12 @@ $tagList = array_unique ($tagList);
 
 // Process Command Line arguments
 $runArgs = clProcess($argv, $ModelDirectory);
+/*
 if (isset($runArgs['verbose'])) {
-	//print "Processing Command Args: \n";
-	//print_r($runArgs);
+	print "Processing Command Args: \n";
+	print_r($runArgs);
 }
+*/
 
 // Set the correct directory
 $directories = explode (DIRECTORY_SEPARATOR, getcwd());
@@ -98,9 +100,11 @@ if (isset($runArgs['check'])) {
 	}
 
 	if (isset($runArgs['verbose']) || $errorCount > 0) {
-		print sprintf ("Summary: %d issues; %d errors; %d warnings)\n", $errorCount+$warningCount, $errorCount, $warningCount);
+		print sprintf ("Summary: %d issues; %d errors; %d warnings\n", $errorCount+$warningCount, $errorCount, $warningCount);
 	}
-	exit (($errorCount == 0) ? 0 : 1);
+	if ($errorCount > 0) {
+		exit (1);
+	}
 }
 
 
@@ -116,8 +120,10 @@ if ($useUserModelTags) {
 }
 
 //	Update all model support files
-if (!isset($runArgs['no-update'])) {
-	print "Updating all model folders\n";
+if (isset($runArgs['update'])) {
+	if (isset($runArgs['verbose'])) {
+		print "Updating all model folders\n";
+	}
 	updateAllModels ($allModels, $listings);
 }
 
@@ -131,9 +137,11 @@ print "===============================\n";
  */
  
 if (isset($runArgs['process-repo'])) {
-	print "Generating Repo files\n";
+	if (isset($runArgs['verbose'])) {
+		print "Generating Repo files\n";
+	}
 	for ($ii=0; $ii<count($listings); $ii++) {
-		createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
+		createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags'], isset($runArgs['verbose']));
 	}
 
 // Create repo-wide listing file
@@ -190,9 +198,9 @@ function clProcess($argv, $ModelDirectory) {
 	$clHelp = [	array('switch'=>'build',		'long'=>'build',		'short'=>'b', 'text'=>'Builds all necessary files for the asset.'),
 				array('switch'=>'check',		'long'=>'check',		'short'=>'c', 'text'=>'Checks consistency of the asset directory files.'),
 				array('switch'=>'help',			'long'=>'help',			'short'=>'h', 'text'=>'Displays this informaiton.'),
-				array('switch'=>'no-update',	'long'=>'no-update', 	'short'=>'u', 'text'=>'Do not update model folders. It has no effect "check" is set. Will set "build".'),
+				array('switch'=>'update',		'long'=>'update', 		'short'=>'u', 'text'=>'Update model folders. It has no effect "check" is set and \'check\' fails. Will set "check" and "process-repo".'),
 				array('switch'=>'no-warn',		'long'=>'no-warn',		'short'=>'w', 'text'=>'Do not show warnings if there are no errors.'),
-				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "build".'),
+				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "check".'),
 				array('switch'=>'verbose',		'long'=>'verbose',		'short'=>'v', 'text'=>'Dump intermediate and debug infomation.'),
 				];
 	$options = array();
@@ -216,9 +224,9 @@ function clProcess($argv, $ModelDirectory) {
 		$options['_values'][] = $clParameters[$ii];
 	}
 	if (isset($options['_values'][1]))				unset ($options['_values']['process-repo']);
-	if (isset($options['_values']['process-repo']))	$options['_values']['build']=1;
-	if (isset($options['_values']['no-update']))	$options['_values']['build']=1;
-	if (isset($options['_values']['build']))		unset ($options['_values']['check']);
+	if (isset($options['_values']['update']))		$options['_values']['process-repo']=1;
+	if (isset($options['_values']['process-repo']))	$options['_values']['check']=1;
+	//if (isset($options['_values']['build']))		unset ($options['_values']['check']);
 
 // Handle --help
 	if (isset($options['_values']['help'])) {
@@ -311,7 +319,7 @@ function createDep5 ($allModels) {
 }
 
 // Function for creating READMEs
-function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
+function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verbose=0) {
 	
 	$F = fopen ($tagStrcture['path'].$tagStrcture['file'], 'w');
 	$section = 'Tagged...';
@@ -322,7 +330,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 		$singleTag = $tags[0];
 	}
 	$type = $tagStrcture['type'];
-	print "Generating $type for $section\n";
+	if ($verbose > 0) {print "Generating $type for $section\n";}
 	
 	fwrite ($F, "# glTF 2.0 Sample Assets\n\n");
 	fwrite ($F, "## $section\n\n");
