@@ -21,3 +21,11 @@ jobs:
       run: |
         php util/model.php --check --no-warn --process-repo --verbose
 
+    - name: Commit list of files back into the repository
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add --verbose .
+        git diff-index --quiet HEAD || git commit -m "Updating generated Repo indices"
+        git push
