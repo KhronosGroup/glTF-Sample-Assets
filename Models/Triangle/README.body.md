@@ -1,12 +1,10 @@
-# Triangle
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
 
-## License Information
+## Description
 
-Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
+This is the simplest model that can be represented in glTF.
 
 ## Data layout
 
