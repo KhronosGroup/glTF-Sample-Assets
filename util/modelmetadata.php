@@ -361,6 +361,7 @@ class ModelMetadata
 		} else {
 			$warnings[] = 'README is not auto-generated';
 		}
+		if (count($errors) > 2) {$warnings[] = 'basePath: ' . $this->metadata['basePath'];}
 		$issues = array ('error'=>$errors, 'warning'=>$warnings);
 		return $issues;
 	}
