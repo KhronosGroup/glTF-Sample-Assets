@@ -22,5 +22,5 @@
     "name": "Triangle",
     "path": "./Models/Triangle",
     "summary": "A very simple glTF asset: The basic structure is the same as in 'Triangle Without Indices', but here, the mesh primitive describes an indexed geometry.",
-    "createReadme": false
+    "createReadme": true
 }
