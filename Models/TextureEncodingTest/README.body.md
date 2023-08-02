@@ -1,5 +1,3 @@
-# Texture Encoding Test
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -20,6 +18,3 @@ For each of three material slots, four sample models are provided that use diffe
 
   ![non-ignored_metadata](screenshot/non-ignored_metadata.png)
 
-## License Information
-
-Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))

@@ -1,5 +1,3 @@
-# Toy Car
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.jpg)
@@ -12,6 +10,3 @@ This model demonstrates the usage of [KHR_materials_sheen](https://github.com/Kh
 
 This model also includes eight sample cameras, featuring different angles on the car and its materials.  In software packages that represent camera locations with 3D markers, it may be beneficial to reduce the size of these markers, as marker size is not specified in glTF.
 
-## License Information
-
-Toy car model created by Guido Odendahl. Materials adjusted by Eric Chadwick. Public domain ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)).

@@ -21,5 +21,5 @@
     "name": "Texture Settings Test",
     "path": "./Models/TextureSettingsTest",
     "summary": "Tests single/double-sided and various texturing modes.",
-    "createReadme": false
+    "createReadme": true
 }
