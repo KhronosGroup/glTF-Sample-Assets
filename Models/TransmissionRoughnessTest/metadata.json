@@ -21,5 +21,5 @@
     "name": "Transmission Roughness Test",
     "path": "./Models/TransmissionRoughnessTest",
     "summary": "Tests the interaction between roughness and IOR.",
-    "createReadme": false
+    "createReadme": true
 }
