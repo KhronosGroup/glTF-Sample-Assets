@@ -461,7 +461,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 							$modelMeta['folder'].'/README.md',			// was 'path'
 							$modelMeta['name'], 
 							$modelMeta['folderShot'],
-							$modelMeta['path'].'/README.md',
+							$modelMeta['folder'].'/README.md',
 							UrlSampleViewer, UrlModelRepoRaw, $pathModel
 							));
 					if ($modelMeta['hasGLB']) {
