@@ -28,7 +28,7 @@
         "extension",
         "testing"
     ],
-    "screenshot": "screenshot/screenshot",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "MandarinOrange",
     "path": "MandarinOrange",
     "summary": "Scattering of light through the tangerine using the glTF diffuse transmission extension is shown in this test.",
