@@ -29,7 +29,7 @@
         "testing",
         "issues"
     ],
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Antique Camera",
     "path": "./Models/AntiqueCamera",
     "summary": "Static model of old camera on a tripod. [Issues: non-Khronos mark]",
