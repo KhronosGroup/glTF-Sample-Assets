@@ -1,0 +1,201 @@
+{
+  "asset": {
+    "version": "2.0",
+    "copyright": "Orange (https://skfb.ly/EZNY) by zamdreamer (CCBY 4.0), glTF material by Eric Chadwick (CCBY 4.0)"
+  },
+  "extensionsUsed": [
+    "KHR_materials_diffuse_transmission"
+],
+"materials": [
+    {
+        "name": "MandarinOrange",
+        "pbrMetallicRoughness": {
+            "baseColorTexture": {
+                "index": 0
+            },
+            "metallicRoughnessTexture": {
+                "index": 3
+            }
+        },
+        "occlusionTexture": {
+            "index": 3
+        },
+        "normalTexture": {
+            "index": 2,
+            "scale": 0.5
+        },
+        "extensions": {
+            "KHR_materials_diffuse_transmission": {
+                "diffuseTransmissionFactor": 1,
+                "diffuseTransmissionColorTexture": {
+                    "index": 1
+                },
+                "diffuseTransmissionTexture": {
+                    "index": 1
+                }
+            }
+        }
+    }
+],
+"images": [
+    {
+      "uri": "MandarinOrange_Basecolor.jpg"
+    },
+    {
+      "uri": "MandarinOrange_DiffuseTransmission.png"
+    },
+    {
+      "uri": "MandarinOrange_Normal.png"
+    },
+    {
+      "uri": "MandarinOrange_OcclusionRough.jpg"
+    }
+  ],
+  "textures": [
+    {
+      "name": "MandarinOrange_Basecolor",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "MandarinOrange_DiffuseTransmission",
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "name": "MandarinOrange_Normal",
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "name": "MandarinOrange_OcclusionRough",
+      "sampler": 3,
+      "source": 3
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1262448,
+      "uri": "MandarinOrange.bin"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24138,
+      "max": [
+        0.0073140156455338,
+        0.005209291819483042,
+        0.008868019096553326
+      ],
+      "min": [
+        -0.008429992944002151,
+        -0.011552387848496437,
+        -0.004613796249032021
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 24138,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 24138,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 122508,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 772416,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 490032,
+      "byteOffset": 772416,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "MandarinOrange",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "MandarinOrange"
+    },
+    {
+      "children": [
+        0
+      ],
+      "rotation": [
+        -0.5,
+        3.061616997868382e-17,
+        5.3028761936245346e-17,
+        0.8660254037844385
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ]
+}
