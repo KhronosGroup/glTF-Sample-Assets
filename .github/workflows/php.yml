@@ -19,13 +19,15 @@ jobs:
 
     - name: Execute PHP script
       run: |
-        php util/model.php --no-warn --check --update --process-repo --dry-run --verbose
+        git status
+        php util/model.php --no-warn --check --update --process-repo --verbose
 
     - name: Commit list of files back into the repository
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+        git status
         git add --verbose .
         git diff-index  HEAD || git commit -m "Updating generated Repo indices"
         git push
