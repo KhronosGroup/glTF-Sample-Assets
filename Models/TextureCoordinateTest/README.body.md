@@ -1,5 +1,3 @@
-# Texture Coordinate Test
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -26,8 +24,3 @@ This model demonstrates the orientation of texture coordinates.  The materials a
 },
 ```
 
-## License Information
-
-Copyright 2017-2018 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.

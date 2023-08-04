@@ -28,4 +28,4 @@ _None provided._
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

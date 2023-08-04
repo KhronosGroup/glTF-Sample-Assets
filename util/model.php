@@ -22,7 +22,7 @@
  ^	$useUserModelData - reads the model metadata update file (). See getModelData
 **/
 
-require './modelmetadata.php';
+require __DIR__ . '/modelmetadata.php';
 
 $ModelDirectory = './Models';	// Directory relative to root containing all models
 $useUserModelTags = false;		// Update model tags
@@ -53,8 +53,12 @@ $tagList = array_unique ($tagList);
 
 // Process Command Line arguments
 $runArgs = clProcess($argv, $ModelDirectory);
-print "Processing Command Args: \n";
-print_r($runArgs);
+/*
+if (isset($runArgs['verbose'])) {
+	print "Processing Command Args: \n";
+	print_r($runArgs);
+}
+*/
 
 // Set the correct directory
 $directories = explode (DIRECTORY_SEPARATOR, getcwd());
@@ -76,6 +80,7 @@ $allModels = getAllModels ($assetList);
  
 if (isset($runArgs['check'])) {
 	$errorCount = 0;
+	$warningCount = 0;
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelName = $allModels[$ii]->modelName;
 		$issues = $allModels[$ii]->reportIssues();
@@ -88,15 +93,21 @@ if (isset($runArgs['check'])) {
 				for ($jj=0; $jj<count($issues['warning']); $jj++) {
 					print sprintf(" W-%d: %s\n", $jj+1, $issues['warning'][$jj]);
 				}
-				$errorCount =+ count($issues['error']);
+				$errorCount += count($issues['error']);
+				$warningCount += count($issues['warning']);
 			}
 		}
 	}
-	
-	exit (($errorCount == 0) ? 0 : 1);
+
+	if (isset($runArgs['verbose']) || $errorCount > 0) {
+		print sprintf ("Summary: %d issues; %d errors; %d warnings\n", $errorCount+$warningCount, $errorCount, $warningCount);
+	}
+	if ($errorCount > 0) {
+		exit (1);
+	}
 }
 
-
+if (!$runArgs['dry-run']) {
 // If requested load the user input metadata for each model. 
 if ($useUserModelData) {
 	$modelMetadata = getModelData();
@@ -107,14 +118,30 @@ if ($useUserModelTags) {
 	$modelTagData = getModelTagData();
 	$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
 }
-
-//	Update all model support files
-if (!isset($runArgs['no-update'])) {
-	print "Updating all model folders\n";
-	updateAllModels ($allModels, $listings);
 }
 
-print "===============================\n";
+//	Update all model support files
+if (isset($runArgs['update'])) {
+	if (isset($runArgs['verbose'])) {
+		$list = '';
+		if (count($allModels) > 3) {
+			$list = count($allModels);
+			$ses = 's';
+		} else {
+			$list = [];
+			for ($ii=0; $ii<count($allModels); $ii++) {
+				$list[] = $allModels[$ii]->modelName;
+			}
+			$ses = (count($list) == 1) ? '' : 's';
+			$list = "'" . join ("', '", $list) . "'";
+		}
+		print "Updating $list model folder$ses\n";
+	}
+	if (!$runArgs['dry-run']) {
+		updateAllModels ($allModels, $listings);
+	}
+}
+
 
 /*
  * The following depend on having all models in the repo. These
@@ -124,16 +151,23 @@ print "===============================\n";
  */
  
 if (isset($runArgs['process-repo'])) {
-	print "Generating Repo files\n";
+	if (isset($runArgs['verbose'])) {
+		print "===============================\n";
+		print "Generating Repo files\n";
+	}
 	for ($ii=0; $ii<count($listings); $ii++) {
-		createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags']);
+		createReadme ($listings[$ii], $allModels, $listings, $listings[$ii]['tags'], isset($runArgs['verbose']), $runArgs['dry-run']);
 	}
 
 // Create repo-wide listing file
-	createModelList ($allModels);
+	createModelList ($allModels, $runArgs['dry-run']);
 
 // Create repo-wide license file
-	createDep5 ($allModels);
+	if ($runArgs['dry-run']) {
+		echo "{dryrun} Creating License files (dep5)\n";
+	} else {
+		createDep5 ($allModels, $runArgs['dry-run']);
+	}
 
 /*
  * Create CSV file for handling model tags. 
@@ -157,7 +191,9 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
 
 	$useModels = array();
 	$folder = dir ($modelFolder);
-	print "Using basepath of ".$folder->path."\n";
+	if (isset($clParameters['verbose'])) {
+		print "Using basepath of ".$folder->path."\n";
+	}
 	while (false !== ($model = $folder->read())) {
 		$modelDir = $folder->path . '/' . $model;
 		if (is_dir($modelDir) && !($model == '.' || $model == '..')) {
@@ -178,12 +214,15 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
  *		position arguments
  */
 function clProcess($argv, $ModelDirectory) {
-	$clHelp = [	array('switch'=>'build',		'long'=>'build',		'short'=>'b', 'text'=>'Builds all necessary files for the asset.'),
-				array('switch'=>'check',		'long'=>'check',		'short'=>'c', 'text'=>'Checks consistency of the asset directory files.'),
+	$clHelp = [	
 				array('switch'=>'help',			'long'=>'help',			'short'=>'h', 'text'=>'Displays this informaiton.'),
-				array('switch'=>'no-update',	'long'=>'no-update', 	'short'=>'u', 'text'=>'Do not update model folders. It has no effect "check" is set. Will set "build".'),
+				array('switch'=>'verbose',		'long'=>'verbose',		'short'=>'v', 'text'=>'Dump intermediate and debug infomation.'),
+				array('switch'=>'dry-run',		'long'=>'dry-run',		'short'=>'d', 'text'=>'Do requested checks and loop through files, but do not write anything.'),
 				array('switch'=>'no-warn',		'long'=>'no-warn',		'short'=>'w', 'text'=>'Do not show warnings if there are no errors.'),
-				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "build".'),
+				array('switch'=>'check',		'long'=>'check',		'short'=>'c', 'text'=>'Checks consistency of the asset directory files.'),
+				array('switch'=>'update',		'long'=>'update', 		'short'=>'u', 'text'=>'Update model folders. It has no effect "check" fails. Will set "check".'),
+				array('switch'=>'process-repo',	'long'=>'process-repo',	'short'=>'p', 'text'=>'Create repo-wide files. Will set "check".'),
+				array('switch'=>'build',		'long'=>'build',		'short'=>'b', 'text'=>'OBSOLETE: Builds all necessary files for the asset.'),
 				];
 	$options = array();
 	$longOptions = array();
@@ -205,10 +244,11 @@ function clProcess($argv, $ModelDirectory) {
 	for ($ii=0; $ii<count($clParameters); $ii++) {
 		$options['_values'][] = $clParameters[$ii];
 	}
+	if (isset($options['_values']['update']))		$options['_values']['check']=1;
+	if (isset($options['_values']['process-repo']))	$options['_values']['check']=1;
 	if (isset($options['_values'][1]))				unset ($options['_values']['process-repo']);
-	if (isset($options['_values']['process-repo']))	$options['_values']['build']=1;
-	if (isset($options['_values']['no-update']))	$options['_values']['build']=1;
-	if (isset($options['_values']['build']))		unset ($options['_values']['check']);
+	$options['_values']['dry-run'] = (isset($options['_values']['dry-run'])) ? 1 : 0;		// Insure ['dry-run'] is set
+	//if (isset($options['_values']['build']))		unset ($options['_values']['check']);
 
 // Handle --help
 	if (isset($options['_values']['help'])) {
@@ -216,7 +256,7 @@ function clProcess($argv, $ModelDirectory) {
 		for ($ii=0; $ii<count($clHelp); $ii++) {
 			echo (sprintf (" --%-10s %s\n", $clHelp[$ii]['switch'], $clHelp[$ii]['text']));
 		}
-		echo (sprintf ("  %-11s %s\n", '[asset]', "Folder name in $ModelDirectory to process"));
+		echo (sprintf ("  %-11s %s\n", '[asset]', "Folder name in $ModelDirectory to process (defaults to all)"));
 		exit (0);
 	}
 	return $options['_values'];
@@ -229,9 +269,14 @@ function clProcess($argv, $ModelDirectory) {
  *	This JSON file is an array with one entry per model
  *	Each entry contains the model name, relative path, and tags for that model
 **/
-function createModelList ($allModels) {
-	$F = fopen ('./Models/model-index.json', 'w');
-	fwrite ($F, "[\n");
+function createModelList ($allModels, $dryRun=0) {
+	if ($dryRun) {
+		echo "{dryrun} Opening index file: ./Models/model-index.json\n";
+		$F = 0;
+	} else {
+		$F = fopen ('./Models/model-index.json', 'w');
+		fwrite ($F, "[\n");
+	}
 	for ($ii=0; $ii<count($allModels); $ii++) {
 		$modelMeta = $allModels[$ii]->getMetadata();
 		$variants = array();
@@ -240,7 +285,6 @@ function createModelList ($allModels) {
 		}
 		$variant = (count($variants) < 1) ? '' : 
 					"\n      " . join(",\n      ", $variants) . "\n    ";
-		//$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"path\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
 		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
 								$modelMeta['name'], 
 								$modelMeta['folder'], 
@@ -248,16 +292,23 @@ function createModelList ($allModels) {
 								//$modelMeta['path'], 
 								join('","', $modelMeta['tags']), 
 								$variant);
-		fwrite ($F, $modelEntry);
-		if ($ii == count($allModels)-1) {
-			fwrite ($F, "\n");
-			//print_r($modelMeta);
+		if ($dryRun) {
+			echo "{dryrun}  - Writing entry for ".$modelMeta['name']."\n";
 		} else {
-			fwrite ($F, ",\n");
+			fwrite ($F, $modelEntry);
+			if ($ii == count($allModels)-1) {
+				fwrite ($F, "\n");
+			} else {
+				fwrite ($F, ",\n");
+			}
 		}
 	}
-	fwrite ($F, "]\n");
-	fclose ($F);
+	if ($dryRun) {
+		echo "{dryrun} Closing index file\n";
+	} else {
+		fwrite ($F, "]\n");
+		fclose ($F);
+	}
 	return;
 }
 
@@ -303,9 +354,14 @@ function createDep5 ($allModels) {
 }
 
 // Function for creating READMEs
-function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
+function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verbose=0, $dryRun=0) {
 	
-	$F = fopen ($tagStrcture['path'].$tagStrcture['file'], 'w');
+	if ($dryRun) {
+		echo "{dryrun} Opening ".$tagStrcture['path'].$tagStrcture['file']."\n";
+		$F = 0;
+	} else {
+		$F = fopen ($tagStrcture['path'].$tagStrcture['file'], 'w');
+	}
 	$section = 'Tagged...';
 	if (count($tags) == 0 || $tags[0] == '') {
 		$section = 'All models';
@@ -314,11 +370,15 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 		$singleTag = $tags[0];
 	}
 	$type = $tagStrcture['type'];
-	print "Generating $type for $section\n";
+	if ($verbose > 0) {print "Generating $type for $section\n";}
 	
-	fwrite ($F, "# glTF 2.0 Sample Assets\n\n");
-	fwrite ($F, "## $section\n\n");
-	fwrite ($F, $tagStrcture['summary']."\n\n");
+	if ($dryRun) {
+		echo "{dryrun} Writing header\n";
+	} else {
+		fwrite ($F, "# glTF 2.0 Sample Assets\n\n");
+		fwrite ($F, "## $section\n\n");
+		fwrite ($F, $tagStrcture['summary']."\n\n");
+	}
 	
 	for ($ii=0; $ii<count($listings); $ii++) {
 		if (count($listings[$ii]['tags']) > 0) {
@@ -329,39 +389,59 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 ##		$otherTags[] = sprintf ("[%s](%s%s) - %s", $tagItem, $listings[$ii]['path'], $listings[$ii]['file'], $listings[$ii]['summary']);
 		$otherTags[] = sprintf ("[%s](%s) - %s", $tagItem, $listings[$ii]['file'], $listings[$ii]['summary']);
 	}
-	fwrite ($F, "## Other Tagged Listings\n\n");
-	fwrite ($F, "* " . join("\n* ", $otherTags) . "\n\n");
+	if ($dryRun) {
+		echo "{dryrun} Writing tags ...\n";
+	} else {
+		fwrite ($F, "## Other Tagged Listings\n\n");
+		fwrite ($F, "* " . join("\n* ", $otherTags) . "\n\n");
+	}
 
 	if ($type == 'Image') {
 		$fmtString = "[![%s](%s)](%s)\n";
 		for ($ii=0; $ii<count($metaAll); $ii++) {
-			fwrite ($F, sprintf ($fmtString, 
-						$metaAll[$ii]->{'name'}, 
-						$metaAll[$ii]->{'UriHeight'},
-						$metaAll[$ii]->{'UriReadme'}
-						));
+			if ($dryRun) {
+				echo "{dryrun}  - Writing Image-type entry for ".$metaAll[$ii]->{'name'}."\n";
+			} else {
+				fwrite ($F, sprintf ($fmtString, 
+							$metaAll[$ii]->{'name'}, 
+							$metaAll[$ii]->{'UriHeight'},
+							$metaAll[$ii]->{'UriReadme'}
+							));
+			}
 		}
 
 	} else if ($type == 'Detailed') {
-		fwrite ($F, "| Model   | Legal | Description |\n");
-		fwrite ($F, "|---------|-------|-------------|\n");
+		if ($dryRun) {
+			echo "{dryrun} - Writing Detailed header\n";
+		} else {
+			fwrite ($F, "| Model   | Legal | Description |\n");
+			fwrite ($F, "|---------|-------|-------------|\n");
+		}
 		$fmtString = "| [%s](%s) <br> ![](%s) | %s | %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
 			$modelMeta = $metaAll[$ii]->getMetadata();
 			$summary = ($modelMeta['summary'] == '') ? '**NO DESCRIPTION**' : $modelMeta['summary'];
 
-			fwrite ($F, sprintf ($fmtString, 
-						$modelMeta['name'], 
-						$modelMeta['path'].'/README.md',
-						$modelMeta['basePathShot'],
-						join("<br>", $modelMeta['credit']),
-						$summary,
-						));
+			if ($dryRun) {
+				echo "{dryrun}  - Writing Image-type entry for ".$metaAll[$ii]->{'name'}."\n";
+			} else {
+				fwrite ($F, sprintf ($fmtString, 
+							$modelMeta['name'], 
+							$modelMeta['path'].'/README.md',
+							$modelMeta['basePathShot'],
+							join("<br>", $modelMeta['credit']),
+							$summary,
+							));
+			}
 		}
 	} else if ($type == 'List') {
-		fwrite ($F, "| Model   | Description |\n");
-		fwrite ($F, "|---------|-------------|\n");
+		if ($dryRun) {
+			echo "{dryrun}  - Writing List Header\n";
+		} else {
+			fwrite ($F, "| Model   | Description |\n");
+			fwrite ($F, "|---------|-------------|\n");
+		}
 		$fmtString = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show in Sample Viewer](%s?model=%s/%s) | %s<br>Credit:<br>%s |\n";
 		$fmtColumn1 = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show](%s?model=%s/%s) ";
 		$fmtColumn2 = "| %s<br>Credit:<br>%s |\n";
@@ -373,7 +453,10 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 				$summary = ($modelMeta['summary'] == '') ? '**NO DESCRIPTION**' : $modelMeta['summary'];
 				$pathModel = ($modelMeta['hasGLB']) ? $modelMeta['pathGLB'] : $modelMeta['pathModel'];
 
-				fwrite ($F, sprintf ($fmtColumn1, 
+				if ($dryRun) {
+					echo "{dryrun}  - Writing List-type entry for ".$modelMeta['name']."\n";
+				} else {
+					fwrite ($F, sprintf ($fmtColumn1, 
 							$modelMeta['name'], 
 							$modelMeta['folder'].'/README.md',			// was 'path'
 							$modelMeta['name'], 
@@ -381,23 +464,28 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array('')) {
 							$modelMeta['path'].'/README.md',
 							UrlSampleViewer, UrlModelRepoRaw, $pathModel
 							));
-				if ($modelMeta['hasGLB']) {
-					fwrite ($F, sprintf ($fmtDownload, 
+					if ($modelMeta['hasGLB']) {
+						fwrite ($F, sprintf ($fmtDownload, 
 								UrlModelRepoRaw, $modelMeta['pathGLB']
 								));
+					}
+					fwrite ($F, sprintf ($fmtColumn2, 
+								$summary,
+								join("<br>", $modelMeta['credit']),
+								));
 				}
-				fwrite ($F, sprintf ($fmtColumn2, 
-							$summary,
-							join("<br>", $modelMeta['credit']),
-							));
 			}
 		}
 	}
-	fwrite ($F, "---\n");
-	fwrite ($F, sprintf ("\n### Copyright\n\n&copy; %d, The Khronos Group.\n\n**License:** [Creative Commons Attribtution 4.0 International](%s)\n", 2023, $metaAll[0]->LICENSE['CC-BY 4.0']['link']));
-	fwrite ($F, sprintf ("\n#### Generated by %s v%s\n", AppName, AppVersion));
-
-	fclose ($F);
+	if ($dryRun) {
+		echo "{dryrun} Writing closing\n";
+	} else {
+		fwrite ($F, "---\n");
+		fwrite ($F, sprintf ("\n### Copyright\n\n&copy; %d, The Khronos Group.\n\n**License:** [Creative Commons Attribtution 4.0 International](%s)\n", 2023, $metaAll[0]->LICENSE['CC-BY 4.0']['link']));
+		fwrite ($F, sprintf ("\n#### Generated by %s\n", AppName));
+//		fwrite ($F, sprintf ("\n#### Generated by %s v%s\n", AppName, AppVersion));
+		fclose ($F);
+	}
 	return;
 }
 
@@ -510,7 +598,6 @@ function getAllModels ($useModels) {
 	$allModels = array();
 	for ($ii=0; $ii<count($useModels); $ii++) {
 		$modelDir = $useModels[$ii];
-		//print "Processing $modelDir\n";
 		$mm = new ModelMetadata($modelDir, 'metadata');
 		if ($mm->hasError) {
 			print $mm->errorMessage."\n";

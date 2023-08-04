@@ -1,5 +1,3 @@
-# Texture Transform Multi Test
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.jpg)
@@ -58,8 +56,3 @@ The Clearcoat tests can be dark and low-contrast, an unfortunate consequence of 
 
 The "UV 1" boxes shown here are blank due to a known limitation in this rendering engine, described above.  But the "UV 0" boxes are showing the crossed-out circle.  This indicates that KHR_texture_transform has not been applied to any of the Clearcoat inputs.
 
-## License Information
-
-Copyright 2020 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.

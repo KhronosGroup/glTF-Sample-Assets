@@ -1,5 +1,3 @@
-# Texture Settings Test
-
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -18,8 +16,3 @@ The texture mirror test uses mirroring to find the green checkmark.  A non-mirro
 
 All of the failure conditions are a different shape from the corresponding success condition, as well as being red in color.  Specifically, the only tests that expect a solid-green successful result do not offer a solid-red fail condition, they only offer X's.  This is so that people who are red/green colorblind can still easily compare the "Test" and "Sample" columns and easily spot any differences by shape.
 
-## License Information
-
-Copyright 2017 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.

@@ -28,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata
