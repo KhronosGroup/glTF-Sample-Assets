@@ -20,7 +20,7 @@ Textured. Multiple nodes/meshes. Animations. [Issues: non-Khronos mark]
 
 ## Description
 
-_None provided._
+Textured. Multiple nodes/meshes. Animations. Cesium logo.
 
 ## Legal
 

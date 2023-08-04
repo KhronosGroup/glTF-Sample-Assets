@@ -20,7 +20,7 @@ Tests various metal and roughness values (texture mapped).
 
 ## Description
 
-_None provided._
+Tests various metal and roughness values (texture mapped).
 
 ## Legal
 

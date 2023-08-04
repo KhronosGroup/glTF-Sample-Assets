@@ -20,7 +20,7 @@ Box example with interleaved position and normal attributes.
 
 ## Description
 
-_None provided._
+Box example with interleaved position and normal attributes.
 
 ## Legal
 

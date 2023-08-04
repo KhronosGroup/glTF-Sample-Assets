@@ -16,11 +16,11 @@ Static model of old camera on a tripod. [Issues: non-Khronos mark]
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot.jpg)
 
 ## Description
 
-_None provided._
+Static model of old camera on a tripod, with UX3D logo on one of the legs.
 
 ## Legal
 

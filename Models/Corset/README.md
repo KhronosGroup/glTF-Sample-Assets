@@ -20,7 +20,7 @@
 
 ## Description
 
-_None provided._
+A female fabric mannequin with a corset and a collar.
 
 ## Legal
 

@@ -20,7 +20,7 @@ Animations. Skins.
 
 ## Description
 
-_None provided._
+Articulated robot with animation and hierarchy.
 
 ## Legal
 

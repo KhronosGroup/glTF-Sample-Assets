@@ -20,7 +20,7 @@ Textured. Animations. Skins. [Issues: non-Khronos mark]
 
 ## Description
 
-_None provided._
+Animated and skinned character with the Cesium logo.
 
 ## Legal
 

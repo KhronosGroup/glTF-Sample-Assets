@@ -20,7 +20,7 @@ Box with a power-of-2 texture. [Issues: non-Khronos mark]
 
 ## Description
 
-_None provided._
+Box with a power-of-2 texture, using the Cesium logo.
 
 ## Legal
 

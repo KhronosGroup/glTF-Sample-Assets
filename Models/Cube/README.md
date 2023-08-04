@@ -19,7 +19,7 @@ A cube with non-smoothed faces.
 
 ## Description
 
-_None provided._
+A cube with non-smoothed faces.
 
 ## Legal
 
