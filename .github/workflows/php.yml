@@ -19,7 +19,7 @@ jobs:
 
     - name: Execute PHP script
       run: |
-        php util/model.php --no-warn --check --update --process-repo
+        php util/model.php --no-warn --check --update --process-repo --dry-run --verbose
 
     - name: Commit list of files back into the repository
       run: |
