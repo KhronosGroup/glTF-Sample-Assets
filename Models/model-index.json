@@ -93,7 +93,7 @@
   {
     "label": "Antique Camera",
     "name": "AntiqueCamera",
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing","issues"],
     "variants": {
       "glTF": "AntiqueCamera.gltf",
@@ -526,6 +526,15 @@
     "variants": {
       "glTF": "LightsPunctualLamp.gltf",
       "glTF-Binary": "LightsPunctualLamp.glb"
+    }
+  },
+  {
+    "label": "MandarinOrange",
+    "name": "MandarinOrange",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "MandarinOrange.gltf"
     }
   },
   {

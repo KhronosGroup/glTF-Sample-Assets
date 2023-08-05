@@ -19,7 +19,7 @@ Displayed flight helmet on a wooden stand.
 
 ## Description
 
-_None provided._
+USAAF A-11 Flying Helmet on a wooden stand with realistic high resolution textures.
 
 ## Legal
 

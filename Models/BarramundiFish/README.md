@@ -20,7 +20,7 @@ A fish created with Core glTF 2.0
 
 ## Description
 
-_None provided._
+A fish created with Core glTF 2.0.
 
 ## Legal
 
