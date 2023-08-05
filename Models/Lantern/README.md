@@ -20,7 +20,7 @@ Old wooden street light.
 
 ## Description
 
-_None provided._
+Old wooden street light.
 
 ## Legal
 

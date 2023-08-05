@@ -20,7 +20,7 @@ A sample with three different animation interpolations
 
 ## Description
 
-_None provided._
+A sample with three different animation interpolations.
 
 ## Legal
 

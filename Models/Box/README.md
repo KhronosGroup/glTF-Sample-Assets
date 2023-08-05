@@ -20,7 +20,7 @@ One mesh and one material. Start with this.
 
 ## Description
 
-_None provided._
+Simple cube model.
 
 ## Legal
 
