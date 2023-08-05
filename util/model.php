@@ -454,7 +454,12 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 				$pathModel = ($modelMeta['hasGLB']) ? $modelMeta['pathGLB'] : $modelMeta['pathModel'];
 
 				if ($dryRun) {
+					$tmp = sprintf ($fmtColumn1, $modelMeta['name'], $modelMeta['folder'].'/README.md', '!!', $modelMeta['folderShot'], '!!', '!!', '!!', '!!');
 					echo "{dryrun}  - Writing List-type entry for ".$modelMeta['name']."\n";
+					echo "{dryrun}  --- 'name': ".$modelMeta['name']."\n";
+					echo "{dryrun}  --- 'folder': ".$modelMeta['folder']."\n";
+					echo "{dryrun}  --- 'shot': ".$modelMeta['folderShot']."\n";
+					echo "{dryrun}  --- : $tmp\n";
 				} else {
 					fwrite ($F, sprintf ($fmtColumn1, 
 							$modelMeta['name'], 
