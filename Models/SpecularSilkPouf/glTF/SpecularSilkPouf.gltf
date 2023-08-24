@@ -49,10 +49,10 @@
   ],
   "images": [
     {
-      "uri": "SpecularSilkPouf_occlusion.jpg"
+      "uri": "SpecularSilkPouf_occlusion.png"
     },
     {
-      "uri": "SpecularSilkPouf_normal.jpg"
+      "uri": "SpecularSilkPouf_normal.png"
     }
   ],
   "textures": [
