@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2023",
+            "owner": "Copyright 2023 Wayfair, LLC",
+            "what": "Everything",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "SpecularSilkPouf",
+    "path": "./Models/SpecularSilkPouf",
+    "summary": "Wayfair SpecularSilkPouf model using sheen and specular extensions.",
+    "createReadme": true
+}
