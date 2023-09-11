@@ -12,7 +12,6 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
         ref: ${{github.event.pull_request.head.ref}}
 
     - name: Set up PHP
