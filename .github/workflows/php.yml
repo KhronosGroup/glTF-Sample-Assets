@@ -18,8 +18,9 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Checkout PR
+      run: gh pr checkout ${{ github.event.pull_request.number }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
