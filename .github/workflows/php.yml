@@ -15,16 +15,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions: write-all
-
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
 
     - name: Checkout PR
-      run: gh pr checkout ${{ github.event.pull_request.number }}
       env:
         GH_TOKEN: ${{ github.token }}
+      run: gh pr checkout ${{ github.event.pull_request.number }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
@@ -36,6 +34,8 @@ jobs:
         php util/model.php --no-warn --check --update --process-repo --verbose
 
     - name: Commit list of files back into the repository
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
