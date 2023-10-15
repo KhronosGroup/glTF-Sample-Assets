@@ -21,6 +21,8 @@ jobs:
 
     - name: Checkout PR
       run: gh pr checkout ${{ github.event.pull_request.number }}
+      env:
+        GH_TOKEN: ${{ github.token }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
