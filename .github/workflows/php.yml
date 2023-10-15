@@ -14,12 +14,14 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
-
-    - name: Prepare repository
-      run: git checkout "${GITHUB_REF:11}"
+      uses: actions/checkout@v4
+        ref: ${{ github.head_ref }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
@@ -31,10 +33,6 @@ jobs:
         php util/model.php --no-warn --check --update --process-repo --verbose
 
     - name: Commit list of files back into the repository
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git status
-        git add --verbose .
-        git diff-index  HEAD || git commit -m "Updating generated Repo indices"
-        git push
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Updating generated Repo indices
