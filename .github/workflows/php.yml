@@ -1,6 +1,12 @@
 name: Asset Quality Workflow
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
 
 env:
   CI: true
@@ -10,12 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
-
-    - name: Extract branch name
-      shell: bash
-      run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
-      id: extract_branch
+      uses: actions/checkout@v3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
@@ -24,15 +27,13 @@ jobs:
 
     - name: Execute PHP script
       run: |
-        git status
         php util/model.php --no-warn --check --update --process-repo --verbose
 
     - name: Commit list of files back into the repository
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
         git status
         git add --verbose .
         git diff-index  HEAD || git commit -m "Updating generated Repo indices"
-        git push origin HEAD:${{ steps.extract_branch.outputs.branch }}
+        git push
