@@ -18,7 +18,6 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
-        ref: ${{ github.head_ref }}
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
