@@ -16,11 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: actions/checkout@v2
 
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
