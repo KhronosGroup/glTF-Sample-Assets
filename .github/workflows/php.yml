@@ -21,7 +21,7 @@ jobs:
 
     - name: Checkout PR
       env:
-        GH_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ github.token }}
       run: gh pr checkout ${{ github.event.pull_request.number }}
 
     - name: Set up PHP
