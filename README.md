@@ -87,5 +87,15 @@ To make this repository cleaner, the previous _glTF-Sample-Models_ repository wa
 
 For the assets that remained, there were no changes to the Asset name. READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
 
+## Updating the model indies
+
+After new models have been added, the index files for the models have to be updated:
+
+- Check out the repository
+- Set up PHP
+- Run `php util/model.php --no-warn --check --update --process-repo --verbose`
+- Commit the modifications
+- Push
+
 ---
 &copy; 2023, The Khronos Group. Licensed as CC-BY 4.0 International
