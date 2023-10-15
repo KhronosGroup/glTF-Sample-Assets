@@ -20,6 +20,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Set default branch
+      run: git remote set-head origin --auto
+      shell: bash
+
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
