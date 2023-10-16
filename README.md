@@ -87,7 +87,7 @@ To make this repository cleaner, the previous _glTF-Sample-Models_ repository wa
 
 For the assets that remained, there were no changes to the Asset name. READMEs were provided to assist in navigation to any directories that were removed or substantially changed.
 
-## Updating the model indies
+## Updating the model indices
 
 After new models have been added, the index files for the models have to be updated:
 
