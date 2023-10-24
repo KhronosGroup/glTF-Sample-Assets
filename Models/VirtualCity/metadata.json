@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": 2017,
+            "owner": "3DRT",
+            "license": "LicenseRef-3DRT-Testing",
+            "licenseUrl": "",
+            "artist": "3DRT",
+            "what": "Everything",
+            "text": "3DRT license with allowances for glTF Testing",
+            "spdx": "LicenseRef-3DRT-Testing",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "core",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.gif",
+    "name": "Virtual City",
+    "path": "./Models/VirtualCity",
+    "summary": "The 'Virtual City' model was graciously contributed by the folks at 3DRT.",
+    "createReadme": true
+}

@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/cc0",
+            "artist": "Eric Chadwick",
+            "year": "2023",
+            "owner": "Public domain",
+            "what": "Everything",
+            "text": "CC0 No Rights Reserved",
+            "spdx": "CC0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "DiffuseTransmissionTeacup",
+    "path": "./Models/DiffuseTransmissionTeacup",
+    "summary": "DiffuseTransmissionTeacup model using Diffuse Transmission extension.",
+    "createReadme": true
+}
