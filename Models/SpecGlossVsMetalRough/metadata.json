@@ -21,5 +21,5 @@
     "name": "SpecGlossVsMetalRough",
     "path": "./Models/SpecGlossVsMetalRough",
     "summary": "Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly.",
-    "createReadme": false
+    "createReadme": true
 }

@@ -1,4 +1,19 @@
 # Box Animated
+
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Rotation and Translation Animations. Start with this to test animations.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxAnimated/glTF-Binary/BoxAnimated.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BoxAnimated/glTF-Binary/BoxAnimated.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.gif)
@@ -26,8 +41,10 @@ In affected runtimes, the box will begin rotating before it has moved to the top
 position, and collide with the blue box.  If you see this, please file an issue
 on the affected runtime's issue tracker.
 
-## License Information
+## Legal
 
-Donated by [Cesium](http://cesiumjs.org/) for glTF testing.
+&copy; 2017, Cesium. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-This model is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+ - Cesium for Everything
+
+#### Assembled by modelmetadata

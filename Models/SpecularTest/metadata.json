@@ -22,5 +22,5 @@
     "name": "Specular Test",
     "path": "./Models/SpecularTest",
     "summary": "Tests if the KHR_materials_specular extension is supported correctly.",
-    "createReadme": false
+    "createReadme": true
 }

@@ -1,5 +1,19 @@
 # Unicode❤♻Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+A sample with Unicode characters in file, material, and mesh names
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Unicode❤♻Test/glTF-Binary/Unicode❤♻Test.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Unicode❤♻Test/glTF-Binary/Unicode❤♻Test.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -14,6 +28,11 @@ Sample glTF model where everything contains Unicode characters:
 - Material name.
 - Mesh name.
 
-## License Information
 
-Public domain license ([CC0](https://creativecommons.org/publicdomain/zero/1.0)). Model is created by [Viktor Kovács](https://github.com/kovacsv), exported to glTF by [3dviewer.net](https://3dviewer.net/).
+## Legal
+
+&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Viktor Kovács for Everything
+
+#### Assembled by modelmetadata

@@ -697,7 +697,7 @@
     "label": "Recursive Skeletons",
     "name": "RecursiveSkeletons",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["core","testing"],
+    "tags": ["core","testing","issues"],
     "variants": {
       "glTF": "RecursiveSkeletons.gltf",
       "glTF-Binary": "RecursiveSkeletons.glb"

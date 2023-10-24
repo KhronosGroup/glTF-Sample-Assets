@@ -43,5 +43,5 @@
     "name": "Fox",
     "path": "./Models/Fox",
     "summary": "Multiple animations cycles: Survey, Walk, Run.",
-    "createReadme": false
+    "createReadme": true
 }

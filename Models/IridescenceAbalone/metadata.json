@@ -31,5 +31,5 @@
     "name": "IridescenceAbalone",
     "path": "./Models/IridescenceAbalone",
     "summary": "A model of an abalone shell with highly iridescent interior.",
-    "createReadme": false
+    "createReadme": true
 }

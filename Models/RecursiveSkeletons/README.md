@@ -1,5 +1,19 @@
 # Recursive Skeletons
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md), [issues](../../Models-issues.md)
+
+## Summary
+
+Tests unusual skinning cases with reused meshes and recursive skeletons.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/RecursiveSkeletons/glTF-Binary/RecursiveSkeletons.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/RecursiveSkeletons/glTF-Binary/RecursiveSkeletons.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.jpg)
@@ -36,3 +50,12 @@ propagating the affect to the attached child skeletons.
 Copyright 2021 SharpGLTF
 CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
 Model by Vicente Penades.
+
+
+## Legal
+
+&copy; 2017, Cesium. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Cesium for Everything
+
+#### Assembled by modelmetadata

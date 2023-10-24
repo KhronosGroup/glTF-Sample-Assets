@@ -22,5 +22,5 @@
     "name": "SimpleSkin",
     "path": "./Models/SimpleSkin",
     "summary": "A simple example of vertex skinning in glTF",
-    "createReadme": false
+    "createReadme": true
 }

@@ -22,5 +22,5 @@
     "name": "Sheen Cloth",
     "path": "./Models/SheenCloth",
     "summary": "Fabric example using sheen.",
-    "createReadme": false
+    "createReadme": true
 }
