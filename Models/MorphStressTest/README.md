@@ -1,5 +1,19 @@
 # Morph Stress Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Tests up to 8 morph targets.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphStressTest/glTF-Binary/MorphStressTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphStressTest/glTF-Binary/MorphStressTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.png)
@@ -62,8 +76,12 @@ and the remainder will be frozen the entire time.
 BabylonJS has shared some technical details of their "Infinite Morph Targets" implementation
 in [this YouTube video](https://www.youtube.com/watch?v=LBPRmGgU0PE).
 
-## License Information
 
-Copyright 2021 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

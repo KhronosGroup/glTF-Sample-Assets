@@ -10,8 +10,7 @@ The 'Virtual City' model was graciously contributed by the folks at 3DRT.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/VC/glTF-Binary/VC.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/VC/glTF-Binary/VC.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/VirtualCity/glTF/VirtualCity.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot

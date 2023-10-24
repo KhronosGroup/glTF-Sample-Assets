@@ -21,5 +21,5 @@
     "name": "SimpleSparseAccessor",
     "path": "./Models/SimpleSparseAccessor",
     "summary": "A simple mesh that uses sparse accessors",
-    "createReadme": false
+    "createReadme": true
 }

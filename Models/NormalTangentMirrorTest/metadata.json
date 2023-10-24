@@ -21,5 +21,5 @@
     "name": "Normal-Tangent Mirror Test",
     "path": "./Models/NormalTangentMirrorTest",
     "summary": "Tests an engine's ability to load supplied tangent vectors for a normal map.",
-    "createReadme": false
+    "createReadme": true
 }

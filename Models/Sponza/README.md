@@ -1,5 +1,18 @@
 # Sponza
 
+## Tags
+
+[core](../../Models-core.md)
+
+## Summary
+
+Building interior, often used to test lighting.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Sponza/glTF/Sponza.gltf) in SampleViewer
+* [Model Directory](./)
+
 ## Screenshot
 
 Lights are shown here, they are not part of the model.
@@ -68,3 +81,12 @@ However, nowadays it is considered as a simple model, thus it was decided to cra
 Screenshot from the I3D paper
 http://crytek.com/sites/default/files/20100301_lpv.pdf
 ```
+
+
+## Legal
+
+&copy; 2016, Crytek. [Cryengine Limited License Agreement](https://www.cryengine.com/ce-terms)
+
+ - Crytek for Everything
+
+#### Assembled by modelmetadata

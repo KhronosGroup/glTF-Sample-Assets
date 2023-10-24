@@ -43,5 +43,5 @@
     "name": "Dragon Attenuation",
     "path": "./Models/DragonAttenuation",
     "summary": "Dragon with background, using material variants, transmission, and volume.",
-    "createReadme": false
+    "createReadme": true
 }
