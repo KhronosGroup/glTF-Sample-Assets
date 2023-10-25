@@ -21,9 +21,9 @@
 3. Normalize
     1. Select "Face" mode : Select -> All
     2. Press shift N to recalculate normals
-    _before Normalization :_ 
+    *before Normalization :* 
     ![before](Screenshots/before.png "before normalization")
-    _after Normalization :_
+    *after Normalization :*
     ![after](Screenshots/after.png "after normalization")
 
 4. Bevel
