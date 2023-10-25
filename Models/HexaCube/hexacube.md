@@ -21,6 +21,7 @@
 3. Normalize
     1. Select "Face" mode : Select -> All
     2. Press shift N to recalculate normals
+       
     *before Normalization :* 
     ![before](Screenshots/before.png "before normalization")
     *after Normalization :*
