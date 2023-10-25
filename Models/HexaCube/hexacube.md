@@ -22,17 +22,20 @@
     1. Select "Face" mode : Select -> All
     2. Press shift N to recalculate normals
        
-    *before Normalization :* 
+    *before Normalization :*
+   
     ![before](Screenshots/before.png "before normalization")
+   
     *after Normalization :*
+   
     ![after](Screenshots/after.png "after normalization")
 
-4. Bevel
+5. Bevel
     1. Select "Edge" mode : Select -> All
     2. Right click, select bevel edges
     3. Click to confirm bevel size
 
-5. Export
+6. Export
     1. Choose file -> export -> glTF 2.0 (.glb/.gltf)
     2. Right side : Format, Choose appropriate filetype
     3. In Geometry select "Normals"
