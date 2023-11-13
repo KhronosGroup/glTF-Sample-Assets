@@ -3,6 +3,9 @@
         "version": "2.0",
         "generator": "babylon.js glTF exporter for Maya 2018 v20200228.3 (with minor hand modifications)"
     },
+    "extensionsUsed": [
+        "KHR_materials_transmission"
+    ],
     "scene": 0,
     "scenes": [
         {
@@ -554,6 +557,11 @@
             "name": "LeatherPartsMat"
         },
         {
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            },
             "pbrMetallicRoughness": {
                 "baseColorTexture": {
                     "index": 14
@@ -568,7 +576,6 @@
             "occlusionTexture": {
                 "index": 13
             },
-            "alphaMode": "BLEND",
             "name": "LensesMat"
         }
     ],
