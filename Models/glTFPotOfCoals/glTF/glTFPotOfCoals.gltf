@@ -1,50 +1,62 @@
 {
   "asset": {
     "version": "2.0",
-    "copyright": "© 2023 Darmstadt Graphics Group GmbH, CC BY 4.0 International, model and textures by Eric Chadwick. © 2015, Khronos Group, Khronos logo. © 2017, Khronos Group, glTF logo.",
-    "generator": "Created in 3ds Max with V-Ray, exported with Autodesk glTF exporter, hand-edited in Visual Studio Code with glTF Tools extension."
+    "copyright": "© 2015, Khronos Group, Khronos logo. © 2017, Khronos Group, glTF logo. © 2020, Darmstadt Graphics Group GmbH, DGG logo. © 2023 Darmstadt Graphics Group GmbH, CC BY 4.0 International, asset created by Eric Chadwick.",
+    "generator": "Created in 3ds Max 2024.1 with V-Ray 6, exported with Autodesk glTF exporter, edited in Visual Studio Code 1.83 with glTF Tools 2.4."
   },
   "accessors": [
     {
       "bufferView": 0,
-      "componentType": 5126,
-      "count": 6623,
-      "max": [
-        0.051185980439186096,
-        0.055818624794483185,
-        0.009127413854002953
-      ],
-      "min": [
-        -0.014784885570406914,
-        -0.009701138362288475,
-        -0.00009901560406433418
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 12,
-      "componentType": 5126,
-      "count": 6623,
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 24,
-      "componentType": 5126,
-      "count": 6623,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
       "componentType": 5125,
       "count": 38733,
       "type": "SCALAR"
     },
     {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38733,
+      "max": [
+        0.033210985362529755,
+        0.032759882509708405,
+        0.04838255047798157
+      ],
+      "min": [
+        -0.032759882509708405,
+        -0.032759882509708405,
+        0.039156123995780945
+      ],
+      "type": "VEC3"
+    },
+    {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2853,
+      "count": 38733,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 38733,
+      "max": [
+        0.9877474308013916,
+        0.9878398180007935
+      ],
+      "min": [
+        0.005124503746628761,
+        0.007686734199523926
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 15936,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 15936,
       "max": [
         0.03999999910593033,
         0.03999999910593033,
@@ -58,58 +70,80 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 2,
-      "byteOffset": 12,
+      "bufferView": 6,
       "componentType": 5126,
-      "count": 2853,
+      "count": 15936,
       "type": "VEC3"
     },
     {
-      "bufferView": 2,
-      "byteOffset": 24,
+      "bufferView": 7,
       "componentType": 5126,
-      "count": 2853,
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5125,
       "count": 15936,
-      "type": "SCALAR"
+      "max": [
+        1.000026822090149,
+        1
+      ],
+      "min": [
+        8.627646651905278e-17,
+        0.009061932563781738
+      ],
+      "type": "VEC2"
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 211936,
-      "byteStride": 32,
-      "target": 34962,
+      "byteLength": 154932,
+      "target": 34963,
       "byteOffset": 0
     },
     {
       "buffer": 0,
-      "byteLength": 154932,
-      "byteOffset": 211936,
-      "target": 34963
+      "byteLength": 464796,
+      "byteOffset": 154932,
+      "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 91296,
-      "byteOffset": 366868,
-      "byteStride": 32,
+      "byteLength": 464796,
+      "byteOffset": 619728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 309864,
+      "byteOffset": 1084524,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 63744,
-      "byteOffset": 458164,
+      "byteOffset": 1394388,
       "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 191232,
+      "byteOffset": 1458132,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 191232,
+      "byteOffset": 1649364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 127488,
+      "byteOffset": 1840596,
+      "target": 34962
     }
   ],
   "buffers": [
     {
       "uri": "glTFPotOfCoals.bin",
-      "byteLength": 521908
+      "byteLength": 1968084
     }
   ],
   "extensionsUsed": [
@@ -117,89 +151,81 @@
   ],
   "images": [
     {
-      "name": "HotCoals_occlusion",
-      "uri": "HotCoals_occlusion.jpg"
-    },
-    {
-      "name": "HotCoals_emissive",
-      "uri": "HotCoals_emissive.jpg"
-    },
-    {
-      "name": "HotCoals_normal",
-      "uri": "HotCoals_normal.jpg"
-    },
-    {
-      "name": "HotCoals_basecolor",
       "uri": "HotCoals_basecolor.jpg"
     },
     {
-      "name": "CopperPot_orm",
-      "uri": "CopperPot_orm.jpg"
+      "uri": "HotCoals_normal.jpg"
     },
     {
-      "name": "CopperPot_basecolor",
+      "uri": "HotCoals_emissive.jpg"
+    },
+    {
+      "uri": "HotCoals_orm.jpg"
+    },
+    {
       "uri": "CopperPot_basecolor.jpg"
     },
     {
-      "name": "CopperPot_clearcoat",
-      "uri": "CopperPot_clearcoat.jpg"
+      "uri": "CopperPot_normal.png"
     },
     {
-      "name": "CopperPot_normal",
-      "uri": "CopperPot_normal.png"
+      "uri": "CopperPot_orm.jpg"
+    },
+    {
+      "uri": "CopperPot_clearcoat.jpg"
     }
   ],
   "materials": [
     {
-      "name": "HotCoals",
       "emissiveFactor": [
         1,
         1,
         1
       ],
       "emissiveTexture": {
+        "index": 2
+      },
+      "name": "HotCoals",
+      "normalTexture": {
         "index": 1
       },
-      "normalTexture": {
-        "index": 2,
-        "scale": 2
-      },
       "occlusionTexture": {
-        "index": 0
+        "index": 3
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 3
+          "index": 0
         },
         "metallicFactor": 0,
-        "roughnessFactor": 0.9
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "roughnessFactor": 0.89
       }
     },
     {
-      "name": "CopperPot",
       "extensions": {
         "KHR_materials_clearcoat": {
           "clearcoatFactor": 1,
-          "clearcoatRoughnessFactor": 0,
           "clearcoatTexture": {
-            "index": 6
+            "index": 7
           }
         }
       },
+      "name": "CopperPot",
+      "normalTexture": {
+        "index": 5
+      },
       "occlusionTexture": {
-        "index": 4
+        "index": 6
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 5
+          "index": 4
         },
         "metallicRoughnessTexture": {
-          "index": 4
+          "index": 6
         }
-      },
-      "normalTexture": {
-        "index": 7,
-        "scale": 0.5
       }
     }
   ],
@@ -209,11 +235,11 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 1,
-            "POSITION": 0,
-            "TEXCOORD_0": 2
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
           },
-          "indices": 3,
+          "indices": 0,
           "material": 0,
           "mode": 4
         }
@@ -224,11 +250,11 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 5,
-            "POSITION": 4,
-            "TEXCOORD_0": 6
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
           },
-          "indices": 7,
+          "indices": 4,
           "material": 1,
           "mode": 4
         }
@@ -238,114 +264,119 @@
   "nodes": [
     {
       "mesh": 0,
-      "name": "HotCoals"
-    },
-    {
-      "children": [
-        0
+      "name": "HotCoals",
+      "rotation": [
+        0.7071067690849304,
+        0,
+        0,
+        -0.7071067690849304
       ],
-      "matrix": [
+      "scale": [
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        -1,
-        0,
-        0,
         1,
-        0,
-        0,
-        -0.01797499693930149,
-        0.039255138486623764,
-        0.02305874414741993,
         1
+      ],
+      "translation": [
+        0,
+        0,
+        0
       ]
     },
     {
       "mesh": 1,
-      "name": "CopperPot"
-    },
-    {
-      "children": [
-        2
+      "name": "CopperPot",
+      "rotation": [
+        0.7071067690849304,
+        0,
+        0,
+        -0.7071067690849304
       ],
-      "matrix": [
+      "scale": [
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        -1,
-        0,
-        0,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
         1
+      ],
+      "translation": [
+        0,
+        0,
+        0
       ]
     }
   ],
   "samplers": [
     {
-      "magFilter": 9729,
-      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
       "wrapS": 10497,
       "wrapT": 10497
     }
   ],
+  "scene": 0,
   "scenes": [
     {
       "nodes": [
-        1,
-        3
+        0,
+        1
       ]
     }
   ],
   "textures": [
     {
-      "name": "HotCoals_occlusion",
       "sampler": 0,
       "source": 0
     },
     {
-      "name": "HotCoals_emissive",
-      "sampler": 0,
+      "sampler": 1,
       "source": 1
     },
     {
-      "name": "HotCoals_normal",
-      "sampler": 0,
+      "sampler": 2,
       "source": 2
     },
     {
-      "name": "HotCoals_basecolor",
-      "sampler": 0,
+      "sampler": 3,
       "source": 3
     },
     {
-      "name": "CopperPot_orm",
-      "sampler": 0,
+      "sampler": 4,
       "source": 4
     },
     {
-      "name": "CopperPot_basecolor",
-      "sampler": 0,
+      "sampler": 5,
       "source": 5
     },
     {
-      "name": "CopperPot_clearcoat",
-      "sampler": 0,
+      "sampler": 6,
       "source": 6
     },
     {
-      "name": "CopperPot_normal",
-      "sampler": 0,
+      "sampler": 7,
       "source": 7
     }
   ]
