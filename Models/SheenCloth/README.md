@@ -1,5 +1,18 @@
 # Sheen Cloth
 
+## Tags
+
+[showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Fabric example using sheen.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SheenCloth/glTF/SheenCloth.gltf) in SampleViewer
+* [Model Directory](./)
+
 ### Screenshot
 
 ![screenshot](screenshot/sheen_technicalFabric_side.jpg)
@@ -19,3 +32,13 @@ Donated by Microsoft for glTF testing
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
 To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.
+
+
+
+## Legal
+
+&copy; 2020, Microsoft. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Microsoft for Everything
+
+#### Assembled by modelmetadata

@@ -1,0 +1,213 @@
+{
+  "asset": {
+    "version": "2.0",
+    "copyright": "(c) 2023 Wayfair, material by Eric Chadwick, CC BY 4.0."
+  },
+  "materials": [
+    {
+      "name": "shot silk",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.025, 0.03, 0.075,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.65
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.2
+      },
+      "occlusionTexture": {
+        "index": 0
+      },
+      "extensions": {
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            0.025, 0.03, 0.075
+          ],
+          "sheenRoughnessFactor": 0.6
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+           10,
+            0.6,
+            0.0
+          ],
+          "specularFactor": 0.5
+        }
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_sheen"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_specular",
+    "KHR_materials_sheen"
+  ],
+  "images": [
+    {
+      "uri": "SpecularSilkPouf_occlusion.png"
+    },
+    {
+      "uri": "SpecularSilkPouf_normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "name": "SpecularSilkPouf_occlusion",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "SpecularSilkPouf_normal",
+      "sampler": 1,
+      "source": 1
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 41832,
+      "max": [
+        12.011539459228516,
+        12.003253936767578,
+        7.793828010559082
+      ],
+      "min": [
+        -12.001585006713867,
+        -12.014426231384277,
+        0.0073468685150146484
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 41832,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 41832,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 243840,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1338624,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 975360,
+      "byteOffset": 1338624,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2313984,
+      "uri": "SpecularSilkPouf.bin"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SpecularSilkPouf",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "SpecularSilkPouf"
+    },
+    {
+      "children": [
+        0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.00012642154693603516,
+        -0.00018661046028137208,
+        -0.00014188814163208007,
+        1.0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ]
+}

@@ -20,5 +20,5 @@
     "name": "Sponza",
     "path": "./Models/Sponza",
     "summary": "Building interior, often used to test lighting.",
-    "createReadme": false
+    "createReadme": true
 }

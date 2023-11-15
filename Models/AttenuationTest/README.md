@@ -1,5 +1,19 @@
 # Attenuation Test
 
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests the interactions between attenuation, thickness, and scale.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AttenuationTest/glTF-Binary/AttenuationTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AttenuationTest/glTF-Binary/AttenuationTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot-large.jpg)
@@ -32,8 +46,10 @@ The "Node Scale" row tests the interaction between thickness and scale.  Each cu
 
 In the final row, "Attenuation Distance", the cubes are a different size from all of the other rows.  This row features all unit-size cubes, and the attenuation distance of each cube has been adjusted to be the inverse of the cube's thickness on the other rows.  This means that although the size of these cubes may appear different, the shade of blue coloring of each cube should match the coloring of the rest of the column.
 
-## License Information
+## Legal
 
-Copyright 2021 Analytical Graphics, Inc.  
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/  
-Model and textures by Ed Mackey.
+&copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

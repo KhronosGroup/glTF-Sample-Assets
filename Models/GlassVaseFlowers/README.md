@@ -1,4 +1,18 @@
-# GlassVaseFlowers
+# Glass Vase with Flowers
+
+## Tags
+
+[video](../../Models-video.md), [extension](../../Models-extension.md)
+
+## Summary
+
+This model compares transparency methods for representing glass in glTF: alphaMode:'BLEND' (left) versus the extensions KHR_materials_transmission and KHR_materials_volume (right).
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlassVaseFlowers/glTF-Binary/GlassVaseFlowers.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlassVaseFlowers/glTF-Binary/GlassVaseFlowers.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -20,6 +34,14 @@ When alpha blending is used with partial values the surface shows more of what i
 
 Transmission and Volume are the recommended methods for reproducing refractive materials such as glass or water. These extensions allow light to transmit through a surface in a physically-plausible manner, reproducing effects like the bending of light through thick glass, fresnel reflections on oblique surfaces, colored transmission as in stained glass, color attenuation that can occur where surfaces become thicker, and the dispersion or blurring that can occur with roughened surfaces. 
 
-## License Information
+## Legal
 
-CC0 https://creativecommons.org/share-your-work/public-domain/cc0/. Vase by Eric Chadwick, flowers by Rico Cilliers.
+&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Eric Chadwick for Glass vase
+
+&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Rico Cilliers for Flowers
+
+#### Assembled by modelmetadata

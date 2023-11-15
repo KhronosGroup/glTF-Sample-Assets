@@ -21,5 +21,5 @@
     "name": "Animated Morph Cube",
     "path": "./Models/AnimatedMorphCube",
     "summary": "Demonstrates a simple cube with two simple morph targets and an animation that transitions between them both.",
-    "createReadme": false
+    "createReadme": true
 }

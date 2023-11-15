@@ -1,5 +1,19 @@
 # GlamVelvetSofa
 
+## Tags
+
+[video](../../Models-video.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Sofa using material variants, sheen, and specular.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.jpg)
@@ -74,6 +88,10 @@ Top: Punctual light improves sheen. Bottom: Disabling the punctual light.
 
 The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions and fine-tune material values.
 
-## License Information
+## Legal
 
-(C) 2021, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. 
+&copy; 2021, Wayfair, LLC. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Eric Chadwick for Everything
+
+#### Assembled by modelmetadata

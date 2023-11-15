@@ -32,5 +32,5 @@
     "name": "Morph-Primitives Test",
     "path": "./Models/MorphPrimitivesTest",
     "summary": "Tests a morph target on multiple primitives.",
-    "createReadme": false
+    "createReadme": true
 }

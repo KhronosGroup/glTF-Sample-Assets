@@ -1,5 +1,19 @@
 # Normal-Tangent Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Tests an engine's ability to automatically generate tangent vectors for a normal map.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentTest/glTF-Binary/NormalTangentTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentTest/glTF-Binary/NormalTangentTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot-larger.png)
@@ -30,8 +44,12 @@ In the above image, note the test cells on the right half of each pair.  A red b
 
 This is a common problem, that often indicates the rendering engine has mis-interpreted the direction of the normal Y vector, supplied by the green channel of the normal map.  Some systems intentionally use or expect left-handed normal maps, however, glTF [specifies](https://github.com/KhronosGroup/glTF/tree/065a01206014cd5f198085de6b4ce6f565ae79c6/specification/2.0#materialnormaltexture) that its own normal maps should use the OpenGL convention with right-handed coordinates.  This issue can often be fixed by flipping the normal Y vector, or inverting the intensity of the green channel of the normal map.  Fixes should be applied such that glTF models contain only the specified OpenGL normal convention, and rendering engines automatically adapt this to their own internal convention as needed.
 
-## License Information
 
-Copyright 2017-2018 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2018, Analytical Graphics, Inc.. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata
