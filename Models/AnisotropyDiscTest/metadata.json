@@ -17,7 +17,7 @@
         "extension",
         "testing"
     ],
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "name": "Anisotropy Disc Test",
     "path": "./Models/AnisotropyDiscTest",
     "summary": "This model tests the texturemap for KHR_materials_anisotropy.",
