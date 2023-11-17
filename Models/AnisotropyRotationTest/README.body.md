@@ -16,3 +16,14 @@ This model tests rotational offsets for [`KHR_materials_anisotropy`](https://git
 
 - Finally, one mesh in the upper-right marked "Normal map of grooves" has no anisotropy applied at all.  It has a (somewhat grainy) normal texture applied with a series of vertical grooves, intended to approximate the look of very coarse horizontal anisotropy.  It will not look exactly the same as its neighbors, but a bright light source in the environment should still spread out horizontally like its neighbors.
 
+## IBL Example
+
+![IBL screenshot](screenshot/ibl-example.png)
+
+With a full IBL reflection environment, the model should show horizontal stretching.  It may appear similar to the screenshot above.
+
+## Incorrect Rotation Example
+
+![rotation failure screenshot](screenshot/fail-example.png)
+
+In the above image, the six "Basic Anisotropy" meshes are correct. But on the left side, both the texture-based rotation and JSON-based rotation are incorrect, and in the lower-right, the combination of both is also incorrect. These test meshes use a 30-degree clockwise slant in the tangent vectors that is intended to be undone by a 30-degree counter-clockwise rotation in the material. However in this image, a 60-degree clockwise rotation is visible on all three of these meshes, indicating that the material rotated the opposite way.
