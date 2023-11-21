@@ -20,7 +20,7 @@ Old wooden street light.
 
 ## Description
 
-_None provided._
+Old wooden street light.
 
 ## Legal
 
@@ -32,4 +32,4 @@ _None provided._
 
  - Frank Galligan for Draco compression
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

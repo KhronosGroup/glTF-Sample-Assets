@@ -20,7 +20,7 @@ Textured. Animations. Skins. [Issues: non-Khronos mark]
 
 ## Description
 
-_None provided._
+Animated and skinned character with the Cesium logo.
 
 ## Legal
 
@@ -32,4 +32,4 @@ _None provided._
 
  - Non-copyrightable logo for Cesium logo
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

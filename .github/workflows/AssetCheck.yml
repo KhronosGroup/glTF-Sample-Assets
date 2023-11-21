@@ -1,0 +1,22 @@
+name: Asset Quality Workflow
+
+on: [push, pull_request]
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: latest
+
+    - name: Execute PHP script
+      run: |
+        php util/model.php --no-warn --check --verbose

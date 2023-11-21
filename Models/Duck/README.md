@@ -1,14 +1,31 @@
 # Duck
+
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+The COLLADA duck. One texture.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Duck/glTF-Binary/Duck.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Duck/glTF-Binary/Duck.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
 
-## License Information
+## Description
 
-Copyright 2006 Sony Computer Entertainment Inc.
+A rubber ducky bath toy.
 
-Licensed under the SCEA Shared Source License, Version 1.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
+## Legal
 
-https://web.archive.org/web/20160320123355/http://research.scea.com/scea_shared_source_license.html
+&copy; 2006, Sony. [SCEA Shared Source License, Version 1.0](https://spdx.org/licenses/SCEA.html)
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ - Sony for Everything
+
+#### Assembled by modelmetadata

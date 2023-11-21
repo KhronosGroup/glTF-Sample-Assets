@@ -32,5 +32,5 @@
     "name": "Glass Vase with Flowers",
     "path": "./Models/GlassVaseFlowers",
     "summary": "This model compares transparency methods for representing glass in glTF: alphaMode:'BLEND' (left) versus the extensions KHR_materials_transmission and KHR_materials_volume (right).",
-    "createReadme": false
+    "createReadme": true
 }

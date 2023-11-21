@@ -21,5 +21,5 @@
     "name": "Texture Linear Interpolation Test",
     "path": "./Models/TextureLinearInterpolationTest",
     "summary": "Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding.",
-    "createReadme": false
+    "createReadme": true
 }

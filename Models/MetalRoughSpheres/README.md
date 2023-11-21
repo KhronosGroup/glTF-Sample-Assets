@@ -20,7 +20,7 @@ Tests various metal and roughness values (texture mapped).
 
 ## Description
 
-_None provided._
+Tests various metal and roughness values (texture mapped).
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

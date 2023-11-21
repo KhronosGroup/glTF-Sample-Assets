@@ -20,7 +20,7 @@ One mesh and one material. Start with this.
 
 ## Description
 
-_None provided._
+Simple cube model.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

@@ -19,7 +19,7 @@
     ],
     "screenshot": "screenshot/screenshot.gif",
     "name": "Virtual City",
-    "path": "./Models/VC",
+    "path": "./Models/VirtualCity",
     "summary": "The 'Virtual City' model was graciously contributed by the folks at 3DRT.",
     "createReadme": true
 }

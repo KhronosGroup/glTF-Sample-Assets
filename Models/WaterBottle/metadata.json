@@ -22,5 +22,5 @@
     "name": "Water Bottle",
     "path": "./Models/WaterBottle",
     "summary": "Basic metal/roughness water bottle.",
-    "createReadme": false
+    "createReadme": true
 }

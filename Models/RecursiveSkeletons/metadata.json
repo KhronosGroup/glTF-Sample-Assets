@@ -15,11 +15,12 @@
     ],
     "tags": [
         "core",
-        "testing"
+        "testing",
+		"issues"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Recursive Skeletons",
     "path": "./Models/RecursiveSkeletons",
     "summary": "Tests unusual skinning cases with reused meshes and recursive skeletons.",
-    "createReadme": false
+    "createReadme": true
 }

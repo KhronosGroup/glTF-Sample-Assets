@@ -1,15 +1,36 @@
 # TriangleWithoutIndices
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+The simplest possible glTF asset: A single scene with a single node and a single mesh with a single mesh.primitive with a single triangle with a single attribute, without indices and without a material
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TriangleWithoutIndices/glTF/TriangleWithoutIndices.gltf) in SampleViewer
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
 
-## License Information
+## Description
 
-Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
+Simple collection of explicit triangles.
 
 ## Data layout
 
 The following image shows the data layout of this sample:
 
 ![triangleWithoutIndices](screenshot/triangleWithoutIndices.png)
+
+## Legal
+
+&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - javagl for Everything
+
+#### Assembled by modelmetadata

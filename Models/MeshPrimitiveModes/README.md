@@ -17,6 +17,10 @@ An example that shows rendering modes that are supported for mesh primitives in 
 
 ![screenshot](screenshot/screenshot.png)
 
+## Description
+
+Seven mesh primitive types: Points, Lines, Line Loops, Line Strips, Triangles, Triangle Strips, Triangle Fans.
+
 ## Structure
 
 The example contains seven meshes, each with one mesh primitive. All mesh primitives have the same vertex positions, forming a regular hexagon:
@@ -45,4 +49,4 @@ Each mesh primitive has a different `mode`, corresponding to the glTF [mesh topo
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

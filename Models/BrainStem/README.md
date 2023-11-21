@@ -20,7 +20,7 @@ Animations. Skins.
 
 ## Description
 
-_None provided._
+Articulated robot with animation and hierarchy.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Keith Hunter for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

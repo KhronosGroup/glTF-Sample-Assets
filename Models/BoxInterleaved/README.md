@@ -20,7 +20,7 @@ Box example with interleaved position and normal attributes.
 
 ## Description
 
-_None provided._
+Box example with interleaved position and normal attributes.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Cesium for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

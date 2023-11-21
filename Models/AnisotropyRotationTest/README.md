@@ -40,4 +40,4 @@ This model tests rotational offsets for [`KHR_materials_anisotropy`](https://git
 
  - Ed Mackey for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

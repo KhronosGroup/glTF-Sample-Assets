@@ -20,7 +20,7 @@ A fish created with Core glTF 2.0
 
 ## Description
 
-_None provided._
+A fish created with Core glTF 2.0.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

@@ -1,5 +1,19 @@
 # Unlit Test
 
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests if the KHR_materials_unlit extension is supported properly.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/UnlitTest/glTF-Binary/UnlitTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/UnlitTest/glTF-Binary/UnlitTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.jpg)
@@ -33,8 +47,12 @@ For this reason, I decided to include `KHR_materials_unlit` in the `extensionsRe
 
 In your own models, if you consider using a lit material to be a reasonable fallback behavior for implementations that don't support this extension, you should omit `KHR_materials_unlit` from the `extensionsRequired` list.
 
-## License Information
 
-Copyright 2019 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model by Ed Mackey.
+
+## Legal
+
+&copy; 2019, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

@@ -65,9 +65,9 @@ The anisotropy rotation is varied across the model using an `anisotropyTexture`.
 ![A diagram to explain anisotropy colors.](screenshot/anisotropy_Diagram.jpg)
 
 (above) A diagram to show which colors to use in the `anisotropyTexture` to get specific results on different parts of the model.
-* Ellipses show the colors which will stretch reflections in various directions.
+* Ellipses show which colors will stretch reflections in various directions.
 * Arrows indicate directions of microgrooves or hairs (perpendicular to anisotropy).
-* Circle at bottom right is the color to use for zero anisotropy (black in the blue channel). Gray has been used in the red and green channels for this area, but this is not strictly necessary since zero blue completely disables anisotropy. 
+* Circle at bottom right is in front of the color to use for zero anisotropy (black in the blue channel). Yellowish green has been used in this area (0.5,1,0); more information on this choice below. 
 
 There is a close correlation between the texture coordinates and the `anisotropyRotation`, because surface tangents are calculated from the UVs and the surface normals of the model. This is explained in a video from Babylon.js [Unraveling Advanced Anisotropic Reflections](https://www.youtube.com/watch?v=Zk0A5UzNLNw).
 
@@ -81,20 +81,30 @@ The parts with vertical UV strips are assigned a pink color to stretch the aniso
 
 (above) The affect of each color channel in the `anisotropyTexture`. Left to right: the full anisotropy texture, filling the red channel with black, filling the green channel with black, filling the blue channel with black. 
 
-Both the red and green channels are needed for well-shaped anisotropic reflections. The blue channel can be used to disable anisotropy where micro-grooves are not prominent on the surface. When a bump texture is in use with anisotropy, high frequency bump details may need to have anisotropy disabled to achieve better bump lighting results. In this asset, the raised text and knurled grips have been assigned a greenish-yellow color to disable anisotropy.
+Both the red and green channels are needed for well-shaped anisotropic reflections. The blue channel can be used to disable anisotropy where micro-grooves are not prominent on the surface. 
+
+When a bump texture is in use with anisotropy, high frequency bump details may need to have anisotropy disabled to achieve better bump lighting results. In this asset, the raised text and knurled grips use black in the blue channel to disable anisotropy.
 
 
 ## Normalizing Anisotropy 
 
-A well-formed `anisotropyTexture` needs to be normalized to ensure proper lighting. Each pixel creates a directional vector whose unit length must be one. Without this, anisotropy is likely to yield incorrect results. 
+A well-formed `anisotropyTexture` needs to be normalized to ensure proper lighting. Each pixel creates a directional 2D vector whose unit length must be one. Without this, anisotropy is likely to yield incorrect results. 
 
 When normalizing an `anisotropyTexture`, the blue channel should be omitted from normalization because it is used for `anisotropyStrength` not rotation. 
 
-![Screenshot of a normalization graph in Substance 3D Designer.](screenshot/anisotropy_Normalize.jpg)
+![Screenshot of a normalization graph in Substance 3D Designer.](screenshot/anisotropy_NormalizeGraph.jpg)
 
 (above) Adobe Substance 3D Designer can be setup to ignore the blue channel `anisotropyStrength` during normalization, and add it back in afterwards.
 
 This graph can be downloaded as a SBSAR file: [Substance_NormalizeRG.zip](screenshot/Substance_NormalizeRG.zip). This is a Substance 3D Asset which can be used to normalize anisotropy textures with [Adobe Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) and other [applications which support SBSAR](https://helpx.adobe.com/substance-3d-integrations/home.html).
+
+When assigning zero anisotropy to high-frequency details like text, it is best to set the red and green channels of the anisotropy texture to the same color as the surrounding area. This can help avoid normalization artifacts where values produce NaNs from divide-by-zero errors, as shown in the bottom example. 
+
+Keeping high-frequency values in the blue channel and using homogenous colors in the red and green channels will produce a cleaner texture, which ultimately compresses better and makes a smaller asset size.
+
+![Diagram comparing source textures and normalized textures.](screenshot/anisotropy_NormalizedColors.jpg)
+
+(Above) High frequency details in the blue channel should be paired with homogenous colors in the red and green channels to avoid normalization artifacts.
 
 
 ## KTX2 BasisU Textures
@@ -124,4 +134,4 @@ The asset was created using [3ds Max](https://www.autodesk.com/products/3ds-max)
 
  - Eric Chadwick for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

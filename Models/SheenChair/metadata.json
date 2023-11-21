@@ -22,5 +22,5 @@
     "name": "SheenChair",
     "path": "./Models/SheenChair",
     "summary": "Chair using material variants and sheen.",
-    "createReadme": false
+    "createReadme": true
 }

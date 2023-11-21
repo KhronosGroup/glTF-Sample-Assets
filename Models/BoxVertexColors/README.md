@@ -29,4 +29,4 @@ A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. 
 
  - Marco Hutter for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

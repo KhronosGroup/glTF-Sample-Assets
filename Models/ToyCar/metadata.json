@@ -33,5 +33,5 @@
     "name": "Toy Car",
     "path": "./Models/ToyCar",
     "summary": "Toy car example using transmission, clearcoat, and sheen.",
-    "createReadme": false
+    "createReadme": true
 }

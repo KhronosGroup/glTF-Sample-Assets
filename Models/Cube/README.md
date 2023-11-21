@@ -19,7 +19,7 @@ A cube with non-smoothed faces.
 
 ## Description
 
-_None provided._
+A cube with non-smoothed faces.
 
 ## Legal
 
@@ -27,4 +27,4 @@ _None provided._
 
  - Norbert Nopper for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

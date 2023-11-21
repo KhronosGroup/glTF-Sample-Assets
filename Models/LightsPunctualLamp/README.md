@@ -1,8 +1,22 @@
+# Lamp with Punctual Lights
+
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Lamp using punctual lights.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb)
+* [Model Directory](./)
 
 ## Screenshots
 
 ![screenshot](screenshot/lamp_white_bg.png)
-
 
 ## Description
 
@@ -17,7 +31,14 @@ The addition of lights into the scene through the KHR_lights_punctual extension 
 
 ![screenshot03](screenshot/lights_on_off.gif)
 
-
 ## Creation Details
 
 Model created using [Blender](https://www.blender.org/) and [Gestaltor](https://gestaltor.io/) by [Teresa González Viegas](https://www.artstation.com/teresagviegas). Optimized with [RapidCompact](https://rapidcompact.com/).
+
+## Legal
+
+&copy; 2021, DGG. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - DGG for Everything
+
+#### Assembled by modelmetadata

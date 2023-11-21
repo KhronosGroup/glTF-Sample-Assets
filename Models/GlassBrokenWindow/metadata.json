@@ -21,5 +21,5 @@
     "name": "Glass Broken Window",
     "path": "./Models/GlassBrokenWindow",
     "summary": "This asset demonstrates the combination of two transparency methods in glTF: KHR_materials_transmission for glass and alphaMode:'MASK' for holes in the broken glass.",
-    "createReadme": false
+    "createReadme": true
 }

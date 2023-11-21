@@ -45,6 +45,11 @@ Copyright:
  2023 Copyright 2023 Wayfair, LLC
 License: CC-BY-4.0
 
+Files: Models/AnisotropyDiscTest/*
+Copyright: 
+ 2023 Public
+License: CC0-1.0
+
 Files: Models/AnisotropyRotationTest/*
 Copyright: 
  2023 Analytical Graphics, Inc.
@@ -91,7 +96,7 @@ Copyright:
  2017 Cesium
 License: CC-BY-4.0
 
-Files: Models/Box%20With%20Spaces/*
+Files: Models/Box With Spaces/*
 Copyright: 
  2017 Analytical Graphics, Inc.
  2017 Khronos Group
@@ -176,6 +181,11 @@ Copyright:
  2018 ctxwing
  2016 theblueturtle_
 License: CC-BY-4.0 AND CC-BY-NC-4.0
+
+Files: Models/DiffuseTransmissionTeacup/*
+Copyright: 
+ 2023 Public domain
+License: CC0
 
 Files: Models/DragonAttenuation/*
 Copyright: 
@@ -280,6 +290,12 @@ License: CC0-1.0
 Files: Models/LightsPunctualLamp/*
 Copyright: 
  2021 DGG
+License: CC-BY-4.0
+
+Files: Models/MandarinOrange/*
+Copyright: 
+ 2015 zamdreamer
+ 2023 Wayfair
 License: CC-BY-4.0
 
 Files: Models/MaterialsVariantsShoe/*
@@ -412,6 +428,11 @@ Copyright:
  2017 Microsoft
 License: CC-BY-4.0
 
+Files: Models/SpecularSilkPouf/*
+Copyright: 
+ 2023 Copyright 2023 Wayfair, LLC
+License: CC-BY-4.0
+
 Files: Models/SpecularTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
@@ -503,15 +524,15 @@ Copyright:
  2019 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
-Files: Models/VC/*
-Copyright: 
- 2017 3DRT
-License: LicenseRef-3DRT-Testing
-
 Files: Models/VertexColorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
+
+Files: Models/VirtualCity/*
+Copyright: 
+ 2017 3DRT
+License: LicenseRef-3DRT-Testing
 
 Files: Models/WaterBottle/*
 Copyright: 

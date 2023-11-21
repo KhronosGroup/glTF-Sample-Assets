@@ -1,5 +1,19 @@
 # Texture Settings Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Tests single/double-sided and various texturing modes.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureSettingsTest/glTF-Binary/TextureSettingsTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureSettingsTest/glTF-Binary/TextureSettingsTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -18,8 +32,12 @@ The texture mirror test uses mirroring to find the green checkmark.  A non-mirro
 
 All of the failure conditions are a different shape from the corresponding success condition, as well as being red in color.  Specifically, the only tests that expect a solid-green successful result do not offer a solid-red fail condition, they only offer X's.  This is so that people who are red/green colorblind can still easily compare the "Test" and "Sample" columns and easily spot any differences by shape.
 
-## License Information
 
-Copyright 2017 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2017, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

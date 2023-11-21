@@ -16,11 +16,11 @@ A common object with glowing front panel created with Core glTF 2.0.
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/screenshot_large.jpg)
 
 ## Description
 
-_None provided._
+A portable radio with glowing front panel created with Core glTF 2.0.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

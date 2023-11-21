@@ -21,5 +21,5 @@
     "name": "Unlit Test",
     "path": "./Models/UnlitTest",
     "summary": "Tests if the KHR_materials_unlit extension is supported properly.",
-    "createReadme": false
+    "createReadme": true
 }

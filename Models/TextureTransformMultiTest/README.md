@@ -1,5 +1,19 @@
 # Texture Transform Multi Test
 
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests if the KHR_texture_transform extension is supported for several inputs.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureTransformMultiTest/glTF-Binary/TextureTransformMultiTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureTransformMultiTest/glTF-Binary/TextureTransformMultiTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.jpg)
@@ -58,8 +72,12 @@ The Clearcoat tests can be dark and low-contrast, an unfortunate consequence of 
 
 The "UV 1" boxes shown here are blank due to a known limitation in this rendering engine, described above.  But the "UV 0" boxes are showing the crossed-out circle.  This indicates that KHR_texture_transform has not been applied to any of the Clearcoat inputs.
 
-## License Information
 
-Copyright 2020 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2020, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

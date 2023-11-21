@@ -20,7 +20,7 @@ A sample with three different animation interpolations
 
 ## Description
 
-_None provided._
+A sample with three different animation interpolations.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Khronos for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

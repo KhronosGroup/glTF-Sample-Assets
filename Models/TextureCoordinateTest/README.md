@@ -1,5 +1,19 @@
 # Texture Coordinate Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Shows how XYZ and UV positions relate to displayed geometry.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureCoordinateTest/glTF-Binary/TextureCoordinateTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureCoordinateTest/glTF-Binary/TextureCoordinateTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -26,8 +40,12 @@ This model demonstrates the orientation of texture coordinates.  The materials a
 },
 ```
 
-## License Information
 
-Copyright 2017-2018 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2017, Analytical Graphics, Inc.. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

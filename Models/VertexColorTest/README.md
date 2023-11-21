@@ -1,5 +1,19 @@
 # Vertex Color Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md)
+
+## Summary
+
+Tests if vertex colors are supported.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/VertexColorTest/glTF-Binary/VertexColorTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/VertexColorTest/glTF-Binary/VertexColorTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
@@ -10,8 +24,12 @@ This model tests the attribute semantic `COLOR_0`, as defined in the glTF [Metal
 
 For engines that ignore vertex colors, the top row of checks will look noticably mangled.  The red check has a cyan X, the green check has a magenta X, and the blue check has a yellow X, occupying the other two color channels of each test checkmark.  If you see these "X" marks fighting with the checkmarks, then you are seeing color channels that are supposed to have been zeroed out by the applied vertex colors on the mesh, and it means your rendering engine has not applied the vertex colors.
 
-## License Information
 
-Copyright 2018 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2018, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

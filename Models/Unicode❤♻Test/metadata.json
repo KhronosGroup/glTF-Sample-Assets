@@ -21,5 +21,5 @@
     "name": "Unicode\u2764\u267bTest",
     "path": "./Models/Unicode\u2764\u267bTest",
     "summary": "A sample with Unicode characters in file, material, and mesh names",
-    "createReadme": false
+    "createReadme": true
 }

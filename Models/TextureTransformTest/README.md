@@ -1,5 +1,18 @@
 # Texture Transform Test
 
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests if the KHR_texture_transform extension is supported for BaseColor.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureTransformTest/glTF/TextureTransformTest.gltf) in SampleViewer
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.jpg)
@@ -32,7 +45,12 @@ The bottom middle quad tests the scale parameter with UV coordinates of `(0.0, 0
 
 The bottom right quad tests offset, rotation, and scale at the same time. If everything is supported correctly, the arrow should point to the green marker.
 
-## License Information
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
-To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.
+
+## Legal
+
+&copy; 2018, Microsoft. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Microsoft for Everything
+
+#### Assembled by modelmetadata

@@ -72,4 +72,4 @@ inspiration for more automated conversion tooling in the future.
 
  - Ed Mackey for Conversion to glTF
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

@@ -19,7 +19,7 @@ Displayed flight helmet on a wooden stand.
 
 ## Description
 
-_None provided._
+USAAF A-11 Flying Helmet on a wooden stand with realistic high resolution textures.
 
 ## Legal
 
@@ -27,4 +27,4 @@ _None provided._
 
  - Gary Hsu for Conversion from Maya
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata

@@ -20,7 +20,7 @@
 
 ## Description
 
-_None provided._
+A female fabric mannequin with a corset and a collar.
 
 ## Legal
 
@@ -28,4 +28,4 @@ _None provided._
 
  - Microsoft for Everything
 
-#### Assembled by modelmetadata 1.2.17
+#### Assembled by modelmetadata
