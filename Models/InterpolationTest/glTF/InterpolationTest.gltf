@@ -178,12 +178,12 @@
   "images": [
     {
       "name": "l.jpg",
-      "uri": "l.jpg"
+      "uri": "InterpolationTest_img0.jpg"
     }
   ],
   "buffers": [
     {
-      "uri": "interpolation.bin",
+      "uri": "InterpolationTest_data.bin",
       "byteLength": 1628
     }
   ],
