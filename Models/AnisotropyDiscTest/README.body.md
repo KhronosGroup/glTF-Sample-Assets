@@ -1,6 +1,7 @@
 ## Screenshot
 
-![screenshot](screenshot/screenshot-large.png)
+![screenshot](screenshot/screenshot_Large.jpg)
+<br/>_Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) with the environment Pisa._
 
 ## Description
 
