@@ -161,12 +161,12 @@
                 }
             },
             "occlusionTexture": {
-                "index": 1,
+                "index": 4,
                 "extensions": {
                     "KHR_texture_transform": {
                         "scale": [
-                            30.0,
-                            -30.0
+                            1.0,
+                            1.0
                         ]
                     }
                 }
@@ -227,7 +227,12 @@
             "sampler": 0,
             "source": 3,
             "name": "technicalFabricSmall_sheen_256.png"
-        }
+        },
+        {
+            "sampler": 0,
+            "source": 4,
+            "name": "SheenCloth_AO.jpg"
+        }    
     ],
     "images": [
         {
@@ -241,6 +246,9 @@
         },
         {
             "uri": "technicalFabricSmall_sheen_256.png"
+        },
+        {
+            "uri": "SheenCloth_AO.jpg"
         }
     ],
     "samplers": [
