@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+			"year": 2020,
+			"owner": "Public",
+			"artist": "Rickard Sahlin",
+			"what": "Everything",
+            "license": "Public Domain / CC0",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "core",
+        "issues",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Directional Light",
+    "path": "DirectionalLight",
+    "summary": "Verification of light calculations",
+    "createReadme": true
+}

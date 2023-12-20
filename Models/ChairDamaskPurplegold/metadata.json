@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2021",
+            "owner": "Wayfair",
+            "license": "CC-BY International 4.0",
+            "artist": "Eric Chadwick",
+            "what": "Models and Textures",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Chair Damask Purplegold",
+    "path": "SheenDamask",
+    "summary": "Use of sheen to create a high-end small seat (damask).",
+    "createReadme": true
+}

@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* EXT_mesh_gpu_instancing
+
 ## Summary
 
 A simple example for the EXT_mesh_gpu_instancing extension.

@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md), [showcase](../../Models-showcase.md), [written](../../Models-written.md)
 
+## Extensions Used
+
+* KHR_materials_variants
+
 ## Summary
 
 A model of a shoe that illustrates use of the KHR_materials_variants extension with three materials included in the asset.

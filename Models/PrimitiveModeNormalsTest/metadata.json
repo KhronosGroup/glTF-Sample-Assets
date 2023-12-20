@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+			"year": 2020,
+			"owner": "public",
+			"artist": "Unknown",
+			"what": "Everything",
+            "license": "Public Domain / CC0",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "core",
+        "issues",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Primitive Mode Normals Test",
+    "path": "PrimitiveModeNormalsTest",
+    "summary": "Tests rendering of points, lines, and triangles with and without normals.",
+    "createReadme": true
+}
