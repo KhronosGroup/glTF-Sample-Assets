@@ -166,6 +166,16 @@ Copyright:
  2023 Public
 License: CC0-1.0
 
+Files: Models/ClearcoatRing/*
+Copyright: 
+ 2022 UX3D
+License: CC-BY-4.0
+
+Files: Models/ClearcoatSphere/*
+Copyright: 
+ 2022 UX3D
+License: CC-BY-4.0
+
 Files: Models/ClearCoatTest/*
 Copyright: 
  2020 Analytical Graphics, Inc.
@@ -430,6 +440,11 @@ Copyright:
  2020 Microsoft
 License: CC0-1.0
 
+Files: Models/SheenHighHeel/*
+Copyright: 
+ 2021 UX3D
+License: CC-BY-4.0
+
 Files: Models/SheenTestGrid/*
 Copyright: 
  2023 Public
@@ -490,6 +505,11 @@ Copyright:
  2017 UX3D
 License: CC0-1.0
 
+Files: Models/SuzanneMorphSparse/*
+Copyright: 
+ 2020 Public
+License: CC0-1.0
+
 Files: Models/TextureCoordinateTest/*
 Copyright: 
  2017 Analytical Graphics, Inc.
@@ -529,6 +549,11 @@ License: CC0-1.0
 Files: Models/TransmissionRoughnessTest/*
 Copyright: 
  2021 Analytical Graphics, Inc.
+License: CC-BY-4.0
+
+Files: Models/TransmissionSuzanne/*
+Copyright: 
+ 2022 UX3D
 License: CC-BY-4.0
 
 Files: Models/TransmissionTest/*

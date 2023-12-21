@@ -278,7 +278,7 @@ class ModelMetadata
 			$this->hasError = false;
 		} else {
 			if ($this->debugOutput >= $this->DebugDetail) 
-				print "Loading $fullFile and storing in ->metadata\n";
+				print "Loading |$fullFile| and storing in ->metadata\n";
 			$this->metadata = $this->_readJson ($fullFile);
 			$this->isCurrent = true;
 			if ($this->debugOutput >= $this->DebugDetail) 
@@ -857,7 +857,9 @@ class ModelMetadata
 	
 // Reads the JSON model metadata file and returns the data structure
 	private function _readJson ($fullFile) {
-		$jsonString = file_get_contents ($fullFile);
+		$localName = str_replace ('%20', ' ', $fullFile);
+		print "Processing |$localName|\n";
+		$jsonString = file_get_contents ($localName);
 		if ($jsonString == '') {
 			$jsonString = $this->metaJson;
 		}

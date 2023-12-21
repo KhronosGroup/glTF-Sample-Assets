@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+			"year": 2020,
+			"owner": "Public",
+            "license": "Public Domain / CC0",
+            "artist": "ousttrue",
+            "what": "Everything",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.gif",
+    "name": "Suzanne Morph Sparse",
+    "path": "SuzanneMorphSparse",
+    "summary": "Testing of sparse array indices using Blender's Suzanne.",
+    "createReadme": true
+}

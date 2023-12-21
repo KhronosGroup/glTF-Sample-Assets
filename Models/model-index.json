@@ -301,7 +301,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","issues"],
     "variants": {
-      "glTF": "SheenDamask.gltf"
+      "glTF": "ChairDamaskPurplegold.gltf"
     }
   },
   {
@@ -312,6 +312,24 @@
     "variants": {
       "glTF": "ClearCoatCarPaint.gltf",
       "glTF-Binary": "ClearCoatCarPaint.glb"
+    }
+  },
+  {
+    "label": "Clearcoat Ring",
+    "name": "ClearcoatRing",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","issues"],
+    "variants": {
+      "glTF": "ClearcoatRing.gltf"
+    }
+  },
+  {
+    "label": "Clearcoat Sphere",
+    "name": "ClearcoatSphere",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","issues"],
+    "variants": {
+      "glTF": "ClearcoatSphere.gltf"
     }
   },
   {
@@ -371,7 +389,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF": "teacup.gltf",
+      "glTF": "DiffuseTransmissionTeacup.gltf",
       "glTF-Binary": "teacup.glb"
     }
   },
@@ -814,6 +832,15 @@
     }
   },
   {
+    "label": "Sheen High Heel",
+    "name": "SheenHighHeel",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","issues"],
+    "variants": {
+      "glTF": "SheenHighHeel.gltf"
+    }
+  },
+  {
     "label": "SheenTestGrid",
     "name": "SheenTestGrid",
     "screenshot": "screenshot/screenshot.jpg",
@@ -933,6 +960,16 @@
     }
   },
   {
+    "label": "Suzanne Morph Sparse",
+    "name": "SuzanneMorphSparse",
+    "screenshot": "screenshot/screenshot.gif",
+    "tags": ["extension","issues","testing"],
+    "variants": {
+      "glTF": "SuzanneMorphSparse.gltf",
+      "glTF-Binary": "SuzanneMorphSparse.glb"
+    }
+  },
+  {
     "label": "Texture Coordinate Test",
     "name": "TextureCoordinateTest",
     "screenshot": "screenshot/screenshot.png",
@@ -1014,6 +1051,15 @@
     }
   },
   {
+    "label": "Transmission Suzanne",
+    "name": "TransmissionSuzanne",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","issues"],
+    "variants": {
+      "glTF": "TransmissionSuzanne.gltf"
+    }
+  },
+  {
     "label": "Transmission Test",
     "name": "TransmissionTest",
     "screenshot": "screenshot/screenshot.jpg",
@@ -1089,10 +1135,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "VC.gltf",
-      "glTF-Binary": "VC.glb",
-      "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf"
+      "glTF": "VirtualCity.gltf",
+      "glTF-Binary": "VirtualCity.glb",
+      "glTF-Draco": "VirtualCity.gltf",
+      "glTF-Embedded": "VirtualCity.gltf"
     }
   },
   {
@@ -1112,8 +1158,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","issues","testing"],
     "variants": {
-      "glTF": "xmp.gltf",
-      "glTF-Binary": "xmp.glb"
+      "glTF": "XmpMetadataRoundedCube.gltf",
+      "glTF-Binary": "XmpMetadataRoundedCube.glb"
     }
   }
 ]

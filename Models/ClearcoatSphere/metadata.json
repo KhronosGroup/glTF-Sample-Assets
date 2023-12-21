@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2022",
+            "owner": "UX3D",
+            "license": "CC-BY International 4.0",
+            "artist": "UX3D",
+            "what": "Everything",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Clearcoat Sphere",
+    "path": "ClearcoatSphere",
+    "summary": "Example of clearcoat applied to a sphere",
+    "createReadme": true
+}
