@@ -301,7 +301,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","issues"],
     "variants": {
-      "glTF": "SheenDamask.gltf"
+      "glTF": "ChairDamaskPurplegold.gltf"
     }
   },
   {
@@ -371,8 +371,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF": "teacup.gltf",
-      "glTF-Binary": "teacup.glb"
+      "glTF": "DiffuseTransmissionTeacup.gltf",
+      "glTF-Binary": "DiffuseTransmissionTeacup.glb"
     }
   },
   {
@@ -1089,10 +1089,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "VC.gltf",
-      "glTF-Binary": "VC.glb",
-      "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf"
+      "glTF": "VirtualCity.gltf",
+      "glTF-Binary": "VirtualCity.glb",
+      "glTF-Draco": "VirtualCity.gltf",
+      "glTF-Embedded": "VirtualCity.gltf"
     }
   },
   {
@@ -1112,8 +1112,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","issues","testing"],
     "variants": {
-      "glTF": "xmp.gltf",
-      "glTF-Binary": "xmp.glb"
+      "glTF": "XmpMetadataRoundedCube.gltf",
+      "glTF-Binary": "XmpMetadataRoundedCube.glb"
     }
   }
 ]

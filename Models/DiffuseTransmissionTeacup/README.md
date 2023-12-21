@@ -4,13 +4,18 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF/DiffuseTransmissionTeacup.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb)
 * [Model Directory](./)
 
 ## Screenshot

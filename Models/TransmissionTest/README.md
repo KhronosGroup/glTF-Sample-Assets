@@ -7,7 +7,6 @@
 ## Extensions Used
 
 * KHR_materials_transmission
-
 * KHR_xmp
 
 ## Summary

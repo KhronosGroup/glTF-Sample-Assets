@@ -7,13 +7,9 @@
 ## Extensions Used
 
 * KHR_materials_anisotropy
-
 * KHR_materials_clearcoat
-
 * KHR_materials_emissive_strength
-
 * KHR_materials_transmission
-
 * KHR_materials_volume
 
 ## Summary

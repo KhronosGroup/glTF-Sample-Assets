@@ -109,15 +109,15 @@ if (isset($runArgs['check'])) {
 
 if (!$runArgs['dry-run']) {
 // If requested load the user input metadata for each model. 
-if ($useUserModelData) {
-	$modelMetadata = getModelData();
-	$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
-}
+	if ($useUserModelData) {
+		$modelMetadata = getModelData();
+		$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
+	}
 // If requested load the user tag settings for each model. 
-if ($useUserModelTags) {
-	$modelTagData = getModelTagData();
-	$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
-}
+	if ($useUserModelTags) {
+		$modelTagData = getModelTagData();
+		$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
+	}
 }
 
 //	Update all model support files
