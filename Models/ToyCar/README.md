@@ -7,11 +7,8 @@
 ## Extensions Used
 
 * KHR_texture_transform
-
 * KHR_materials_clearcoat
-
 * KHR_materials_transmission
-
 * KHR_materials_sheen
 
 ## Summary

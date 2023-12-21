@@ -4,13 +4,18 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_xmp_json_ld
+
 ## Summary
 
 Test of the XMP metadata extension - KHR_xmp_json_ld.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/XmpMetadataRoundedCube/glTF/XmpMetadataRoundedCube.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/XmpMetadataRoundedCube/glTF-Binary/XmpMetadataRoundedCube.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/XmpMetadataRoundedCube/glTF-Binary/XmpMetadataRoundedCube.glb)
 * [Model Directory](./)
 
 ## Description

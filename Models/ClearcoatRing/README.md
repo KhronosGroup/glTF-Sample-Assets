@@ -4,6 +4,11 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md)
 
+## Extensions Used
+
+* KHR_lights_punctual
+* KHR_materials_clearcoat
+
 ## Summary
 
 Example of clearcoad applied to ring.

@@ -4,6 +4,10 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 DiffuseTransmissionTeacup model using Diffuse Transmission extension.

@@ -9,13 +9,13 @@
 ### Required
 
 * KHR_texture_transform
-
 * KHR_materials_clearcoat
 
 ### Used
 
 * KHR_texture_transform
-
+* KHR_materials_clearcoat
+* KHR_texture_transform
 * KHR_materials_clearcoat
 
 ## Summary

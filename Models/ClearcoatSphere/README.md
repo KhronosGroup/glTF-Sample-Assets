@@ -4,6 +4,17 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_clearcoat
+
+### Used
+
+* KHR_materials_clearcoat
+* KHR_materials_clearcoat
+
 ## Summary
 
 Example of clearcoat applied to a sphere

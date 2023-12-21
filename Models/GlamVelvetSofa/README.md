@@ -13,13 +13,10 @@
 ### Used
 
 * KHR_texture_transform
-
+* KHR_texture_transform
 * KHR_materials_sheen
-
 * KHR_materials_specular
-
 * KHR_materials_variants
-
 * KHR_lights_punctual
 
 ## Summary

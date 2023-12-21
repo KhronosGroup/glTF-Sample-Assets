@@ -4,6 +4,11 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_materials_unlit
+* KHR_texture_transform
+
 ## Summary
 
 Testing of sparse array indices using Blender's Suzanne.

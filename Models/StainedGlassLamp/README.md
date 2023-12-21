@@ -7,13 +7,9 @@
 ## Extensions Used
 
 * KHR_materials_transmission
-
 * KHR_materials_clearcoat
-
 * KHR_materials_variants
-
 * KHR_materials_ior
-
 * KHR_materials_volume
 
 ## Summary

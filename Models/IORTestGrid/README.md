@@ -7,11 +7,8 @@
 ## Extensions Used
 
 * KHR_materials_transmission
-
 * KHR_materials_volume
-
 * KHR_materials_specular
-
 * KHR_materials_ior
 
 ## Summary

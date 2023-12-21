@@ -13,6 +13,7 @@
 ### Used
 
 * KHR_materials_pbrSpecularGlossiness
+* KHR_materials_pbrSpecularGlossiness
 
 ## Summary
 

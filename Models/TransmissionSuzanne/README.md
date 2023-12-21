@@ -4,6 +4,20 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_transmission
+* KHR_lights_punctual
+
+### Used
+
+* KHR_materials_transmission
+* KHR_lights_punctual
+* KHR_materials_transmission
+* KHR_lights_punctual
+
 ## Summary
 
 Test of transmission extension using Blender's Suzanne.

@@ -4,6 +4,20 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md)
 
+## Extensions
+
+### Required
+
+* KHR_lights_punctual
+* KHR_materials_sheen
+
+### Used
+
+* KHR_lights_punctual
+* KHR_materials_sheen
+* KHR_lights_punctual
+* KHR_materials_sheen
+
 ## Summary
 
 Example use of sheen on a high heel

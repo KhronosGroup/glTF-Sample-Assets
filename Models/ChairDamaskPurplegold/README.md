@@ -4,6 +4,20 @@
 
 [extension](../../Models-extension.md), [issues](../../Models-issues.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_sheen
+* KHR_texture_transform
+
+### Used
+
+* KHR_materials_sheen
+* KHR_texture_transform
+* KHR_materials_sheen
+* KHR_texture_transform
+
 ## Summary
 
 Use of sheen to create a high-end small seat (damask).

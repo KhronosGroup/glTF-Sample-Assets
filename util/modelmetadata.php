@@ -429,28 +429,41 @@ class ModelMetadata
 		$readme[] = '# ' . $this->modelName;
 		$readme[] = "## Tags";
 		$readme[] = $tagString;
+
 		if (count($this->metadata['extensions']['Used']) > 0 || count($this->metadata['extensions']['Required']) > 0) {
+			//print " --- Extensions ...";
+			$extList = [];
 			if (count($this->metadata['extensions']['Required']) == 0) {
+				//print " Used";
 				$readme[] = "## Extensions Used";
 				for ($ii=0; $ii<count($this->metadata['extensions']['Used']); $ii++) {
-					$readme[] = "* " . $this->metadata['extensions']['Used'][$ii];
+					$extList[] = "* " . $this->metadata['extensions']['Used'][$ii];
 				}
+				$readme[] = join("\n", $extList);
+
 			} else if (count($this->metadata['extensions']['Used']) == 0) {
+				//print " Required";
 				$readme[] = "## Extensions Required";
 				for ($ii=0; $ii<count($this->metadata['extensions']['Required']); $ii++) {
-					$readme[] = "* " . $this->metadata['extensions']['Required'][$ii];
+					$extList[] = "* " . $this->metadata['extensions']['Required'][$ii];
 				}
+				$readme[] = join("\n", $extList);
+
 			} else {
+				//print " Both";
 				$readme[] = "## Extensions";
 				$readme[] = "### Required";
 				for ($ii=0; $ii<count($this->metadata['extensions']['Required']); $ii++) {
-					$readme[] = "* " . $this->metadata['extensions']['Required'][$ii];
+					$extList[] = "* " . $this->metadata['extensions']['Required'][$ii];
 				}
+				$readme[] = join("\n", $extList);
 				$readme[] = "### Used";
 				for ($ii=0; $ii<count($this->metadata['extensions']['Used']); $ii++) {
-					$readme[] = "* " . $this->metadata['extensions']['Used'][$ii];
+					$extList[] = "* " . $this->metadata['extensions']['Used'][$ii];
 				}
+				$readme[] = join("\n", $extList);
 			}
+			//print "\n";
 		}
 		$readme[] = "## Summary";
 		$readme[] = $this->metadata['summary'];
@@ -688,6 +701,7 @@ class ModelMetadata
 		// Save off the stuff from the Extensions structure
 		if (isset($glTF['extensionsUsed'])) {
 			$extensions['Used'] = $glTF['extensionsUsed'];
+			//print "-- " . join(', ', $glTF['extensionsUsed']) . "\n";
 		}
 		if (isset($glTF['extensionsRequired'])) {
 			$extensions['Required'] = $glTF['extensionsRequired'];
@@ -858,7 +872,7 @@ class ModelMetadata
 // Reads the JSON model metadata file and returns the data structure
 	private function _readJson ($fullFile) {
 		$localName = str_replace ('%20', ' ', $fullFile);
-		print "Processing |$localName|\n";
+		//print "Processing |$localName|\n";
 		$jsonString = file_get_contents ($localName);
 		if ($jsonString == '') {
 			$jsonString = $this->metaJson;
