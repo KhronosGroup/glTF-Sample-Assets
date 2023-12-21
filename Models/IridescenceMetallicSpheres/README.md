@@ -4,6 +4,11 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_ior
+* KHR_materials_iridescence
+
 ## Summary
 
 Tests KHR_materials_iridescence on a metallic material.

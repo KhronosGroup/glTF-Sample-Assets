@@ -4,6 +4,10 @@
 
 [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+
 ## Summary
 
 This asset demonstrates the combination of two transparency methods in glTF: KHR_materials_transmission for glass and alphaMode:'MASK' for holes in the broken glass.

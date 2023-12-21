@@ -4,6 +4,10 @@
 
 [core](../../Models-core.md), [showcase](../../Models-showcase.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+
 ## Summary
 
 Displayed flight helmet on a wooden stand.

@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2021",
+            "owner": "UX3D",
+            "license": "CC-BY International 4.0",
+            "artist": "UX3D",
+            "what": "Everything",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Sheen High Heel",
+    "path": "SheenHighHeel",
+    "summary": "Example use of sheen on a high heel",
+    "createReadme": true
+}

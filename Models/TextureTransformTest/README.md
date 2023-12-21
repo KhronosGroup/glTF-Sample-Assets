@@ -4,6 +4,10 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_texture_transform
+
 ## Summary
 
 Tests if the KHR_texture_transform extension is supported for BaseColor.

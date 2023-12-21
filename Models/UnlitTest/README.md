@@ -4,6 +4,17 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_unlit
+
+### Used
+
+* KHR_materials_unlit
+* KHR_materials_unlit
+
 ## Summary
 
 Tests if the KHR_materials_unlit extension is supported properly.

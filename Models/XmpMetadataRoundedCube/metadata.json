@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2021",
+            "owner": "Adam Morris",
+            "license": "CC-BY International 4.0",
+            "artist": "Adam Morris",
+            "what": "Everything",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Xmp Metadata Rounded Cube",
+    "path": "XmpMetadataRoundedCube",
+    "summary": "Test of the XMP metadata extension - KHR_xmp_json_ld.",
+    "createReadme": true
+}

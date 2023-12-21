@@ -4,6 +4,12 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_volume
+* KHR_materials_variants
+
 ## Summary
 
 Dragon with background, using material variants, transmission, and volume.

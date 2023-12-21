@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2022",
+            "owner": "UX3D",
+            "license": "CC-BY International 4.0",
+            "artist": "UX3D",
+            "what": "Everything",
+            "licenseUrl": "",
+            "text": "",
+            "spdx": "",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "extension",
+        "issues"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Transmission Suzanne",
+    "path": "TransmissionSuzanne",
+    "summary": "Test of transmission extension using Blender's Suzanne.",
+    "createReadme": true
+}

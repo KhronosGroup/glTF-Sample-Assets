@@ -1,0 +1,44 @@
+# Transmission Suzanne
+
+## Tags
+
+[extension](../../Models-extension.md), [issues](../../Models-issues.md)
+
+## Extensions
+
+### Required
+
+* KHR_materials_transmission
+* KHR_lights_punctual
+
+### Used
+
+* KHR_materials_transmission
+* KHR_lights_punctual
+* KHR_materials_transmission
+* KHR_lights_punctual
+
+## Summary
+
+Test of transmission extension using Blender's Suzanne.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionSuzanne/glTF/TransmissionSuzanne.gltf) in SampleViewer
+* [Model Directory](./)
+
+## Screenshot
+
+![screenshot](screenshot/screenshot.png)
+
+## Description
+_none provided_
+
+
+## Legal
+
+&copy; 2022, UX3D. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - UX3D for Everything
+
+#### Assembled by modelmetadata

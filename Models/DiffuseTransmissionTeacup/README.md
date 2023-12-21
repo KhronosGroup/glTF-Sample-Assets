@@ -4,6 +4,10 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 DiffuseTransmissionTeacup model using Diffuse Transmission extension.
@@ -32,6 +36,6 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 
 &copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
 
- - Eric Chadwick for Everything
+ - Eric Chadwick for Models and Textures
 
 #### Assembled by modelmetadata

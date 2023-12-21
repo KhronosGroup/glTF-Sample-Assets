@@ -4,6 +4,11 @@
 
 [showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_volume
+
 ## Summary
 
 Chess set using transmission and volume.

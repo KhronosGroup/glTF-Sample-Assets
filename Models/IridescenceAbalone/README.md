@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_iridescence
+
 ## Summary
 
 A model of an abalone shell with highly iridescent interior.
