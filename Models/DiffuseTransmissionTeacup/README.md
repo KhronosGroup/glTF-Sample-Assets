@@ -16,7 +16,7 @@ DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 ## Screenshot
 
 ![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [UX3D glTF Sample Viewer](https://gltf.ux3d.io/) with the environment Wide Street, environment rotation set to -Z, and the ACES (Hill) tonemapper._
+<br/>_Screenshot from [UX3D glTF Sample Viewer](http://gltf.ux3d.io/) with the environment Wide Street, environment rotation set to -Z, and the ACES (Hill) tonemapper._
 
 ## Description
 
@@ -26,12 +26,11 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 <br/>_With the extension, versus without it._
 
 ![The ingredients used for Diffuse Transmission](screenshot/diffuse-transmission-features.jpg)
-<br/>_The ingredients used for Diffuse Transmission._
+<br/>_The ingredients used for Diffuse Transmission: diffuseTransmissionColorFactor, and diffuseTransmissionFactor._
 
 ## Legal
 
 &copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
-
- - Eric Chadwick for Everything
+ - Polyhaven.com, and Eric Chadwick for Everything
 
 #### Assembled by modelmetadata
