@@ -265,7 +265,7 @@
     "label": "Carbon Fibre Ball",
     "name": "CarbonFibre",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["extension","issues"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "CarbonFibre.gltf",
       "glTF-Binary": "CarbonFibre.glb"
@@ -299,7 +299,7 @@
     "label": "Chair Damask Purplegold",
     "name": "ChairDamaskPurplegold",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["extension","issues"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "ChairDamaskPurplegold.gltf"
     }
@@ -1110,7 +1110,7 @@
     "label": "Xmp Metadata Rounded Cube",
     "name": "XmpMetadataRoundedCube",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["extension","issues","testing"],
+    "tags": ["extension","testing"],
     "variants": {
       "glTF": "XmpMetadataRoundedCube.gltf",
       "glTF-Binary": "XmpMetadataRoundedCube.glb"
