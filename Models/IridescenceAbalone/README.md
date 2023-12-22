@@ -1,4 +1,18 @@
-# Iridescence Abalone
+# IridescenceAbalone
+
+## Tags
+
+[extension](../../Models-extension.md)
+
+## Summary
+
+A model of an abalone shell with highly iridescent interior.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/IridescenceAbalone/glTF-Binary/IridescenceAbalone.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/IridescenceAbalone/glTF-Binary/IridescenceAbalone.glb)
+* [Model Directory](./)
 
 ## Screenshot
 
@@ -22,7 +36,14 @@ While the textures are powers-of-two they are not square; a resolution of 2048 b
 
 ![screenshot](screenshot/textures.jpg)
 
+## Legal
 
-## License Information
+&copy; 2015, Abby Crawford. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-Material by Eric Chadwick, model by Abby Crawford (https://skfb.ly/GTLF), both licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/).
+ - Abby Crawford for Everything
+
+&copy; 2023, Eric Chadwick. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Eric Chadwick for Materials
+
+#### Assembled by modelmetadata

@@ -1,5 +1,19 @@
 # Specular Test
 
+## Tags
+
+[core](../../Models-core.md), [testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests if the KHR_materials_specular extension is supported correctly.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SpecularTest/glTF-Binary/SpecularTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SpecularTest/glTF-Binary/SpecularTest.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot-large.png)
@@ -26,8 +40,12 @@ The final row tests what happens when `specularColorFactor` is allowed to be gre
 
 If you see purple coloring in the second row, it indicates a problem.  An older version of this specification (before ratification) did not separate `specularColorTexture` into its own field, and some older versions of available engines may still be using this draft interpretation.  The purple color is present in this model's `specularTexture` input on the RGB channels, which should not be used given the final specification (where color is permitted to be stored in a separate texture).
 
-## License Information
 
-Copyright 2021 Analytical Graphics, Inc.  
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/  
-Model and textures by Ed Mackey.
+
+## Legal
+
+&copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata

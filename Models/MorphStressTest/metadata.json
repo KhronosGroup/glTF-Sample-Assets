@@ -21,5 +21,5 @@
     "name": "Morph Stress Test",
     "path": "./Models/MorphStressTest",
     "summary": "Tests up to 8 morph targets.",
-    "createReadme": false
+    "createReadme": true
 }

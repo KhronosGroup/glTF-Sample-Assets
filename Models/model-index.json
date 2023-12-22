@@ -67,7 +67,17 @@
     "variants": {
       "glTF": "AnisotropyBarnLamp.gltf",
       "glTF-Binary": "AnisotropyBarnLamp.glb",
-      "glTF-KTX2-Basisu": "AnisotropyBarnLamp.gltf"
+      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf"
+    }
+  },
+  {
+    "label": "Anisotropy Disc Test",
+    "name": "AnisotropyDiscTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "AnisotropyDiscTest.gltf",
+      "glTF-Binary": "AnisotropyDiscTest.glb"
     }
   },
   {
@@ -104,7 +114,7 @@
     "label": "Attenuation Test",
     "name": "AttenuationTest",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["core","testing","extension"],
+    "tags": ["testing","extension"],
     "variants": {
       "glTF": "AttenuationTest.gltf",
       "glTF-Binary": "AttenuationTest.glb"
@@ -334,6 +344,16 @@
       "glTF": "DamagedHelmet.gltf",
       "glTF-Binary": "DamagedHelmet.glb",
       "glTF-Embedded": "DamagedHelmet.gltf"
+    }
+  },
+  {
+    "label": "DiffuseTransmissionTeacup",
+    "name": "DiffuseTransmissionTeacup",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "teacup.gltf",
+      "glTF-Binary": "teacup.glb"
     }
   },
   {
@@ -677,7 +697,7 @@
     "label": "Recursive Skeletons",
     "name": "RecursiveSkeletons",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["core","testing"],
+    "tags": ["core","testing","issues"],
     "variants": {
       "glTF": "RecursiveSkeletons.gltf",
       "glTF-Binary": "RecursiveSkeletons.glb"
@@ -793,6 +813,16 @@
     "variants": {
       "glTF": "SpecGlossVsMetalRough.gltf",
       "glTF-Binary": "SpecGlossVsMetalRough.glb"
+    }
+  },
+  {
+    "label": "SpecularSilkPouf",
+    "name": "SpecularSilkPouf",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "SpecularSilkPouf.gltf",
+      "glTF-Binary": "SpecularSilkPouf.glb"
     }
   },
   {
@@ -975,18 +1005,6 @@
     }
   },
   {
-    "label": "Virtual City",
-    "name": "VC",
-    "screenshot": "screenshot/screenshot.gif",
-    "tags": ["core","testing"],
-    "variants": {
-      "glTF": "VC.gltf",
-      "glTF-Binary": "VC.glb",
-      "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf"
-    }
-  },
-  {
     "label": "Vertex Color Test",
     "name": "VertexColorTest",
     "screenshot": "screenshot/screenshot.png",
@@ -995,6 +1013,18 @@
       "glTF": "VertexColorTest.gltf",
       "glTF-Binary": "VertexColorTest.glb",
       "glTF-Embedded": "VertexColorTest.gltf"
+    }
+  },
+  {
+    "label": "Virtual City",
+    "name": "VirtualCity",
+    "screenshot": "screenshot/screenshot.gif",
+    "tags": ["core","testing"],
+    "variants": {
+      "glTF": "VC.gltf",
+      "glTF-Binary": "VC.glb",
+      "glTF-Draco": "VC.gltf",
+      "glTF-Embedded": "VC.gltf"
     }
   },
   {

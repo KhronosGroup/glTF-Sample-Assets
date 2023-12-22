@@ -32,5 +32,5 @@
     "name": "Mosquito In Amber",
     "path": "./Models/MosquitoInAmber",
     "summary": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
-    "createReadme": false
+    "createReadme": true
 }

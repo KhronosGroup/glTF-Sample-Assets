@@ -22,5 +22,5 @@
     "name": "SimpleMeshes",
     "path": "./Models/SimpleMeshes",
     "summary": "A simple scene with two nodes, both containing the same mesh, namely a mesh with a single mesh.primitive with a single indexed triangle with multiple attributes (positions, normals and texture coordinates), but without a material",
-    "createReadme": false
+    "createReadme": true
 }

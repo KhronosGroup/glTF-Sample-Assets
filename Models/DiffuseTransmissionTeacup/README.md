@@ -31,7 +31,6 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 ## Legal
 
 &copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
-
  - Polyhaven.com, and Eric Chadwick for Everything
 
 #### Assembled by modelmetadata

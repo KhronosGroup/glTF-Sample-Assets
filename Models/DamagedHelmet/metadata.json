@@ -34,5 +34,5 @@
     "name": "Damaged Helmet",
     "path": "./Models/DamagedHelmet",
     "summary": "Flight helmet with damage",
-    "createReadme": false
+    "createReadme": true
 }

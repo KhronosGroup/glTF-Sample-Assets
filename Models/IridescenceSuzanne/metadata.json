@@ -32,5 +32,5 @@
     "name": "Iridescence Suzanne",
     "path": "./Models/IridescenceSuzanne",
     "summary": "Further tests KHR_materials_iridescence.",
-    "createReadme": false
+    "createReadme": true
 }

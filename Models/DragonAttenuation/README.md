@@ -1,5 +1,19 @@
 # Dragon Attenuation
 
+## Tags
+
+[showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Dragon with background, using material variants, transmission, and volume.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonAttenuation/glTF-Binary/DragonAttenuation.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonAttenuation/glTF-Binary/DragonAttenuation.glb)
+* [Model Directory](./)
+
 ## Screenshot
 
 ![screenshot](screenshot/screenshot_large.png)
@@ -44,17 +58,29 @@ If the dragon appears a deep red color, it may indicate that node scaling has no
 
 See the "Node Scale" row of the [Attenuation Test Model](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/AttenuationTest) for an example of this effect using uniform thickness values.
 
-## License Information
-
-The two meshes in this model (the dragon, and the cloth backdrop) are from different sources and have different licenses applied.
-
-### Dragon
+## Attribution for the Dragon 
 
 The dragon model based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
 Original dragon mesh data based on a [Stanford Scan](http://www.graphics.stanford.edu/data/3Dscanrep/)
 &copy; 1996 Stanford University.
 
-### Cloth Backdrop
+## Attribution for the Cloth Backdrop
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
 To the extent possible under law, Adobe has waived all copyright and related or neighboring rights to this asset [the cloth backdrop].
+
+## Legal
+
+&copy; 1996, Stanford University Computer Graphics Laboratory. [Stanford Graphics Library](https://graphics.stanford.edu/data/3Dscanrep/)
+
+ - Stanford University Computer Graphics Laboratory for Original dragon model
+
+&copy; 2017, Morgan McGuire. [Stanford Graphics Library](https://graphics.stanford.edu/data/3Dscanrep/)
+
+ - Morgan McGuire's Computer Graphics Archive for Conversion and clean up
+
+&copy; 2021, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+ - Adobe for Cloth backdrop
+
+#### Assembled by modelmetadata

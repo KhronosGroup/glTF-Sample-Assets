@@ -1,5 +1,19 @@
 # Emissive Strength Test
 
+## Tags
+
+[testing](../../Models-testing.md), [extension](../../Models-extension.md)
+
+## Summary
+
+Tests if the KHR_materials_emissive_strength extension is supported properly.
+
+## Operations
+
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/EmissiveStrengthTest/glTF-Binary/EmissiveStrengthTest.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/EmissiveStrengthTest/glTF-Binary/EmissiveStrengthTest.glb)
+* [Model Directory](./)
+
 ## Screenshots
 
 ### Plain Rendering (Test Passes)
@@ -41,8 +55,10 @@ boxes will all appear to emit the same color.  For example:
 
 ![test fail screenshot](screenshot/test_fail.jpg)
 
-## License Information
+## Legal
 
-Copyright 2022 Analytical Graphics, Inc.
-CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+&copy; 2022, AGI. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Ed Mackey for Everything
+
+#### Assembled by modelmetadata
