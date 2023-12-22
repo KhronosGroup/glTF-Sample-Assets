@@ -25,12 +25,14 @@ Potted plant asset using Diffuse Transmission extension.
 
 ## Description
 
-This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface light transmission of green plant leaves with red backscatter. 
+This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface light transmission of green plant leaves with red backscatter.
+
+The original model is available from [Polyhaven](https://polyhaven.com/a/potted_plant_02).
 
 ## Legal
 
-&copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
+&copy; 2021, Public domain. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - Polyhaven.com for Everything
+ - Rico Cilliers for Everything
 
 #### Assembled by modelmetadata

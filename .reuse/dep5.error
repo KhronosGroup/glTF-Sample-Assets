@@ -1,51 +1,13 @@
-# BAD LICENSES
-
-'CC0' found in:
-* Models\DiffuseTransmissionPlant\glTF\DiffuseTransmissionPlant.bin
-* Models\DiffuseTransmissionPlant\glTF\DiffuseTransmissionPlant.gltf
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img0.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img1.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img2.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img3.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img4.png
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img5.jpg
-* Models\DiffuseTransmissionPlant\glTF-Binary\DiffuseTransmissionPlant.glb
-* Models\DiffuseTransmissionPlant\metadata.json
-* Models\DiffuseTransmissionPlant\README.body.md
-* Models\DiffuseTransmissionPlant\README.md
-* Models\DiffuseTransmissionPlant\screenshot\screenshot.jpg
-* Models\DiffuseTransmissionPlant\screenshot\screenshot_Large.jpg
-
-
-# MISSING LICENSES
-
-'CC0' found in:
-* Models\DiffuseTransmissionPlant\glTF\DiffuseTransmissionPlant.bin
-* Models\DiffuseTransmissionPlant\glTF\DiffuseTransmissionPlant.gltf
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img0.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img1.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img2.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img3.jpg
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img4.png
-* Models\DiffuseTransmissionPlant\glTF\potted_plant_1k_img5.jpg
-* Models\DiffuseTransmissionPlant\glTF-Binary\DiffuseTransmissionPlant.glb
-* Models\DiffuseTransmissionPlant\metadata.json
-* Models\DiffuseTransmissionPlant\README.body.md
-* Models\DiffuseTransmissionPlant\README.md
-* Models\DiffuseTransmissionPlant\screenshot\screenshot.jpg
-* Models\DiffuseTransmissionPlant\screenshot\screenshot_Large.jpg
-
-
 # SUMMARY
 
-* Bad licenses: CC0
+* Bad licenses:
 * Deprecated licenses:
 * Licenses without file extension:
-* Missing licenses: CC0
+* Missing licenses:
 * Unused licenses:
-* Used licenses: Apache-2.0, CC-BY-4.0, CC-BY-NC-4.0, CC0, CC0-1.0, LicenseRef-3DRT-Testing, LicenseRef-Adobe-Stock, LicenseRef-CC-BY-TM, LicenseRef-CRYENGINE-Agreement, LicenseRef-LegalMark-Cesium, LicenseRef-LegalMark-Khronos, LicenseRef-LegalMark-UX3D, LicenseRef-Poser-EULA, LicenseRef-Stanford-Graphics, SCEA
+* Used licenses: Apache-2.0, CC-BY-4.0, CC-BY-NC-4.0, CC0-1.0, LicenseRef-3DRT-Testing, LicenseRef-Adobe-Stock, LicenseRef-CC-BY-TM, LicenseRef-CRYENGINE-Agreement, LicenseRef-LegalMark-Cesium, LicenseRef-LegalMark-Khronos, LicenseRef-LegalMark-UX3D, LicenseRef-Poser-EULA, LicenseRef-Stanford-Graphics, SCEA
 * Read errors: 0
-* Files with copyright information: 1629 / 1629
-* Files with license information: 1629 / 1629
+* Files with copyright information: 1630 / 1630
+* Files with license information: 1630 / 1630
 
-Unfortunately, your project is not compliant with version 3.0 of the REUSE Specification :-(
+Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)

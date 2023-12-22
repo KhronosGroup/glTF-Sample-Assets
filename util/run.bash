@@ -27,7 +27,7 @@
 #	Note that reuse is a python script
 
 pushd ..
-php util/model.php --update --process-repo
+php util/model.php --no-warn --update --process-repo
 reuse lint >& ./.reuse/dep5.error
 reuse spdx -o ./.reuse/reuse.spdx
 

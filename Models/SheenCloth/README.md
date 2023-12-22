@@ -36,9 +36,7 @@ To account for this, the material uses tiled textures to reduce the overall size
 
 The texture for the technical fabric was created in Substance Designer with a base color texture, packed ORM texture, normal texture, and sheen texture with sheen color in the RGB channels and sheen roughness in alpha. The image below shows the channels of the sheen texture with the left half of the image displaying the sheen color in the RGB channels and the right displaying the sheen roughness in the alpha channel.
 
-Additionally an occlusion texture was baked from the mesh as an atlased texture which should not tile. The size of the occlusion texture is 1024 x 1024 to prevent pixelation artifacts in the texture and saved as a .jpg file to reduce the overall file size in download.
-
-![screenshot](screenshot/sheenTextureSample.jpg)
+ ![screenshot](screenshot/sheenTextureSample.jpg)
 
 ### License Information
 

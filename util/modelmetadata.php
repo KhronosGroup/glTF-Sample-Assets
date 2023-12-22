@@ -324,7 +324,7 @@ class ModelMetadata
 		$errors = [];
 		$warnings = [];
 
-		if (!$this->isCurrent) $errors[] = 'JSON not current and automatically updated';
+		if (!$this->isCurrent) $warnings[] = 'JSON not current and automatically updated';
 		if ($this->metadata['summary'] == '' || str_starts_with ($this->metadata['summary'], '_')) $errors[] = 'No asset summary';
 		if ($this->metadata['legal'][0]['year'] <= 1920) $errors[] = 'Invalid Copyright year';
 		if ($this->metadata['legal'][0]['owner'] == '' || str_starts_with ($this->metadata['legal'][0]['owner'], '_')) $errors[] = 'Missing  Copyright owner';
@@ -373,6 +373,7 @@ class ModelMetadata
 		if ($this->isCurrent) {
 			return $this;
 		}
+		
 		$tmp = array();
 		foreach ($this->metaPhp as $key => $value) {
 			$tmp[$key] = $this->metadata[$key];
@@ -798,7 +799,7 @@ class ModelMetadata
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
 			$license = $this->metadata['legal'][$ii]['license'];
 			$link = (isset($this->metadata['legal'][$ii]['licenseUrl'])) ? $this->metadata['legal'][$ii]['licenseUrl'] : '';
-			if ($rebuildSpdx || $link == '') {
+			if ($rebuildSpdx || $license == 'CC0' || $link == '') {
 				if (isset($this->LICENSE[$license])) {
 					$link = $this->LICENSE[$license]['link'];
 					$text = $this->LICENSE[$license]['text'];
@@ -815,6 +816,7 @@ class ModelMetadata
 				$this->metadata['legal'][$ii]['text'] = $text;
 				$this->metadata['legal'][$ii]['spdx'] = $spdx;
 				$this->metadata['legal'][$ii]['icon'] = $icon;
+				$this->isCurrent = false;
 			}
 			//if ($this->metadata['legal'][$ii]['artist']
 		}

@@ -2,15 +2,15 @@
     "version": 2,
     "legal": [
         {
-			"year": 2020,
-			"owner": "public",
-			"artist": "Unknown",
-			"what": "Everything",
+            "year": 2020,
+            "owner": "public",
+            "artist": "Unknown",
+            "what": "Everything",
             "license": "Public Domain / CC0",
-            "licenseUrl": "",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
         }
     ],
     "tags": [
@@ -20,7 +20,7 @@
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Primitive Mode Normals Test",
-    "path": "PrimitiveModeNormalsTest",
+    "path": "./Models/PrimitiveModeNormalsTest",
     "summary": "Tests rendering of points, lines, and triangles with and without normals.",
     "createReadme": true
 }

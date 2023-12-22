@@ -93,7 +93,7 @@ if (isset($runArgs['check'])) {
 		$issues = $allModels[$ii]->reportIssues();
 		if (count($issues['error'])+count($issues['warning']) > 0) {
 			if (!isset($runArgs['no-warn']) || (isset($runArgs['no-warn']) && count($issues['error']) > 0)) {
-				print sprintf ("Checking %s (%d issues; %d errors / %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
+				print sprintf ("\nChecking %s (%d issues; %d errors / %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
 				for ($jj=0; $jj<count($issues['error']); $jj++) {
 					print sprintf(" E-%d: %s\n", $jj+1, $issues['error'][$jj]);
 				}
