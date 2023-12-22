@@ -1,85 +1,337 @@
 {
   "asset": {
-    "generator": "Khronos glTF Blender I/O v1.6.16, Babylon.js v6.13.0, Visual Studio Code 1.80.1",
-    "copyright": "CC0, material by Eric Chadwick, model sourced from https://polyhaven.com/a/tea_set_01",
+    "copyright": "CC0 public domain, model sourced from https://polyhaven.com/a/tea_set_01, edited by Eric Chadwick.",
+    "generator": "Edited in 3ds Max 2024.1, exported with Satoshi Hayashi glTF exporter 1.42, edited in Visual Studio Code 1.83 with glTF Tools 2.4.",
     "version": "2.0"
   },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 49944,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 49944,
+      "max": [
+        0.05317942053079605,
+        0.06970596313476563,
+        0.053179413080215454
+      ],
+      "min": [
+        -0.05317941680550575,
+        0.002442633965983987,
+        -0.07910969108343124
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 49944,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 49944,
+      "max": [
+        0.9899702668190002,
+        0.9900000095367432
+      ],
+      "min": [
+        0.009999990463256836,
+        0.003878176212310791
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 34608,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 34608,
+      "max": [
+        0.07430914789438248,
+        0.015187043696641922,
+        0.07430917769670486
+      ],
+      "min": [
+        -0.07430917024612427,
+        -0.0006779426475986838,
+        -0.07430917769670486
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 34608,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 34608,
+      "max": [
+        0.9887738227844238,
+        0.9899942874908447
+      ],
+      "min": [
+        0.010007113218307495,
+        0.008173823356628418
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 199776,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 599328,
+      "byteOffset": 199776,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 599328,
+      "byteOffset": 799104,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 399552,
+      "byteOffset": 1398432,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 138432,
+      "byteOffset": 1797984,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 415296,
+      "byteOffset": 1936416,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 415296,
+      "byteOffset": 2351712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 276864,
+      "byteOffset": 2767008,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3043872,
+      "uri": "DiffuseTransmissionTeacup.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "teasaucer_basecolor.jpg"
+    },
+    {
+      "uri": "teasaucer_normal.png"
+    },
+    {
+      "uri": "teasaucer_ormt.png"
+    },
+    {
+      "uri": "teacup_basecolor.jpg"
+    },
+    {
+      "uri": "teacup_normal.png"
+    },
+    {
+      "uri": "teacup_ormt.png"
+    }
+  ],
   "materials": [
     {
-      "name": "tea_set_01",
+      "name": "tea_saucer",
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
+          "index": 2
         }
-      },
-      "normalTexture": {
-        "index": 2
       },
       "extensions": {
         "KHR_materials_diffuse_transmission": {
-          "diffuseTransmissionFactor": 1,
-          "diffuseTransmissionColorFactor": [
-            1.0,
-            0.8,
-            0.7
-          ],
+          "diffuseTransmissionFactor": 1.0,
           "diffuseTransmissionTexture": {
-            "index": 1
-          }
+            "index": 2
+          },
+          "diffuseTransmissionColorFactor": [
+            0.84,
+            0.8,
+            0.74
+          ]
+        }
+      }
+    },
+    {
+      "name": "tea_cup",
+      "normalTexture": {
+        "index": 4
+      },
+      "occlusionTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "extensions": {
+        "KHR_materials_diffuse_transmission": {
+          "diffuseTransmissionFactor": 1.0,
+          "diffuseTransmissionTexture": {
+            "index": 5
+          },
+          "diffuseTransmissionColorFactor": [
+            0.84,
+            0.8,
+            0.74
+          ]
         }
       }
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_diffuse_transmission"
-  ],
-  "buffers": [
+  "meshes": [
     {
-      "uri": "teacup.bin",
-      "byteLength": 206608
+      "name": "tea_cup",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "tea_saucer",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
     }
   ],
   "nodes": [
     {
-      "name": "tea_set_01_cup_small_02",
-      "mesh": 0
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        8.457805961370468e-06,
+        0.0,
+        -0.00030597392469644547,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "tea_cup"
     },
     {
-      "name": "tea_set_01_saucer_circular_03",
-      "mesh": 1
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        8.428003638982773e-06,
+        0.0,
+        7.516704499721527e-06,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "tea_saucer"
     }
   ],
-  "meshes": [
+  "samplers": [
     {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TEXCOORD_0": 2
-          },
-          "indices": 3,
-          "material": 0
-        }
-      ]
+      "wrapS": 10497,
+      "wrapT": 10497
     },
     {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 4,
-            "NORMAL": 5,
-            "TEXCOORD_0": 6
-          },
-          "indices": 7,
-          "material": 0
-        }
-      ]
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
     }
   ],
+  "scene": 0,
   "scenes": [
     {
       "nodes": [
@@ -88,181 +340,33 @@
       ]
     }
   ],
-  "scene": 0,
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 27936,
-      "name": "position - tea_set_01_cup_small_02",
-      "byteStride": 12,
-      "byteOffset": 0
-    },
-    {
-      "buffer": 0,
-      "byteLength": 27936,
-      "byteOffset": 27936,
-      "name": "normal - tea_set_01_cup_small_02",
-      "byteStride": 12
-    },
-    {
-      "buffer": 0,
-      "byteLength": 18624,
-      "byteOffset": 55872,
-      "name": "uv - tea_set_01_cup_small_02",
-      "byteStride": 8
-    },
-    {
-      "buffer": 0,
-      "byteLength": 49872,
-      "byteOffset": 74496,
-      "name": "Indices - tea_set_01_cup_small_02"
-    },
-    {
-      "buffer": 0,
-      "byteLength": 17880,
-      "byteOffset": 124368,
-      "name": "position - tea_set_01_saucer_circular_03",
-      "byteStride": 12
-    },
-    {
-      "buffer": 0,
-      "byteLength": 17880,
-      "byteOffset": 142248,
-      "name": "normal - tea_set_01_saucer_circular_03",
-      "byteStride": 12
-    },
-    {
-      "buffer": 0,
-      "byteLength": 11920,
-      "byteOffset": 160128,
-      "name": "uv - tea_set_01_saucer_circular_03",
-      "byteStride": 8
-    },
-    {
-      "buffer": 0,
-      "byteLength": 34560,
-      "byteOffset": 172048,
-      "name": "Indices - tea_set_01_saucer_circular_03"
-    }
-  ],
-  "accessors": [
-    {
-      "name": "position - tea_set_01_cup_small_02",
-      "bufferView": 0,
-      "componentType": 5126,
-      "count": 2328,
-      "type": "VEC3",
-      "min": [
-        -0.05345918610692024,
-        0.002385602565482259,
-        -0.07950614392757416
-      ],
-      "max": [
-        0.05345918610692024,
-        0.0697360709309578,
-        0.053459182381629944
-      ],
-      "byteOffset": 0
-    },
-    {
-      "name": "normal - tea_set_01_cup_small_02",
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 2328,
-      "type": "VEC3",
-      "byteOffset": 0
-    },
-    {
-      "name": "uv - tea_set_01_cup_small_02",
-      "bufferView": 2,
-      "componentType": 5126,
-      "count": 2328,
-      "type": "VEC2",
-      "byteOffset": 0
-    },
-    {
-      "name": "indices - tea_set_01_cup_small_02",
-      "bufferView": 3,
-      "componentType": 5125,
-      "count": 12468,
-      "type": "SCALAR",
-      "byteOffset": 0
-    },
-    {
-      "name": "position - tea_set_01_saucer_circular_03",
-      "bufferView": 4,
-      "componentType": 5126,
-      "count": 1490,
-      "type": "VEC3",
-      "min": [
-        -0.0744761973619461,
-        -0.0007006535306572914,
-        -0.0744762048125267
-      ],
-      "max": [
-        0.07447617501020432,
-        0.015210483223199844,
-        0.0744762048125267
-      ],
-      "byteOffset": 0
-    },
-    {
-      "name": "normal - tea_set_01_saucer_circular_03",
-      "bufferView": 5,
-      "componentType": 5126,
-      "count": 1490,
-      "type": "VEC3",
-      "byteOffset": 0
-    },
-    {
-      "name": "uv - tea_set_01_saucer_circular_03",
-      "bufferView": 6,
-      "componentType": 5126,
-      "count": 1490,
-      "type": "VEC2",
-      "byteOffset": 0
-    },
-    {
-      "name": "indices - tea_set_01_saucer_circular_03",
-      "bufferView": 7,
-      "componentType": 5125,
-      "count": 8640,
-      "type": "SCALAR",
-      "byteOffset": 0
-    }
-  ],
   "textures": [
     {
-      "source": 0,
-      "sampler": 0
+      "sampler": 0,
+      "source": 0
     },
     {
-      "source": 1,
-      "sampler": 0
+      "sampler": 1,
+      "source": 1
     },
     {
-      "source": 2,
-      "sampler": 0
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 3
+    },
+    {
+      "sampler": 4,
+      "source": 4
+    },
+    {
+      "sampler": 5,
+      "source": 5
     }
   ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9987
-    }
-  ],
-  "images": [
-    {
-      "name": "basecolor",
-      "uri": "teacup_basecolor.jpg"
-    },
-    {
-      "name": "occlusion-rough-metal-diffusetransmission",
-      "uri": "teacup_ormt.png" 
-    },
-    {
-      "name": "normal",
-      "uri": "teacup_normal.jpg"
-    }
+  "extensionsUsed": [
+    "KHR_materials_diffuse_transmission"
   ]
 }

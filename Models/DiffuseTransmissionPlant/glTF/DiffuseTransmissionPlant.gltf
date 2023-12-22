@@ -1,0 +1,349 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v$npm_package_version",
+    "copyright": "CC0, model sourced from https://polyhaven.com/a/potted_plant_02",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_diffuse_transmission"
+  ],
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2840,
+      "max": [
+        0.23707397282123566,
+        0.3361949026584625,
+        0.23707397282123566
+      ],
+      "min": [
+        -0.23707397282123566,
+        0.00005296462768455967,
+        -0.23707395792007446
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2840,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2840,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 7348,
+      "max": [
+        0.30740082263946533,
+        0.535942018032074,
+        0.22222481667995453
+      ],
+      "min": [
+        -0.3937562108039856,
+        -0.09663186967372894,
+        -0.4209985136985779
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 7348,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 7348,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 34606,
+      "max": [
+        0.3351912200450897,
+        0.02323356457054615,
+        0.33649539947509766
+      ],
+      "min": [
+        -0.07898939400911331,
+        -0.020643368363380432,
+        -0.0743584930896759
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 34606,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 34606,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15552,
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 32076,
+      "bufferView": 3,
+      "byteOffset": 31104
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 161790,
+      "bufferView": 3,
+      "byteOffset": 95256
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 90880,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 90880,
+      "byteLength": 235136,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 326016,
+      "byteLength": 1107392,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1433408,
+      "byteLength": 418836,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 4,
+      "sampler": 0
+    },
+    {
+      "source": 3,
+      "sampler": 0
+    },
+    {
+      "source": 5,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "potted_plant_02_pot_nor_gl",
+      "uri": "potted_plant_1k_img0.jpg"
+    },
+    {
+      "name": "potted_plant_02_pot_diff",
+      "uri": "potted_plant_1k_img1.jpg"
+    },
+    {
+      "name": "potted_plant_02_pot_rough",
+      "uri": "potted_plant_1k_img2.jpg"
+    },
+    {
+      "name": "potted_plant_02_leaves_nor_gl",
+      "uri": "potted_plant_1k_img3.jpg"
+    },
+    {
+      "name": "potted_plant_02_leaves_diff",
+      "uri": "potted_plant_1k_img4.png"
+    },
+    {
+      "name": "potted_plant_02_leaves_rough",
+      "uri": "potted_plant_1k_img5.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DiffuseTransmissionPlant.bin",
+      "byteLength": 1852244
+    }
+  ],
+  "materials": [
+    {
+      "name": "potted_plant_02_pot",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "potted_plant_02_leaves",
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4,
+        "scale": 1
+      },
+      "extensions": {
+        "KHR_materials_diffuse_transmission": {
+          "diffuseTransmissionFactor": 0.4,
+          "diffuseTransmissionColorFactor": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Circle",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 9
+        }
+      ]
+    },
+    {
+      "name": "Circle.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 10
+        }
+      ]
+    },
+    {
+      "name": "low.008",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 11
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "potted_plant_02_pot",
+      "mesh": 0
+    },
+    {
+      "name": "potted_plant_02_leaves",
+      "translation": [
+        -0.0029038283973932266,
+        0.30528968572616577,
+        0.0006859108689241111
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "potted_plant_02_dirt",
+      "translation": [
+        -0.12862031161785126,
+        0.31752803921699524,
+        -0.13355804979801178
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 0
+}
