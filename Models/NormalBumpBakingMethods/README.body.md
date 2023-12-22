@@ -33,9 +33,13 @@ When hard edges are used, the UV coordinates must be split along each hard edge.
 
 When soft edges are used, the UV coordinates do not need to be split along the edges. The normal map must encode complex gradients to represent the local space of the mesh. The increased gradients cause increased errors in texture compression, which will cause banding or noise when the surface is lit.
 
-`Bevels` means the low-resolution model has additional mesh along the hard edges. When bevels are used, the extra vertices allows the use of face-weighted vertex normals. This allows the large flat surfaces to encode a flat tangent space. The normal map does not need to use large gradients to store differences in curvature between the low-resolution mesh and high-resolution mesh. 
+`Bevels` means the low-resolution model has additional mesh along the hard edges. When bevels are used, the extra vertices allow the use of face-weighted vertex normals. This allows the large flat surfaces to encode a flat tangent space. The normal map does not need to use large gradients to store differences in curvature between the low-resolution mesh and high-resolution mesh. 
 
-Bevels increase the complexity of the low-resolution model and its UVs, but the in-game vertex count is compariable with low-resolution meshes that use hard edges instead of bevels. 
+Bevels increase the complexity of the low-resolution model and its UVs, but the in-game vertex count is comparable with low-resolution meshes that use hard edges instead of bevels. 
+
+## Source Textures
+
+The normal bump textures were rendered in 3ds Max 2024.2 using V-Ray 6.10.08 and the tool Bake To Texture.V-Ray defaults to the DirectX encoding of the green channel to represent Y-down, while glTF uses the OpenGL convention of Y-up, so the green channel in each texture was inverted. 
 
 ## Rendering Errors
 
