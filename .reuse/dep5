@@ -192,6 +192,11 @@ Copyright:
  2016 theblueturtle_
 License: CC-BY-4.0 AND CC-BY-NC-4.0
 
+Files: Models/DiffuseTransmissionPlant/*
+Copyright: 
+ 2023 Public domain
+License: CC0
+
 Files: Models/DiffuseTransmissionTeacup/*
 Copyright: 
  2023 Public domain
@@ -534,6 +539,11 @@ License: CC-BY-4.0
 Files: Models/TransmissionTest/*
 Copyright: 
  2020 Public
+License: CC0-1.0
+
+Files: Models/TransmissionThinwallTestGrid/*
+Copyright: 
+ 2023 Public
 License: CC0-1.0
 
 Files: Models/Triangle/*

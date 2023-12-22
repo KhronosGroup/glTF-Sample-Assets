@@ -5,11 +5,18 @@
  *	php model [--check] [--build] [<asset1> [<asset2> ...]]
  *
  * The application has several modes
- *	--check		Performs asset directory check. The specific checks are listed below
- *	--build		Builds the necessary support files in the asset directory
  *	--process-repo	Is unset if any assets are specified. If set, then all repo-wide files are generated.
- *	--no-update		Do not update model folders. This is probably only used for testing. It has no effect
- *						if 'check' is set. Will set 'build'
+ *	--check		Performs asset directory check. The specific checks are listed below
+ *  --update	Updates the individual asset directories as determined by trailing parameters or --process-repo
+ *	--dry-run	Do not update model folders. This is probably only used for testing. It has no effect
+ *					if 'check' is set. Will set 'build'
+ *	--no-warn	Do not display warning messages unless there are errors
+ *	--verbose	Output progress information
+ *
+ * Obsolete
+ *	--build		Builds the necessary support files in the asset directory
+ *	--no-update	Do not update model folders. This is probably only used for testing. It has no effect
+ *					if 'check' is set. Will set 'build'
  *
  *	Assets
  *		By default this application runs on all directories in $ModelDirectory (defined below)
