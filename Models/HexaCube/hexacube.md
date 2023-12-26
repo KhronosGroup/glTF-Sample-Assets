@@ -1,6 +1,6 @@
 # Creating the HexaCube in Blender
 
-[<img src="Screenshots/screenshot.png" width="250"/>](screenshot)
+[<img src="Screenshots/screenshot.png" width="500" alt="hexacube in blender"/>](screenshot)
 
 ## Steps
 
@@ -27,11 +27,11 @@
 
     *Before Normalization :*
 
-    [<img src="Screenshots/before.png" width="250"/>](before normalization)
+    <img src="Screenshots/before.png" width="250" alt="before normalization"/>
 
     *After Normalization :*
 
-    [<img src="Screenshots/after.png" width="250"/>](after normalization)
+    <img src="Screenshots/after.png" width="250" alt="after normalization"/>
 
 5. Bevel
 
