@@ -1,6 +1,6 @@
 # Creating the HexaCube in Blender
 
-![screenshot](Screenshots/screenshot.png)
+![screenshot](Screenshots/screenshot.png =100x)
 
 ## Steps
 
@@ -25,48 +25,56 @@
     1. Select "Face" mode : Select -> All
     2. Press shift+N to recalculate normals
 
-    *before Normalization :*
+    *Before Normalization :*
 
-    ![before](Screenshots/before.png "before normalization")
+    ![before](Screenshots/before.png =100x "before normalization")
 
-    *after Normalization :*
+    *After Normalization :*
 
-    ![after](Screenshots/after.png "after normalization")
+    ![after](Screenshots/after.png =100x "after normalization")
 
 5. Bevel
+
     1. Select "Edge" mode : Select -> All
     2. Right click, select bevel edges, drag mouse to increase/decrease bevel size
     3. Click to confirm bevel size
 
 6. Averaged normals
+
     For the high poly beveled object, the edges should be using averaged normals, instead of split normals. Averaged normals is called Smooth Shading in Blender. It changes the way the shading is calculated across the surfaces, to give the illusion of a smooth surface. (https://docs.blender.org/manual/en/2.80/modeling/meshes/editing/normals.html)
 
     1. Select "Object" mode: Select the object
     2. Right click, select "Shade Smooth". For opposite effects select "Shade Flat"
 
 7. UV layout / mapping
+
     *UV mapping example :*
-    ![uv map before](Screenshots/uvmapbefore.png "UV map before")
+    ![uv map before](Screenshots/uvmapbefore.png =100x "UV map before")
+
     *UV mapping final :*
-    ![uv map after](Screenshots/uvmapafter.jpeg "UV map after")
+    ![uv map after](Screenshots/uvmapafter.jpeg =100x "UV map after")
     UV mapping is the process of generating a 2D representation of a 3D object. This 2D representation is constructed from UV coordinates, which are commonly known as texture coordinates. "U" represents the horizontal axis and "V" represents ​the vertical axis.
 
     1. Go to "UV Editing"
     2. Select the object to UV map (If objects are overlapping, it is easy to hide unused objects while working)
     3. Select Vertices and right click to select "Mark seam" or "Clear Seam" to unwrap UV
-    ![Mark seams](Screenshots/markseams.jpeg "Mark seams")
+    ![Mark seams](Screenshots/markseams.jpeg =100x "Mark seams")
     4. Select -> All : UV -> Unwrap
     5. Repeat 3, 4 to ensure your map has consistent texel size, no overlaps, and have space between UV shells/islands where ever there are hard edges(split vertex normals)
 
     For the hexacube low-poly object; since the edges of each square/quad are supposed to be hard, we split the UVs for each hard edge. This would allow proper texture filtering for the drastically different colors on each side of each hard edge. So each quad ends up being it's own UV island/shell.
 
 8. Normal map baking
+
     *Normal mapping example (hard edges vs. soft edges) :*
-    ![hard edges normal map](Screenshots/hardedgesnormalmap.jpeg "Hard edges normal map")
-    ![soft edges normal map](Screenshots/softedgesnormalmap.jpeg "Soft edges normal map")
+    ![hard edges normal map](Screenshots/hardedgesnormalmap.jpeg =100x "Hard edges normal map")
+    ![soft edges normal map](Screenshots/softedgesnormalmap.jpeg =100x "Soft edges normal map")
+
+
     *Mapped object example in babylon.js 3d viewer (hard edges vs. soft edges) :*
-    ![hard edges in a 3d viewer](Screenshots/hardedgesbabylon.jpeg "Hard edges in a 3d viewer")
-    ![soft edges in a 3d viewer](Screenshots/softedgesbabylon.jpeg "Soft edges in a 3d viewer")
+    ![hard edges in a 3d viewer](Screenshots/hardedgesbabylon.jpeg =100x "Hard edges in a 3d viewer")
+    ![soft edges in a 3d viewer](Screenshots/softedgesbabylon.jpeg =100x "Soft edges in a 3d viewer")
+
     A normal map is a texture map that can give the appearance of additional geotmetry or detail on flat surfaces. They can be used to make a low-poly mesh appear high-poly. Baking is the process of "saving" the results of a previous render, so we can reuse the result late. Baking is also efficient when parts of a full render will always look the same. (https://www.youtube.com/watch?v=5MLD1ZQHXUs)
 
     1. Go to "Shading"
@@ -76,10 +84,11 @@
     Use Averaged-ray projection : Blender doesn't exactly have "Averaged-ray projection", but you can tweak different settings(Extrusion, Max Ray Distance, etc) to create a bake that suits your purpose. Margin is another setting you should tinker with, especially when you want to create a smoother look, as the texture may bleed into neighboring UV islands or gradate out of the current UV island.
 
     *Bake settings example :*
-    ![Bake settings](Screenshots/bakesettings.jpeg "Bake settings")
+
+    ![Bake settings](Screenshots/bakesettings.jpeg =100x "Bake settings")
 
     *Using the baked normal map : Use it as a texture on a material for the object :*
-    ![Shader settings to view the map as a texture](Screenshots/shadersettings.jpeg "Shader settings to view the map as a texture")
+    ![Shader settings to view the map as a texture](Screenshots/shadersettings.jpeg =100x "Shader settings to view the map as a texture")
 
 9. Export
 
@@ -89,6 +98,8 @@
     4. Set Name and select Export glTF 2.0
 
 10. Missing buffer targets.
+
+    *Missing buffer targets in VS Code :*
     ![Missing buffer targets in VS Code](Screenshots/missingbuffertarget.png "Missing buffer targets in VS Code")
 
     1. Get the gltf tools extension for Visual Studio Code, open glb or gltf file.
