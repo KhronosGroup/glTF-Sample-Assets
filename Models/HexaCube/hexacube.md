@@ -53,12 +53,15 @@
 
     *UV mapping final :*
     <img src="Screenshots/uvmapafter.jpeg" width="250" alt="UV map after"/>
+
     UV mapping is the process of generating a 2D representation of a 3D object. This 2D representation is constructed from UV coordinates, which are commonly known as texture coordinates. "U" represents the horizontal axis and "V" represents ​the vertical axis.
 
     1. Go to "UV Editing"
     2. Select the object to UV map (If objects are overlapping, it is easy to hide unused objects while working)
     3. Select Vertices and right click to select "Mark seam" or "Clear Seam" to unwrap UV
-    <img src="Screenshots/markseams.jpeg" width="250" alt="Mark seams"/>
+
+        <img src="Screenshots/markseams.jpeg" width="250" alt="Mark seams"/>
+
     4. Select -> All : UV -> Unwrap
     5. Repeat 3, 4 to ensure your map has consistent texel size, no overlaps, and have space between UV shells/islands where ever there are hard edges(split vertex normals)
 
@@ -67,11 +70,13 @@
 8. Normal map baking
 
     *Normal mapping example (hard edges vs. soft edges) :*
+
     <img src="Screenshots/hardedgesnormalmap.jpeg" width="250" alt="Hard edges normal map"/>
     <img src="Screenshots/softedgesnormalmap.jpeg" width="250" alt="Soft edges normal map"/>
 
 
     *Mapped object example in babylon.js 3d viewer (hard edges vs. soft edges) :*
+
     <img src="Screenshots/hardedgesbabylon.jpeg" width="250" alt="Hard edges in a 3d viewer"/>
     <img src="Screenshots/hardedgesbabylon.jpeg" width="250" alt="Soft edges in a 3d viewer"/>
 
@@ -84,9 +89,11 @@
     Use Averaged-ray projection : Blender doesn't exactly have "Averaged-ray projection", but you can tweak different settings(Extrusion, Max Ray Distance, etc) to create a bake that suits your purpose. Margin is another setting you should tinker with, especially when you want to create a smoother look, as the texture may bleed into neighboring UV islands or gradate out of the current UV island.
 
     *Bake settings example :*
+
     <img src="Screenshots/bakesettings.jpeg" width="250" alt="Bake settings"/>
 
     *Using the baked normal map : Use it as a texture on a material for the object :*
+
     <img src="Screenshots/shadersettings.jpeg" width="250" alt="Shader settings to view the map as a texture"/>
 
 9. Export
