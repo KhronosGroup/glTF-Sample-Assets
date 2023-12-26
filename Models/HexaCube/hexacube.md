@@ -49,9 +49,11 @@
 7. UV layout / mapping
 
     *UV mapping example :*
+
     <img src="Screenshots/uvmapbefore.png" width="250" alt="UV map before"/>
 
     *UV mapping final :*
+
     <img src="Screenshots/uvmapafter.jpeg" width="250" alt="UV map after"/>
 
     UV mapping is the process of generating a 2D representation of a 3D object. This 2D representation is constructed from UV coordinates, which are commonly known as texture coordinates. "U" represents the horizontal axis and "V" represents ​the vertical axis.
