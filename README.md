@@ -63,7 +63,7 @@ For additional glTF models, see:
 
 ## Questions or Comments
 
-If you have any questions, submit an [issue](https://github.com/KhronosGroup/glTF-Sample-Models/issues).
+If you have any questions, submit an [issue](https://github.com/KhronosGroup/glTF-Sample-Assets/issues).
 
 
 ## Obsolete Interface
