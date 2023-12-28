@@ -10,7 +10,7 @@
 
 ## Summary
 
-Example of clearcoat applied to a ball with a simulated carbon fiber surface.
+Example of anisotropy applied to a ball with a simulated carbon fiber surface.
 
 ## Operations
 
