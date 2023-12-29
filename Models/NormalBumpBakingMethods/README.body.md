@@ -1,8 +1,7 @@
 ## Screenshot
 
-![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)._
-
+![Screenshot from Babylon.js Sandbox](screenshot/screenshot_Large.jpg)
+<br/>_Screenshot from [Babylon.js Sandbox](https://sandbox.babylonjs.com/)._
 
 ## Description
 
@@ -25,21 +24,39 @@ Three baking methods are demonstrated in this asset:
 2. Soft edges
 3. Bevels 
 
+![Screenshot of the vertex normals for the cubes](screenshot/VertexNormals.jpg)
+<br/>_Screenshot of the vertex normals for the three cubes, with the high-resolution "source" asset at the top._
+
 `Hard edges` means the vertex normals are split for each vertex of the cube. Each face of the cube has its own set of vertex normals perpendicular to the face. This creates hard edges between the six faces. 
 
 When hard edges are used, the UV coordinates must be split along each hard edge. This allows the use of padding in the gutters between the hard edges, which prevents lighting discontinuities between the cube faces. Padding prevents lower MIPs of the normal texture from introducing erroreous vectors from neighboring faces.
 
-`Soft edges` means the vertex normals are not split. Each vertex contains a single vertex normal, so neighboring cube faces are smoothly shaded with each other, with no hard edges between them. Tangent space calculations are very difficult in this case because there are no natural seams to help resolve directional differences. This kind of layout will tend to cause the most errors in renderers.
+`Soft edges` means the vertex normals are not split. Each vertex contains a single vertex normal, so neighboring cube faces are smoothly shaded with each other, with no hard edges between them. Tangent space calculations are very difficult in this case because there are no natural seams to help resolve directional differences. 
 
-When soft edges are used, the UV coordinates do not need to be split along the edges. The normal map must encode complex gradients to represent the local space of the mesh. The increased gradients cause increased errors in texture compression, which will cause banding or noise when the surface is lit.
+When soft edges are used, the UV coordinates do not need to be split along the edges. Neighboring faces of the cube use the same vertex normals, so vector colors are consistent across the edges and MIPs don't introduce lighting discontinuities.
 
-`Bevels` means the low-resolution model has additional mesh along the hard edges. When bevels are used, the extra vertices allow the use of face-weighted vertex normals. This allows the large flat surfaces to encode a flat tangent space. The normal map does not need to use large gradients to store differences in curvature between the low-resolution mesh and high-resolution mesh. 
+This kind of layout will tend to cause the most errors in renderers. The normal map must encode complex gradients to represent the local space of the mesh. These gradients cause increased errors in texture compression, which tend to cause banding or noise when the surface is lit.
+
+`Bevels` means the low-resolution model has additional vertices along the hard edges to allow the use of face-weighted vertex normals. The large flat surfaces can encode flat tangent spaces. The normal map does not need to use large gradients to store differences in curvature between the low-resolution mesh and high-resolution mesh. 
 
 Bevels increase the complexity of the low-resolution model and its UVs, but the in-game vertex count is comparable with low-resolution meshes that use hard edges instead of bevels. 
 
-## Source Textures
+## glTF-Binary Versions
 
-The normal bump textures were rendered in 3ds Max 2024.2 using V-Ray 6.10.08 and the tool Bake To Texture.V-Ray defaults to the DirectX encoding of the green channel to represent Y-down, while glTF uses the OpenGL convention of Y-up, so the green channel in each texture was inverted. 
+Binary glTF assets are provided in the `glTF-Binary` folder to showcase normal bump textures baked in different software applications:
+
+* `BoxBevel_3dsMaxVRay.glb` is a cube with bevels and face-weighted normals, and a normal bump texture baked in 3ds Max 2024.2 with the renderer V-Ray 6.10.08. 
+* `BoxBevel_Blender.glb` cube with bevels and face-weighted normals, and a normal bump texture baked in Blender 4.0.2. 
+* `BoxHard_3dsMaxVRay.glb` is a cube with hard edges and split vertex normals, and a normal bump texture baked in 3ds Max 2024.2 with the renderer V-Ray 6.10.08.
+* `BoxHard_Blender.glb` is a cube with hard edges and split vertex normals, and a normal bump texture baked in Blender 4.0.2.
+* `BoxHigh.glb` is a cube with complex curvature, meant to be baked into a normal map.
+* `BoxSoft_3dsMaxVRay.glb` is a cube with averaged vertex normals, and a normal bump texture baked in 3ds Max 2024.2 with the renderer V-Ray 6.10.08.
+* `BoxSoft_Blender.glb` is a cube with averaged vertex normals, and a normal bump texture baked in Blender 4.0.2.
+* `NormalBumpBakingMethods.glb` shows the cubes arranged together with labels (as shown in the screenshot above), and normal bump textures baked in 3ds Max 2024.2 with the renderer V-Ray 6.10.08.
+
+3ds Max was set to use Mikktspace tangent basis for baking. V-Ray uses the DirectX convention with the green channel representing Y-down, while glTF uses the OpenGL convention of Y-up. Therefore the green channel in each texture was inverted after baking.
+
+Blender uses Mikktspace tangent basis for baking. Blender bakes with the OpenGL convention with the green channel representing Y-up, which matches the glTF convention.
 
 ## Rendering Errors
 
@@ -56,13 +73,3 @@ This asset can be used to stress-test glTF renderers to discover errors in handl
 
 ![Screenshot from three.js editor](screenshot/ModelViewerEditor.jpg)
 <br/>_Screenshot from [model-viewer Editor](https://modelviewer.dev/editor/). The three cubes render correctly; the lighting direction is consistent._
-
-## Test Meshes
-
-Isolated glTF assets are provided in the `glTF-Binary` folder for baking and rendering normal maps in different software:
-
-* `BoxBevel.glb` = the cube on the right, with bevels and face-weighted normals.
-* `BoxHard.glb` = the cube on the left, with hard edges and split vertex normals.
-* `BoxHigh.glb` = the cube at the top, with complex curvature to be baked into a normal map.
-* `BoxSoft.glb` = the cube in the middle, with averaged vertex normals.
-
