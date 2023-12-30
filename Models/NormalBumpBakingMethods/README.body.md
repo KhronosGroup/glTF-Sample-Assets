@@ -10,12 +10,14 @@ This asset is for testing the rendering of tangent-space normal bump maps which 
 ## Tangent Space
 
 Tangent space normal bump maps are often used in two ways: 
-1. To represent surface curvature from high-resolution geometry on lower-resolution real-time geometry.
-2. For tiled high-frequency bump details which can be repeated across arbitrary meshes.
+1. To represent surface curvature from high-resolution geometry on lower-resolution geometry for use in a real-time renderer.
+2. To tile high-frequency bump details across arbitrary meshes.
 
-When the first method is used, the texture is created ("baked") for a specific geometry, and cannot be reused properly on meshes with different vertex normals. The pixel value vectors in the normal map are encoded to translate lighting from world space into the specific model's own tangent space. Each model's tangent space is uniquely calculated from the model's vertex normals and UV coordinates.
+When the first method is used, the texture is created ("baked") for a specific geometry and cannot be reused properly on meshes with different vertex normals. The pixels in the normal map represent surface vectors which allow a shader to translate lighting from world space into the specific model's own local space. 
 
-The glTF specification says if the asset does not include tangents, then renderers should use (MikkTSpace)[https://github.com/mmikk/MikkTSpace] for the normal maps. The meshes in this asset do not include tangents, so this must be calculated by the renderers.
+Each model's local tangent space is uniquely calculated from the model's vertex normals and UV coordinates. The tangents can be precalculated by the baking software and included in the glTF export, or they can be omitted from export and the renderer must  recalculate the tangents. Either way, tangents are required to reproduce the normal bump data in a renderer. To faithfully reproduce the curvature captured from the high-resolution geometry, the baking software must use [MikkTSpace](https://github.com/mmikk/MikkTSpace) which is the tangent basis used in glTF.
+
+The glTF specification indicates that if the asset does not include tangents, then renderers should recalculate the tangents. The meshes in these assets do not include tangent data. 
 
 ## Vertex Normals
 
