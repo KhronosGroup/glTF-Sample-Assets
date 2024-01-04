@@ -4,6 +4,20 @@
 
 [extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
+## Extensions
+
+### Required
+
+* KHR_texture_transform
+* KHR_materials_clearcoat
+
+### Used
+
+* KHR_texture_transform
+* KHR_materials_clearcoat
+* KHR_texture_transform
+* KHR_materials_clearcoat
+
 ## Summary
 
 This model is a sphere using the glTF ClearCoat extension overtop a car paint base material. 

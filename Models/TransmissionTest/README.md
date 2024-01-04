@@ -4,6 +4,11 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_xmp
+
 ## Summary
 
 Tests if the KHR_materials_transmission extension is supported properly.

@@ -73,7 +73,7 @@
   {
     "label": "Anisotropy Disc Test",
     "name": "AnisotropyDiscTest",
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","testing"],
     "variants": {
       "glTF": "AnisotropyDiscTest.gltf",
@@ -262,6 +262,16 @@
     }
   },
   {
+    "label": "Carbon Fibre Ball",
+    "name": "CarbonFibre",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension"],
+    "variants": {
+      "glTF": "CarbonFibre.gltf",
+      "glTF-Binary": "CarbonFibre.glb"
+    }
+  },
+  {
     "label": "Cesium Man",
     "name": "CesiumMan",
     "screenshot": "screenshot/screenshot.gif",
@@ -283,6 +293,15 @@
       "glTF-Binary": "CesiumMilkTruck.glb",
       "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF-Embedded": "CesiumMilkTruck.gltf"
+    }
+  },
+  {
+    "label": "Chair Damask Purplegold",
+    "name": "ChairDamaskPurplegold",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension"],
+    "variants": {
+      "glTF": "ChairDamaskPurplegold.gltf"
     }
   },
   {
@@ -347,13 +366,33 @@
     }
   },
   {
+    "label": "DiffuseTransmissionPlant",
+    "name": "DiffuseTransmissionPlant",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "DiffuseTransmissionPlant.gltf",
+      "glTF-Binary": "DiffuseTransmissionPlant.glb"
+    }
+  },
+  {
     "label": "DiffuseTransmissionTeacup",
     "name": "DiffuseTransmissionTeacup",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF": "teacup.gltf",
-      "glTF-Binary": "teacup.glb"
+      "glTF": "DiffuseTransmissionTeacup.gltf",
+      "glTF-Binary": "DiffuseTransmissionTeacup.glb"
+    }
+  },
+  {
+    "label": "Directional Light",
+    "name": "DirectionalLight",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","testing"],
+    "variants": {
+      "glTF": "DirectionalLight.gltf",
+      "glTF-Binary": "DirectionalLight.glb"
     }
   },
   {
@@ -459,6 +498,17 @@
     }
   },
   {
+    "label": "glTFPotOfCoals",
+    "name": "glTFPotOfCoals",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "glTFPotOfCoals.gltf",
+      "glTF-Animation": "glTFPotOfCoals_HeatAnimation.glb",
+      "glTF-Binary": "glTFPotOfCoals.glb"
+    }
+  },
+  {
     "label": "Interpolation Test",
     "name": "InterpolationTest",
     "screenshot": "screenshot/screenshot.gif",
@@ -466,6 +516,16 @@
     "variants": {
       "glTF": "InterpolationTest.gltf",
       "glTF-Binary": "InterpolationTest.glb"
+    }
+  },
+  {
+    "label": "IORTestGrid",
+    "name": "IORTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "IORTestGrid.gltf",
+      "glTF-Binary": "IORTestGrid.glb"
     }
   },
   {
@@ -694,6 +754,15 @@
     }
   },
   {
+    "label": "Primitive Mode Normals Test",
+    "name": "PrimitiveModeNormalsTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","issues","testing"],
+    "variants": {
+      "glTF": "PrimitiveModeNormalsTest.gltf"
+    }
+  },
+  {
     "label": "Recursive Skeletons",
     "name": "RecursiveSkeletons",
     "screenshot": "screenshot/screenshot.jpg",
@@ -753,6 +822,16 @@
     "tags": ["showcase","video","extension"],
     "variants": {
       "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
+    "label": "SheenTestGrid",
+    "name": "SheenTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "SheenTestGrid.gltf",
+      "glTF-Binary": "SheenTestGrid.glb"
     }
   },
   {
@@ -956,6 +1035,16 @@
     }
   },
   {
+    "label": "TransmissionThinwallTestGrid",
+    "name": "TransmissionThinwallTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "TransmissionThinwallTestGrid.gltf",
+      "glTF-Binary": "TransmissionThinwallTestGrid.glb"
+    }
+  },
+  {
     "label": "Triangle",
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
@@ -1021,10 +1110,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "VC.gltf",
-      "glTF-Binary": "VC.glb",
-      "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf"
+      "glTF": "VirtualCity.gltf",
+      "glTF-Binary": "VirtualCity.glb",
+      "glTF-Draco": "VirtualCity.gltf",
+      "glTF-Embedded": "VirtualCity.gltf"
     }
   },
   {
@@ -1036,6 +1125,16 @@
       "glTF": "WaterBottle.gltf",
       "glTF-Binary": "WaterBottle.glb",
       "glTF-Draco": "WaterBottle.gltf"
+    }
+  },
+  {
+    "label": "Xmp Metadata Rounded Cube",
+    "name": "XmpMetadataRoundedCube",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "XmpMetadataRoundedCube.gltf",
+      "glTF-Binary": "XmpMetadataRoundedCube.glb"
     }
   }
 ]

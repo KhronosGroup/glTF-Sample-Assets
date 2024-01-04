@@ -269,6 +269,7 @@ class ModelMetadata
 **/
 	public function load ($path, $file='metadata') {
 		$this->hasError = false;
+		$this->errorMessage = "";
 		$fullFile = $path . '/' . $file . '.json';
 		if (!file_exists ($fullFile)) {
 			$this->hasError = true;
@@ -277,7 +278,7 @@ class ModelMetadata
 			$this->hasError = false;
 		} else {
 			if ($this->debugOutput >= $this->DebugDetail) 
-				print "Loading $fullFile and storing in ->metadata\n";
+				print "Loading |$fullFile| and storing in ->metadata\n";
 			$this->metadata = $this->_readJson ($fullFile);
 			$this->isCurrent = true;
 			if ($this->debugOutput >= $this->DebugDetail) 
@@ -302,8 +303,6 @@ class ModelMetadata
 		if ($this->debugOutput >= $this->DebugModel) 
 				print "Populating internal structures for ".$this->metadata['path']."\n";
 		$this->_populateInternal ();
-		$this->hasError = false;
-		$this->errorMessage = "";
 		return $this;
 	}
 /*
@@ -325,7 +324,7 @@ class ModelMetadata
 		$errors = [];
 		$warnings = [];
 
-		if (!$this->isCurrent) $errors[] = 'JSON not current and automatically updated';
+		if (!$this->isCurrent) $warnings[] = 'JSON not current and automatically updated';
 		if ($this->metadata['summary'] == '' || str_starts_with ($this->metadata['summary'], '_')) $errors[] = 'No asset summary';
 		if ($this->metadata['legal'][0]['year'] <= 1920) $errors[] = 'Invalid Copyright year';
 		if ($this->metadata['legal'][0]['owner'] == '' || str_starts_with ($this->metadata['legal'][0]['owner'], '_')) $errors[] = 'Missing  Copyright owner';
@@ -374,6 +373,7 @@ class ModelMetadata
 		if ($this->isCurrent) {
 			return $this;
 		}
+		
 		$tmp = array();
 		foreach ($this->metaPhp as $key => $value) {
 			$tmp[$key] = $this->metadata[$key];
@@ -430,6 +430,42 @@ class ModelMetadata
 		$readme[] = '# ' . $this->modelName;
 		$readme[] = "## Tags";
 		$readme[] = $tagString;
+
+		if (count($this->metadata['extensions']['Used']) > 0 || count($this->metadata['extensions']['Required']) > 0) {
+			//print " --- Extensions ...";
+			$extList = [];
+			if (count($this->metadata['extensions']['Required']) == 0) {
+				//print " Used";
+				$readme[] = "## Extensions Used";
+				for ($ii=0; $ii<count($this->metadata['extensions']['Used']); $ii++) {
+					$extList[] = "* " . $this->metadata['extensions']['Used'][$ii];
+				}
+				$readme[] = join("\n", $extList);
+
+			} else if (count($this->metadata['extensions']['Used']) == 0) {
+				//print " Required";
+				$readme[] = "## Extensions Required";
+				for ($ii=0; $ii<count($this->metadata['extensions']['Required']); $ii++) {
+					$extList[] = "* " . $this->metadata['extensions']['Required'][$ii];
+				}
+				$readme[] = join("\n", $extList);
+
+			} else {
+				//print " Both";
+				$readme[] = "## Extensions";
+				$readme[] = "### Required";
+				for ($ii=0; $ii<count($this->metadata['extensions']['Required']); $ii++) {
+					$extList[] = "* " . $this->metadata['extensions']['Required'][$ii];
+				}
+				$readme[] = join("\n", $extList);
+				$readme[] = "### Used";
+				for ($ii=0; $ii<count($this->metadata['extensions']['Used']); $ii++) {
+					$extList[] = "* " . $this->metadata['extensions']['Used'][$ii];
+				}
+				$readme[] = join("\n", $extList);
+			}
+			//print "\n";
+		}
 		$readme[] = "## Summary";
 		$readme[] = $this->metadata['summary'];
 
@@ -578,6 +614,8 @@ class ModelMetadata
 			$this->errorMessage = "";
 			return $this;
 		}
+//		$this->hasError = false;
+//		$this->errorMessage = "";
 		if ($removeAll) {$this->metadata['legal'] = null;}
 		$this->_addLicense ($license);
 
@@ -591,8 +629,6 @@ class ModelMetadata
 			print "==================================\n\n";
 		}
 		$this->isCurrent = false;
-		$this->hasError = false;
-		$this->errorMessage = "";
 		return $this;
 	}
 	private function _addLicense ($license) {
@@ -635,11 +671,44 @@ class ModelMetadata
 		$this->metadata['createReadme']	= (isset($this->metadata['AutoGenerateREADME'])) ? $this->metadata['AutoGenerateREADME'] && $this->metadata['createReadme'] : $this->metadata['createReadme'];
 		$this->metadata['createReadme'] = $this->TF[$this->metadata['createReadme']];
 		$this->metadata['AutoGenerateREADME']	= $this->metadata['createReadme'];
-		$this->metadata['credit']		= $this->_generateCredits();
+		$creditEntry = $this->_generateCredits();
+		if ($this->hasError) {
+			$this->errorMessage = "Error processing " . $this->modelName . "\n -- " . join ("\n -- ", $creditEntry);
+		}
+		$this->metadata['credit']		= $creditEntry;
 		$this->metadata['summary']		= ($this->metadata['summary'] == '') ? '_No Summary_' : $this->metadata['summary'];
 		$this->_handleScreenshot();
 		$this->_findVariants();
+		
+		$this->_getExtensionsList($this->metadata['pathModel']);
 
+		return;
+	}
+
+/*
+ * Get the list of extensions used in this model. 
+ * Extensions come as 'Required' and 'Used'.
+ * These categories are defined as arrays in $this->metadata['extensions']
+ *	= array('used': array(), 'required': array())
+**/
+	private function _getExtensionsList($pathGlTF) {
+		$extensions = array(
+						'Used' 		=> array(),
+						'Required'	=> array(),
+						);
+		// Open glTF file (JSON version)
+		// Read and parse it
+		 $glTF = $this->_readJson ($pathGlTF);
+		// Save off the stuff from the Extensions structure
+		if (isset($glTF['extensionsUsed'])) {
+			$extensions['Used'] = $glTF['extensionsUsed'];
+			//print "-- " . join(', ', $glTF['extensionsUsed']) . "\n";
+		}
+		if (isset($glTF['extensionsRequired'])) {
+			$extensions['Required'] = $glTF['extensionsRequired'];
+		}
+		
+		$this->metadata['extensions'] = $extensions;
 		return;
 	}
 
@@ -730,7 +799,7 @@ class ModelMetadata
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
 			$license = $this->metadata['legal'][$ii]['license'];
 			$link = (isset($this->metadata['legal'][$ii]['licenseUrl'])) ? $this->metadata['legal'][$ii]['licenseUrl'] : '';
-			if ($rebuildSpdx || $link == '') {
+			if ($rebuildSpdx || $license == 'CC0' || $link == '') {
 				if (isset($this->LICENSE[$license])) {
 					$link = $this->LICENSE[$license]['link'];
 					$text = $this->LICENSE[$license]['text'];
@@ -747,7 +816,9 @@ class ModelMetadata
 				$this->metadata['legal'][$ii]['text'] = $text;
 				$this->metadata['legal'][$ii]['spdx'] = $spdx;
 				$this->metadata['legal'][$ii]['icon'] = $icon;
+				$this->isCurrent = false;
 			}
+			//if ($this->metadata['legal'][$ii]['artist']
 		}
 
 		if ($this->debugOutput >= $this->DebugDetail) {
@@ -764,8 +835,13 @@ class ModelMetadata
 	private function _generateCredits () {
 		$credit = array();
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
-			$credit[] = sprintf ("&copy; %04d, %s. [%s](%s)", $this->metadata['legal'][$ii]['year'], $this->metadata['legal'][$ii]['owner'], $this->metadata['legal'][$ii]['text'], $this->metadata['legal'][$ii]['licenseUrl']);
-			$credit[] = sprintf (" - %s for %s", $this->metadata['legal'][$ii]['artist'], $this->metadata['legal'][$ii]['what']);
+		if (! (isset($this->metadata['legal'][$ii]['artist']) && isset($this->metadata['legal'][$ii]['what']))) {
+				$this->hasError = true;
+				$credit[] = "E: Missing 'artist' or 'what' for index $ii";
+			} else {
+				$credit[] = sprintf ("&copy; %04d, %s. [%s](%s)", $this->metadata['legal'][$ii]['year'], $this->metadata['legal'][$ii]['owner'], $this->metadata['legal'][$ii]['text'], $this->metadata['legal'][$ii]['licenseUrl']);
+				$credit[] = sprintf (" - %s for %s", $this->metadata['legal'][$ii]['artist'], $this->metadata['legal'][$ii]['what']);
+			}
 		}
 		
 		return $credit;
@@ -797,7 +873,9 @@ class ModelMetadata
 	
 // Reads the JSON model metadata file and returns the data structure
 	private function _readJson ($fullFile) {
-		$jsonString = file_get_contents ($fullFile);
+		$localName = str_replace ('%20', ' ', $fullFile);
+		//print "Processing |$localName|\n";
+		$jsonString = file_get_contents ($localName);
 		if ($jsonString == '') {
 			$jsonString = $this->metaJson;
 		}

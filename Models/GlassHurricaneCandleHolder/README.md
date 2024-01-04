@@ -4,6 +4,11 @@
 
 [video](../../Models-video.md), [written](../../Models-written.md), [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_volume
+
 ## Summary
 
 Glass holder using Materials Tranmission and Materials Volume extensions.

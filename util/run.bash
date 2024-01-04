@@ -21,11 +21,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Run everything from repo root directory
-# Assumes PHP & Python are installed in C:\Applications (Windows 10)
+# Run everything from repo 'util' directory
+# Assumes PHP & reuse applications are installed and available as 'php' and 'reuse', respectively
+#	Set $PATH to include the directories where those applications reside
+#	Note that reuse is a python script
 
 pushd ..
-/C/Applications/PHP/php util/modelmetadata.php --build --process-repo
-/C/Applications/Python311/Scripts/reuse lint >& ./.reuse/dep5.error
-/C/Applications/Python311/Scripts/reuse spdx -o ./.reuse/reuse.spdx
+php util/model.php --no-warn --update --process-repo
+reuse lint >& ./.reuse/dep5.error
+reuse spdx -o ./.reuse/reuse.spdx
 
