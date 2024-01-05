@@ -19,7 +19,7 @@
         "written"
     ],
     "screenshot": "screenshot/screenshot.gif",
-    "name": "AnimatedTriangle",
+    "name": "Animated Triangle",
     "path": "./Models/AnimatedTriangle",
     "summary": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
     "createReadme": true

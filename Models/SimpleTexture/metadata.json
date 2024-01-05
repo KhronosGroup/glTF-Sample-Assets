@@ -19,7 +19,7 @@
         "written"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "SimpleTexture",
+    "name": "Simple Texture",
     "path": "./Models/SimpleTexture",
     "summary": "A simple glTF asset with a texture",
     "createReadme": true

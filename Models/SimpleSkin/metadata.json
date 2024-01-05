@@ -19,7 +19,7 @@
         "written"
     ],
     "screenshot": "screenshot/screenshot.gif",
-    "name": "SimpleSkin",
+    "name": "Simple Skin",
     "path": "./Models/SimpleSkin",
     "summary": "A simple example of vertex skinning in glTF",
     "createReadme": true

@@ -18,7 +18,7 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "SimpleSparseAccessor",
+    "name": "Simple Sparse Accessor",
     "path": "./Models/SimpleSparseAccessor",
     "summary": "A simple mesh that uses sparse accessors",
     "createReadme": true

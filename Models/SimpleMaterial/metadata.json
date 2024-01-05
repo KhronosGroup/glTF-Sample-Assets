@@ -19,7 +19,7 @@
         "written"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "SimpleMaterial",
+    "name": "Simple Material",
     "path": "./Models/SimpleMaterial",
     "summary": "A simple glTF asset with a material",
     "createReadme": true
