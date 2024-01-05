@@ -727,8 +727,7 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "NormalTangentMirrorTest.gltf",
-      "glTF-Binary": "NormalTangentMirrorTest.glb",
-      "glTF-Embedded": "NormalTangentMirrorTest.gltf"
+      "glTF-Binary": "NormalTangentMirrorTest.glb"
     }
   },
   {
@@ -738,8 +737,7 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "NormalTangentTest.gltf",
-      "glTF-Binary": "NormalTangentTest.glb",
-      "glTF-Embedded": "NormalTangentTest.gltf"
+      "glTF-Binary": "NormalTangentTest.glb"
     }
   },
   {
