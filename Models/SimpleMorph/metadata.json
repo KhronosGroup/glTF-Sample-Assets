@@ -18,7 +18,7 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "SimpleMorph",
+    "name": "Simple Morph",
     "path": "./Models/SimpleMorph",
     "summary": "A triangle with a morph animation applied",
     "createReadme": true

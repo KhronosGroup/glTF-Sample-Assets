@@ -18,9 +18,9 @@
         "testing",
         "written"
     ],
-    "screenshot": "screenshot/screenshot.gif",
-    "name": "Animated Triangle",
-    "path": "./Models/AnimatedTriangle",
-    "summary": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Simple Texture",
+    "path": "./Models/SimpleTexture",
+    "summary": "A simple glTF asset with a texture",
     "createReadme": true
 }
