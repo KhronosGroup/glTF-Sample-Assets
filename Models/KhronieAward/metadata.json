@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2024",
+            "owner": "Eric Chadwick",
+            "what": "Model and textures",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2015",
+            "owner": "Khronos Group",
+            "what": "Khronos logo",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
+            "icon": ""
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "KhronieAward",
+    "path": "./Models/KhronieAward",
+    "summary": "KhronieAward model using Dispersion extension.",
+    "createReadme": true
+}
