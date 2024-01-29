@@ -60,7 +60,8 @@ jobs:
         # - user_info -> Your Display Name <your-actual@email.com>
         # - github_actions -> github-actions <email associated with the github logo>
         # Default: github_actor
-        default_author: Default_Author-TEST-github_actor
+        # _Default appears to be correct
+        #default_author: github_actor
 
         # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
         # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
