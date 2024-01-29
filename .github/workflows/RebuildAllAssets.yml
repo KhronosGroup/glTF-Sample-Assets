@@ -1,6 +1,11 @@
 name: Rebuild All Model Assets
 
-on: [push, pull_request]
+# Only need to handle pushes to 'main' because merged PRs do that
+# along with direct pushes. 
+on: 
+  push:
+    branches:
+      - 'main'
 
 env:
   CI: true
