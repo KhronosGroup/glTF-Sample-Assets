@@ -76,7 +76,8 @@ jobs:
 
         # If this input is set, the action will push the commit to a new branch with this name.
         # Default: ''
-        new_branch: Test-Update-Action
+        # _Result should be pushed to 'main'
+        #new_branch: Test-Update-Action
 
         # The way the action should handle pathspec errors from the add and remove commands. Three options are available:
         # - ignore -> errors will be logged but the step won't fail
