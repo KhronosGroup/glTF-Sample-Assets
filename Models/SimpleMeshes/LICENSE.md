@@ -1,4 +1,4 @@
-# LICENSE file for the model: SimpleMeshes
+# LICENSE file for the model: Simple Meshes
 
 All files in this directory tree are licensed as indicated below.
 

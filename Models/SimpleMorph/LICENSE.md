@@ -1,4 +1,4 @@
-# LICENSE file for the model: SimpleMorph
+# LICENSE file for the model: Simple Morph
 
 All files in this directory tree are licensed as indicated below.
 
