@@ -19,7 +19,7 @@ jobs:
 
     - name: Execute PHP script to update Repo
       run: |
-        php util/model.php --no-warn --update
+        php util/model.php --no-warn --update --process-repo
 
     - name: Commit changes to a new branch 
       uses: EndBug/add-and-commit@v9
