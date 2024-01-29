@@ -1,4 +1,4 @@
-# SimpleSkin
+# Simple Skin
 
 ## Tags
 

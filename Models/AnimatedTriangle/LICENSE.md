@@ -1,4 +1,4 @@
-# LICENSE file for the model: AnimatedTriangle
+# LICENSE file for the model: Animated Triangle
 
 All files in this directory tree are licensed as indicated below.
 
