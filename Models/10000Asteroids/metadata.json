@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": 2024,
+            "owner": "Public",
+            "artist": "Jon Aspeheim",
+            "what": "Everything",
+            "license": "Public Domain / CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "core",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "10000 Asteroids",
+    "path": "./Models/10000Asteroids",
+    "summary": "Node, mesh, primitive and texture stress test",
+    "createReadme": true
+}
