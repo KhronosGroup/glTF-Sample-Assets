@@ -18,8 +18,8 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot_large.jpg",
-    "name": "10000 Asteroids",
-    "path": "./Models/10000Asteroids",
-    "summary": "Node, mesh, primitive and texture stress test",
+    "name": "NodeStressTest",
+    "path": "./Models/NodeStressTest",
+    "summary": "Node, mesh, primitive and texture count stress test",
     "createReadme": true
 }
