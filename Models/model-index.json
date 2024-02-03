@@ -40,16 +40,6 @@
     }
   },
   {
-    "label": "Animated Morph Sphere",
-    "name": "AnimatedMorphSphere",
-    "screenshot": "screenshot/screenshot.gif",
-    "tags": ["core","testing"],
-    "variants": {
-      "glTF": "AnimatedMorphSphere.gltf",
-      "glTF-Binary": "AnimatedMorphSphere.glb"
-    }
-  },
-  {
     "label": "AnimatedTriangle",
     "name": "AnimatedTriangle",
     "screenshot": "screenshot/screenshot.gif",
