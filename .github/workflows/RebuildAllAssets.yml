@@ -29,60 +29,9 @@ jobs:
     - name: Commit changes to a new branch 
       uses: EndBug/add-and-commit@v9
       with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        # _Nothing needed
-        #add: 'src'
-
-        # The name of the user that will be displayed as the author of the commit.
-        # Default: depends on the default_author input
-        author_name: Author_Name-Test-GitAction
-
-        # The email of the user that will be displayed as the author of the commit.
-        # Default: depends on the default_author input
-        author_email: daly.realism+ActionAuthor@gmail.com
-
-        # Additional arguments for the git commit command. The --message argument is already set by the message input.
-        # Default: ''
-        # _Nothing needed
-        #commit: --signoff
-
-        # The name of the custom committer you want to use, if different from the author of the commit.
-        # Default: the name of the author (set with either author_name or default_author)
-        committer_name: Committer_Name-Test-GitAction
-
-        # The email of the custom committer you want to use, if different from the author of the commit.
-        # Default: the email of the author (set with either author_email or default_author)
-        committer_email: daly.realism+ActionCommitter@gmail.com
-
-        # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
-        # Default: '.'
-        # _Nothing needed
-        #cwd: './path/to/the/repo'
-
-        # Determines the way the action fills missing author name and email. Three options are available:
-        # - github_actor -> UserName <UserName@users.noreply.github.com>
-        # - user_info -> Your Display Name <your-actual@email.com>
-        # - github_actions -> github-actions <email associated with the github logo>
-        # Default: github_actor
-        # _Default appears to be correct
-        #default_author: github_actor
-
-        # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
-        # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
-        # Default: --tags --force
-        # _Default appears correct
-        #fetch: false
-
-        # The message for the commit.
-        # Default: 'Commit from GitHub Actions (name of the workflow)'
-        # _Default appears correct
-        #message: 'Your commit message'
-
-        # If this input is set, the action will push the commit to a new branch with this name.
-        # Default: ''
-        # _Result should be pushed to 'main'
-        #new_branch: Test-Update-Action
+        # Defaults for most parameters are used
+        # Action assiged to "github_actor" (used by default with 'default_author')
+        # This action merges all changes into 'main'
 
         # The way the action should handle pathspec errors from the add and remove commands. Three options are available:
         # - ignore -> errors will be logged but the step won't fail
@@ -91,27 +40,3 @@ jobs:
         # Default: ignore
         pathspec_error_handling: exitAtEnd
 
-        # Arguments for the git pull command. By default, the action does not pull.
-        # Default: ''
-        # _Default appears correct
-        #pull: '--rebase --autostash ...'
-
-        # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
-        # Default: true
-        # _Default appears correct
-        #push: false
-
-        # The arguments for the `git rm` command (see the paragraph below for more info)
-        # Default: ''
-        # _Default appears correct
-        #remove: './dir/old_file.js'
-
-        # Arguments for the git tag command (the tag name always needs to be the first word not preceded by an hyphen)
-        # Default: ''
-        # _Default appears correct
-        #tag: 'v1.0.0 --force'
-
-        # Arguments for the git push --tags command (any additional argument will be added after --tags)
-        # Default: ''
-        # _Default appears correct
-        #tag_push: '--force'
