@@ -9,3 +9,6 @@ gltf_validator.exe
 *.csv
 metadata.template.json
 ui-generator.php
+Models.md
+Models-*.md
+model-index.json
