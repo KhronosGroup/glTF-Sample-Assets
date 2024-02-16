@@ -40,8 +40,8 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "PotOfCoals",
-    "path": "./Models/PotOfCoals",
-    "summary": "Burnt copper pot with a clearcoat, containing emissive hot coals.",
+    "name": "glTFPotOfCoals",
+    "path": "./Models/glTFPotOfCoals",
+    "summary": "glTFPotOfCoals model using Clearcoat extension.",
     "createReadme": true
 }
