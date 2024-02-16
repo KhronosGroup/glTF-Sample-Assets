@@ -734,6 +734,16 @@
     }
   },
   {
+    "label": "PotOfCoals",
+    "name": "PotOfCoals",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "PotOfCoals.gltf",
+      "glTF-Binary": "PotOfCoals.glb"
+    }
+  },
+  {
     "label": "Primitive Mode Normals Test",
     "name": "PrimitiveModeNormalsTest",
     "screenshot": "screenshot/screenshot.png",
@@ -1135,17 +1145,6 @@
     "variants": {
       "glTF": "XmpMetadataRoundedCube.gltf",
       "glTF-Binary": "XmpMetadataRoundedCube.glb"
-    }
-  },
-  {
-    "label": "glTFPotOfCoals",
-    "name": "glTFPotOfCoals",
-    "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
-    "variants": {
-      "glTF": "glTFPotOfCoals.gltf",
-      "glTF-Binary": "glTFPotOfCoals.glb",
-      "glTF-Animation": "glTFPotOfCoals_HeatAnimation.glb"
     }
   }
 ]

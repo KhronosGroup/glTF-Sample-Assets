@@ -387,6 +387,13 @@ Copyright:
  2017 Unknown
 License: CC-BY-4.0
 
+Files: Models/PotOfCoals/*
+Copyright: 
+ 2023 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
 Files: Models/PrimitiveModeNormalsTest/*
 Copyright: 
  2020 public
@@ -588,11 +595,4 @@ Files: Models/XmpMetadataRoundedCube/*
 Copyright: 
  2021 Adam Morris
 License: CC-BY-4.0
-
-Files: Models/glTFPotOfCoals/*
-Copyright: 
- 2023 Darmstadt Graphics Group GmbH
- 2015 Khronos Group
- 2017 Khronos Group
-License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
 

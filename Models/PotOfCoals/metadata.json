@@ -19,8 +19,8 @@
             "year": "2015",
             "owner": "Khronos Group",
             "what": "Khronos logo",
-            "text": "",
-            "spdx": "",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
             "icon": ""
         },
         {
@@ -30,8 +30,8 @@
             "year": "2017",
             "owner": "Khronos Group",
             "what": "glTF logo",
-            "text": "",
-            "spdx": "",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
             "icon": ""
         }
     ],
