@@ -210,6 +210,7 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
 		}
 	}
 	$folder->close();
+	sort ($useModels, SORT_STRING);
 	return $useModels;
 }
 
