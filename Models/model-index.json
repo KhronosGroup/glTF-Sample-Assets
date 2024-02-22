@@ -387,6 +387,16 @@
     }
   },
   {
+    "label": "Dispersion Test",
+    "name": "DispersionTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "DispersionTest.gltf",
+      "glTF-Binary": "DispersionTest.glb"
+    }
+  },
+  {
     "label": "Dragon Attenuation",
     "name": "DragonAttenuation",
     "screenshot": "screenshot/screenshot.jpg",

@@ -202,6 +202,11 @@ Copyright:
  2020 Public
 License: CC0-1.0
 
+Files: Models/DispersionTest/*
+Copyright: 
+ 2023 AGI
+License: CC-BY-4.0
+
 Files: Models/DragonAttenuation/*
 Copyright: 
  1996 Stanford University Computer Graphics Laboratory
