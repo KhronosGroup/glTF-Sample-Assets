@@ -1,0 +1,47 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "LicenseRef-Stanford-Graphics",
+            "licenseUrl": "https://graphics.stanford.edu/data/3Dscanrep/",
+            "artist": "Stanford University Computer Graphics Laboratory",
+            "year": "1996",
+            "owner": "Stanford University Computer Graphics Laboratory",
+            "what": "Original dragon model",
+            "text": "Stanford Graphics Library",
+            "spdx": "LicenseRef-Stanford-Graphics",
+            "icon": ""
+        },
+        {
+            "license": "LicenseRef-Stanford-Graphics",
+            "licenseUrl": "https://graphics.stanford.edu/data/3Dscanrep/",
+            "artist": "Morgan McGuire's Computer Graphics Archive",
+            "year": "2017",
+            "owner": "Morgan McGuire",
+            "what": "Conversion and clean up",
+            "text": "Stanford Graphics Library",
+            "spdx": "LicenseRef-Stanford-Graphics",
+            "icon": ""
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Adobe",
+            "year": "2021",
+            "owner": "Public",
+            "what": "Cloth backdrop",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Dragon Dispersion",
+    "path": "./Models/DragonDispersion",
+    "summary": "Dragon with background, using dispersion, transmission, and volume.",
+    "createReadme": true
+}
