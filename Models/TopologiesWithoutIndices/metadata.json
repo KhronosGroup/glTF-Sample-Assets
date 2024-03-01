@@ -4,7 +4,8 @@
         {
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-            "artist": "prefrontal cortex",
+            "artist": "prefrontal cortex", 
+            "owner": "public",
             "year": "2024",
             "what": "Everything",
             "text": "CC0 1.0 Universal",
