@@ -4,6 +4,11 @@
 
 [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_volume
+
 ## Summary
 
 This model compares transparency methods for representing glass in glTF: alphaMode:'BLEND' (left) versus the extensions KHR_materials_transmission and KHR_materials_volume (right).

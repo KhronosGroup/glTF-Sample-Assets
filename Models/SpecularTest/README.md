@@ -4,6 +4,10 @@
 
 [core](../../Models-core.md), [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_specular
+
 ## Summary
 
 Tests if the KHR_materials_specular extension is supported correctly.

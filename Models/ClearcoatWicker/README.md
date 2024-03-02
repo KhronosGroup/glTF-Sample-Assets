@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_materials_clearcoat
+
 ## Summary
 
 This model is a sphere using the glTF ClearCoat to create a wicker material covered with a wrinkled plastic clearcoat material.

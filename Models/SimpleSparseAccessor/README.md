@@ -1,4 +1,4 @@
-# SimpleSparseAccessor
+# Simple Sparse Accessor
 
 ## Tags
 

@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2023",
+            "owner": "AGI",
+            "license": "CC-BY 4.0",
+            "artist": "Ed Mackey",
+            "what": "Everything",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Dispersion Test",
+    "path": "./Models/DispersionTest",
+    "summary": "This model tests the KHR_materials_dispersion extension.",
+    "createReadme": true
+}

@@ -5,11 +5,18 @@
  *	php model [--check] [--build] [<asset1> [<asset2> ...]]
  *
  * The application has several modes
- *	--check		Performs asset directory check. The specific checks are listed below
- *	--build		Builds the necessary support files in the asset directory
  *	--process-repo	Is unset if any assets are specified. If set, then all repo-wide files are generated.
- *	--no-update		Do not update model folders. This is probably only used for testing. It has no effect
- *						if 'check' is set. Will set 'build'
+ *	--check		Performs asset directory check. The specific checks are listed below
+ *  --update	Updates the individual asset directories as determined by trailing parameters or --process-repo
+ *	--dry-run	Do not update model folders. This is probably only used for testing. It has no effect
+ *					if 'check' is set. Will set 'build'
+ *	--no-warn	Do not display warning messages unless there are errors
+ *	--verbose	Output progress information
+ *
+ * Obsolete
+ *	--build		Builds the necessary support files in the asset directory
+ *	--no-update	Do not update model folders. This is probably only used for testing. It has no effect
+ *					if 'check' is set. Will set 'build'
  *
  *	Assets
  *		By default this application runs on all directories in $ModelDirectory (defined below)
@@ -86,7 +93,7 @@ if (isset($runArgs['check'])) {
 		$issues = $allModels[$ii]->reportIssues();
 		if (count($issues['error'])+count($issues['warning']) > 0) {
 			if (!isset($runArgs['no-warn']) || (isset($runArgs['no-warn']) && count($issues['error']) > 0)) {
-				print sprintf ("Checking %s (%d issues; %d errors / %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
+				print sprintf ("\nChecking %s (%d issues; %d errors / %d warnings)\n", $modelName, count($issues['error'])+count($issues['warning']), count($issues['error']), count($issues['warning']));
 				for ($jj=0; $jj<count($issues['error']); $jj++) {
 					print sprintf(" E-%d: %s\n", $jj+1, $issues['error'][$jj]);
 				}
@@ -109,15 +116,15 @@ if (isset($runArgs['check'])) {
 
 if (!$runArgs['dry-run']) {
 // If requested load the user input metadata for each model. 
-if ($useUserModelData) {
-	$modelMetadata = getModelData();
-	$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
-}
+	if ($useUserModelData) {
+		$modelMetadata = getModelData();
+		$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
+	}
 // If requested load the user tag settings for each model. 
-if ($useUserModelTags) {
-	$modelTagData = getModelTagData();
-	$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
-}
+	if ($useUserModelTags) {
+		$modelTagData = getModelTagData();
+		$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
+	}
 }
 
 //	Update all model support files
@@ -203,6 +210,7 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
 		}
 	}
 	$folder->close();
+	sort ($useModels, SORT_STRING);
 	return $useModels;
 }
 

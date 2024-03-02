@@ -4,6 +4,14 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_clearcoat
+* KHR_materials_variants
+* KHR_materials_ior
+* KHR_materials_volume
+
 ## Summary
 
  

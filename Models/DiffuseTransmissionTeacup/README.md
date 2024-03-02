@@ -4,13 +4,18 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF/DiffuseTransmissionTeacup.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -30,7 +35,8 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 
 ## Legal
 
-&copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
- - Polyhaven.com, and Eric Chadwick for Everything
+&copy; 2023, Public domain. [CC0 1.0 Universal](https://creativecommons.org/share-your-work/public-domain/cc0)
+
+ - Polyhaven.com, and Eric Chadwick for Models and Textures
 
 #### Assembled by modelmetadata

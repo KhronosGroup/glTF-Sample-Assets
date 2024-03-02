@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 Scattering of light through the tangerine using the glTF diffuse transmission extension is shown in this test.

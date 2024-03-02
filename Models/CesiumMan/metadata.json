@@ -19,8 +19,8 @@
             "year": "2015",
             "owner": "Cesium",
             "what": "Cesium logo",
-            "text": "",
-            "spdx": "",
+            "text": "Cesium Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Cesium",
             "icon": ""
         }
     ],

@@ -4,6 +4,17 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_pbrSpecularGlossiness
+
+### Used
+
+* KHR_materials_pbrSpecularGlossiness
+* KHR_materials_pbrSpecularGlossiness
+
 ## Summary
 
 Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly.

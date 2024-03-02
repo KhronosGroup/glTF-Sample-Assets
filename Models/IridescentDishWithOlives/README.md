@@ -4,6 +4,13 @@
 
 [showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_ior
+* KHR_materials_iridescence
+* KHR_materials_transmission
+* KHR_materials_volume
+
 ## Summary
 
 Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark]

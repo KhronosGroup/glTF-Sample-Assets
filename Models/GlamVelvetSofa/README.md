@@ -4,6 +4,21 @@
 
 [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions
+
+### Required
+
+* KHR_texture_transform
+
+### Used
+
+* KHR_texture_transform
+* KHR_texture_transform
+* KHR_materials_sheen
+* KHR_materials_specular
+* KHR_materials_variants
+* KHR_lights_punctual
+
 ## Summary
 
 Sofa using material variants, sheen, and specular.

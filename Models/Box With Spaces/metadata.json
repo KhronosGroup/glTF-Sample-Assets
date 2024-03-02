@@ -19,8 +19,8 @@
             "year": "2017",
             "owner": "Khronos Group",
             "what": "glTF logo",
-            "text": "",
-            "spdx": "",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
             "icon": ""
         }
     ],
@@ -30,7 +30,7 @@
     ],
     "screenshot": "screenshot/screenshot.png",
     "name": "Box With Spaces",
-    "path": "./Models/Box%20With%20Spaces",
+    "path": "./Models/Box With Spaces",
     "summary": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
     "createReadme": true
 }
