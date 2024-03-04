@@ -214,6 +214,13 @@ Copyright:
  2021 Public
 License: LicenseRef-Stanford-Graphics AND CC0-1.0
 
+Files: Models/DragonDispersion/*
+Copyright: 
+ 1996 Stanford University Computer Graphics Laboratory
+ 2017 Morgan McGuire
+ 2021 Public
+License: LicenseRef-Stanford-Graphics AND CC0-1.0
+
 Files: Models/Duck/*
 Copyright: 
  2006 Sony

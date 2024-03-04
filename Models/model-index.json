@@ -407,6 +407,16 @@
     }
   },
   {
+    "label": "Dragon Dispersion",
+    "name": "DragonDispersion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "DragonDispersion.gltf",
+      "glTF-Binary": "DragonDispersion.glb"
+    }
+  },
+  {
     "label": "Duck",
     "name": "Duck",
     "screenshot": "screenshot/screenshot.png",
