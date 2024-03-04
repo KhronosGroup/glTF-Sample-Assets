@@ -14,7 +14,7 @@ Note that on thin parts of the model, such as horns and claws (left, above), the
 
 ## Attribution for the Dragon
 
-The dragon model based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
+The dragon model is based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
 Original dragon mesh data based on a [Stanford Scan](http://www.graphics.stanford.edu/data/3Dscanrep/)
 &copy; 1996 Stanford University.
 
