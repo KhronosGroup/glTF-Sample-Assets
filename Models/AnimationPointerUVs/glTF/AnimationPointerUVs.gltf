@@ -4921,7 +4921,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/14/occlusionTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/14/occlusionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -4954,7 +4954,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/11/normalTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/11/normalTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -4987,7 +4987,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/2/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/2/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -4998,7 +4998,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/50/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/50/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5031,7 +5031,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/47/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/47/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5064,7 +5064,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/44/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/44/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5097,7 +5097,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/41/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/41/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5130,7 +5130,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/38/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/38/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5152,7 +5152,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/36/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/36/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5207,7 +5207,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/32/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/32/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5240,7 +5240,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/29/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/29/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5273,7 +5273,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/26/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/26/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5306,7 +5306,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/23/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/23/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5317,7 +5317,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/23/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/23/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5372,7 +5372,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/20/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/20/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5383,7 +5383,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/20/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/20/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -5438,7 +5438,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/17/emissiveTexture/extensions/KHR_texture_transform/rotate"
+                "pointer": "/materials/17/emissiveTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
