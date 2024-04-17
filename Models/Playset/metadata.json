@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": 2024,
+            "owner": "Inter IKEA Systems B.V.",
+            "artist": "Inter IKEA Systems B.V.",
+            "what": "Everything",
+            "license": "Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+            "text": "The IKEA 3D Model [Playset.glb] (the “Licensed Material”) is licensed by Inter IKEA Systems B.V. (“IKEA”) under the Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). The Licensed Material is limited to 3D modelling data/technology and does not include any IKEA products/objects. IKEA reserves the exclusive rights to the design, copyright and other intellectual property rights in the Licensed Materials as well as in its products/objects. A [copy](/LICENSE.md) of the license is available in this repository.",
+            "spdx": "CC BY-NC-SA 4.0"
+        }
+    ],
+    "tags": [
+        "showcase"
+    ],
+    "screenshot": "screenshot/screenshot_large.jpg",
+    "name": "Playset",
+    "path": "./Models/Playset",
+    "summary": "A 3D scene with IKEA assets",
+    "createReadme": true
+}
