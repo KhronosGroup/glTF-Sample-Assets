@@ -1,10 +1,10 @@
 ## Screenshot
 
 Realtime render:  
-![screenshot](screenshot/blender_screenshot_large.jpg)  
+![screenshot](screenshot/screenshot_large.jpg)  
 
 Reference render from Blender:  
-![screenshot](screenshot/screenshot_large.jpg)  
+![screenshot](screenshot/blender_screenshot_large.jpg)  
 
 
 
@@ -14,5 +14,10 @@ This is a showcase model containing a couple of IKEA assets assembled into a sce
 One of the assets is a light with realistic light intensity values chosen from real products.  
 The scene has one directiona light to provide some type of environment illumination, the intensity is chosen to be that of indoor light intensity.  
 A camera is added to represent the desired viewpoint.  
+It is desired that applications render this model 'as is' and not adding environment map, ibl or other types of illumination.  
 
-The model uses KHR_lights_punctual and KHR_materials_emissive extensions.  
+The model uses KHR_lights_punctual and KHR_materials_emissive_strength extensions.  
+
+## License  
+  
+The IKEA 3D Model [Playset.glb] (the “Licensed Material”) is licensed by Inter IKEA Systems B.V. (“IKEA”) under the Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). The Licensed Material is limited to 3D modelling data/technology and does not include any IKEA products/objects. IKEA reserves the exclusive rights to the design, copyright and other intellectual property rights in the Licensed Materials as well as in its products/objects. A [copy](/LICENSE.md) of the license is available in this repository.  
