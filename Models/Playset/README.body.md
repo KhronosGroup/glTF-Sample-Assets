@@ -1,6 +1,7 @@
 ## Screenshot
 
-Realtime render:  
+Realtime render using VARG-engine (https://github.com/rsahlin/varg-engine)  
+Renderer is using a max light value to scale pixel values before storing in framebuffer (exposure).  
 ![screenshot](screenshot/screenshot_large.jpg)  
 
 Reference render from Blender:  
@@ -12,11 +13,13 @@ Reference render from Blender:
 
 This is a showcase model containing a couple of IKEA assets assembled into a scene.  
 One of the assets is a light with realistic light intensity values chosen from real products.  
-The scene has one directiona light to provide some type of environment illumination, the intensity is chosen to be that of indoor light intensity.  
+The scene has one directional light to provide some type of environment illumination, the intensity is chosen to be that of indoor light intensity.  
 A camera is added to represent the desired viewpoint.  
 It is desired that applications render this model 'as is' and not adding environment map, ibl or other types of illumination.  
 
 The model uses KHR_lights_punctual and KHR_materials_emissive_strength extensions.  
+
+Engines will need to use some sort of exposure or light scale factor to limit pixel values to fit within the frambuffer range.  
 
 ## License  
   
