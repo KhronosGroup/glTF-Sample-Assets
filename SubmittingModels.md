@@ -25,9 +25,14 @@ The documentation accompanying a model must also be valid. Valid documentation i
 
 ### Model Approvals
 
-**Model Updates:** The PR needs to describe what has changed from the current version and why this was done. Model update PRs need to be approved by the original author (if available) or reviewed and approved as if it were a new model.
+**Model Reviews:** We invite everyone to review a submission. The primary criteria is that the model does what is claimed in the README. Suitability of the model for the repo will be determined separately.
 
-**New Models:** The PR needs two approvals from active members of the repo community, at least one of which must be a Khronos member. New submissions should following the process described below.
+**Model Updates:** The PR needs to describe what has changed from the current version and why this was done. Model update PRs need to be approved by at least one person besides the original creator. 
+
+**New Models:** The PR needs at least one approval from active members of the repo community. New submissions should following the process described below. If the model is to support a new extension, then 
+
+* The README must clearly state that it is a Test model for the extension
+* At least one of the reviewers needs to be involved in the creation of the extension
 
 ## Submitting New Models
 

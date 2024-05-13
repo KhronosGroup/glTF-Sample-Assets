@@ -14,9 +14,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "AlphaBlendModeTest.gltf",
       "glTF": "AlphaBlendModeTest.gltf",
-      "glTF-Binary": "AlphaBlendModeTest.glb",
-      "glTF-Embedded": "AlphaBlendModeTest.gltf"
+      "glTF-Binary": "AlphaBlendModeTest.glb"
     }
   },
   {
@@ -40,23 +40,13 @@
     }
   },
   {
-    "label": "Animated Morph Sphere",
-    "name": "AnimatedMorphSphere",
-    "screenshot": "screenshot/screenshot.gif",
-    "tags": ["core","testing"],
-    "variants": {
-      "glTF": "AnimatedMorphSphere.gltf",
-      "glTF-Binary": "AnimatedMorphSphere.glb"
-    }
-  },
-  {
-    "label": "AnimatedTriangle",
+    "label": "Animated Triangle",
     "name": "AnimatedTriangle",
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing","written"],
     "variants": {
-      "glTF": "AnimatedTriangle.gltf",
-      "glTF-Embedded": "AnimatedTriangle.gltf"
+      "glTF-Embedded": "AnimatedTriangle.gltf",
+      "glTF": "AnimatedTriangle.gltf"
     }
   },
   {
@@ -73,7 +63,7 @@
   {
     "label": "Anisotropy Disc Test",
     "name": "AnisotropyDiscTest",
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "tags": ["extension","testing"],
     "variants": {
       "glTF": "AnisotropyDiscTest.gltf",
@@ -169,10 +159,10 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "Box.gltf",
       "glTF": "Box.gltf",
       "glTF-Binary": "Box.glb",
-      "glTF-Draco": "Box.gltf",
-      "glTF-Embedded": "Box.gltf"
+      "glTF-Draco": "Box.gltf"
     }
   },
   {
@@ -190,9 +180,9 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "BoxAnimated.gltf",
       "glTF": "BoxAnimated.gltf",
-      "glTF-Binary": "BoxAnimated.glb",
-      "glTF-Embedded": "BoxAnimated.gltf"
+      "glTF-Binary": "BoxAnimated.glb"
     }
   },
   {
@@ -201,9 +191,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "BoxInterleaved.gltf",
       "glTF": "BoxInterleaved.gltf",
-      "glTF-Binary": "BoxInterleaved.glb",
-      "glTF-Embedded": "BoxInterleaved.gltf"
+      "glTF-Binary": "BoxInterleaved.glb"
     }
   },
   {
@@ -212,9 +202,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Embedded": "BoxTextured.gltf",
       "glTF": "BoxTextured.gltf",
-      "glTF-Binary": "BoxTextured.glb",
-      "glTF-Embedded": "BoxTextured.gltf"
+      "glTF-Binary": "BoxTextured.glb"
     }
   },
   {
@@ -223,9 +213,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf",
       "glTF": "BoxTexturedNonPowerOfTwo.gltf",
-      "glTF-Binary": "BoxTexturedNonPowerOfTwo.glb",
-      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf"
+      "glTF-Binary": "BoxTexturedNonPowerOfTwo.glb"
     }
   },
   {
@@ -234,9 +224,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "BoxVertexColors.gltf",
       "glTF": "BoxVertexColors.gltf",
-      "glTF-Binary": "BoxVertexColors.glb",
-      "glTF-Embedded": "BoxVertexColors.gltf"
+      "glTF-Binary": "BoxVertexColors.glb"
     }
   },
   {
@@ -245,10 +235,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "BrainStem.gltf",
       "glTF": "BrainStem.gltf",
       "glTF-Binary": "BrainStem.glb",
-      "glTF-Draco": "BrainStem.gltf",
-      "glTF-Embedded": "BrainStem.gltf"
+      "glTF-Draco": "BrainStem.gltf"
     }
   },
   {
@@ -257,8 +247,18 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "Cameras.gltf",
-      "glTF-Embedded": "Cameras.gltf"
+      "glTF-Embedded": "Cameras.gltf",
+      "glTF": "Cameras.gltf"
+    }
+  },
+  {
+    "label": "Carbon Fibre Ball",
+    "name": "CarbonFibre",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension"],
+    "variants": {
+      "glTF": "CarbonFibre.gltf",
+      "glTF-Binary": "CarbonFibre.glb"
     }
   },
   {
@@ -267,10 +267,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Embedded": "CesiumMan.gltf",
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb",
-      "glTF-Draco": "CesiumMan.gltf",
-      "glTF-Embedded": "CesiumMan.gltf"
+      "glTF-Draco": "CesiumMan.gltf"
     }
   },
   {
@@ -279,10 +279,20 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Embedded": "CesiumMilkTruck.gltf",
       "glTF": "CesiumMilkTruck.gltf",
       "glTF-Binary": "CesiumMilkTruck.glb",
-      "glTF-Draco": "CesiumMilkTruck.gltf",
-      "glTF-Embedded": "CesiumMilkTruck.gltf"
+      "glTF-Draco": "CesiumMilkTruck.gltf"
+    }
+  },
+  {
+    "label": "Chair Damask Purplegold",
+    "name": "ChairDamaskPurplegold",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension"],
+    "variants": {
+      "glTF": "ChairDamaskPurplegold.gltf",
+      "glTF-Binary": "ChairDamaskPurplegold.glb"
     }
   },
   {
@@ -341,9 +351,19 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","showcase","testing","video"],
     "variants": {
+      "glTF-Embedded": "DamagedHelmet.gltf",
       "glTF": "DamagedHelmet.gltf",
-      "glTF-Binary": "DamagedHelmet.glb",
-      "glTF-Embedded": "DamagedHelmet.gltf"
+      "glTF-Binary": "DamagedHelmet.glb"
+    }
+  },
+  {
+    "label": "DiffuseTransmissionPlant",
+    "name": "DiffuseTransmissionPlant",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "DiffuseTransmissionPlant.gltf",
+      "glTF-Binary": "DiffuseTransmissionPlant.glb"
     }
   },
   {
@@ -352,8 +372,28 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF": "teacup.gltf",
-      "glTF-Binary": "teacup.glb"
+      "glTF": "DiffuseTransmissionTeacup.gltf",
+      "glTF-Binary": "DiffuseTransmissionTeacup.glb"
+    }
+  },
+  {
+    "label": "Directional Light",
+    "name": "DirectionalLight",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","testing"],
+    "variants": {
+      "glTF": "DirectionalLight.gltf",
+      "glTF-Binary": "DirectionalLight.glb"
+    }
+  },
+  {
+    "label": "Dispersion Test",
+    "name": "DispersionTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "DispersionTest.gltf",
+      "glTF-Binary": "DispersionTest.glb"
     }
   },
   {
@@ -367,15 +407,25 @@
     }
   },
   {
+    "label": "Dragon Dispersion",
+    "name": "DragonDispersion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "DragonDispersion.gltf",
+      "glTF-Binary": "DragonDispersion.glb"
+    }
+  },
+  {
     "label": "Duck",
     "name": "Duck",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "Duck.gltf",
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
       "glTF-Draco": "Duck.gltf",
-      "glTF-Embedded": "Duck.gltf",
       "glTF-Quantized": "Duck.gltf"
     }
   },
@@ -456,6 +506,16 @@
     "variants": {
       "glTF": "GlassVaseFlowers.gltf",
       "glTF-Binary": "GlassVaseFlowers.glb"
+    }
+  },
+  {
+    "label": "IORTestGrid",
+    "name": "IORTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "IORTestGrid.gltf",
+      "glTF-Binary": "IORTestGrid.glb"
     }
   },
   {
@@ -573,8 +633,8 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["testing"],
     "variants": {
-      "glTF": "MeshPrimitiveModes.gltf",
-      "glTF-Embedded": "MeshPrimitiveModes.gltf"
+      "glTF-Embedded": "MeshPrimitiveModes.gltf",
+      "glTF": "MeshPrimitiveModes.gltf"
     }
   },
   {
@@ -583,9 +643,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "MetalRoughSpheres.gltf",
       "glTF": "MetalRoughSpheres.gltf",
-      "glTF-Binary": "MetalRoughSpheres.glb",
-      "glTF-Embedded": "MetalRoughSpheres.gltf"
+      "glTF-Binary": "MetalRoughSpheres.glb"
     }
   },
   {
@@ -630,24 +690,24 @@
     }
   },
   {
-    "label": "Multiple Scenes",
-    "name": "MultipleScenes",
-    "screenshot": "screenshot/screenshot.png",
-    "tags": ["core","testing"],
-    "variants": {
-      "glTF": "MultipleScenes.gltf",
-      "glTF-Embedded": "MultipleScenes.gltf"
-    }
-  },
-  {
     "label": "MultiUV Test",
     "name": "MultiUVTest",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "MultiUVTest.gltf",
       "glTF": "MultiUVTest.gltf",
-      "glTF-Binary": "MultiUVTest.glb",
-      "glTF-Embedded": "MultiUVTest.gltf"
+      "glTF-Binary": "MultiUVTest.glb"
+    }
+  },
+  {
+    "label": "Multiple Scenes",
+    "name": "MultipleScenes",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","testing"],
+    "variants": {
+      "glTF-Embedded": "MultipleScenes.gltf",
+      "glTF": "MultipleScenes.gltf"
     }
   },
   {
@@ -667,8 +727,7 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "NormalTangentMirrorTest.gltf",
-      "glTF-Binary": "NormalTangentMirrorTest.glb",
-      "glTF-Embedded": "NormalTangentMirrorTest.gltf"
+      "glTF-Binary": "NormalTangentMirrorTest.glb"
     }
   },
   {
@@ -678,8 +737,7 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "NormalTangentTest.gltf",
-      "glTF-Binary": "NormalTangentTest.glb",
-      "glTF-Embedded": "NormalTangentTest.gltf"
+      "glTF-Binary": "NormalTangentTest.glb"
     }
   },
   {
@@ -688,9 +746,28 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "OrientationTest.gltf",
       "glTF": "OrientationTest.gltf",
-      "glTF-Binary": "OrientationTest.glb",
-      "glTF-Embedded": "OrientationTest.gltf"
+      "glTF-Binary": "OrientationTest.glb"
+    }
+  },
+  {
+    "label": "PotOfCoals",
+    "name": "PotOfCoals",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "PotOfCoals.gltf",
+      "glTF-Binary": "PotOfCoals.glb"
+    }
+  },
+  {
+    "label": "Primitive Mode Normals Test",
+    "name": "PrimitiveModeNormalsTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","issues","testing"],
+    "variants": {
+      "glTF": "PrimitiveModeNormalsTest.gltf"
     }
   },
   {
@@ -709,10 +786,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "RiggedFigure.gltf",
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb",
-      "glTF-Draco": "RiggedFigure.gltf",
-      "glTF-Embedded": "RiggedFigure.gltf"
+      "glTF-Draco": "RiggedFigure.gltf"
     }
   },
   {
@@ -721,10 +798,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "RiggedSimple.gltf",
       "glTF": "RiggedSimple.gltf",
       "glTF-Binary": "RiggedSimple.glb",
-      "glTF-Draco": "RiggedSimple.gltf",
-      "glTF-Embedded": "RiggedSimple.gltf"
+      "glTF-Draco": "RiggedSimple.gltf"
     }
   },
   {
@@ -756,6 +833,16 @@
     }
   },
   {
+    "label": "SheenTestGrid",
+    "name": "SheenTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "SheenTestGrid.gltf",
+      "glTF-Binary": "SheenTestGrid.glb"
+    }
+  },
+  {
     "label": "Simple Instancing",
     "name": "SimpleInstancing",
     "screenshot": "screenshot/screenshot.png",
@@ -766,43 +853,63 @@
     }
   },
   {
-    "label": "SimpleMeshes",
+    "label": "Simple Material",
+    "name": "SimpleMaterial",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","testing","written"],
+    "variants": {
+      "glTF-Embedded": "SimpleMaterial.gltf",
+      "glTF": "SimpleMaterial.gltf"
+    }
+  },
+  {
+    "label": "Simple Meshes",
     "name": "SimpleMeshes",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing","written"],
     "variants": {
-      "glTF": "SimpleMeshes.gltf",
-      "glTF-Embedded": "SimpleMeshes.gltf"
+      "glTF-Embedded": "SimpleMeshes.gltf",
+      "glTF": "SimpleMeshes.gltf"
     }
   },
   {
-    "label": "SimpleMorph",
+    "label": "Simple Morph",
     "name": "SimpleMorph",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "SimpleMorph.gltf",
-      "glTF-Embedded": "SimpleMorph.gltf"
+      "glTF-Embedded": "SimpleMorph.gltf",
+      "glTF": "SimpleMorph.gltf"
     }
   },
   {
-    "label": "SimpleSkin",
+    "label": "Simple Skin",
     "name": "SimpleSkin",
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing","written"],
     "variants": {
-      "glTF": "SimpleSkin.gltf",
-      "glTF-Embedded": "SimpleSkin.gltf"
+      "glTF-Embedded": "SimpleSkin.gltf",
+      "glTF": "SimpleSkin.gltf"
     }
   },
   {
-    "label": "SimpleSparseAccessor",
+    "label": "Simple Sparse Accessor",
     "name": "SimpleSparseAccessor",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "SimpleSparseAccessor.gltf",
-      "glTF-Embedded": "SimpleSparseAccessor.gltf"
+      "glTF-Embedded": "SimpleSparseAccessor.gltf",
+      "glTF": "SimpleSparseAccessor.gltf"
+    }
+  },
+  {
+    "label": "Simple Texture",
+    "name": "SimpleTexture",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["core","testing","written"],
+    "variants": {
+      "glTF-Embedded": "SimpleTexture.gltf",
+      "glTF": "SimpleTexture.gltf"
     }
   },
   {
@@ -850,8 +957,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF": "StainedGlassLamp.gltf",
       "glTF-JPG-PNG": "StainedGlassLamp.gltf",
+      "glTF": "StainedGlassLamp.gltf",
       "glTF-KTX-BasisU": "StainedGlassLamp.gltf"
     }
   },
@@ -870,9 +977,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "TextureCoordinateTest.gltf",
       "glTF": "TextureCoordinateTest.gltf",
-      "glTF-Binary": "TextureCoordinateTest.glb",
-      "glTF-Embedded": "TextureCoordinateTest.gltf"
+      "glTF-Binary": "TextureCoordinateTest.glb"
     }
   },
   {
@@ -901,9 +1008,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "TextureSettingsTest.gltf",
       "glTF": "TextureSettingsTest.gltf",
-      "glTF-Binary": "TextureSettingsTest.glb",
-      "glTF-Embedded": "TextureSettingsTest.gltf"
+      "glTF-Binary": "TextureSettingsTest.glb"
     }
   },
   {
@@ -956,23 +1063,33 @@
     }
   },
   {
+    "label": "TransmissionThinwallTestGrid",
+    "name": "TransmissionThinwallTestGrid",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "TransmissionThinwallTestGrid.gltf",
+      "glTF-Binary": "TransmissionThinwallTestGrid.glb"
+    }
+  },
+  {
     "label": "Triangle",
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing","written"],
     "variants": {
-      "glTF": "Triangle.gltf",
-      "glTF-Embedded": "Triangle.gltf"
+      "glTF-Embedded": "Triangle.gltf",
+      "glTF": "Triangle.gltf"
     }
   },
   {
-    "label": "TriangleWithoutIndices",
+    "label": "Triangle Without Indices",
     "name": "TriangleWithoutIndices",
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "TriangleWithoutIndices.gltf",
-      "glTF-Embedded": "TriangleWithoutIndices.gltf"
+      "glTF-Embedded": "TriangleWithoutIndices.gltf",
+      "glTF": "TriangleWithoutIndices.gltf"
     }
   },
   {
@@ -1010,9 +1127,9 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Embedded": "VertexColorTest.gltf",
       "glTF": "VertexColorTest.gltf",
-      "glTF-Binary": "VertexColorTest.glb",
-      "glTF-Embedded": "VertexColorTest.gltf"
+      "glTF-Binary": "VertexColorTest.glb"
     }
   },
   {
@@ -1021,10 +1138,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF": "VC.gltf",
-      "glTF-Binary": "VC.glb",
-      "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf"
+      "glTF-Embedded": "VirtualCity.gltf",
+      "glTF": "VirtualCity.gltf",
+      "glTF-Binary": "VirtualCity.glb",
+      "glTF-Draco": "VirtualCity.gltf"
     }
   },
   {
@@ -1036,6 +1153,16 @@
       "glTF": "WaterBottle.gltf",
       "glTF-Binary": "WaterBottle.glb",
       "glTF-Draco": "WaterBottle.gltf"
+    }
+  },
+  {
+    "label": "Xmp Metadata Rounded Cube",
+    "name": "XmpMetadataRoundedCube",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "XmpMetadataRoundedCube.gltf",
+      "glTF-Binary": "XmpMetadataRoundedCube.glb"
     }
   }
 ]

@@ -4,6 +4,10 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_emissive_strength
+
 ## Summary
 
 Tests if the KHR_materials_emissive_strength extension is supported properly.

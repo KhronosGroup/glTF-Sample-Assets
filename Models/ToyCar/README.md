@@ -4,6 +4,13 @@
 
 [showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_texture_transform
+* KHR_materials_clearcoat
+* KHR_materials_transmission
+* KHR_materials_sheen
+
 ## Summary
 
 Toy car example using transmission, clearcoat, and sheen.

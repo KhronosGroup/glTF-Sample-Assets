@@ -4,6 +4,12 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_volume
+* KHR_materials_variants
+
 ## Summary
 
 Dragon with background, using material variants, transmission, and volume.
@@ -60,7 +66,7 @@ See the "Node Scale" row of the [Attenuation Test Model](https://github.com/Khro
 
 ## Attribution for the Dragon 
 
-The dragon model based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
+The dragon model is based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
 Original dragon mesh data based on a [Stanford Scan](http://www.graphics.stanford.edu/data/3Dscanrep/)
 &copy; 1996 Stanford University.
 

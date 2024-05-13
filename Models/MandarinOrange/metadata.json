@@ -7,10 +7,10 @@
             "license": "CC-BY International 4.0",
             "artist": "zamdreamer",
             "what": "Initial creation",
-            "licenseUrl": "",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         },
         {
             "year": "2023",
@@ -18,10 +18,10 @@
             "license": "CC-BY International 4.0",
             "artist": "Eric Chadwick",
             "what": "glTF PBR material",
-            "licenseUrl": "",
-            "text": "",
-            "spdx": "",
-            "icon": ""
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
         }
     ],
     "tags": [
@@ -30,7 +30,7 @@
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "MandarinOrange",
-    "path": "MandarinOrange",
+    "path": "./Models/MandarinOrange",
     "summary": "Scattering of light through the tangerine using the glTF diffuse transmission extension is shown in this test.",
     "createReadme": true
 }

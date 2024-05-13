@@ -1,4 +1,4 @@
-# AnimatedTriangle
+# Animated Triangle
 
 ## Tags
 

@@ -4,6 +4,20 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions
+
+### Required
+
+* KHR_materials_specular
+* KHR_materials_sheen
+
+### Used
+
+* KHR_materials_specular
+* KHR_materials_sheen
+* KHR_materials_specular
+* KHR_materials_sheen
+
 ## Summary
 
 Wayfair SpecularSilkPouf model using sheen and specular extensions.

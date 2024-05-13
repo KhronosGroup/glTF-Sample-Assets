@@ -1,4 +1,4 @@
-# LICENSE file for the model: SimpleSparseAccessor
+# LICENSE file for the model: Simple Sparse Accessor
 
 All files in this directory tree are licensed as indicated below.
 

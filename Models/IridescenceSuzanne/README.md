@@ -4,6 +4,14 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_lights_punctual
+* KHR_materials_ior
+* KHR_materials_transmission
+* KHR_materials_volume
+* KHR_materials_iridescence
+
 ## Summary
 
 Further tests KHR_materials_iridescence.

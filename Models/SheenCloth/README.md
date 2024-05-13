@@ -4,6 +4,18 @@
 
 [showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
 
+## Extensions
+
+### Required
+
+* KHR_texture_transform
+
+### Used
+
+* KHR_texture_transform
+* KHR_texture_transform
+* KHR_materials_sheen
+
 ## Summary
 
 Fabric example using sheen.

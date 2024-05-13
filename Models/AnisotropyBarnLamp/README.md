@@ -4,6 +4,14 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_anisotropy
+* KHR_materials_clearcoat
+* KHR_materials_emissive_strength
+* KHR_materials_transmission
+* KHR_materials_volume
+
 ## Summary
 
 Wayfair AnisotropyBarnLamp model using anisotropy, clearcoat, emissive_strength, transmission, volume, and basisu extensions.

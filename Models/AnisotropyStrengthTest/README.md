@@ -4,6 +4,10 @@
 
 [extension](../../Models-extension.md), [testing](../../Models-testing.md)
 
+## Extensions Used
+
+* KHR_materials_anisotropy
+
 ## Summary
 
 This model tests the strength parameter for KHR_materials_anisotropy.

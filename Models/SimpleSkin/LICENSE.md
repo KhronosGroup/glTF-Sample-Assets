@@ -1,4 +1,4 @@
-# LICENSE file for the model: SimpleSkin
+# LICENSE file for the model: Simple Skin
 
 All files in this directory tree are licensed as indicated below.
 

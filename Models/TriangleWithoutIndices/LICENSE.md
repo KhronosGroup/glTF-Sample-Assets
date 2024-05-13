@@ -1,4 +1,4 @@
-# LICENSE file for the model: TriangleWithoutIndices
+# LICENSE file for the model: Triangle Without Indices
 
 All files in this directory tree are licensed as indicated below.
 

@@ -4,19 +4,24 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_diffuse_transmission
+
 ## Summary
 
 DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF/DiffuseTransmissionTeacup.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb)
 * [Model Directory](./)
 
 ## Screenshot
 
 ![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [UX3D glTF Sample Viewer](https://gltf.ux3d.io/) with the environment Wide Street, environment rotation set to -Z, and the ACES (Hill) tonemapper._
+<br/>_Screenshot from [UX3D glTF Sample Viewer](http://gltf.ux3d.io/) with the environment Wide Street, environment rotation set to -Z, and the ACES (Hill) tonemapper._
 
 ## Description
 
@@ -26,12 +31,12 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 <br/>_With the extension, versus without it._
 
 ![The ingredients used for Diffuse Transmission](screenshot/diffuse-transmission-features.jpg)
-<br/>_The ingredients used for Diffuse Transmission._
+<br/>_The ingredients used for Diffuse Transmission: diffuseTransmissionColorFactor, and diffuseTransmissionFactor._
 
 ## Legal
 
-&copy; 2023, Public domain. [CC0 No Rights Reserved](https://creativecommons.org/share-your-work/public-domain/cc0)
+&copy; 2023, Public domain. [CC0 1.0 Universal](https://creativecommons.org/share-your-work/public-domain/cc0)
 
- - Eric Chadwick for Everything
+ - Polyhaven.com, and Eric Chadwick for Models and Textures
 
 #### Assembled by modelmetadata

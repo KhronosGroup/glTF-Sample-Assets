@@ -4,6 +4,12 @@
 
 [testing](../../Models-testing.md), [extension](../../Models-extension.md)
 
+## Extensions Used
+
+* KHR_materials_transmission
+* KHR_materials_ior
+* KHR_materials_volume
+
 ## Summary
 
 Tests the interaction between roughness and IOR.
