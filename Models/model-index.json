@@ -34,9 +34,9 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Quantized": "AnimatedMorphCube.gltf",
       "glTF": "AnimatedMorphCube.gltf",
-      "glTF-Binary": "AnimatedMorphCube.glb",
-      "glTF-Quantized": "AnimatedMorphCube.gltf"
+      "glTF-Binary": "AnimatedMorphCube.glb"
     }
   },
   {
@@ -55,9 +55,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
+      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf",
       "glTF": "AnisotropyBarnLamp.gltf",
-      "glTF-Binary": "AnisotropyBarnLamp.glb",
-      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf"
+      "glTF-Binary": "AnisotropyBarnLamp.glb"
     }
   },
   {
@@ -116,10 +116,10 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Quantized": "Avocado.gltf",
       "glTF": "Avocado.gltf",
       "glTF-Binary": "Avocado.glb",
-      "glTF-Draco": "Avocado.gltf",
-      "glTF-Quantized": "Avocado.gltf"
+      "glTF-Draco": "Avocado.gltf"
     }
   },
   {
@@ -422,11 +422,11 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Quantized": "Duck.gltf",
       "glTF-Embedded": "Duck.gltf",
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
-      "glTF-Draco": "Duck.gltf",
-      "glTF-Quantized": "Duck.gltf"
+      "glTF-Draco": "Duck.gltf"
     }
   },
   {
@@ -445,8 +445,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["testing","extension"],
     "variants": {
-      "glTF": "EnvironmentTest.gltf",
-      "glTF-IBL": "EnvironmentTest.gltf"
+      "glTF-IBL": "EnvironmentTest.gltf",
+      "glTF": "EnvironmentTest.gltf"
     }
   },
   {
@@ -592,10 +592,10 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Quantized": "Lantern.gltf",
       "glTF": "Lantern.gltf",
       "glTF-Binary": "Lantern.glb",
-      "glTF-Draco": "Lantern.gltf",
-      "glTF-Quantized": "Lantern.gltf"
+      "glTF-Draco": "Lantern.gltf"
     }
   },
   {
@@ -957,9 +957,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
+      "glTF-KTX-BasisU": "StainedGlassLamp.gltf",
       "glTF-JPG-PNG": "StainedGlassLamp.gltf",
-      "glTF": "StainedGlassLamp.gltf",
-      "glTF-KTX-BasisU": "StainedGlassLamp.gltf"
+      "glTF": "StainedGlassLamp.gltf"
     }
   },
   {
