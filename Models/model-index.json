@@ -34,9 +34,9 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Quantized": "AnimatedMorphCube.gltf",
       "glTF": "AnimatedMorphCube.gltf",
-      "glTF-Binary": "AnimatedMorphCube.glb"
+      "glTF-Binary": "AnimatedMorphCube.glb",
+      "glTF-Quantized": "AnimatedMorphCube.gltf"
     }
   },
   {
@@ -55,9 +55,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf",
       "glTF": "AnisotropyBarnLamp.gltf",
-      "glTF-Binary": "AnisotropyBarnLamp.glb"
+      "glTF-Binary": "AnisotropyBarnLamp.glb",
+      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf"
     }
   },
   {
@@ -116,10 +116,10 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Quantized": "Avocado.gltf",
+      "glTF-Draco": "Avocado.gltf",
       "glTF": "Avocado.gltf",
       "glTF-Binary": "Avocado.glb",
-      "glTF-Draco": "Avocado.gltf"
+      "glTF-Quantized": "Avocado.gltf"
     }
   },
   {
@@ -128,9 +128,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "BarramundiFish.gltf",
       "glTF": "BarramundiFish.gltf",
-      "glTF-Binary": "BarramundiFish.glb",
-      "glTF-Draco": "BarramundiFish.gltf"
+      "glTF-Binary": "BarramundiFish.glb"
     }
   },
   {
@@ -139,9 +139,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "BoomBox.gltf",
       "glTF": "BoomBox.gltf",
-      "glTF-Binary": "BoomBox.glb",
-      "glTF-Draco": "BoomBox.gltf"
+      "glTF-Binary": "BoomBox.glb"
     }
   },
   {
@@ -159,10 +159,10 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "Box.gltf",
       "glTF-Embedded": "Box.gltf",
       "glTF": "Box.gltf",
-      "glTF-Binary": "Box.glb",
-      "glTF-Draco": "Box.gltf"
+      "glTF-Binary": "Box.glb"
     }
   },
   {
@@ -235,10 +235,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "BrainStem.gltf",
       "glTF-Embedded": "BrainStem.gltf",
       "glTF": "BrainStem.gltf",
-      "glTF-Binary": "BrainStem.glb",
-      "glTF-Draco": "BrainStem.gltf"
+      "glTF-Binary": "BrainStem.glb"
     }
   },
   {
@@ -267,10 +267,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Draco": "CesiumMan.gltf",
       "glTF-Embedded": "CesiumMan.gltf",
       "glTF": "CesiumMan.gltf",
-      "glTF-Binary": "CesiumMan.glb",
-      "glTF-Draco": "CesiumMan.gltf"
+      "glTF-Binary": "CesiumMan.glb"
     }
   },
   {
@@ -279,10 +279,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
+      "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF-Embedded": "CesiumMilkTruck.gltf",
       "glTF": "CesiumMilkTruck.gltf",
-      "glTF-Binary": "CesiumMilkTruck.glb",
-      "glTF-Draco": "CesiumMilkTruck.gltf"
+      "glTF-Binary": "CesiumMilkTruck.glb"
     }
   },
   {
@@ -331,9 +331,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "Corset.gltf",
       "glTF": "Corset.gltf",
-      "glTF-Binary": "Corset.glb",
-      "glTF-Draco": "Corset.gltf"
+      "glTF-Binary": "Corset.glb"
     }
   },
   {
@@ -422,11 +422,11 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Quantized": "Duck.gltf",
+      "glTF-Draco": "Duck.gltf",
       "glTF-Embedded": "Duck.gltf",
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
-      "glTF-Draco": "Duck.gltf"
+      "glTF-Quantized": "Duck.gltf"
     }
   },
   {
@@ -445,8 +445,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["testing","extension"],
     "variants": {
-      "glTF-IBL": "EnvironmentTest.gltf",
-      "glTF": "EnvironmentTest.gltf"
+      "glTF": "EnvironmentTest.gltf",
+      "glTF-IBL": "EnvironmentTest.gltf"
     }
   },
   {
@@ -592,10 +592,10 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Quantized": "Lantern.gltf",
+      "glTF-Draco": "Lantern.gltf",
       "glTF": "Lantern.gltf",
       "glTF-Binary": "Lantern.glb",
-      "glTF-Draco": "Lantern.gltf"
+      "glTF-Quantized": "Lantern.gltf"
     }
   },
   {
@@ -664,9 +664,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "MorphPrimitivesTest.gltf",
       "glTF": "MorphPrimitivesTest.gltf",
-      "glTF-Binary": "MorphPrimitivesTest.glb",
-      "glTF-Draco": "MorphPrimitivesTest.gltf"
+      "glTF-Binary": "MorphPrimitivesTest.glb"
     }
   },
   {
@@ -752,6 +752,15 @@
     }
   },
   {
+    "label": "PlaysetLightTest",
+    "name": "PlaysetLightTest",
+    "screenshot": "screenshot/screenshot_large.jpg",
+    "tags": ["test"],
+    "variants": {
+      "glTF-Binary": "PlaysetLightTest.glb"
+    }
+  },
+  {
     "label": "PotOfCoals",
     "name": "PotOfCoals",
     "screenshot": "screenshot/screenshot.jpg",
@@ -786,10 +795,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "RiggedFigure.gltf",
       "glTF-Embedded": "RiggedFigure.gltf",
       "glTF": "RiggedFigure.gltf",
-      "glTF-Binary": "RiggedFigure.glb",
-      "glTF-Draco": "RiggedFigure.gltf"
+      "glTF-Binary": "RiggedFigure.glb"
     }
   },
   {
@@ -798,10 +807,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "RiggedSimple.gltf",
       "glTF-Embedded": "RiggedSimple.gltf",
       "glTF": "RiggedSimple.gltf",
-      "glTF-Binary": "RiggedSimple.glb",
-      "glTF-Draco": "RiggedSimple.gltf"
+      "glTF-Binary": "RiggedSimple.glb"
     }
   },
   {
@@ -957,9 +966,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF-KTX-BasisU": "StainedGlassLamp.gltf",
       "glTF-JPG-PNG": "StainedGlassLamp.gltf",
-      "glTF": "StainedGlassLamp.gltf"
+      "glTF": "StainedGlassLamp.gltf",
+      "glTF-KTX-BasisU": "StainedGlassLamp.gltf"
     }
   },
   {
@@ -1138,10 +1147,10 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
+      "glTF-Draco": "VirtualCity.gltf",
       "glTF-Embedded": "VirtualCity.gltf",
       "glTF": "VirtualCity.gltf",
-      "glTF-Binary": "VirtualCity.glb",
-      "glTF-Draco": "VirtualCity.gltf"
+      "glTF-Binary": "VirtualCity.glb"
     }
   },
   {
@@ -1150,9 +1159,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing","written"],
     "variants": {
+      "glTF-Draco": "WaterBottle.gltf",
       "glTF": "WaterBottle.gltf",
-      "glTF-Binary": "WaterBottle.glb",
-      "glTF-Draco": "WaterBottle.gltf"
+      "glTF-Binary": "WaterBottle.glb"
     }
   },
   {
