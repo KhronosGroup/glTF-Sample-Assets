@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": 2024,
+            "owner": "Inter IKEA Systems B.V.",
+            "artist": "Inter IKEA Systems B.V.",
+            "what": "Everything",
+            "license": "Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+            "text": "Copyright © Inter IKEA Systems B.V. 2024",
+            "spdx": "CC BY-NC-SA 4.0"
+        }
+    ],
+    "tags": [
+        "test"
+    ],
+    "screenshot": "screenshot/screenshot_large.jpg",
+    "name": "PlaysetLightTest",
+    "path": "./Models/PlaysetLightTest",
+    "summary": "A 3D scene with IKEA assets",
+    "createReadme": true
+}
