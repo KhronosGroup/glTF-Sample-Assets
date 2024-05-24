@@ -13,11 +13,11 @@
         }
     ],
     "tags": [
-        "showcase"
+        "test"
     ],
     "screenshot": "screenshot/screenshot_large.jpg",
-    "name": "Playset",
-    "path": "./Models/Playset",
+    "name": "PlaysetLightTest",
+    "path": "./Models/PlaysetLightTest",
     "summary": "A 3D scene with IKEA assets",
     "createReadme": true
 }
