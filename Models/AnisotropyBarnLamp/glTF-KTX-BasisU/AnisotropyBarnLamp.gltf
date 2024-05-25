@@ -312,23 +312,35 @@
   "textures": [
     {
       "sampler": 0,
-      "source": 0,
-      "name": "AnisotropyBarnLamp_normalbump.ktx2"
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
     },
     {
       "sampler": 0,
-      "source": 1,
-      "name": "AnisotropyBarnLamp_occlusionroughnessmetal.ktx2"
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      }
     },
     {
       "sampler": 0,
-      "source": 2,
-      "name": "AnisotropyBarnLamp_basecolor.ktx2"
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      }
     },
     {
       "sampler": 0,
-      "source": 3,
-      "name": "AnisotropyBarnLamp_anisotropy.ktx2"
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      }
     }
   ],
   "images": [
