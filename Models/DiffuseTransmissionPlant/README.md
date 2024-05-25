@@ -4,8 +4,17 @@
 
 [showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
 
-## Extensions Used
+## Extensions
 
+### Required
+
+* EXT_texture_webp
+
+### Used
+
+* EXT_texture_webp
+* EXT_texture_webp
+* KHR_lights_punctual
 * KHR_materials_diffuse_transmission
 
 ## Summary
@@ -20,19 +29,25 @@ Potted plant asset using Diffuse Transmission extension.
 
 ## Screenshot
 
-![Screenshot from UX3D glTF Sample Viewer](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [UX3D glTF Sample Viewer](http://gltf.ux3d.io/) with the environment Wide Street, and environment rotation set to -X._
+![Screenshot from Babylon.js Sandbox](screenshot/screenshot_Large.jpg)
+<br/>_Screenshot from [Babylon.js Sandbox](https://sandbox.babylonjs.com/)._
 
 ## Description
 
-This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface light transmission of green plant leaves with red backscatter.
+This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface light transmission of green plant leaves with red backscatter. 
 
-The original model is available from [Polyhaven](https://polyhaven.com/a/potted_plant_02).
+The original model is available from [Polyhaven](https://polyhaven.com/a/potted_plant_02). The model was edited with 3ds Max. The leaves were duplicated and flipped, then assigned a copy of the leaf material with a red color as a multiplier on the base color. Then the diffuse transmission extension was added, with a red color. The red leaf undersides help to justify the use of red backscatter, to show a reddish transmission when a light is being projected upwards from under the leaves. 
+
+Fireflies were added, with point lights, and animated to follow a looping path. Chase cameras were added behind the fireflies. For optimal texture quality, lossless versions of the textures were re-downloaded from Polyhaven, then the asset was optimized with RapidCompact, an ambient occlusion texture was baked for the pot and the dirt, and the textures were compressed into WEBP format.
 
 ## Legal
 
+&copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+ - Eric Chadwick for Materials and animation
+
 &copy; 2021, Public domain. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - Rico Cilliers for Everything
+ - Rico Cilliers for Original asset
 
 #### Assembled by modelmetadata
