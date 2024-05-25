@@ -782,6 +782,7 @@ class ModelMetadata
 			}
 		}
 		$folder->close();
+		ksort($variants);
 		$this->metadata['variants'] = $variants;
 		return;
 	}
