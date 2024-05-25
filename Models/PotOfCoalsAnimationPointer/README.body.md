@@ -5,7 +5,7 @@
 
 ## Description
 
-This asset uses the extension [KHR_animation_pointer](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_animation_pointer#khr_animation_pointer) to animate a heat refraction effect over the [PotOfCoals asset](././PotOfCoals/README.md).
+This asset uses the extension [KHR_animation_pointer](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_animation_pointer#khr_animation_pointer) to animate a heat refraction effect over the [PotOfCoals asset](../PotOfCoals/README.md).
 
 ![Animated GIF of the heat refraction](screenshot/PotOfCoalsAnimationPointer.gif)
 <br/>_The animated heat refraction effect._
