@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2023",
+            "owner": "Darmstadt Graphics Group GmbH",
+            "what": "Model and textures",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing",
+        "issues",
+        "complete"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "NormalBumpBakingMethods",
+    "path": "./Models/NormalBumpBakingMethods",
+    "summary": "NormalBumpBakingMethods for testing the rendering of baked tangent-space normal maps.",
+    "createReadme": true
+}
