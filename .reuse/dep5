@@ -385,6 +385,11 @@ Copyright:
  2023 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
+Files: Models/NodePerformanceTest/*
+Copyright: 
+ 2024 Public
+License: CC0-1.0
+
 Files: Models/NormalTangentMirrorTest/*
 Copyright: 
  2018 Analytical Graphics, Inc.
