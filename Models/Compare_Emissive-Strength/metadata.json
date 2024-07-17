@@ -14,8 +14,7 @@
         }
     ],
     "tags": [
-        "core,
-	"extension",
+        "extension",
         "testing"
     ],
     "screenshot": "screenshot/screenshot.jpg",
