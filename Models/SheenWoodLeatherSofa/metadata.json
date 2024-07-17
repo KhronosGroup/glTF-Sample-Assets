@@ -30,7 +30,7 @@
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "DiffuseTransmissionPlant",
-    "path": "./Models/DiffuseTransmissionPlant",
+    "path": "./Models/SheenWoodLeatherSofa",
     "summary": "Potted plant asset using Diffuse Transmission extension.",
     "createReadme": true
 }
