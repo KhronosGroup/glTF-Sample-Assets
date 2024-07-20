@@ -15,7 +15,8 @@
     ],
     "tags": [
         "extension",
-        "testing"
+        "testing",
+        "pbrtest"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare IOR",

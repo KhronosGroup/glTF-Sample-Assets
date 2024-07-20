@@ -15,7 +15,8 @@
     ],
     "tags": [
         "core",
-        "testing"
+        "testing",
+        "pbrtest"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Alpha Coverage",
