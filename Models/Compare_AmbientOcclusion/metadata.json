@@ -7,16 +7,37 @@
             "license": "CC0",
             "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
             "artist": "Polyhaven",
-            "what": "Everything",
+            "what": "Models",
             "text": "CC0 1.0 Universal",
             "spdx": "CC0-1.0",
             "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+            "year": "2024",
+            "owner": "Public",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Eric Chadwick",
+            "what": "Textures",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "Khronos Group",
+            "what": "glTF logo",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
+            "icon": ""
         }
     ],
     "tags": [
         "core",
         "testing",
-        "pbrtest"
+	"pbrtest"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Ambient Occlusion",
