@@ -452,6 +452,9 @@
     },
     {
       "uri": "Compare_Volume_img2.jpg"
+    },
+    {
+      "uri": "Compare_Volume_img3.jpg"
     }
   ],
   "materials": [
@@ -465,6 +468,14 @@
       }
     },
     {
+      "emissiveFactor": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
       "extensions": {
         "KHR_materials_transmission": {
           "transmissionFactor": 1
@@ -492,18 +503,26 @@
       }
     },
     {
+      "emissiveFactor": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
       "extensions": {
         "KHR_materials_transmission": {
           "transmissionFactor": 1
         },
         "KHR_materials_volume": {
           "attenuationColor": [
-            0.250980406999588,
-            0.529411792755127,
-            0.5176470875740051
+            0.15,
+            1,
+            0.5
           ],
-          "attenuationDistance": 0.10000000149011612,
-          "thicknessFactor": 0.5,
+          "attenuationDistance": 0.25,
+          "thicknessFactor": 0.75,
           "thicknessTexture": {
             "index": 1
           }
@@ -704,6 +723,9 @@
     },
     {
       "source": 2
+    },
+    {
+      "source": 3
     }
   ]
 }

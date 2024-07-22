@@ -451,6 +451,9 @@
     },
     {
       "uri": "Compare_Transmission_img2.jpg"
+    },
+    {
+      "uri": "Compare_Transmission_img3.jpg"
     }
   ],
   "materials": [
@@ -465,7 +468,15 @@
     },
     {
       "alphaMode": "BLEND",
-      "name": "glTF Alpha",
+        "emissiveFactor": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "emissiveTexture": {
+          "index": 3
+        },
+        "name": "glTF Alpha",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 1
@@ -490,7 +501,15 @@
       }
     },
     {
-      "extensions": {
+      "emissiveFactor": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+    "extensions": {
         "KHR_materials_transmission": {
           "transmissionFactor": 1
         }
@@ -690,6 +709,9 @@
     },
     {
       "source": 2
+    },
+    {
+      "source": 3
     }
   ]
 }
