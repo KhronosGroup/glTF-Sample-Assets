@@ -31,7 +31,7 @@
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Roughness",
-    "path": "./Models/Compare_Roughness",
+    "path": "./Models/CompareRoughness",
     "summary": "This model compares roughness methods.",
     "createReadme": true
 }

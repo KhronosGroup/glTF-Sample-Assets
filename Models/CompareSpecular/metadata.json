@@ -31,7 +31,7 @@
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Specular",
-    "path": "./Models/Compare_Specular",
+    "path": "./Models/CompareSpecular",
     "summary": "This model compares specular methods.",
     "createReadme": true
 }

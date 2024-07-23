@@ -31,7 +31,7 @@
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Sheen",
-    "path": "./Models/Compare_Sheen",
+    "path": "./Models/CompareSheen",
     "summary": "This model compares sheen methods.",
     "createReadme": true
 }
