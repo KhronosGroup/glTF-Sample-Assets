@@ -327,6 +327,166 @@
     }
   },
   {
+    "label": "Compare Alpha Coverage",
+    "name": "CompareAlphaCoverage",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareAlphaCoverage.glb",
+      "glTF": "CompareAlphaCoverage.gltf"
+    }
+  },
+  {
+    "label": "Compare Ambient Occlusion",
+    "name": "CompareAmbientOcclusion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareAmbientOcclusion.glb",
+      "glTF": "CompareAmbientOcclusion.gltf"
+    }
+  },
+  {
+    "label": "Compare Anisotropy",
+    "name": "CompareAnisotropy",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareAnisotropy.glb",
+      "glTF": "CompareAnisotropy.gltf"
+    }
+  },
+  {
+    "label": "Compare Base Color",
+    "name": "CompareBaseColor",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareBasecolor.glb",
+      "glTF": "CompareBasecolor.gltf"
+    }
+  },
+  {
+    "label": "Compare Clearcoat",
+    "name": "CompareClearcoat",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareClearcoat.glb",
+      "glTF": "CompareClearcoat.gltf"
+    }
+  },
+  {
+    "label": "Compare Dispersion",
+    "name": "CompareDispersion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareDispersion.glb",
+      "glTF": "CompareDispersion.gltf"
+    }
+  },
+  {
+    "label": "Compare Emissive Strength",
+    "name": "CompareEmissiveStrength",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareEmissiveStrength.glb",
+      "glTF": "CompareEmissiveStrength.gltf"
+    }
+  },
+  {
+    "label": "Compare IOR",
+    "name": "CompareIor",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareIor.glb",
+      "glTF": "CompareIor.gltf"
+    }
+  },
+  {
+    "label": "Compare Iridescence",
+    "name": "CompareIridescence",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareIridescence.glb",
+      "glTF": "CompareIridescence.gltf"
+    }
+  },
+  {
+    "label": "Compare Metallic",
+    "name": "CompareMetallic",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareMetallic.glb",
+      "glTF": "CompareMetallic.gltf"
+    }
+  },
+  {
+    "label": "Compare Normal",
+    "name": "CompareNormal",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareNormal.glb",
+      "glTF": "CompareNormal.gltf"
+    }
+  },
+  {
+    "label": "Compare Roughness",
+    "name": "CompareRoughness",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareRoughness.glb",
+      "glTF": "CompareRoughness.gltf"
+    }
+  },
+  {
+    "label": "Compare Sheen",
+    "name": "CompareSheen",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareSheen.glb",
+      "glTF": "CompareSheen.gltf"
+    }
+  },
+  {
+    "label": "Compare Specular",
+    "name": "CompareSpecular",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareSpecular.glb",
+      "glTF": "CompareSpecular.gltf"
+    }
+  },
+  {
+    "label": "Compare Transmission",
+    "name": "CompareTransmission",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareTransmission.glb",
+      "glTF": "CompareTransmission.gltf"
+    }
+  },
+  {
+    "label": "Compare Volume",
+    "name": "CompareVolume",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF-Binary": "CompareVolume.glb",
+      "glTF": "CompareVolume.gltf"
+    }
+  },
+  {
     "label": "Corset",
     "name": "Corset",
     "screenshot": "screenshot/screenshot.jpg",
