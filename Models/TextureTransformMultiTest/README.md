@@ -13,9 +13,9 @@
 ### Used
 
 * KHR_texture_transform
-* KHR_texture_transform
-* KHR_materials_unlit
 * KHR_materials_clearcoat
+* KHR_materials_unlit
+* KHR_texture_transform
 
 ## Summary
 
