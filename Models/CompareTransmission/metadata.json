@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "LicenseRef-LegalMark-Khronos",
+            "licenseUrl": "",
+            "artist": "Non-copyrightable logo",
+            "year": "2017",
+            "owner": "Khronos Group",
+            "what": "glTF logo",
+            "text": "Khronos Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-Khronos",
+            "icon": ""
+        },
+        {
+            "year": "2024",
+            "owner": "Public",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Eric Chadwick and DGG",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension",
+        "testing",
+        "pbrtest"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Compare Transmission",
+    "path": "./Models/CompareTransmission",
+    "summary": "This model compares transmission methods.",
+    "createReadme": true
+}
