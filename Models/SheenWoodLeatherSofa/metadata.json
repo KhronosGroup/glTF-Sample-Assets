@@ -29,8 +29,8 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "DiffuseTransmissionPlant",
+    "name": "SheenWoodLeatherSofa",
     "path": "./Models/SheenWoodLeatherSofa",
-    "summary": "Potted plant asset using Diffuse Transmission extension.",
+    "summary": "Sofa asset using sheen, specular, and high-quality tiling textures.",
     "createReadme": true
 }
