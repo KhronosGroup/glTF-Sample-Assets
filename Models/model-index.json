@@ -362,8 +362,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["core","testing","pbrtest"],
     "variants": {
-      "glTF": "CompareBasecolor.gltf",
-      "glTF-Binary": "CompareBasecolor.glb"
+      "glTF": "CompareBaseColor.gltf",
+      "glTF-Binary": "CompareBaseColor.glb"
     }
   },
   {

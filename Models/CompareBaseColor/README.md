@@ -4,13 +4,18 @@
 
 [core](../../Models-core.md), [testing](../../Models-testing.md), pbrtest
 
+## Extensions Used
+
+* KHR_texture_transform
+
 ## Summary
 
 This model compares base color methods.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF/CompareBaseColor.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb) in SampleViewer
+* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb)
 * [Model Directory](./)
 
 ## Screenshot
