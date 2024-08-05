@@ -70,4 +70,4 @@ In the above screenshot, the requested `alphaCutoff` value is not being respecte
 
 ![screenshot](screenshot/CutoffDefaultFail.jpg)
 
-In this screenshot, it appears that the rendering engine is not using the value `0.5` for the default value of `alphaCutoff` when the model does not specify a particular value.  The glTF specification [names `0.5` as the default](https://github.com/KhronosGroup/glTF/blob/0890b76c62cc762ce82d4010df9bfebb1634839b/specification/2.0/schema/material.schema.json#L68), so this is a test failure.
+In this screenshot, it appears that the rendering engine is not using the value `0.5` for the default value of `alphaCutoff` when the model does not specify a particular value.  The glTF specification [names `0.5` as the default](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#_material_alphacutoff), so this is a test failure.
