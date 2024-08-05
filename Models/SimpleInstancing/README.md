@@ -50,6 +50,6 @@ This means that the first instance that is rendered is the unmodified unit cube,
 
 &copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - Marco Hutter for Everything
+ - Marco Hutter (https://github.com/javagl/) for Everything
 
 #### Assembled by modelmetadata

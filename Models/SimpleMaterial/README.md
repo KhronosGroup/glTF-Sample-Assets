@@ -34,6 +34,6 @@ The following image shows the data layout of this sample:
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - javagl for Everything
+ - Marco Hutter (https://github.com/javagl/) for Everything
 
 #### Assembled by modelmetadata
