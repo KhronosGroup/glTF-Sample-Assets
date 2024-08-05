@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2024",
+            "owner": "Darmstadt Graphics Group GmbH",
+            "license": "CC-BY 4.0",
+            "artist": "Eric Chadwick",
+            "what": "3D asset and textures",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "AnimationPointerUVs",
+    "path": "./Models/AnimationPointerUVs",
+    "summary": "This model tests UV transform animations with KHR_animation_pointer.",
+    "createReadme": true
+}
