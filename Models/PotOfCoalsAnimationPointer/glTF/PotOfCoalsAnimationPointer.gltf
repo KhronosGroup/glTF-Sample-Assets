@@ -1,0 +1,632 @@
+{
+  "asset": {
+    "copyright": "Asset © 2024 Darmstadt Graphics Group GmbH, CC BY 4.0 International, created by Eric Chadwick. Khronos logo © 2015, Khronos Group. glTF logo © 2017, Khronos Group. DGG logo © 2020, Darmstadt Graphics Group GmbH.",
+    "generator": "HS glTF exporter for 3dsmax 1.47c (custom3dsmax@gmail.com)",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 38733,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38733,
+      "max": [
+        0.033210985362529755,
+        0.032759882509708405,
+        0.04838255047798157
+      ],
+      "min": [
+        -0.032759882509708405,
+        -0.032759882509708405,
+        0.039156123995780945
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 38733,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 38733,
+      "max": [
+        0.9877474308013916,
+        0.9878398180007935
+      ],
+      "min": [
+        0.005124503746628761,
+        0.007686734199523926
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 15936,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 15936,
+      "max": [
+        0.03999999910593033,
+        0.03999999910593033,
+        0.04996875301003456
+      ],
+      "min": [
+        -0.03999999910593033,
+        -0.03999999910593033,
+        0.0007160003297030926
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 15936,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 15936,
+      "max": [
+        1.000026822090149,
+        1.0
+      ],
+      "min": [
+        8.627646651905278e-17,
+        0.009061932563781738
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 264,
+      "max": [
+        0.029315194115042686,
+        0.028869828209280968,
+        0.0504639595746994
+      ],
+      "min": [
+        -0.029315190389752388,
+        -0.028869828209280968,
+        0.04758200794458389
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 264,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 264,
+      "max": [
+        0.5,
+        0.49999988079071045
+      ],
+      "min": [
+        -0.4999999701976776,
+        -0.5
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        4.0
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        6.2831854820251465
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        4.0
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        6.2831854820251465
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/2/normalTexture/extensions/KHR_texture_transform/rotation"
+              }
+            },
+            "path": "pointer"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/2/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
+              }
+            },
+            "path": "pointer"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 12,
+          "interpolation": "LINEAR",
+          "output": 13
+        },
+        {
+          "input": 14,
+          "interpolation": "LINEAR",
+          "output": 15
+        }
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 154932,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 464796,
+      "byteOffset": 154932,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 464796,
+      "byteOffset": 619728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 309864,
+      "byteOffset": 1084524,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63744,
+      "byteOffset": 1394388,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 191232,
+      "byteOffset": 1458132,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 191232,
+      "byteOffset": 1649364,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 127488,
+      "byteOffset": 1840596,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1056,
+      "byteOffset": 1968084,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3168,
+      "byteOffset": 1969140,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3168,
+      "byteOffset": 1972308,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 1975476,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 1977588
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 1977600
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 1977612
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 1977620
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1977628,
+      "uri": "PotOfCoalsAnimationPointer.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_animation_pointer",
+    "KHR_materials_clearcoat",
+    "KHR_materials_specular",
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_texture_transform"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_specular",
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_texture_transform"
+  ],
+  "images": [
+    {
+      "uri": "HotCoals_basecolor.jpg"
+    },
+    {
+      "uri": "HotCoals_normal.jpg"
+    },
+    {
+      "uri": "HotCoals_emissive.jpg"
+    },
+    {
+      "uri": "HotCoals_orm.jpg"
+    },
+    {
+      "uri": "CopperPot_basecolor.jpg"
+    },
+    {
+      "uri": "CopperPot_normal.png"
+    },
+    {
+      "uri": "CopperPot_orm.jpg"
+    },
+    {
+      "uri": "CopperPot_clearcoat.jpg"
+    },
+    {
+      "uri": "Heatdome_normal.jpg"
+    },
+    {
+      "uri": "Heatdome_thickness.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "HotCoals",
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.89999
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatTexture": {
+            "index": 7
+          }
+        }
+      },
+      "name": "CopperPot",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 6
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 6
+        }
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "specularFactor": 0.0
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 0.01999,
+          "thicknessTexture": {
+            "extensions": {
+              "KHR_texture_transform": {
+                "rotation": 6.2831854820251465
+              }
+            },
+            "index": 9
+          }
+        }
+      },
+      "name": "HeatDome",
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "rotation": 0.0
+          }
+        },
+        "index": 8,
+        "scale": 1.5
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "HotCoals",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "CopperPot",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "HeatDome",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "HotCoals"
+    },
+    {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 1,
+      "name": "CopperPot"
+    },
+    {
+      "matrix": [
+        -1.0,
+        0.0,
+        8.742277657347586e-08,
+        0.0,
+        8.742277657347586e-08,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 2,
+      "name": "HeatDome"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    }
+  ]
+}
