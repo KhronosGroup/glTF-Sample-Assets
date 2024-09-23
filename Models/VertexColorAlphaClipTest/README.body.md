@@ -16,9 +16,7 @@ The two middle cubes (yellow and green) show a lot of fragment noise in the abov
 
 ![screenshot](screenshot/fail_noise_detail.png)
 
-The exact reason this noise is present can vary by rendering engine implementation.  One possibile cause may be a comparison of a float without an epsilon.  The `COLOR_0` vertex colors here include alpha values, and in the case of this third sample with the green cube, the alpha values are all `1.0`. These values pass through the vertex shader and on to rasterization.  The rasterizer linearly interpolates between vertices, and the result at any one fragment may be the sum of fractional values that are intended to add up to `1.0`.  But on some fragments, the sum is not exact, and an exact test against a perfect `1.0` value has some chance of failure.
-
-The use of `"alphaCutoff": 1.0` in the cube's material will punch holes in the cube wherever there are fragments that don't sum up completely.  One possible fix is to add a small epsilon to `alphaCutoff` in the shader.
+The exact reason this noise is present can vary by rendering engine implementation, platform, and GPU in use.  It's possible that discarding masked fragments too early in a shader (prior to gradients and texture lookup usage) may be a contributing factor in some implementations.
 
 ### Problem: No alpha mask
 
@@ -37,8 +35,6 @@ The glTF specification [Alpha Coverage section](https://registry.khronos.org/glT
 > When `alphaMode` is set to `MASK` the `alphaCutoff` property specifies the cutoff threshold. If the alpha value is greater than or equal to the `alphaCutoff` value then it is rendered as fully opaque, otherwise, it is rendered as fully transparent.
 
 The specification makes special mention of the equality case presented here by the two middle cubes in yellow and green.  They should be rendered fully opaque.  So a rendering similar to the above screenshot with the missing middle cubes is a test failure.
-
-Here too, adding a small epsilon to `alphaCutoff` during load or render of a glTF may be enough to fix the problem.
 
 ## Label Text
 
