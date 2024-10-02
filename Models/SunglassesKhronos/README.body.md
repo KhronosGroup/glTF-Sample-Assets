@@ -91,9 +91,9 @@ This asset uses only one texture, for the Khronos Group logos on the black earho
 
 [PNG](http://www.libpng.org/pub/png/spec/1.2/PNG-Contents.html) was chosen as the initial texture format because the image contains mostly larger areas of flat colors, which is ideal for PNG compression. The glTF Sample Assets repository aims to reduce or eliminate compression artifacts in assets, to provide the highest quality content with the widest compatibility.
 
-[WEBP](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_texture_webp/README.md) was chosen for the compressed version because small file sizes are essential for many e-commerce assets, which reduces the download time for consumers. The longer users have to wait for a file to download, the more likely they are to abandon a 3D experience.
+[WebP](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_texture_webp/README.md) was chosen for the compressed version because small file sizes are essential for many e-commerce assets, which reduces the download time for consumers. The longer users have to wait for a file to download, the more likely they are to abandon a 3D experience.
 
-[KTX](https://www.khronos.org/ktx/) was not chosen for texture compression because WEBP produces smaller files at comparable quality. KTX works well for applications where video memory is a constraint, for example when multiple models are being loaded together in a room planner and video memory is limited on a mobile device. Another strong use case for KTX is when GPU loading time needs to be optimized, for example when loading/unloading assets dynamically as in a product configurator.
+[KTX](https://www.khronos.org/ktx/) was not chosen for texture compression because WebP produces smaller files at comparable quality. KTX works well for applications where video memory is a constraint, for example when multiple models are being loaded together in a room planner and video memory is limited on a mobile device. Another strong use case for KTX is when GPU loading time needs to be optimized, for example when loading/unloading assets dynamically as in a product configurator.
 
 
 ## Iridescence
@@ -164,4 +164,4 @@ Copyright metadata was added using [Microsoft Visual Studio Code](https://code.v
 
 After conversion, the resulting glTF was then optimized with [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) to compact the data by removing unneeded information. In this case no decimation was required since the model uses only 13,396 triangles. 
 
-A variant with lossy compression was created with another run of RapidPipeline 3D Processor, applying Draco geometry compression and WEBP texture compression. This compressed the glTF from 371,212 bytes down to 63,146 bytes, a 83% reduction in size.
+A variant with lossy compression was created with another run of RapidPipeline 3D Processor, applying Draco geometry compression and WebP texture compression. This compressed the glTF from 371,212 bytes down to 63,146 bytes, a 83% reduction in size.
