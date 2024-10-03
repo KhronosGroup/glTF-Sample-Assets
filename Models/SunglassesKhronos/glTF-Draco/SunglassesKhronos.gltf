@@ -1,0 +1,813 @@
+{
+  "accessors": [
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "max": [
+        -0.061044342815876007,
+        0.15709564089775085,
+        0.037444490939378738
+      ],
+      "min": [
+        -0.075238756835460663,
+        0.038414943963289261,
+        -1.5298835933208466e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 6696,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 212,
+      "max": [
+        0.0024364625569432974,
+        0.025543496012687683,
+        0.0031650103628635406
+      ],
+      "min": [
+        -0.0053170546889305115,
+        -0.0024097601417452097,
+        -0.0045563438907265663
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 212,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 858,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "max": [
+        0.075262241065502167,
+        0.15709534287452698,
+        0.037447556853294373
+      ],
+      "min": [
+        0.061067819595336914,
+        0.03841487318277359,
+        -1.2214077287353575e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 1176,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 6696,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 212,
+      "max": [
+        0.0053170546889305115,
+        0.025543499737977982,
+        0.0031650110613554716
+      ],
+      "min": [
+        -0.0024364625569432974,
+        -0.0024097603745758533,
+        -0.0045563485473394394
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 212,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 858,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 452,
+      "max": [
+        -0.027940284460783005,
+        0.0052280612289905548,
+        -0.00043418785207904875
+      ],
+      "min": [
+        -0.045802447944879532,
+        -0.002123324666172266,
+        -0.012995239347219467
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 452,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 2688,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 3036,
+      "max": [
+        0.074922122061252594,
+        0.016543125733733177,
+        0.057607084512710571
+      ],
+      "min": [
+        -0.074922122061252594,
+        -0.0043379389680922031,
+        0.00018431618809700012
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 3036,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 16248,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 578,
+      "max": [
+        0.03507329523563385,
+        0.006732218898832798,
+        0.025158364325761795
+      ],
+      "min": [
+        -0.10881603509187698,
+        -0.0036237328313291073,
+        -0.031040189787745476
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 578,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 3072,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 578,
+      "max": [
+        0.035109095275402069,
+        0.0065815802663564682,
+        0.025216737762093544
+      ],
+      "min": [
+        -0.1088518351316452,
+        -0.0037861648015677929,
+        -0.031063787639141083
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 578,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 3072,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "© 2015, Khronos Group, Khronos logo. © 2017, Khronos Group, 3D Commerce logo. Asset is CC BY 4.0 International, created by Eric Chadwick of Darmstadt Graphics Group GmbH, 2024",
+    "generator": "Created by RapidCompact v6.9.2 | www.rapidcompact.com",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5020,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1512,
+      "byteOffset": 5020
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5327,
+      "byteOffset": 6532
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1499,
+      "byteOffset": 11860
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2455,
+      "byteOffset": 13360
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12567,
+      "byteOffset": 15816
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1866,
+      "byteOffset": 28384
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1905,
+      "byteOffset": 30252
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 32160,
+      "uri": "SunglassesKhronos.data.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression",
+    "EXT_texture_webp"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "EXT_texture_webp",
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_materials_ior",
+    "KHR_materials_iridescence"
+  ],
+  "images": [
+    {
+      "uri": "SunglassesKhronos.webp"
+    }
+  ],
+  "materials": [
+    {
+      "name": "earhooks",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.20000022649765015
+      }
+    },
+    {
+      "name": "temples",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.91593658924102783,
+          0.91593658924102783,
+          0.91593658924102783,
+          1
+        ],
+        "roughnessFactor": 0.050000011920928955
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "attenuationColor": [
+            1,
+            1,
+            1
+          ],
+          "attenuationDistance": 0.0069999999999999993,
+          "thicknessFactor": 0.01
+        }
+      },
+      "name": "nose_pads",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        }
+      },
+      "name": "lens_interior",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.016067700460553169,
+          0.016067700460553169,
+          0.016067700460553169,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1
+        },
+        "KHR_materials_iridescence": {
+          "iridescenceFactor": 1,
+          "iridescenceIor": 2,
+          "iridescenceThicknessMaximum": 300.00999999999999
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        }
+      },
+      "name": "lens_exterior",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0090214908123016357,
+          0.0090214908123016357,
+          0.0090214908123016357,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "EarhookRight",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 2,
+                "POSITION": 0,
+                "TEXCOORD_0": 1
+              },
+              "bufferView": 0
+            }
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "TempleRight",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 1
+            }
+          },
+          "indices": 6,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "EarhookLeft",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 7,
+            "TEXCOORD_0": 8
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 2,
+                "POSITION": 0,
+                "TEXCOORD_0": 1
+              },
+              "bufferView": 2
+            }
+          },
+          "indices": 10,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "TempleLeft",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 12,
+            "POSITION": 11
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 3
+            }
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Nosepads",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 15,
+            "POSITION": 14
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 4
+            }
+          },
+          "indices": 16,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Frames",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 18,
+            "POSITION": 17
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 5
+            }
+          },
+          "indices": 19,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "LensesInterior",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 6
+            }
+          },
+          "indices": 22,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "LensesExterior",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 24,
+            "POSITION": 23
+          },
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0
+              },
+              "bufferView": 7
+            }
+          },
+          "indices": 25,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        7.4505805969238281e-09,
+        -1.862645149230957e-09,
+        1
+      ],
+      "name": "EarhookRight"
+    },
+    {
+      "mesh": 0,
+      "name": "EarhookRight"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1.7484555314695174e-07,
+        -1,
+        0,
+        0,
+        1,
+        -1.7484555314695174e-07,
+        0,
+        -0.069356225430965424,
+        0.035567712038755417,
+        -0.014133364893496037,
+        1
+      ],
+      "name": "TempleRight"
+    },
+    {
+      "mesh": 1,
+      "name": "TempleRight"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3.7252902984619141e-09,
+        -9.3132257461547831e-10,
+        1
+      ],
+      "name": "EarhookLeft"
+    },
+    {
+      "mesh": 2,
+      "name": "EarhookLeft"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1.7484555314695174e-07,
+        -1,
+        0,
+        0,
+        1,
+        -1.7484555314695174e-07,
+        0,
+        0.069368548691272736,
+        0.035567712038755417,
+        -0.014133364893496037,
+        1
+      ],
+      "name": "TempleLeft"
+    },
+    {
+      "mesh": 3,
+      "name": "TempleLeft"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.037027515470981598,
+        0.031837575137615204,
+        0.00058044109027832747,
+        1
+      ],
+      "name": "Nosepads"
+    },
+    {
+      "mesh": 4,
+      "name": "Nosepads"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Frames"
+    },
+    {
+      "mesh": 5,
+      "name": "Frames"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.037027515470981598,
+        0.031837575137615204,
+        0.00058044109027832747,
+        1
+      ],
+      "name": "LensesInterior"
+    },
+    {
+      "mesh": 6,
+      "name": "LensesInterior"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.037027515470981598,
+        0.031837575137615204,
+        0.00058044097386300564,
+        1
+      ],
+      "name": "LensesExterior"
+    },
+    {
+      "mesh": 7,
+      "name": "LensesExterior"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    }
+  ]
+}
