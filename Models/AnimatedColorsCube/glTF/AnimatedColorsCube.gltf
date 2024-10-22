@@ -103,7 +103,6 @@
 	],
 	"materials":[
 		{
-			"doubleSided":true,
 			"name":"AnimatedColorMaterial",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
@@ -117,7 +116,6 @@
 			}
 		},
 		{
-			"doubleSided":true,
 			"name":"Red",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
@@ -131,7 +129,6 @@
 			}
 		},
 		{
-			"doubleSided":true,
 			"name":"Green",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
@@ -145,7 +142,6 @@
 			}
 		},
 		{
-			"doubleSided":true,
 			"name":"Blue",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
