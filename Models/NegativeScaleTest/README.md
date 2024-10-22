@@ -63,6 +63,6 @@ This problem with normal vectors is likely also the cause the upper "check" and 
 
 &copy; 2023, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
- - Ed Mackey for Everthing
+ - Ed Mackey for Everything
 
 #### Assembled by modelmetadata
