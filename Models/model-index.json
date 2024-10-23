@@ -20,6 +20,16 @@
     }
   },
   {
+    "label": "Animated Colors Cube",
+    "name": "AnimatedColorsCube",
+    "screenshot": "screenshot/screenshot.gif",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "AnimatedColorsCube.gltf",
+      "glTF-Binary": "AnimatedColorsCube.glb"
+    }
+  },
+  {
     "label": "Animated Cube",
     "name": "AnimatedCube",
     "screenshot": "screenshot/screenshot.gif",
