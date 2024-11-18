@@ -38,7 +38,7 @@
     "tags": [
         "core",
         "testing",
-	"pbrtest"
+        "pbrtest"
     ],
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Compare Ambient Occlusion",

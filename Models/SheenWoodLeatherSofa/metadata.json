@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2024",
+            "owner": "Darmstadt Graphics Group GmbH",
+            "what": "Improvements",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Fran Calvente",
+            "year": "2021",
+            "owner": "Public domain",
+            "what": "Original asset",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "SheenWoodLeatherSofa",
+    "path": "./Models/SheenWoodLeatherSofa",
+    "summary": "Sofa asset using sheen, specular, and high-quality tiling textures.",
+    "createReadme": true
+}
