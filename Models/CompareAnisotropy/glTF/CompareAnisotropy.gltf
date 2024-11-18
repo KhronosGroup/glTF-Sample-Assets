@@ -379,7 +379,7 @@
     {
       "extensions": {
         "KHR_materials_anisotropy": {
-          "anisotropyStrength": 1,
+          "anisotropyStrength": 0.5,
           "anisotropyRotation": 0
         }
       },
@@ -394,7 +394,7 @@
           }
         },
         "index": 2,
-        "scale": 1
+        "scale": 0.5
       },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
@@ -424,7 +424,7 @@
       "name": "spiral-anisotropy",
       "normalTexture": {
         "index": 0,
-        "scale": 1
+        "scale": 0.5
       },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
