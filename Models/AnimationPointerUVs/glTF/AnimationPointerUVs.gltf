@@ -4805,12 +4805,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 476,
@@ -4829,12 +4831,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 478,
@@ -4903,12 +4907,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -4929,12 +4933,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -4981,12 +4985,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -5057,12 +5061,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -5107,14 +5111,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 500,
@@ -5159,12 +5161,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 504,
@@ -5235,12 +5239,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 510,
@@ -5259,12 +5265,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 512,
@@ -5283,14 +5291,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 514,
@@ -5361,14 +5367,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 520,
@@ -5411,14 +5415,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 524,
@@ -5437,12 +5439,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -5463,14 +5465,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 528,
@@ -5489,14 +5489,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 530,
@@ -5515,12 +5513,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 532,
@@ -5591,12 +5591,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 538,
@@ -5615,12 +5617,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 540,
@@ -5639,12 +5643,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -5717,14 +5721,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 548,
@@ -5769,12 +5771,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -5795,12 +5797,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -5821,12 +5823,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 556,
@@ -5971,12 +5975,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -5997,14 +6001,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 570,
@@ -6023,12 +6025,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 572,
@@ -6047,12 +6051,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 574,
@@ -6071,14 +6077,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 576,
@@ -6145,14 +6149,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 582,
@@ -6195,14 +6197,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 586,
@@ -6221,12 +6221,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -6247,12 +6247,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 590,
@@ -6297,12 +6299,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 594,
@@ -6321,14 +6325,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 596,
@@ -6373,12 +6375,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 600,
@@ -6421,12 +6425,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -6447,14 +6451,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 606,
@@ -6473,12 +6475,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -6499,14 +6501,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 610,
@@ -6549,14 +6549,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 614,
@@ -6599,12 +6597,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -6625,12 +6623,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -6651,12 +6649,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -6677,12 +6675,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 624,
@@ -6727,12 +6727,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -6777,12 +6777,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 632,
@@ -6801,12 +6803,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 634,
@@ -6851,14 +6855,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        1.5707963705062866
       ],
       "min": [
-        -1.0,
         0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 638,
@@ -6877,12 +6879,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 640,
@@ -6901,12 +6905,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        -0.0,
+        1.0
       ],
       "min": [
-        1.0,
-        1.0
+        -1.0,
+        0.0
       ],
       "type": "VEC2"
     },
@@ -6927,14 +6931,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 644,
@@ -6953,12 +6955,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -7005,14 +7007,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 650,
@@ -7031,12 +7031,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 652,
@@ -7055,12 +7057,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        -0.0,
+        1.0
       ],
       "min": [
+        -1.0,
         0.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 654,
@@ -7079,14 +7083,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 656,
@@ -7105,14 +7107,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 658,
@@ -7157,12 +7157,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -7261,12 +7261,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -7287,12 +7287,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        -0.0,
-        1.0
+        3.0,
+        3.0
       ],
       "min": [
-        -1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "type": "VEC2"
     },
@@ -7313,12 +7313,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 674,
@@ -7337,12 +7339,14 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        1.5707963705062866
+        3.0,
+        3.0
       ],
       "min": [
-        0.0
+        1.0,
+        1.0
       ],
-      "type": "SCALAR"
+      "type": "VEC2"
     },
     {
       "bufferView": 676,
@@ -7361,14 +7365,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     },
     {
       "bufferView": 678,
@@ -7387,14 +7389,12 @@
       "componentType": 5126,
       "count": 2,
       "max": [
-        3.0,
-        3.0
+        1.5707963705062866
       ],
       "min": [
-        1.0,
-        1.0
+        0.0
       ],
-      "type": "VEC2"
+      "type": "SCALAR"
     }
   ],
   "animations": [
@@ -7405,7 +7405,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/63/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/61/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7416,7 +7416,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/63/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/61/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7427,7 +7427,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/69/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/21/emissiveTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7438,7 +7438,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/53/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/65/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7449,7 +7449,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/53/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/52/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7460,7 +7460,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/50/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/52/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7471,7 +7471,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/31/normalTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/43/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7482,7 +7482,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/5/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/43/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7493,7 +7493,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/60/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/51/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7504,7 +7504,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/62/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/50/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7515,7 +7515,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/62/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/49/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7526,7 +7526,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/30/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/48/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7537,7 +7537,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/29/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/57/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7548,7 +7548,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/28/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/46/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7559,7 +7559,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/27/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/62/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7570,7 +7570,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/26/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/62/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7581,7 +7581,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/25/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/28/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7592,7 +7592,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/24/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/35/occlusionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7603,7 +7603,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/24/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/34/occlusionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7614,7 +7614,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/23/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/33/normalTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7625,7 +7625,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/23/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/56/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7636,7 +7636,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/22/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/55/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7647,7 +7647,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/22/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/54/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7658,7 +7658,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/21/emissiveTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/54/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7669,7 +7669,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/73/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/27/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7680,7 +7680,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/20/emissiveTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/73/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7691,7 +7691,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/59/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/45/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7702,7 +7702,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/58/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/45/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7713,7 +7713,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/48/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/67/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7724,7 +7724,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/47/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/26/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7735,7 +7735,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/46/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/64/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7746,7 +7746,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/45/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/29/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7757,7 +7757,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/45/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/25/extensions/KHR_materials_anisotropy/anisotropyTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7768,7 +7768,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/44/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/31/normalTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7779,7 +7779,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/44/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/41/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7790,7 +7790,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/43/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/40/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7801,7 +7801,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/43/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/39/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7812,7 +7812,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/68/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/38/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7823,7 +7823,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/35/occlusionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/37/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7834,7 +7834,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/34/occlusionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/77/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7845,7 +7845,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/33/normalTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/47/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7856,7 +7856,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/32/normalTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/20/emissiveTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7867,7 +7867,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/4/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/19/emissiveTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -7878,7 +7878,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/12/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/63/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7889,7 +7889,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/57/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/63/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7900,7 +7900,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/56/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/68/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7911,7 +7911,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/55/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/32/normalTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7922,7 +7922,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/11/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/30/extensions/KHR_materials_clearcoat/clearcoatNormalTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7933,7 +7933,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/54/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/71/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7944,7 +7944,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/54/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/71/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -7955,7 +7955,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/10/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/78/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7966,7 +7966,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/3/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/24/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7977,7 +7977,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/3/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/24/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7988,7 +7988,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/67/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/18/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -7999,7 +7999,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/42/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/18/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8010,7 +8010,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/41/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/69/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8021,7 +8021,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/40/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/44/extensions/KHR_materials_iridescence/iridescenceTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8032,7 +8032,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/51/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/44/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8043,7 +8043,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/19/emissiveTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/22/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8054,7 +8054,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/78/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/22/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8065,7 +8065,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/2/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/66/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8076,7 +8076,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/2/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/17/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8087,7 +8087,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/18/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/17/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8098,7 +8098,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/18/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/60/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8109,7 +8109,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/77/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/16/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8120,7 +8120,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/76/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/36/occlusionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8131,7 +8131,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/17/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/76/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8142,7 +8142,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/17/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/75/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8153,7 +8153,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/66/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/15/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8164,7 +8164,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/16/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/15/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8175,7 +8175,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/75/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/15/occlusionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8186,7 +8186,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/64/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/14/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8197,7 +8197,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/13/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/14/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8208,7 +8208,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/13/occlusionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/14/occlusionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8219,7 +8219,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/9/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/13/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8230,7 +8230,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/52/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/13/occlusionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8241,7 +8241,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/52/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/74/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8252,7 +8252,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/15/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/12/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8263,7 +8263,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/15/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/70/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8274,7 +8274,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/15/occlusionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/70/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8285,7 +8285,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/61/extensions/KHR_materials_specular/specularTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/58/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8296,7 +8296,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/61/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/42/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8307,7 +8307,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/39/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/11/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8318,7 +8318,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/8/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/10/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8329,7 +8329,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/74/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/9/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8340,7 +8340,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/8/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8351,7 +8351,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/7/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8362,7 +8362,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/65/extensions/KHR_materials_specular/specularColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/6/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8373,7 +8373,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/72/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/5/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8384,7 +8384,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/72/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/4/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8395,7 +8395,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/14/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/3/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8406,7 +8406,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/14/pbrMetallicRoughness/metallicRoughnessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/3/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8417,7 +8417,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/14/occlusionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/2/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8428,7 +8428,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/37/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/2/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8439,7 +8439,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/7/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/1/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8450,7 +8450,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/49/extensions/KHR_materials_iridescence/iridescenceThicknessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/1/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/offset"
               }
             },
             "path": "pointer"
@@ -8461,7 +8461,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/38/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/53/extensions/KHR_materials_sheen/sheenColorTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8472,7 +8472,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/70/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/53/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8483,7 +8483,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/70/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/23/extensions/KHR_materials_clearcoat/clearcoatTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8494,7 +8494,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/36/occlusionTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/23/extensions/KHR_materials_clearcoat/clearcoatRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8505,7 +8505,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/6/extensions/KHR_materials_diffuse_transmission/diffuseTransmissionColorTexture/extensions/KHR_texture_transform/rotation"
+                "pointer": "/materials/59/extensions/KHR_materials_sheen/sheenRoughnessTexture/extensions/KHR_texture_transform/scale"
               }
             },
             "path": "pointer"
@@ -8516,7 +8516,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/71/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/72/extensions/KHR_materials_transmission/transmissionTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -8527,7 +8527,7 @@
           "target": {
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/71/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/72/extensions/KHR_materials_volume/thicknessTexture/extensions/KHR_texture_transform/rotation"
               }
             },
             "path": "pointer"
@@ -9055,7 +9055,7 @@
   ],
   "asset": {
     "copyright": "© 2024 Darmstadt Graphics Group GmbH, CC BY 4.0 International, created by Eric Chadwick.",
-    "generator": "HS glTF exporter for 3dsmax 1.50 (custom3dsmax@gmail.com)",
+    "generator": "HS glTF exporter for 3dsmax 1.50d (custom3dsmax@gmail.com)",
     "version": "2.0"
   },
   "bufferViews": [
@@ -11909,13 +11909,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327540
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327548
     },
     {
       "buffer": 0,
@@ -11924,13 +11919,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327564
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327572
     },
     {
       "buffer": 0,
@@ -11939,58 +11929,58 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5327588
     },
     {
       "buffer": 0,
       "byteLength": 8,
+      "byteOffset": 5327596
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
       "byteOffset": 5327604
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5327612
+      "byteLength": 8,
+      "byteOffset": 5327620
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327628
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5327636
+      "byteLength": 8,
+      "byteOffset": 5327644
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327652
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5327660
+      "byteLength": 8,
+      "byteOffset": 5327668
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327676
     },
     {
       "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5327692
+    },
+    {
+      "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5327684
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
       "byteOffset": 5327700
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327708
     },
     {
       "buffer": 0,
@@ -11999,28 +11989,28 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5327724
     },
     {
       "buffer": 0,
       "byteLength": 8,
-      "byteOffset": 5327740
+      "byteOffset": 5327732
     },
     {
       "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5327748
+      "byteOffset": 5327740
     },
     {
       "buffer": 0,
       "byteLength": 8,
+      "byteOffset": 5327756
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
       "byteOffset": 5327764
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327772
     },
     {
       "buffer": 0,
@@ -12029,8 +12019,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5327788
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5327796
     },
     {
       "buffer": 0,
@@ -12039,13 +12034,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5327812
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327828
+      "byteLength": 16,
+      "byteOffset": 5327820
     },
     {
       "buffer": 0,
@@ -12054,33 +12049,28 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327844
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5327852
+      "byteLength": 8,
+      "byteOffset": 5327860
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327868
     },
     {
       "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5327884
+    },
+    {
+      "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5327876
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
       "byteOffset": 5327892
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327900
     },
     {
       "buffer": 0,
@@ -12089,28 +12079,28 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5327916
     },
     {
       "buffer": 0,
       "byteLength": 8,
-      "byteOffset": 5327924
-    },
-    {
-      "buffer": 0,
-      "byteLength": 16,
       "byteOffset": 5327932
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5327948
+      "byteLength": 16,
+      "byteOffset": 5327940
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5327956
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5327964
     },
     {
       "buffer": 0,
@@ -12149,8 +12139,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328044
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328052
     },
     {
       "buffer": 0,
@@ -12159,18 +12154,23 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328068
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328084
+      "byteLength": 16,
+      "byteOffset": 5328076
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328092
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328100
     },
     {
       "buffer": 0,
@@ -12179,18 +12179,18 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328116
     },
     {
       "buffer": 0,
       "byteLength": 8,
-      "byteOffset": 5328132
+      "byteOffset": 5328124
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328140
+      "byteLength": 16,
+      "byteOffset": 5328132
     },
     {
       "buffer": 0,
@@ -12219,13 +12219,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328204
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328212
     },
     {
       "buffer": 0,
@@ -12234,43 +12229,43 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328228
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328236
+      "byteLength": 8,
+      "byteOffset": 5328244
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328252
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328260
+      "byteLength": 8,
+      "byteOffset": 5328268
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328276
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328284
+      "byteLength": 8,
+      "byteOffset": 5328292
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328300
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328308
+      "byteLength": 8,
+      "byteOffset": 5328316
     },
     {
       "buffer": 0,
@@ -12279,33 +12274,33 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328332
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328348
+      "byteLength": 16,
+      "byteOffset": 5328340
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328356
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328372
+      "byteLength": 16,
+      "byteOffset": 5328364
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328380
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328396
+      "byteLength": 16,
+      "byteOffset": 5328388
     },
     {
       "buffer": 0,
@@ -12314,33 +12309,28 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328412
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328420
+      "byteLength": 8,
+      "byteOffset": 5328428
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328436
     },
     {
       "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328452
+    },
+    {
+      "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5328444
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
       "byteOffset": 5328460
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328468
     },
     {
       "buffer": 0,
@@ -12359,28 +12349,33 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328500
     },
     {
       "buffer": 0,
       "byteLength": 8,
+      "byteOffset": 5328508
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
       "byteOffset": 5328516
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328524
+      "byteLength": 8,
+      "byteOffset": 5328532
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328540
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328548
+      "byteLength": 8,
+      "byteOffset": 5328556
     },
     {
       "buffer": 0,
@@ -12394,13 +12389,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328580
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328588
     },
     {
       "buffer": 0,
@@ -12439,8 +12429,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328660
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328668
     },
     {
       "buffer": 0,
@@ -12459,8 +12454,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328700
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328708
     },
     {
       "buffer": 0,
@@ -12479,23 +12479,18 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328748
     },
     {
       "buffer": 0,
       "byteLength": 8,
-      "byteOffset": 5328756
-    },
-    {
-      "buffer": 0,
-      "byteLength": 16,
       "byteOffset": 5328764
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328780
+      "byteLength": 16,
+      "byteOffset": 5328772
     },
     {
       "buffer": 0,
@@ -12504,13 +12499,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328796
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5328804
+      "byteLength": 8,
+      "byteOffset": 5328812
     },
     {
       "buffer": 0,
@@ -12519,13 +12514,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328828
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328844
+      "byteLength": 16,
+      "byteOffset": 5328836
     },
     {
       "buffer": 0,
@@ -12534,13 +12529,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5328860
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328868
     },
     {
       "buffer": 0,
@@ -12549,18 +12539,23 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328884
     },
     {
       "buffer": 0,
       "byteLength": 8,
-      "byteOffset": 5328900
+      "byteOffset": 5328892
     },
     {
       "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5328908
+      "byteOffset": 5328900
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328916
     },
     {
       "buffer": 0,
@@ -12569,18 +12564,23 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328932
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5328948
+      "byteLength": 16,
+      "byteOffset": 5328940
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328956
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5328964
     },
     {
       "buffer": 0,
@@ -12599,8 +12599,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5328996
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5329004
     },
     {
       "buffer": 0,
@@ -12614,43 +12619,38 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329028
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329036
+      "byteLength": 8,
+      "byteOffset": 5329044
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329052
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329060
+      "byteLength": 8,
+      "byteOffset": 5329068
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329076
     },
     {
       "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5329092
+    },
+    {
+      "buffer": 0,
       "byteLength": 16,
-      "byteOffset": 5329084
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
       "byteOffset": 5329100
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329108
     },
     {
       "buffer": 0,
@@ -12689,13 +12689,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329188
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329196
     },
     {
       "buffer": 0,
@@ -12704,23 +12699,23 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329212
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329220
+      "byteLength": 8,
+      "byteOffset": 5329228
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329236
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329244
+      "byteLength": 8,
+      "byteOffset": 5329252
     },
     {
       "buffer": 0,
@@ -12734,23 +12729,23 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329276
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329284
+      "byteLength": 8,
+      "byteOffset": 5329292
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329300
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329308
+      "byteLength": 8,
+      "byteOffset": 5329316
     },
     {
       "buffer": 0,
@@ -12759,28 +12754,33 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5329332
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329348
+      "byteLength": 16,
+      "byteOffset": 5329340
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5329356
     },
     {
       "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329372
+      "byteLength": 16,
+      "byteOffset": 5329364
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5329380
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5329388
     },
     {
       "buffer": 0,
@@ -12789,13 +12789,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329404
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329412
     },
     {
       "buffer": 0,
@@ -12804,13 +12799,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329428
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329436
+      "byteLength": 8,
+      "byteOffset": 5329444
     },
     {
       "buffer": 0,
@@ -12819,8 +12814,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5329460
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5329468
     },
     {
       "buffer": 0,
@@ -12899,13 +12899,8 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329652
-    },
-    {
-      "buffer": 0,
-      "byteLength": 8,
-      "byteOffset": 5329660
     },
     {
       "buffer": 0,
@@ -12914,13 +12909,13 @@
     },
     {
       "buffer": 0,
-      "byteLength": 8,
+      "byteLength": 16,
       "byteOffset": 5329676
     },
     {
       "buffer": 0,
-      "byteLength": 16,
-      "byteOffset": 5329684
+      "byteLength": 8,
+      "byteOffset": 5329692
     },
     {
       "buffer": 0,
@@ -12929,14 +12924,19 @@
     },
     {
       "buffer": 0,
-      "byteLength": 16,
+      "byteLength": 8,
       "byteOffset": 5329708
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 5329716
     }
   ],
   "buffers": [
     {
       "byteLength": 5329724,
-      "uri": "AnimationPointerUVs.bin"
+      "uri": "animationPointerUVs.bin"
     }
   ],
   "cameras": [
@@ -13087,40 +13087,43 @@
   ],
   "images": [
     {
-      "uri": "AnimationPointerUVs_BaseColor.png"
+      "uri": "animationPointerUVs_baseColor.png"
     },
     {
-      "uri": "AnimationPointerUVs_DiffuseTransmission.png"
+      "uri": "animationPointerUVs_diffuseTransmission.png"
     },
     {
-      "uri": "AnimationPointerUVs_ORM.jpg"
+      "uri": "animationPointerUVs_orm.png"
     },
     {
-      "uri": "AnimationPointerUVs_Emissive.jpg"
+      "uri": "animationPointerUVs_emissive.png"
     },
     {
-      "uri": "AnimationPointerUVs_Clearcoat.jpg"
+      "uri": "animationPointerUVs_normalflat.png"
     },
     {
-      "uri": "AnimationPointerUVs_Normal.png"
+      "uri": "animationPointerUVs_clearcoat.png"
     },
     {
-      "uri": "AnimationPointerUVs_Anisotropy.png"
+      "uri": "animationPointerUVs_normal.png"
     },
     {
-      "uri": "AnimationPointerUVs_ClearcoatNormal.png"
+      "uri": "animationPointerUVs_anisotropy.png"
     },
     {
-      "uri": "AnimationPointerUVs_Iridescence.jpg"
+      "uri": "animationPointerUVs_clearcoatNormal.png"
     },
     {
-      "uri": "AnimationPointerUVs_Sheen.png"
+      "uri": "animationPointerUVs_iridescence.png"
     },
     {
-      "uri": "AnimationPointerUVs_Specular.png"
+      "uri": "animationPointerUVs_sheen.png"
     },
     {
-      "uri": "AnimationPointerUVs_TransmissionVolume.jpg"
+      "uri": "animationPointerUVs_specular.png"
+    },
+    {
+      "uri": "animationPointerUVs_transmissionVolume.png"
     }
   ],
   "materials": [
@@ -13152,8 +13155,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
@@ -13164,8 +13167,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
@@ -13200,8 +13203,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
@@ -13212,8 +13215,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
@@ -13247,7 +13250,7 @@
           "diffuseTransmissionColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
             "index": 5
@@ -13256,7 +13259,7 @@
           "diffuseTransmissionTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
             "index": 6
@@ -13290,8 +13293,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
@@ -13327,8 +13330,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
@@ -13363,7 +13366,7 @@
           "diffuseTransmissionColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
             "index": 5
@@ -13402,8 +13405,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
@@ -13439,8 +13442,8 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
@@ -13475,7 +13478,7 @@
           "diffuseTransmissionTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
             "index": 6
@@ -13505,8 +13508,8 @@
           "extensions": {
             "KHR_texture_transform": {
               "offset": [
-                -0.0,
-                0.0
+                -0.239,
+                0.238
               ]
             }
           },
@@ -13526,9 +13529,13 @@
         "baseColorTexture": {
           "extensions": {
             "KHR_texture_transform": {
+              "offset": [
+                -0.239,
+                0.238
+              ],
               "scale": [
-                1.0,
-                1.0
+                1.477,
+                1.477
               ]
             }
           },
@@ -13548,7 +13555,11 @@
         "baseColorTexture": {
           "extensions": {
             "KHR_texture_transform": {
-              "rotation": 0.0
+              "offset": [
+                -0.219,
+                0.148
+              ],
+              "rotation": 0.3752458095550537
             }
           },
           "index": 12
@@ -13705,8 +13716,8 @@
         "extensions": {
           "KHR_texture_transform": {
             "offset": [
-              -0.0,
-              0.0
+              -0.239,
+              0.238
             ]
           }
         },
@@ -13730,9 +13741,13 @@
       "emissiveTexture": {
         "extensions": {
           "KHR_texture_transform": {
+            "offset": [
+              -0.239,
+              0.238
+            ],
             "scale": [
-              1.0,
-              1.0
+              1.477,
+              1.477
             ]
           }
         },
@@ -13756,7 +13771,11 @@
       "emissiveTexture": {
         "extensions": {
           "KHR_texture_transform": {
-            "rotation": 0.0
+            "offset": [
+              -0.219,
+              0.148
+            ],
+            "rotation": 0.3752458095550537
           }
         },
         "index": 19
@@ -13775,34 +13794,37 @@
         "KHR_materials_clearcoat": {
           "clearcoatFactor": 1.0,
           "clearcoatNormalTexture": {
-            "index": 21
+            "index": 22
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 20
+            "index": 21
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 20
+            "index": 21
           }
         }
       },
       "name": "Material #120",
+      "normalTexture": {
+        "index": 20
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.019999999552965164,
@@ -13817,34 +13839,37 @@
         "KHR_materials_clearcoat": {
           "clearcoatFactor": 1.0,
           "clearcoatNormalTexture": {
-            "index": 21
+            "index": 22
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 22
+            "index": 23
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 22
+            "index": 23
           }
         }
       },
       "name": "Material #123",
+      "normalTexture": {
+        "index": 20
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.019999999552965164,
@@ -13859,66 +13884,38 @@
         "KHR_materials_clearcoat": {
           "clearcoatFactor": 1.0,
           "clearcoatNormalTexture": {
-            "index": 21
+            "index": 22
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 23
+            "index": 24
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
-              }
-            },
-            "index": 23
-          }
-        }
-      },
-      "name": "Material #124",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.019999999552965164,
-          0.019999999552965164,
-          0.019999999552965164,
-          1.0
-        ]
-      }
-    },
-    {
-      "extensions": {
-        "KHR_materials_anisotropy": {
-          "anisotropyStrength": 1.0,
-          "anisotropyTexture": {
-            "extensions": {
-              "KHR_texture_transform": {
-                "offset": [
-                  -0.0,
-                  0.0
-                ]
+                "rotation": 0.3752458095550537
               }
             },
             "index": 24
           }
         }
       },
-      "name": "Material #99",
+      "name": "Material #124",
       "normalTexture": {
-        "index": 21
+        "index": 20
       },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.10615606606006622,
-          0.9489650726318359,
-          0.7299190163612366,
+          0.019999999552965164,
+          0.019999999552965164,
+          0.019999999552965164,
           1.0
-        ],
-        "roughnessFactor": 0.5
+        ]
       }
     },
     {
@@ -13928,9 +13925,9 @@
           "anisotropyTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "scale": [
-                  1.0,
-                  1.0
+                "offset": [
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
@@ -13938,9 +13935,9 @@
           }
         }
       },
-      "name": "Material #118",
+      "name": "Material #99",
       "normalTexture": {
-        "index": 21
+        "index": 22
       },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
@@ -13959,16 +13956,47 @@
           "anisotropyTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "scale": [
+                  1.4777779579162598,
+                  1.4777779579162598
+                ]
               }
             },
             "index": 26
           }
         }
       },
+      "name": "Material #118",
+      "normalTexture": {
+        "index": 22
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.10615606606006622,
+          0.9489650726318359,
+          0.7299190163612366,
+          1.0
+        ],
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_anisotropy": {
+          "anisotropyStrength": 1.0,
+          "anisotropyTexture": {
+            "extensions": {
+              "KHR_texture_transform": {
+                "rotation": 0.3752458095550537
+              }
+            },
+            "index": 27
+          }
+        }
+      },
       "name": "Material #119",
       "normalTexture": {
-        "index": 21
+        "index": 22
       },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
@@ -13988,20 +14016,23 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 28
+            "index": 29
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
       "name": "Material #133",
+      "normalTexture": {
+        "index": 20
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.019999999552965164,
@@ -14019,20 +14050,23 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 29
+            "index": 30
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
       "name": "Material #132",
+      "normalTexture": {
+        "index": 20
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.019999999552965164,
@@ -14049,18 +14083,21 @@
           "clearcoatNormalTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 30
+            "index": 31
           },
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
       "name": "Material #131",
+      "normalTexture": {
+        "index": 20
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           0.019999999552965164,
@@ -14076,28 +14113,8 @@
         "extensions": {
           "KHR_texture_transform": {
             "offset": [
-              -0.0,
-              0.0
-            ]
-          }
-        },
-        "index": 31
-      },
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 13
-        },
-        "roughnessFactor": 0.5
-      }
-    },
-    {
-      "name": "Material #52",
-      "normalTexture": {
-        "extensions": {
-          "KHR_texture_transform": {
-            "scale": [
-              1.0,
-              1.0
+              -0.239,
+              0.238
             ]
           }
         },
@@ -14111,14 +14128,42 @@
       }
     },
     {
+      "name": "Material #52",
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              -0.239,
+              0.238
+            ],
+            "scale": [
+              1.477,
+              1.477
+            ]
+          }
+        },
+        "index": 33
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13
+        },
+        "roughnessFactor": 0.5
+      }
+    },
+    {
       "name": "Material #53",
       "normalTexture": {
         "extensions": {
           "KHR_texture_transform": {
-            "rotation": 0.0
+            "offset": [
+              -0.219,
+              0.148
+            ],
+            "rotation": 0.3752458095550537
           }
         },
-        "index": 33
+        "index": 34
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
@@ -14187,18 +14232,18 @@
           "clearcoatFactor": 1.0,
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 20
+            "index": 21
           }
         }
       },
@@ -14218,18 +14263,18 @@
           "clearcoatFactor": 1.0,
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 22
+            "index": 23
           }
         }
       },
@@ -14249,15 +14294,15 @@
           "clearcoatFactor": 1.0,
           "clearcoatRoughnessFactor": 1.0,
           "clearcoatRoughnessTexture": {
-            "index": 27
+            "index": 28
           },
           "clearcoatTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 23
+            "index": 24
           }
         }
       },
@@ -14280,15 +14325,15 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 20
+            "index": 21
           },
           "clearcoatTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
@@ -14311,15 +14356,15 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 22
+            "index": 23
           },
           "clearcoatTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
@@ -14341,13 +14386,13 @@
           "clearcoatRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 23
+            "index": 24
           },
           "clearcoatTexture": {
-            "index": 27
+            "index": 28
           }
         }
       },
@@ -14369,23 +14414,23 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 34
+            "index": 35
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 34
+            "index": 35
           }
         }
       },
@@ -14411,23 +14456,23 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 35
+            "index": 36
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 35
+            "index": 36
           }
         }
       },
@@ -14452,18 +14497,18 @@
           "iridescenceTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 36
+            "index": 37
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 36
+            "index": 37
           }
         }
       },
@@ -14489,15 +14534,15 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 34
+            "index": 35
           },
           "iridescenceThicknessTexture": {
-            "index": 37
+            "index": 38
           }
         }
       },
@@ -14520,15 +14565,15 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 35
+            "index": 36
           },
           "iridescenceThicknessTexture": {
-            "index": 37
+            "index": 38
           }
         }
       },
@@ -14550,13 +14595,13 @@
           "iridescenceTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 36
+            "index": 37
           },
           "iridescenceThicknessTexture": {
-            "index": 37
+            "index": 38
           }
         }
       },
@@ -14576,18 +14621,18 @@
         "KHR_materials_iridescence": {
           "iridescenceFactor": 1.0,
           "iridescenceTexture": {
-            "index": 37
+            "index": 38
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 34
+            "index": 35
           }
         }
       },
@@ -14607,18 +14652,18 @@
         "KHR_materials_iridescence": {
           "iridescenceFactor": 1.0,
           "iridescenceTexture": {
-            "index": 37
+            "index": 38
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 35
+            "index": 36
           }
         }
       },
@@ -14638,15 +14683,15 @@
         "KHR_materials_iridescence": {
           "iridescenceFactor": 1.0,
           "iridescenceTexture": {
-            "index": 37
+            "index": 38
           },
           "iridescenceThicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 36
+            "index": 37
           }
         }
       },
@@ -14673,24 +14718,24 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 40
+            "index": 41
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 39
+            "index": 40
           }
         }
       },
@@ -14703,7 +14748,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0
       }
@@ -14720,24 +14765,24 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 42
+            "index": 43
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 41
+            "index": 42
           }
         }
       },
@@ -14750,7 +14795,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0
       }
@@ -14766,19 +14811,19 @@
           "sheenColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 44
+            "index": 45
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 43
+            "index": 44
           }
         }
       },
@@ -14791,7 +14836,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0
       }
@@ -14808,16 +14853,16 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 40
+            "index": 41
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
-            "index": 45
+            "index": 46
           }
         }
       },
@@ -14844,16 +14889,16 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 42
+            "index": 43
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
-            "index": 45
+            "index": 46
           }
         }
       },
@@ -14879,14 +14924,14 @@
           "sheenColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 44
+            "index": 45
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
-            "index": 45
+            "index": 46
           }
         }
       },
@@ -14910,19 +14955,19 @@
             1.0
           ],
           "sheenColorTexture": {
-            "index": 46
+            "index": 47
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 39
+            "index": 40
           }
         }
       },
@@ -14946,19 +14991,19 @@
             1.0
           ],
           "sheenColorTexture": {
-            "index": 46
+            "index": 47
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 41
+            "index": 42
           }
         }
       },
@@ -14982,16 +15027,16 @@
             1.0
           ],
           "sheenColorTexture": {
-            "index": 46
+            "index": 47
           },
           "sheenRoughnessFactor": 0.75,
           "sheenRoughnessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 43
+            "index": 44
           }
         }
       },
@@ -15018,24 +15063,24 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 48
+            "index": 49
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 47
+            "index": 48
           }
         }
       },
@@ -15048,7 +15093,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.125
@@ -15066,24 +15111,24 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 50
+            "index": 51
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 49
+            "index": 50
           }
         }
       },
@@ -15096,7 +15141,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.125
@@ -15113,19 +15158,19 @@
           "specularColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 52
+            "index": 53
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 51
+            "index": 52
           }
         }
       },
@@ -15138,7 +15183,7 @@
           1.0
         ],
         "baseColorTexture": {
-          "index": 38
+          "index": 39
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.125
@@ -15156,16 +15201,16 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 48
+            "index": 49
           },
           "specularFactor": 1.0,
           "specularTexture": {
-            "index": 53
+            "index": 54
           }
         }
       },
@@ -15193,16 +15238,16 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 50
+            "index": 51
           },
           "specularFactor": 1.0,
           "specularTexture": {
-            "index": 53
+            "index": 54
           }
         }
       },
@@ -15229,14 +15274,14 @@
           "specularColorTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 52
+            "index": 53
           },
           "specularFactor": 1.0,
           "specularTexture": {
-            "index": 53
+            "index": 54
           }
         }
       },
@@ -15261,19 +15306,19 @@
             10.0
           ],
           "specularColorTexture": {
-            "index": 54
+            "index": 55
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 47
+            "index": 48
           }
         }
       },
@@ -15298,19 +15343,19 @@
             10.0
           ],
           "specularColorTexture": {
-            "index": 54
+            "index": 55
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 49
+            "index": 50
           }
         }
       },
@@ -15335,16 +15380,16 @@
             10.0
           ],
           "specularColorTexture": {
-            "index": 54
+            "index": 55
           },
           "specularFactor": 1.0,
           "specularTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 51
+            "index": 52
           }
         }
       },
@@ -15369,12 +15414,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 56
+            "index": 57
           }
         },
         "KHR_materials_volume": {
@@ -15389,19 +15434,19 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 56
+            "index": 57
           }
         }
       },
       "name": "Material #170",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 55
+          "index": 56
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
@@ -15416,12 +15461,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 57
+            "index": 58
           }
         },
         "KHR_materials_volume": {
@@ -15436,19 +15481,19 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 57
+            "index": 58
           }
         }
       },
       "name": "Material #175",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 55
+          "index": 56
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
@@ -15462,10 +15507,10 @@
           "transmissionTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 58
+            "index": 59
           }
         },
         "KHR_materials_volume": {
@@ -15479,17 +15524,17 @@
           "thicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 58
+            "index": 59
           }
         }
       },
       "name": "Material #171",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 55
+          "index": 56
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.0
@@ -15504,12 +15549,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 56
+            "index": 57
           }
         },
         "KHR_materials_volume": {
@@ -15521,7 +15566,7 @@
           "attenuationDistance": 1.0,
           "thicknessFactor": 1.0,
           "thicknessTexture": {
-            "index": 59
+            "index": 60
           }
         }
       },
@@ -15540,12 +15585,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 57
+            "index": 58
           }
         },
         "KHR_materials_volume": {
@@ -15557,7 +15602,7 @@
           "attenuationDistance": 1.0,
           "thicknessFactor": 1.0,
           "thicknessTexture": {
-            "index": 59
+            "index": 60
           }
         }
       },
@@ -15575,10 +15620,10 @@
           "transmissionTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 58
+            "index": 59
           }
         },
         "KHR_materials_volume": {
@@ -15590,7 +15635,7 @@
           "attenuationDistance": 1.0,
           "thicknessFactor": 1.0,
           "thicknessTexture": {
-            "index": 59
+            "index": 60
           }
         }
       },
@@ -15606,7 +15651,7 @@
         "KHR_materials_transmission": {
           "transmissionFactor": 1.0,
           "transmissionTexture": {
-            "index": 59
+            "index": 60
           }
         },
         "KHR_materials_volume": {
@@ -15621,12 +15666,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "offset": [
-                  -0.0,
-                  0.0
+                  -0.2388889044523239,
+                  0.2388889044523239
                 ]
               }
             },
-            "index": 56
+            "index": 57
           }
         }
       },
@@ -15642,7 +15687,7 @@
         "KHR_materials_transmission": {
           "transmissionFactor": 1.0,
           "transmissionTexture": {
-            "index": 59
+            "index": 60
           }
         },
         "KHR_materials_volume": {
@@ -15657,12 +15702,12 @@
             "extensions": {
               "KHR_texture_transform": {
                 "scale": [
-                  1.0,
-                  1.0
+                  1.4777779579162598,
+                  1.4777779579162598
                 ]
               }
             },
-            "index": 57
+            "index": 58
           }
         }
       },
@@ -15678,7 +15723,7 @@
         "KHR_materials_transmission": {
           "transmissionFactor": 1.0,
           "transmissionTexture": {
-            "index": 59
+            "index": 60
           }
         },
         "KHR_materials_volume": {
@@ -15692,10 +15737,10 @@
           "thicknessTexture": {
             "extensions": {
               "KHR_texture_transform": {
-                "rotation": 0.0
+                "rotation": 0.3752458095550537
               }
             },
-            "index": 58
+            "index": 59
           }
         }
       },
@@ -20409,6 +20454,10 @@
     {
       "wrapS": 10497,
       "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
     }
   ],
   "scene": 0,
@@ -20628,103 +20677,103 @@
     },
     {
       "sampler": 22,
-      "source": 4
+      "source": 6
     },
     {
       "sampler": 23,
-      "source": 4
+      "source": 5
     },
     {
       "sampler": 24,
-      "source": 6
+      "source": 5
     },
     {
       "sampler": 25,
-      "source": 6
+      "source": 7
     },
     {
       "sampler": 26,
-      "source": 6
+      "source": 7
     },
     {
       "sampler": 27,
-      "source": 4
+      "source": 7
     },
     {
       "sampler": 28,
-      "source": 7
+      "source": 5
     },
     {
       "sampler": 29,
-      "source": 7
+      "source": 8
     },
     {
       "sampler": 30,
-      "source": 7
+      "source": 8
     },
     {
       "sampler": 31,
-      "source": 5
+      "source": 8
     },
     {
       "sampler": 32,
-      "source": 5
+      "source": 6
     },
     {
       "sampler": 33,
-      "source": 5
+      "source": 6
     },
     {
       "sampler": 34,
-      "source": 8
+      "source": 6
     },
     {
       "sampler": 35,
-      "source": 8
+      "source": 9
     },
     {
       "sampler": 36,
-      "source": 8
+      "source": 9
     },
     {
       "sampler": 37,
-      "source": 8
+      "source": 9
     },
     {
       "sampler": 38,
-      "source": 0
+      "source": 9
     },
     {
       "sampler": 39,
-      "source": 9
+      "source": 0
     },
     {
       "sampler": 40,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 41,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 42,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 43,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 44,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 45,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 46,
-      "source": 9
+      "source": 10
     },
     {
       "sampler": 47,
@@ -20732,51 +20781,55 @@
     },
     {
       "sampler": 48,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 49,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 50,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 51,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 52,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 53,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 54,
-      "source": 10
+      "source": 11
     },
     {
       "sampler": 55,
-      "source": 0
+      "source": 11
     },
     {
       "sampler": 56,
-      "source": 11
+      "source": 0
     },
     {
       "sampler": 57,
-      "source": 11
+      "source": 12
     },
     {
       "sampler": 58,
-      "source": 11
+      "source": 12
     },
     {
       "sampler": 59,
-      "source": 11
+      "source": 12
+    },
+    {
+      "sampler": 60,
+      "source": 12
     }
   ]
 }
