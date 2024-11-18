@@ -27,6 +27,6 @@ A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. 
 
 &copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - Marco Hutter for Everything
+ - Marco Hutter (https://github.com/javagl/) for Everything
 
 #### Assembled by modelmetadata
