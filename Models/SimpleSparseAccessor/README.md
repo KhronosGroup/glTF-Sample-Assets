@@ -41,6 +41,6 @@ Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
 
 &copy; 2017, Public. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
- - javagl for Everything
+ - Marco Hutter (https://github.com/javagl/) for Everything
 
 #### Assembled by modelmetadata
