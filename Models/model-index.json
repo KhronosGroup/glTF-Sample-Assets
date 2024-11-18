@@ -20,6 +20,16 @@
     }
   },
   {
+    "label": "Animated Colors Cube",
+    "name": "AnimatedColorsCube",
+    "screenshot": "screenshot/screenshot.gif",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "AnimatedColorsCube.gltf",
+      "glTF-Binary": "AnimatedColorsCube.glb"
+    }
+  },
+  {
     "label": "Animated Cube",
     "name": "AnimatedCube",
     "screenshot": "screenshot/screenshot.gif",
@@ -35,8 +45,8 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "AnimatedMorphCube.gltf",
-      "glTF-Binary": "AnimatedMorphCube.glb",
-      "glTF-Quantized": "AnimatedMorphCube.gltf"
+      "glTF-Quantized": "AnimatedMorphCube.gltf",
+      "glTF-Binary": "AnimatedMorphCube.glb"
     }
   },
   {
@@ -55,9 +65,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
+      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf",
       "glTF": "AnisotropyBarnLamp.gltf",
-      "glTF-Binary": "AnisotropyBarnLamp.glb",
-      "glTF-KTX-BasisU": "AnisotropyBarnLamp.gltf"
+      "glTF-Binary": "AnisotropyBarnLamp.glb"
     }
   },
   {
@@ -118,8 +128,8 @@
     "variants": {
       "glTF-Draco": "Avocado.gltf",
       "glTF": "Avocado.gltf",
-      "glTF-Binary": "Avocado.glb",
-      "glTF-Quantized": "Avocado.gltf"
+      "glTF-Quantized": "Avocado.gltf",
+      "glTF-Binary": "Avocado.glb"
     }
   },
   {
@@ -159,8 +169,8 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "Box.gltf",
       "glTF-Embedded": "Box.gltf",
+      "glTF-Draco": "Box.gltf",
       "glTF": "Box.gltf",
       "glTF-Binary": "Box.glb"
     }
@@ -235,8 +245,9 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "BrainStem.gltf",
       "glTF-Embedded": "BrainStem.gltf",
+      "glTF-Meshopt": "BrainStem.gltf",
+      "glTF-Draco": "BrainStem.gltf",
       "glTF": "BrainStem.gltf",
       "glTF-Binary": "BrainStem.glb"
     }
@@ -267,8 +278,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
-      "glTF-Draco": "CesiumMan.gltf",
       "glTF-Embedded": "CesiumMan.gltf",
+      "glTF-Draco": "CesiumMan.gltf",
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb"
     }
@@ -279,8 +290,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","issues","testing"],
     "variants": {
-      "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF-Embedded": "CesiumMilkTruck.gltf",
+      "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF": "CesiumMilkTruck.gltf",
       "glTF-Binary": "CesiumMilkTruck.glb"
     }
@@ -323,6 +334,166 @@
     "variants": {
       "glTF": "ClearcoatWicker.gltf",
       "glTF-Binary": "ClearcoatWicker.glb"
+    }
+  },
+  {
+    "label": "Compare Alpha Coverage",
+    "name": "CompareAlphaCoverage",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareAlphaCoverage.gltf",
+      "glTF-Binary": "CompareAlphaCoverage.glb"
+    }
+  },
+  {
+    "label": "Compare Ambient Occlusion",
+    "name": "CompareAmbientOcclusion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareAmbientOcclusion.gltf",
+      "glTF-Binary": "CompareAmbientOcclusion.glb"
+    }
+  },
+  {
+    "label": "Compare Anisotropy",
+    "name": "CompareAnisotropy",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareAnisotropy.gltf",
+      "glTF-Binary": "CompareAnisotropy.glb"
+    }
+  },
+  {
+    "label": "Compare Base Color",
+    "name": "CompareBaseColor",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareBaseColor.gltf",
+      "glTF-Binary": "CompareBaseColor.glb"
+    }
+  },
+  {
+    "label": "Compare Clearcoat",
+    "name": "CompareClearcoat",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareClearcoat.gltf",
+      "glTF-Binary": "CompareClearcoat.glb"
+    }
+  },
+  {
+    "label": "Compare Dispersion",
+    "name": "CompareDispersion",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareDispersion.gltf",
+      "glTF-Binary": "CompareDispersion.glb"
+    }
+  },
+  {
+    "label": "Compare Emissive Strength",
+    "name": "CompareEmissiveStrength",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareEmissiveStrength.gltf",
+      "glTF-Binary": "CompareEmissiveStrength.glb"
+    }
+  },
+  {
+    "label": "Compare IOR",
+    "name": "CompareIor",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareIor.gltf",
+      "glTF-Binary": "CompareIor.glb"
+    }
+  },
+  {
+    "label": "Compare Iridescence",
+    "name": "CompareIridescence",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareIridescence.gltf",
+      "glTF-Binary": "CompareIridescence.glb"
+    }
+  },
+  {
+    "label": "Compare Metallic",
+    "name": "CompareMetallic",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareMetallic.gltf",
+      "glTF-Binary": "CompareMetallic.glb"
+    }
+  },
+  {
+    "label": "Compare Normal",
+    "name": "CompareNormal",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareNormal.gltf",
+      "glTF-Binary": "CompareNormal.glb"
+    }
+  },
+  {
+    "label": "Compare Roughness",
+    "name": "CompareRoughness",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["core","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareRoughness.gltf",
+      "glTF-Binary": "CompareRoughness.glb"
+    }
+  },
+  {
+    "label": "Compare Sheen",
+    "name": "CompareSheen",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareSheen.gltf",
+      "glTF-Binary": "CompareSheen.glb"
+    }
+  },
+  {
+    "label": "Compare Specular",
+    "name": "CompareSpecular",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareSpecular.gltf",
+      "glTF-Binary": "CompareSpecular.glb"
+    }
+  },
+  {
+    "label": "Compare Transmission",
+    "name": "CompareTransmission",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareTransmission.gltf",
+      "glTF-Binary": "CompareTransmission.glb"
+    }
+  },
+  {
+    "label": "Compare Volume",
+    "name": "CompareVolume",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing","pbrtest"],
+    "variants": {
+      "glTF": "CompareVolume.gltf",
+      "glTF-Binary": "CompareVolume.glb"
     }
   },
   {
@@ -402,6 +573,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
+      "glTF-Meshopt": "DragonAttenuation.gltf",
       "glTF": "DragonAttenuation.gltf",
       "glTF-Binary": "DragonAttenuation.glb"
     }
@@ -422,11 +594,11 @@
     "screenshot": "screenshot/screenshot.png",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "Duck.gltf",
       "glTF-Embedded": "Duck.gltf",
+      "glTF-Draco": "Duck.gltf",
       "glTF": "Duck.gltf",
-      "glTF-Binary": "Duck.glb",
-      "glTF-Quantized": "Duck.gltf"
+      "glTF-Quantized": "Duck.gltf",
+      "glTF-Binary": "Duck.glb"
     }
   },
   {
@@ -594,8 +766,8 @@
     "variants": {
       "glTF-Draco": "Lantern.gltf",
       "glTF": "Lantern.gltf",
-      "glTF-Binary": "Lantern.glb",
-      "glTF-Quantized": "Lantern.gltf"
+      "glTF-Quantized": "Lantern.gltf",
+      "glTF-Binary": "Lantern.glb"
     }
   },
   {
@@ -721,6 +893,15 @@
     }
   },
   {
+    "label": "NodePerformanceTest",
+    "name": "NodePerformanceTest",
+    "screenshot": "screenshot/screenshot_large.jpg",
+    "tags": ["core","testing"],
+    "variants": {
+      "glTF-Binary": "NodePerformanceTest.glb"
+    }
+  },
+  {
     "label": "Normal-Tangent Mirror Test",
     "name": "NormalTangentMirrorTest",
     "screenshot": "screenshot/screenshot.png",
@@ -795,8 +976,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "RiggedFigure.gltf",
       "glTF-Embedded": "RiggedFigure.gltf",
+      "glTF-Draco": "RiggedFigure.gltf",
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb"
     }
@@ -807,8 +988,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "RiggedSimple.gltf",
       "glTF-Embedded": "RiggedSimple.gltf",
+      "glTF-Draco": "RiggedSimple.gltf",
       "glTF": "RiggedSimple.gltf",
       "glTF-Binary": "RiggedSimple.glb"
     }
@@ -849,6 +1030,16 @@
     "variants": {
       "glTF": "SheenTestGrid.gltf",
       "glTF-Binary": "SheenTestGrid.glb"
+    }
+  },
+  {
+    "label": "SheenWoodLeatherSofa",
+    "name": "SheenWoodLeatherSofa",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "SheenWoodLeatherSofa.gltf",
+      "glTF-Binary": "SheenWoodLeatherSofa.glb"
     }
   },
   {
@@ -967,8 +1158,8 @@
     "tags": ["showcase","extension"],
     "variants": {
       "glTF-JPG-PNG": "StainedGlassLamp.gltf",
-      "glTF": "StainedGlassLamp.gltf",
-      "glTF-KTX-BasisU": "StainedGlassLamp.gltf"
+      "glTF-KTX-BasisU": "StainedGlassLamp.gltf",
+      "glTF": "StainedGlassLamp.gltf"
     }
   },
   {
@@ -1147,8 +1338,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "tags": ["core","testing"],
     "variants": {
-      "glTF-Draco": "VirtualCity.gltf",
       "glTF-Embedded": "VirtualCity.gltf",
+      "glTF-Draco": "VirtualCity.gltf",
       "glTF": "VirtualCity.gltf",
       "glTF-Binary": "VirtualCity.glb"
     }

@@ -1,0 +1,293 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 9216,
+      "max": [
+        1537
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1538,
+      "max": [
+        0.5000792145729065,
+        0.4901543855667114,
+        0.5000792145729065
+      ],
+      "min": [
+        -0.5000792145729065,
+        -0.4901544749736786,
+        -0.5000792145729065
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1538,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 9216,
+      "max": [
+        1727
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1728,
+      "max": [
+        0.5000792145729065,
+        0.4901543855667114,
+        0.5000792145729065
+      ],
+      "min": [
+        -0.5000792145729065,
+        -0.4901544749736786,
+        -0.5000792145729065
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1728,
+      "max": [
+        0.9995999336242676,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1728,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "copyright": "Asset CC0, created by Eric Chadwick and DGG. glTF logo © 2017, Khronos Group.",
+    "generator": "Created by RapidCompact v6.8.1 | www.rapidcompact.com",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 18432,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18456,
+      "byteOffset": 18432,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18456,
+      "byteOffset": 36888,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18432,
+      "byteOffset": 55344,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20736,
+      "byteOffset": 73776,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13824,
+      "byteOffset": 94512,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20736,
+      "byteOffset": 108336,
+      "byteStride": 12,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CompareNormal.bin",
+      "byteLength": 129072
+    }
+  ],
+  "images": [
+    {
+      "uri": "Compare_Normal_img0.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Wicker no Normal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.501960813999176,
+          0.4392157196998596,
+          0.3529411852359772,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.25
+      }
+    },
+    {
+      "name": "Wicker with Normal",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.501960813999176,
+          0.4431372880935669,
+          0.3529411852359772,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.25
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sphere001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere002",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4.3711388286737935e-8,
+        0,
+        0,
+        -4.3711388286737935e-8,
+        1,
+        0,
+        -0.550000011920929,
+        0,
+        0,
+        1
+      ],
+      "mesh": 0,
+      "name": "Sphere001"
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4.3711388286737935e-8,
+        0,
+        0,
+        -4.3711388286737935e-8,
+        1,
+        0,
+        0.550000011920929,
+        0,
+        0,
+        1
+      ],
+      "mesh": 1,
+      "name": "Sphere002"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
