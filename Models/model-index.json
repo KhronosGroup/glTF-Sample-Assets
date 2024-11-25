@@ -1334,6 +1334,22 @@
     }
   },
   {
+    "label": "Uri Test",
+    "name": "UriTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["testing"],
+    "variants": {
+      "glTF-UriTest-01-RelativeTexture-NoUTF8": "RelativeResourcePaths.gltf",
+      "glTF-UriTest-02-RelativeTexture-UTF8": "RelativeResourcePaths.gltf",
+      "glTF-UriTest-03-RelativeBin": "RelativeResourcePaths.gltf",
+      "glTF-UriTest-04-Nested-NoUTF8": "glTF/RelativeTexturePaths.gltf",
+      "glTF-UriTest-05-Nested-UTF8": "glTF/RelativeTexturePaths.gltf",
+      "glTF-UriTest-06-RelativeFiles-UTF8": "RelativeTexturePaths.gltf",
+      "glTF-UriTest-07-UriTypes-UTF8": "RelativeTexturePaths.gltf",
+      "glTF-UriTest-08-UriTypes-NoUTF8": "RelativeTexturePaths.gltf"
+    }
+  },
+  {
     "label": "Vertex Color Test",
     "name": "VertexColorTest",
     "screenshot": "screenshot/screenshot.png",
