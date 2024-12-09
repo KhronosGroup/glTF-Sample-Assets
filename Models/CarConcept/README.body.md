@@ -63,22 +63,6 @@ Consistently-scaled and low-distortion texture coordinates were needed for the c
 New UVs were generated for the body panels using the Least Squares Conformal Map (LSCM) technique, which minimizes distortion while requiring less cuts or seams. 
 
 
-## Ambient Occlusion and Compression
-
-Ambient occlusion (AO) was added for increased rendering realism. This effect creates soft shadowing from environment lighting, which mimics the effect of real-world lighting. 
-
-![Two screenshots of the car interior, without and with ambient occlusion.](screenshot/ambient_occlusion.jpg)
-<br/>_Without ambient occlusion (left) versus with occlusion._
-
-AO vastly improves render quality when using a real-time _rasterizer_, which is the rendering technology used for augmented reality and with most web 3D viewers because it is very fast and thus interactive. glTF can also be used by _pathtracers_ which are typically not real-time since they calculate all reflections and bounce lighting and shading; pathtracers simply ignore the AO texture if provided.
-
-AO was baked for the model using [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) which has the option to create a new second UV set automatically, and bake a single AO texture for the whole asset. This avoids each material requiring its own separate AO texture, which would have greatly increased the file size.
-
-RapidPipeline was also used to make a version with a much smaller file size, using [BasisU texture compression](https://github.com/BinomialLLC/basis_universal?tab=readme-ov-file#basis_universal) in a KTX2 container, and [Draco](https://google.github.io/draco/) for geometry compression. The car was compressed from 11.3 MB down to 3.41 MB, reducing the file size by 69%. 
-
-Additionally, the BasisU texture format stays compressed when the asset is uploaded to the GPU for rendering, which decreases the video memory cost from 48.8 MB down to 14.9 MB, and also reduces the time spent decompressing JPEG or PNG textures. These performance savings are especially important for configurators or any rendering setup that loads and unloads multiple models in a session.
-
-
 ## Small Parts Removal
 
 The source model had many small parts which were removed to make a smaller file size. Individual nuts and bolts can add nice details to a model but they also increase the file size. Tradeoffs like these need to be made to achieve efficient real-time 3D models. 
@@ -91,6 +75,69 @@ The source model had many small parts which were removed to make a smaller file 
 
 ![Code screenshot showing configuration settings for smallFeatureCulling.](screenshot/small_feature_culling.jpg)
 <br/>_smallFeatureCulling was used in RapidPipeline 3D Processor to automatically remove parts smaller than 3cm._
+
+
+## Wheels
+
+The black rubber wheels in the original model used detailed geometry for the treads. This was removed and a simple tube mesh was created with a tiled normal map. 
+
+This approach offered significant savings by reducing the number of vertices used by each wheel, from 10,260 down to only 324. A normal map also looked better at a distance than geometry alone, because texture filtering avoided the jagged edges caused by mesh aliasing.
+
+![Geometry of a wheel, before and after optimization.](screenshot/wheels-before-after.jpg)
+<br/>_The original wheel (left), and the recreated wheel (right)_
+
+The tread texture started with a CC0 vector file, was converted into a normal map, then was cropped to the smallest repeating segment, and scaled to the nearest powers-of-two dimensions (512 x 128).
+
+
+## Ambient Occlusion 
+
+Ambient occlusion (AO) can be added for increased rendering realism. This effect creates soft shadowing from environment lighting, which mimics the effect of real-world lighting. 
+
+![Two screenshots of the car interior, without and with ambient occlusion.](screenshot/ambient_occlusion.jpg)
+<br/>_Without ambient occlusion (left) versus with occlusion._
+
+AO vastly improves render quality when using a real-time _rasterizer_, which is the rendering technology used for augmented reality and with most web 3D viewers because it is very fast and thus interactive. 
+
+glTF assets can also be used by _pathtracers_ which are typically not real-time since they calculate all reflections and bounce lighting and shading. Pathtracers will simply ignore the AO texture if provided.
+
+AO was baked for the model using [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) which has the option to create a new second UV set automatically, and bake a single AO texture for the whole asset. This avoided each material requiring its own separate AO texture, which would have greatly increased the file size.
+
+RapidPipeline takes transmission and alpha into account when baking ambient occlusion. This prevents the windshield and other windows from occluding and darkening the interior. The glass also does not use texture space in the occlusion texture, improving the texture resolution for the rest of the model.  
+
+The hood, doors, and rear hatch were rotated into an open position, prior to baking the occlusion. This prevented occlusion from over-darkening the interior parts of the car, and helps improve shading if these parts are opened up interactively. After baking, the rotated parts were reset to their original "closed" rotations. 
+
+![Occlusion texture on the car exterior with the doors open.](screenshot/occlusion-doors-open.jpg)
+<br/>_Ambient occlusion was baked with doors rotated open._
+
+After closing the doors, the car paint materials displaued some unwanted shadows, where the panels had received occlusion from the open doors. To remove these shadows, the occlusionTextures in the car paint materials were set to `"strength": 0`. This was better than completely removing occlusion from these materials, because that caused the glTF Validator to spawn Warnings for unused texture coordinates. 
+
+![Three screenshots of the car exterior, showing unwanted shadowing on the car paint.](screenshot/occlusion-car-paint.jpg)
+<br/>_Ambient occlusion was baked with doors open (left). Shadowing remained after closing the doors (middle). Setting the car paint occlusionTexture to zero removed unwanted shadows (right)._
+
+
+## Compression
+
+Four versions of the car asset were created using [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) with different compression techniques:
+
+1. `\glTF` Uncompressed geometry with PNG textures.
+    * Dot_C.png baseColor uses 1 bit per pixel (2 colors + alpha).
+    * Rib_N.png normal map uses 4 bits per pixel (16 colors).
+    * Dash_E emissive, Khronos_C.png baseColor, and Occlusion.png each use 8 bits per pixel (256 colors).
+    * All other textures use 24 bits per pixel (16.7 million colors)
+1. `\glTF-KTX-BasisU-Draco` Draco geometry compression with KTX2 texture compression.
+    * [Draco](https://google.github.io/draco/): positionQuantization: 10, normalQuantization: 10, uvQuantization: 10.
+    * [BasisU](https://github.com/BinomialLLC/basis_universal?tab=readme-ov-file#basis_universal): ETC1S for baseColor, occlusion, and emissive.
+    * BasisU: UASTC for metallicRoughness, normal, and iridescencethickness.
+1. `\glTF-JPG` Uncompressed geometry with JPG textures.
+    * JPG level 100 for normal maps.
+    * JPG level 65 for all other maps.
+1. `\glTF-WEBP` Uncompressed geometry with WEBP textures.
+    * WEBP level 100 for normal maps.
+    * WEBP level 65 for all other maps.
+
+Draco and BasisU compressed the asset from 11.3 MB down to 3.41 MB, reducing the file size by 69%. 
+
+The BasisU texture format in a KTX2 container stays compressed when the asset is uploaded to the GPU for rendering, which decreases the video memory cost from 48.8 MB down to 14.9 MB, and also reduces the time spent decompressing JPEG or PNG textures. These performance savings are especially important for configurators or any rendering setup that loads and unloads multiple models in a session.
 
 
 ## Material Variants
@@ -152,6 +199,7 @@ Indices start with zero. In this list, 0-21 were the indices that were discovere
 25  Paint 2 Graphite
 26  Interior 3 Pearl
 27  Interior 3 Graphite
+28  Panel Sides 
 ```
 
 To designate which materials are used by which variants, an "extensions" section needed to be added to each of the meshes in the "Meshes" section of the car glTF. The SheenChair.gltf sample asset was used to copy the proper syntax. 
@@ -178,6 +226,26 @@ The [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)
 
 ![A screenshot of the car glTF in glTF Sample Viewer with the variant selection interface.](screenshot/sample_viewer_variants.jpg)
 <br/>_Variants can be tested in the glTF Sample Viewer._
+
+
+## Metallic Flake Car Paint
+
+The red car variant uses a couple tricks to emulate the sparkly look of metallic flake car paint. 
+
+* Metallic base
+* Normal map with noise
+* Nearest-neighbor texture filtering
+* Clearcoat
+
+![Four screenshots of the car paint, showing the layers involved.](screenshot/metallic-paint-layers.jpg)
+<br/>_Dielectric paint (top left), metallic paint with low roughness (top right), normal map with noise (bottom left), clearcoat top layer (bottom right)._
+
+The red car paint uses a low-roughness metallic base layer for reflective contrast and colored reflections, a normal map containing per-pixel noise for the metallic flakes, nearest-neighbor texture filtering on the normal map to keep it sharp at close distances, and a clearcoat layer on top for smooth shiny reflections.
+
+Image textures in glTF can use Sampling filters to customize how they are antialiased at render time. To assign "nearest-neighbor" filtering to the flakes normal map, the car asset was loaded in the [Babylon.js Sandbox](https://sandbox.babylonjs.com/) which allows filtering to be tested interactively on individual textures. The filter "Nearest & linear mip" worked well for the red metallic flake effect, so a GLB was exported, then opened in Visual Studio Code to get the filtering codes to use. 
+
+![Using the Babylon.js Sandbox to set Sampling, exporting to GLB, and extracting values in VS Code.](screenshot/sampling-filter.jpg)
+<br/>_Using the Babylon.js Sandbox to set the Sampling type, exporting it to GLB, and extracting the values in VS Code._
 
 
 ## Using the glTF Validator 

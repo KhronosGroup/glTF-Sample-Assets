@@ -12899,7 +12899,7 @@
           "clearcoatFactor": 0.1
         },
         "KHR_materials_iridescence": {
-          "iridescenceFactor": 0.6,
+          "iridescenceFactor": 0.8,
           "iridescenceIor": 1.2,
           "iridescenceThicknessMinimum": 820,
           "iridescenceThicknessMaximum": 920,
@@ -13059,6 +13059,28 @@
           0.02,
           0.05,
           0.1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.40000000000000002
+      }
+    },
+    {
+      "name": "Panel Sides",
+      "normalTexture": {
+        "index": 4,
+        "scale": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 1,
+        "strength": 0.85
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0036972393281757832,
+          0.0036972393281757832,
+          0.0036972393281757832,
           1
         ],
         "metallicFactor": 0,
@@ -15063,7 +15085,7 @@
             "TEXCOORD_1": 453
           },
           "indices": 450,
-          "material": 0,
+          "material": 28,
           "mode": 4
         },
         {
@@ -15075,7 +15097,7 @@
             "TEXCOORD_1": 459
           },
           "indices": 456,
-          "material": 3,
+          "material": 28,
           "mode": 4
         }
       ]
