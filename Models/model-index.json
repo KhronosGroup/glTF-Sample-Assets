@@ -263,6 +263,18 @@
     }
   },
   {
+    "label": "CarConcept",
+    "name": "CarConcept",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF-KTX-BasisU-Draco": "CarConcept.gltf",
+      "glTF-WEBP": "CarConcept.gltf",
+      "glTF": "CarConcept.gltf",
+      "glTF-JPG": "CarConcept.gltf"
+    }
+  },
+  {
     "label": "Carbon Fibre Ball",
     "name": "CarbonFibre",
     "screenshot": "screenshot/screenshot.jpg",
