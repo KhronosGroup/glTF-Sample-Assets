@@ -135,9 +135,19 @@ Four versions of the car asset were created using [RapidPipeline 3D Processor](h
     * WEBP level 100 for normal maps.
     * WEBP level 65 for all other maps.
 
-Draco and BasisU compressed the asset from 11.3 MB down to 3.41 MB, reducing the file size by 69%. 
+
+## File Sizes Comparison
+
+| Format | Download Size | Video Memory Size |
+|:---|:---|:---|
+| `\glTF` | 11.7 MB | 48.8 MB |
+| `\glTF-KTX-BasisU-Draco` | 10.3 MB | 14.9 MB |
+| `\glTF-JPG` | 9.9 MB | 48.8 MB |
+| `\glTF-WEBP` | 9.8 MB | 48.8 MB |
 
 The BasisU texture format in a KTX2 container stays compressed when the asset is uploaded to the GPU for rendering, which decreases the video memory cost from 48.8 MB down to 14.9 MB, and also reduces the time spent decompressing JPEG or PNG textures. These performance savings are especially important for configurators or any rendering setup that loads and unloads multiple models in a session.
+
+Only the `\glTF-KTX-BasisU-Draco` version uses geometry compression. The other versions could significantly reduce their download sizes by adding geometry compression. Typically the asset in the \glTF folder does not use geometry compression, but the assets in the other folders could implement this in the future by submitting a pull request with geometry compression applied. 
 
 
 ## Material Variants
