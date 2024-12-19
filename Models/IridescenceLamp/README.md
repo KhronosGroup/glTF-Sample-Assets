@@ -9,6 +9,7 @@
 * KHR_materials_transmission
 * KHR_materials_volume
 * KHR_materials_iridescence
+* KHR_materials_ior
 
 ## Summary
 

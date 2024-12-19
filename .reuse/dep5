@@ -40,6 +40,11 @@ Copyright:
  2017 Public
 License: CC0-1.0
 
+Files: Models/AnimationPointerUVs/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+License: CC-BY-4.0
+
 Files: Models/AnisotropyBarnLamp/*
 Copyright: 
  2023 Copyright 2023 Wayfair, LLC
@@ -526,6 +531,13 @@ Copyright:
  2017 Khronos Group
 License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
 
+Files: Models/PotOfCoalsAnimationPointer/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
 Files: Models/PrimitiveModeNormalsTest/*
 Copyright: 
  2020 public
@@ -632,6 +644,13 @@ Files: Models/StainedGlassLamp/*
 Copyright: 
  2021 Wayfair
 License: CC-BY-4.0
+
+Files: Models/SunglassesKhronos/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
 
 Files: Models/Suzanne/*
 Copyright: 
