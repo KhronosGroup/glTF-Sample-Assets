@@ -174,12 +174,12 @@ The new material was renamed. This is optional but unique names help keep the sc
 ![A screenshot of the car glTF in Babylon.js Sandbox with the material editing interface.](screenshot/babylon_material_editing.jpg)
 <br/>_Editing material values in the Babylon.js Sandbox._
 
-To understand which materials need to be assigned to each variant, a list of material indices was required. These indicies are numbers used internally by the glTF asset to identify which material is which. In Visual Studio Code, the "Materials" section was examined, and a list was made of the materials in the order they appeared in. 
+To understand which materials need to be assigned to each variant, it helps to compile a material index list. These indices are numbers used internally by the glTF asset to identify which material is which. In Visual Studio Code, the "Materials" section was examined, and a list was made of the materials in the order they appeared in. 
 
 Indices start with zero. In this list, 0-21 were the indices that were discovered to correspond to each of the car materials. New indices were then added afterwards, for the additional new materials which would be created for the variants.
 
 
-### Material Indicies List
+### Material Index List
 ```
 0   Mechanical
 1   Glass
@@ -219,7 +219,7 @@ To designate which materials are used by which variants, an "extensions" section
 
 In the "Meshes" section of the car glTF, a mesh was found which needed to have its materials switched. The copied "extensions" section was then pasted in as a child inside the "primitives" section. This "extenstions" section will control which materials are assigned to the mesh whenever a user chooses that variant. 
 
-The values inside it were then edited to match the number of variants. The car uses three so these were the numbered "variants": `0` for Carmine Candy, `1` for Pearly Swirly, and `2` for Torched Graphite. Then the "material" indices were edited to match the numbers from the Material Indicies List above: `11` for Paint 1 Carmine, `22` for Paint 1 Pearl, and `23` for Paint 1 Graphite.
+The values inside it were then edited to match the number of variants. The car uses three so these were the numbered "variants": `0` for Carmine Candy, `1` for Pearly Swirly, and `2` for Torched Graphite. Then the "material" indices were edited to match the numbers from the Material Index List above: `11` for Paint 1 Carmine, `22` for Paint 1 Pearl, and `23` for Paint 1 Graphite.
 
 ![A screenshot of the car glTF in Visual Studio Code, in the Meshes section with the "extensions" section selected.](screenshot/variants_meshes_materials.jpg)
 <br/>_The variant materials are defined for each mesh._
