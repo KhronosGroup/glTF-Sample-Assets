@@ -10,7 +10,7 @@ It is intended to serve as a test for the following clarification that was added
 
 > The `intensity` represents the luminous intensity that the light would emit if it were colored pure white (`[1.0, 1.0, 1.0]`). The `color` property acts as a wavelength-specific multiplier.
 
-In other words, all the lights share the same amount of raw energy, but do not share their perceptual brightness.  The blue lamp in particular should appear visually not as bright as other colors.
+In other words, the specified color works as a "filter" in front of a light source of the specified intensity.
 
 The test material in each case is (0.8, 0.8, 0.8).  The lights are as follows:
 
