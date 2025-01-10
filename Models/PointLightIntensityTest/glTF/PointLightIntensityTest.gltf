@@ -1,7 +1,7 @@
 {
 	"asset":{
 		"copyright":"CC0: This work has been marked as dedicated to the public domain. Model and texture by Ed Mackey.",
-		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"generator":"Khronos glTF Blender I/O v4.2.57 (with hand-edits)",
 		"version":"2.0"
 	},
 	"extensionsUsed":[
@@ -16,7 +16,7 @@
 						1,
 						1
 					],
-					"intensity":1.0000660226034708,
+					"intensity":1.0,
 					"type":"point",
 					"name":"Light White"
 				},
@@ -26,7 +26,7 @@
 						0,
 						0
 					],
-					"intensity":1.0000660226034708,
+					"intensity":1.0,
 					"type":"point",
 					"name":"Light Red"
 				},
@@ -36,7 +36,7 @@
 						0,
 						1
 					],
-					"intensity":1.0000660226034708,
+					"intensity":1.0,
 					"type":"point",
 					"name":"Light Blue"
 				},
@@ -46,7 +46,7 @@
 						1,
 						0
 					],
-					"intensity":1.0000660226034708,
+					"intensity":1.0,
 					"type":"point",
 					"name":"Light Green"
 				},
@@ -56,9 +56,39 @@
 						0.5,
 						0.5
 					],
-					"intensity":1.0000660226034708,
+					"intensity":1.0,
 					"type":"point",
 					"name":"Light Gray"
+				},
+				{
+					"color":[
+						0,
+						0,
+						1
+					],
+					"intensity":1.0,
+					"type":"point",
+					"name":"Light RGB - B"
+				},
+				{
+					"color":[
+						0,
+						1,
+						0
+					],
+					"intensity":1.0,
+					"type":"point",
+					"name":"Light RGB - G"
+				},
+				{
+					"color":[
+						1,
+						0,
+						0
+					],
+					"intensity":1.0,
+					"type":"point",
+					"name":"Light RGB - R"
 				}
 			]
 		}
@@ -73,7 +103,8 @@
 				6,
 				9,
 				12,
-				15
+				15,
+				20
 			]
 		}
 	],
@@ -109,7 +140,7 @@
 			"mesh":1,
 			"name":"Test 4 - White",
 			"translation":[
-				-1.125,
+				0,
 				-2.5,
 				0
 			]
@@ -257,7 +288,83 @@
 			"mesh":1,
 			"name":"Test 5 - Gray",
 			"translation":[
-				1.125,
+				2.25,
+				-2.5,
+				0
+			]
+		},
+		{
+			"mesh":7,
+			"name":"Frame.005"
+		},
+		{
+			"extensions":{
+				"KHR_lights_punctual":{
+					"light":5
+				}
+			},
+			"name":"Light 6 B",
+			"rotation":[
+				-0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
+			],
+			"translation":[
+				0,
+				0,
+				0.20000000298023224
+			]
+		},
+		{
+			"extensions":{
+				"KHR_lights_punctual":{
+					"light":6
+				}
+			},
+			"name":"Light 6 G",
+			"rotation":[
+				-0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
+			],
+			"translation":[
+				0,
+				0,
+				0.20000000298023224
+			]
+		},
+		{
+			"extensions":{
+				"KHR_lights_punctual":{
+					"light":7
+				}
+			},
+			"name":"Light 6 R",
+			"rotation":[
+				-0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
+			],
+			"translation":[
+				0,
+				0,
+				0.20000000298023224
+			]
+		},
+		{
+			"children":[
+				16,
+				17,
+				18,
+				19
+			],
+			"mesh":1,
+			"name":"Test 6 - RGB",
+			"translation":[
+				-2.25,
 				-2.5,
 				0
 			]
@@ -394,6 +501,19 @@
 					"material":0
 				}
 			]
+		},
+		{
+			"name":"Frame Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":18,
+						"NORMAL":19
+					},
+					"indices":2,
+					"material":0
+				}
+			]
 		}
 	],
 	"textures":[
@@ -469,14 +589,14 @@
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":20,
+			"count":24,
 			"max":[
 				2.606239080429077,
 				0.9107398390769958,
 				0
 			],
 			"min":[
-				-2.6126058101654053,
+				-3.115797281265259,
 				-1.8662872314453125,
 				0
 			],
@@ -485,19 +605,19 @@
 		{
 			"bufferView":7,
 			"componentType":5126,
-			"count":20,
+			"count":24,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":8,
 			"componentType":5126,
-			"count":20,
+			"count":24,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":9,
 			"componentType":5123,
-			"count":30,
+			"count":36,
 			"type":"SCALAR"
 		},
 		{
@@ -587,6 +707,28 @@
 			"componentType":5126,
 			"count":248,
 			"type":"VEC3"
+		},
+		{
+			"bufferView":18,
+			"componentType":5126,
+			"count":248,
+			"max":[
+				1.0508430004119873,
+				1.0508430004119873,
+				0.04675546661019325
+			],
+			"min":[
+				-1.050843358039856,
+				-1.0508430004119873,
+				-0.01667710579931736
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":19,
+			"componentType":5126,
+			"count":248,
+			"type":"VEC3"
 		}
 	],
 	"bufferViews":[
@@ -628,74 +770,86 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":240,
+			"byteLength":288,
 			"byteOffset":8136,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":240,
-			"byteOffset":8376,
+			"byteLength":288,
+			"byteOffset":8424,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":160,
-			"byteOffset":8616,
+			"byteLength":192,
+			"byteOffset":8712,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":60,
-			"byteOffset":8776,
+			"byteLength":72,
+			"byteOffset":8904,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":8836,
+			"byteOffset":8976,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":11812,
+			"byteOffset":11952,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":14788,
+			"byteOffset":14928,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":17764,
+			"byteOffset":17904,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":20740,
+			"byteOffset":20880,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":23716,
+			"byteOffset":23856,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":26692,
+			"byteOffset":26832,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2976,
-			"byteOffset":29668,
+			"byteOffset":29808,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2976,
+			"byteOffset":32784,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2976,
+			"byteOffset":35760,
 			"target":34962
 		}
 	],
@@ -707,7 +861,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":32644,
+			"byteLength":38736,
 			"uri":"PointLightIntensityTest.bin"
 		}
 	]
