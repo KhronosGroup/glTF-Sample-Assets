@@ -15,6 +15,8 @@
 
 * KHR_materials_specular
 * KHR_materials_sheen
+* KHR_materials_specular
+* KHR_materials_sheen
 
 ## Summary
 
