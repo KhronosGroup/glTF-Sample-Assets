@@ -5,7 +5,8 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_lights_punctual"
+		"KHR_lights_punctual",
+		"KHR_materials_unlit"
 	],
 	"extensions":{
 		"KHR_lights_punctual":{
@@ -384,6 +385,9 @@
 					"index":0
 				},
 				"metallicFactor":0
+			},
+			"extensions": {
+				"KHR_materials_unlit": {}
 			}
 		}
 	],
