@@ -5,6 +5,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","video","extension"],
     "variants": {
+      "glTF-Binary-KTX-ETC1S-Draco": "ABeautifulGame.glb",
       "glTF": "ABeautifulGame.gltf"
     }
   },
