@@ -2070,7 +2070,7 @@
             1,
             0.48776522278785706
           ],
-          "intensity": 0.02500000037252903,
+          "intensity": 0.05,
           "name": "pointlight_firefly1",
           "type": "point"
         },
@@ -2080,7 +2080,7 @@
             1,
             0.48776522278785706
           ],
-          "intensity": 0.02500000037252903,
+          "intensity": 0.05,
           "name": "pointlight_firefly2",
           "type": "point"
         }
@@ -2124,7 +2124,7 @@
       "emissiveTexture": {
         "index": 4
       },
-      "name": "plant",
+      "name": "base",
       "normalTexture": {
         "index": 3
       },
@@ -2136,7 +2136,7 @@
           "index": 2
         },
         "metallicFactor": 0,
-        "roughnessFactor": 0.5
+        "roughnessFactor": 0.75
       }
     },
     {
@@ -2146,11 +2146,11 @@
         "KHR_materials_diffuse_transmission": {
           "diffuseTransmissionColorFactor": [
             1,
-            0,
-            0
+            1,
+            1
           ],
-          "diffuseTransmissionFactor": 0.4,
-          "diffuseTransmissionTexture": {
+          "diffuseTransmissionFactor": 0.1,
+          "diffuseTransmissionColorTexture": {
             "index": 5
           }
         }
