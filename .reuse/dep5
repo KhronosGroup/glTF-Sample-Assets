@@ -312,6 +312,13 @@ Copyright:
  2023 Public domain
 License: CC0-1.0
 
+Files: Models/DiffuseTransmissionTest/*
+Copyright: 
+ 2025 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
 Files: Models/DirectionalLight/*
 Copyright: 
  2020 Public
