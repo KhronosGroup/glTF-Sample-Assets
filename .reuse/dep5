@@ -188,6 +188,12 @@ Copyright:
  2023 Public
 License: CC0-1.0
 
+Files: Models/CommercialRefrigerator/*
+Copyright: 
+ 2025 Darmstadt Graphics Group GmbH
+ 2025 Sean Thomas
+License: CC-BY-4.0
+
 Files: Models/CompareAlphaCoverage/*
 Copyright: 
  2017 Khronos Group

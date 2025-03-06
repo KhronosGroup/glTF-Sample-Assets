@@ -360,6 +360,16 @@
     }
   },
   {
+    "label": "CommercialRefrigerator",
+    "name": "CommercialRefrigerator",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "CommercialRefrigerator.gltf",
+      "glTF-Binary": "CommercialRefrigerator.glb"
+    }
+  },
+  {
     "label": "Compare Alpha Coverage",
     "name": "CompareAlphaCoverage",
     "screenshot": "screenshot/screenshot.jpg",
