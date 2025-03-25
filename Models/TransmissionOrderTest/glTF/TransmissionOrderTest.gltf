@@ -26,7 +26,13 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
 			]
 		}
 	],
@@ -50,20 +56,25 @@
 			"name":"AlphaBlend",
 			"translation":[
 				0,
-				1.5,
+				2.5,
 				0
 			]
 		},
 		{
 			"mesh":2,
-			"name":"Glass"
+			"name":"Glass",
+			"translation":[
+				0,
+				1.25,
+				0
+			]
 		},
 		{
 			"mesh":2,
 			"name":"Glass.001",
 			"translation":[
 				-2,
-				0,
+				1.25,
 				0
 			]
 		},
@@ -72,7 +83,7 @@
 			"name":"Glass.002",
 			"translation":[
 				2,
-				0,
+				1.25,
 				0
 			]
 		},
@@ -81,7 +92,7 @@
 			"name":"Glass.003",
 			"translation":[
 				0,
-				1.5,
+				2.5,
 				0
 			]
 		},
@@ -90,7 +101,7 @@
 			"name":"Glass.004",
 			"translation":[
 				-2,
-				1.5,
+				2.5,
 				0
 			]
 		},
@@ -99,7 +110,7 @@
 			"name":"Glass.005",
 			"translation":[
 				2,
-				1.5,
+				2.5,
 				0
 			]
 		},
@@ -108,7 +119,7 @@
 			"name":"AlphaBlend.001",
 			"translation":[
 				-2,
-				1.5,
+				2.5,
 				-0.25
 			]
 		},
@@ -117,20 +128,25 @@
 			"name":"AlphaBlend.002",
 			"translation":[
 				2,
-				1.5,
+				2.5,
 				0.25
 			]
 		},
 		{
 			"mesh":5,
-			"name":"AlphaMask"
+			"name":"AlphaMask",
+			"translation":[
+				0,
+				1.25,
+				0
+			]
 		},
 		{
 			"mesh":6,
 			"name":"AlphaMask.001",
 			"translation":[
 				-2,
-				0,
+				1.25,
 				-0.25
 			]
 		},
@@ -139,7 +155,7 @@
 			"name":"AlphaMask.002",
 			"translation":[
 				2,
-				0,
+				1.25,
 				0.25
 			]
 		},
@@ -150,6 +166,50 @@
 				-3,
 				0,
 				0
+			]
+		},
+		{
+			"mesh":2,
+			"name":"Glass.006"
+		},
+		{
+			"mesh":2,
+			"name":"Glass.007",
+			"translation":[
+				-2,
+				0,
+				0
+			]
+		},
+		{
+			"mesh":2,
+			"name":"Glass.008",
+			"translation":[
+				2,
+				0,
+				0
+			]
+		},
+		{
+			"mesh":9,
+			"name":"Opaque"
+		},
+		{
+			"mesh":9,
+			"name":"Opaque.001",
+			"translation":[
+				-2,
+				0,
+				-0.25
+			]
+		},
+		{
+			"mesh":9,
+			"name":"Opaque.002",
+			"translation":[
+				2,
+				0,
+				0.25
 			]
 		}
 	],
@@ -190,9 +250,9 @@
 				},
 				"KHR_materials_volume":{
 					"attenuationColor":[
-						0.800000011920929,
-						0.800000011920929,
-						0.800000011920929
+						1,
+						1,
+						1
 					],
 					"attenuationDistance":1,
 					"thicknessFactor":0.4000000059604645
@@ -201,8 +261,8 @@
 			"name":"Blue Glass Material",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.08148469775915146,
-					0.22146940231323242,
+					0.20371168851852417,
+					0.32036563754081726,
 					0.8148467540740967,
 					1
 				],
@@ -234,6 +294,20 @@
 				"baseColorTexture":{
 					"index":3
 				},
+				"metallicFactor":0,
+				"roughnessFactor":0.5
+			}
+		},
+		{
+			"doubleSided":true,
+			"name":"Opaque Material",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.814842164516449,
+					0.274677574634552,
+					0.008023271337151527,
+					1
+				],
 				"metallicFactor":0,
 				"roughnessFactor":0.5
 			}
@@ -364,6 +438,19 @@
 					"material":4
 				}
 			]
+		},
+		{
+			"name":"Opaque Mesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":30,
+						"NORMAL":31
+					},
+					"indices":32,
+					"material":5
+				}
+			]
 		}
 	],
 	"textures":[
@@ -397,8 +484,8 @@
 		},
 		{
 			"mimeType":"image/png",
-			"name":"BlendMaskLabels",
-			"uri":"BlendMaskLabels.png"
+			"name":"BlendMaskOpaqueLabels",
+			"uri":"BlendMaskOpaqueLabels.png"
 		}
 	],
 	"accessors":[
@@ -407,14 +494,14 @@
 			"componentType":5126,
 			"count":62658,
 			"max":[
-				0.9809443354606628,
-				1.0221298933029175,
-				1.4283748865127563
+				1.1591594219207764,
+				1.2103781700134277,
+				1.83041512966156
 			],
 			"min":[
-				-0.8216659426689148,
-				0.0015843699220567942,
-				-0.46063709259033203
+				-1.0039732456207275,
+				-0.014276549220085144,
+				-0.4363994896411896
 			],
 			"type":"VEC3"
 		},
@@ -641,14 +728,14 @@
 		{
 			"bufferView":26,
 			"componentType":5126,
-			"count":16,
+			"count":24,
 			"max":[
-				0.3091540038585663,
-				1.6261695623397827,
+				0.34726572036743164,
+				2.6261696815490723,
 				0
 			],
 			"min":[
-				-0.45308926701545715,
+				-0.4912014305591583,
 				-0.12379693984985352,
 				-0.005000033415853977
 			],
@@ -657,19 +744,47 @@
 		{
 			"bufferView":27,
 			"componentType":5126,
-			"count":16,
+			"count":24,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":28,
 			"componentType":5126,
-			"count":16,
+			"count":24,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":29,
 			"componentType":5123,
-			"count":24,
+			"count":36,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":30,
+			"componentType":5126,
+			"count":399,
+			"max":[
+				0.48922809958457947,
+				0.4931718111038208,
+				1.6591399116805405e-06
+			],
+			"min":[
+				-0.4960229694843292,
+				-0.4919331967830658,
+				1.5810828699613921e-06
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":31,
+			"componentType":5126,
+			"count":399,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":32,
+			"componentType":5123,
+			"count":1185,
 			"type":"SCALAR"
 		}
 	],
@@ -832,26 +947,44 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
+			"byteLength":288,
 			"byteOffset":2279144,
 			"target":34962
 		},
 		{
 			"buffer":0,
+			"byteLength":288,
+			"byteOffset":2279432,
+			"target":34962
+		},
+		{
+			"buffer":0,
 			"byteLength":192,
-			"byteOffset":2279336,
+			"byteOffset":2279720,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":128,
-			"byteOffset":2279528,
+			"byteLength":72,
+			"byteOffset":2279912,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":4788,
+			"byteOffset":2279984,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":48,
-			"byteOffset":2279656,
+			"byteLength":4788,
+			"byteOffset":2284772,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2370,
+			"byteOffset":2289560,
 			"target":34963
 		}
 	],
@@ -863,7 +996,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":2279704,
+			"byteLength":2291932,
 			"uri":"TransmissionOrderTest.bin"
 		}
 	]
