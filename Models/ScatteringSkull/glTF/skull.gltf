@@ -1,0 +1,178 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 14a015d2d34690a58f7151765a096baa71bff664",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp_json_ld": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 94375,
+            "type": "VEC3",
+            "max": [
+                0.32152682542800906,
+                0.149470716714859,
+                0.1745789349079132
+            ],
+            "min": [
+                0.11736665666103363,
+                -0.10330913215875626,
+                -0.1647975742816925
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 94375,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 94375,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 566613,
+            "type": "SCALAR",
+            "max": [
+                94374.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1132500,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1132500,
+            "byteLength": 1132500,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2265000,
+            "byteLength": 755000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3020000,
+            "byteLength": 2266452,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5286452,
+            "uri": "skull_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5299999713897705
+            },
+            "name": "subsurface_material",
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_dispersion": {
+                    "dispersion": 0.5699999928474426
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.024000000208616258,
+                    "thicknessFactor": 0
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColor": [
+                        0.1682695299386978,
+                        0.5271149277687073,
+                        0.5906191468238831
+                    ]
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.3799999952316285
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Group54598_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "translation": [
+                -0.040283508598804477,
+                0.10330909490585327,
+                0.1372372955083847
+            ],
+            "mesh": 0,
+            "name": "Group54598_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp_json_ld": {
+            "packets": [
+                {
+                    "@context": {
+                        "dc": "http://purl.org/dc/elements/1.1/"
+                    },
+                    "dc:date": "2025-02-10T21:00:11.896Z",
+                    "dc:title": "skull.ssg",
+                    "xmp:CreatorTool": "Adobe Substance 3D Stager"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp_json_ld",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_dispersion",
+        "KHR_materials_volume_scatter",
+        "KHR_materials_ior"
+    ]
+}
