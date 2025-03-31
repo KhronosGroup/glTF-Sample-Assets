@@ -13,7 +13,7 @@
         {
             "bufferView": 0,
             "componentType": 5126,
-            "count": 94375,
+            "count": 97880,
             "type": "VEC3",
             "max": [
                 0.32152682542800906,
@@ -22,29 +22,35 @@
             ],
             "min": [
                 0.11736665666103363,
-                -0.10330913215875626,
+                -0.10330912470817566,
                 -0.1647975742816925
             ]
         },
         {
             "bufferView": 1,
             "componentType": 5126,
-            "count": 94375,
+            "count": 97880,
             "type": "VEC3"
         },
         {
             "bufferView": 2,
             "componentType": 5126,
-            "count": 94375,
-            "type": "VEC2"
+            "count": 97880,
+            "type": "VEC4"
         },
         {
             "bufferView": 3,
+            "componentType": 5126,
+            "count": 97880,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
             "componentType": 5125,
             "count": 566613,
             "type": "SCALAR",
             "max": [
-                94374.0
+                97879.0
             ],
             "min": [
                 0.0
@@ -55,32 +61,50 @@
         {
             "buffer": 0,
             "byteOffset": 0,
-            "byteLength": 1132500,
+            "byteLength": 1174560,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1132500,
-            "byteLength": 1132500,
+            "byteOffset": 1174560,
+            "byteLength": 1174560,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2265000,
-            "byteLength": 755000,
+            "byteOffset": 2349120,
+            "byteLength": 1566080,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 3020000,
+            "byteOffset": 3915200,
+            "byteLength": 783040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4698240,
             "byteLength": 2266452,
             "target": 34963
         }
     ],
     "buffers": [
         {
-            "byteLength": 5286452,
+            "byteLength": 6964692,
             "uri": "skull_binary.bin"
+        }
+    ],
+    "images": [
+        {
+            "name": "texture15191",
+            "uri": "skull_images/texture15191.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "texture15306",
+            "uri": "skull_images/texture15306.png",
+            "mimeType": "image/png"
         }
     ],
     "materials": [
@@ -88,6 +112,9 @@
             "pbrMetallicRoughness": {
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.5299999713897705
+            },
+            "occlusionTexture": {
+                "index": 0
             },
             "name": "subsurface_material",
             "extensions": {
@@ -98,14 +125,22 @@
                     "dispersion": 0.5699999928474426
                 },
                 "KHR_materials_volume": {
-                    "attenuationDistance": 0.024000000208616258,
-                    "thicknessFactor": 0
+                    "attenuationColor": [
+                        0.30871814489364626,
+                        0.8661739230155946,
+                        0.8817613124847413
+                    ],
+                    "attenuationDistance": 0.01925305277109146,
+                    "thicknessFactor": 1,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
                 },
                 "KHR_materials_volume_scatter": {
                     "multiscatterColor": [
-                        0.1682695299386978,
-                        0.5271149277687073,
-                        0.5906191468238831
+                        0.6293458938598633,
+                        0.7606422305107117,
+                        1
                     ]
                 },
                 "KHR_materials_ior": {
@@ -116,15 +151,16 @@
     ],
     "meshes": [
         {
-            "name": "Group54598_n3d",
+            "name": "Group54598_n3d2",
             "primitives": [
                 {
                     "attributes": {
                         "POSITION": 0,
                         "NORMAL": 1,
-                        "TEXCOORD_0": 2
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
                     },
-                    "indices": 3,
+                    "indices": 4,
                     "material": 0
                 }
             ]
@@ -136,13 +172,16 @@
         },
         {
             "translation": [
-                -0.040283508598804477,
-                0.10330909490585327,
-                0.1372372955083847
+                -0.21944674849510194,
+                0.10330915451049805,
+                -0.0048906514421105389
             ],
             "mesh": 0,
-            "name": "Group54598_n3d"
+            "name": "Skull"
         }
+    ],
+    "samplers": [
+        {}
     ],
     "scenes": [
         {
@@ -150,6 +189,18 @@
                 1
             ],
             "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "texture15191",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "texture15306",
+            "sampler": 0,
+            "source": 1
         }
     ],
     "scene": 0,
