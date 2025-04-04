@@ -1317,6 +1317,16 @@
     }
   },
   {
+    "label": "Transmission Order Test",
+    "name": "TransmissionOrderTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "TransmissionOrderTest.gltf",
+      "glTF-Binary": "TransmissionOrderTest.glb"
+    }
+  },
+  {
     "label": "Transmission Roughness Test",
     "name": "TransmissionRoughnessTest",
     "screenshot": "screenshot/screenshot.jpg",
