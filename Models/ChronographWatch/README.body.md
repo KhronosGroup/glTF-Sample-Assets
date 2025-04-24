@@ -16,7 +16,7 @@ It was then optimized and converted into a well-formed glTF asset, to showcase t
 
 ## Model Cleanup
 
-The source model is provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edgeloop workflows during content authoring.
+The source model is provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edge loop workflows during content authoring.
 
 The source FBX file was imported into 3ds Max for initial editing and animation. 
 
@@ -60,19 +60,19 @@ The model was then exported out of 3ds Max in glTF format, using the [HS glTF Ex
 
 The Autodesk Standard Surface Materials from the FBX were converted into glTF Materials, and assigned appropriate values. 
 
-The watch band was given a carbon fiber material, by reusing the normal map texture from another sample asset [CarbonFibre](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarbonFibre#screenshot). For this asset the glTF extension [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_anisotropy/README.md#khr_materials_anisotropy) was not needed. While this material is not strictly physically accurate, the normal map alone was considered good enough. Whenever possible, it is a good practice to use as few extensions as possible, since it's not always guarranteed that all renderers will support all extensions.
+The watch band was given a carbon fiber material, by reusing the normal map texture from another sample asset [CarbonFibre](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarbonFibre#screenshot). For this asset the glTF extension [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_anisotropy/README.md#khr_materials_anisotropy) was not needed. While this material is not strictly physically accurate, the normal map alone was considered good enough. Whenever possible, it is a good practice to use as few extensions as possible, since it's not always guaranteed that all renderers will support all extensions.
 
 ![Carbon fiber materials and normal map](screenshot/carbon-fiber.jpg)
 <br/>_Carbon fiber normal map, and the resulting material variants._
 
 To customize the watch for glTF use, the Blender and Mudmaster logo meshes were removed, then the Khronos Group and 3D Commerce and DGG logos were applied as textures. The 3D Commerce logo was set up to be baked along with the rest of the meshes comprising the watch face, into one cohesive texture set (see below for details about using the Remesher). 
 
-The Khronos Group and DGG logos were created as cropped textures, which didn't stristly match the dimensions of the meshes. Instead, the UV was set to roughly fit the meshes, and the glTF texture Samplers were set to use the wrap mode `ClampToEdge`. This allows the texture to be applied to the whole surface, then to use [KHR_texture_transform](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_transform#khr_texture_transform) for precise placement, and the colors of the edge pixels will simply repeat out to the edges of the material for a seamless decal. 
+The Khronos Group and DGG logos were created as cropped textures, which didn't strictly match the dimensions of the meshes. Instead, the UV was set to roughly fit the meshes, and the glTF texture Samplers were set to use the wrap mode `ClampToEdge`. This allows the texture to be applied to the whole surface, then to use [KHR_texture_transform](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_transform#khr_texture_transform) for precise placement, and the colors of the edge pixels will simply repeat out to the edges of the material for a seamless decal. 
 
 ![glTF code for the texture samplers](screenshot/sampler-wrapmodes.jpg)
 <br/>_The texture samplers, showing the wrapS and wrapT values for `ClampToEdge`._
 
-The values for the various wrapmodes can be found online, for example [here on microsoft.com](https://learn.microsoft.com/en-us/dotnet/api/microsoft.mixedreality.toolkit.utilities.gltf.schema.gltfwrapmode).
+The values for the various wrap modes can be found online, for example [here on microsoft.com](https://learn.microsoft.com/en-us/dotnet/api/microsoft.mixedreality.toolkit.utilities.gltf.schema.gltfwrapmode).
 
 Before adding the KHR_texture_transform extension, the logos simply filled the polygons they were applied to, as shown here:
 ![Logos applied without transforms](screenshot/logos-without-transforms.jpg)
@@ -89,7 +89,7 @@ The model was imported into Blender for optimization, amd the [RapidPipeline Ble
 ![Meshes shown in Blender, organized into Collections](screenshot/blender-collections.jpg)
 <br/>_The meshes in Blender, organized into Collections. The meshes for the watch face are selected and highlighted in green._
 
-The watch face under the glass was built out of 55 individual mesh parts; each letter is its own mesh part. Optimizing these with straightforward decimation would be counterproductive since there is no way to achieve significant savings without severly distorting the shapes. 
+The watch face under the glass was built out of 55 individual mesh parts; each letter is its own mesh part. Optimizing these with straightforward decimation would be counterproductive since there is no way to achieve significant savings without severely distorting the shapes. 
 
 Instead to solve this it was decided to use a Remesher to shrinkwrap a new unified mesh overtop the existing meshes, then bake all the original mesh details into new textures. This allowed the shrinkwrapped mesh to be decimated significantly, while preserving all the fine detail from the original separated surfaces.
 
@@ -119,7 +119,7 @@ The final asset has two AO textures, one for the remeshed watch face and the oth
 The backplate for the watch is entirely metal and mostly flat with subtle curvature. Smooth metallic surfaces present a particular problem in real-time rendering as they stress most optimization techniques. For this asset the best approach is to not decimate the original geometry, and to not use normal mapping as shown below. 
 
 ![Shading methods for smooth metallic surfaces.](screenshot/backplate-geometry.jpg)
-<br/>_Geometry alone (left), decimated and normal mappped (middle), decimated alone (right)._
+<br/>_Geometry alone (left), decimated and normal mapped (middle), decimated alone (right)._
 
 The original mesh for the backplate is already fairly optimized at only 2816 triangles (left). If the mesh is decimated it shows tesselation artifacts (far right). One common solution for low-resolution meshes (as shown in the middle) is to bake a normal map from the high-res surface. However smooth metallic surfaces expose the limitations of using an 8-bits-per-channel normal map, because there is not enough precision to represent subtle surface curvature. 
 
