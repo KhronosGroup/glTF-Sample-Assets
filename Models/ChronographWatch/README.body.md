@@ -91,7 +91,7 @@ The model was imported into Blender for optimization, amd the [RapidPipeline Ble
 
 The watch face under the glass was built out of 55 individual mesh parts; each letter is its own mesh part. Optimizing these with straightforward decimation would be counterproductive since there is no way to achieve significant savings without severely distorting the shapes. 
 
-Instead to solve this it was decided to use a Remesher to shrinkwrap a new unified mesh overtop the existing meshes, then bake all the original mesh details into new textures. This allowed the shrinkwrapped mesh to be decimated significantly, while preserving all the fine detail from the original separated surfaces.
+Instead to solve this it was decided to use a Remesher to shrink-wrap a new unified mesh overtop the existing meshes, then bake all the original mesh details into new textures. This allowed the shrink-wrapped mesh to be decimated significantly, while preserving all the fine detail from the original separated surfaces.
 
 ![Meshes shown in Blender, organized into Collections](screenshot/original-vs-remeshed.jpg)
 <br/>_The source meshes (top) at 155,832 triangles, and the remeshed result (bottom) at 10,000 triangles._
