@@ -1,260 +1,520 @@
 {
-    "asset": {
-        "version": "2.0",
-        "copyright": "(C) 2023, Wayfair LLC. License: CC BY 4.0 International",
-        "generator": "Model and textures by Eric Chadwick. Modeled in 3ds Max, exported with babylon.js glTF exporter, hand-edited in VSCode with glTF Tools"
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5082,
+      "type": "SCALAR"
     },
-    "extensionsUsed": [
-        "KHR_materials_transmission",
-        "KHR_materials_volume"
-    ],
-    "scene": 0,
-    "scenes": [
-        {
-            "nodes": [
-                0,
-                1
-            ]
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5082,
+      "max": [
+        0.07078870385885239,
+        0.2721259295940399,
+        0.07078867405653
+      ],
+      "min": [
+        -0.07078870385885239,
+        0.0,
+        -0.07078872621059418
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5082,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5082,
+      "max": [
+        0.9799999594688416,
+        0.9217597246170044
+      ],
+      "min": [
+        0.6516830325126648,
+        0.1804361343383789
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1152,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1152,
+      "max": [
+        0.0919492319226265,
+        0.09194917976856232,
+        -0.17231975495815277
+      ],
+      "min": [
+        -0.0919492319226265,
+        -0.0919492244720459,
+        -0.24164387583732605
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1152,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1152,
+      "max": [
+        0.5181418061256409,
+        0.8929374814033508
+      ],
+      "min": [
+        0.019999999552965164,
+        0.5740362405776978
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 6144,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 6144,
+      "max": [
+        0.09516754001379013,
+        0.09516747295856476,
+        -0.09550225734710693
+      ],
+      "min": [
+        -0.09516754001379013,
+        -0.09516752511262894,
+        -0.30657580494880676
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 6144,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 6144,
+      "max": [
+        0.6831465363502502,
+        0.9800000190734863
+      ],
+      "min": [
+        0.019999999552965164,
+        0.49900710582733154
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5125,
+      "count": 276,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 75,
+      "max": [
+        0.07607686519622803,
+        0.09146273136138916,
+        -0.1722041219472885
+      ],
+      "min": [
+        -0.08452083170413971,
+        -0.09146277606487274,
+        -0.24153050780296326
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 75,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 75,
+      "max": [
+        0.5181418061256409,
+        0.8979373574256897
+      ],
+      "min": [
+        0.019999999552965164,
+        0.8282907009124756
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "copyright": "(C) 2023, Wayfair LLC. License: CC BY 4.0 International",
+    "generator": "Model and textures by Eric Chadwick. Modeled in Autodesk 3ds Max, exported with HS glTF exporter for 3dsmax 1.52b (custom3dsmax@gmail.com), hand-edited in Microsoft Visual Studio Code with Cesium glTF Tools",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 20328,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 60984,
+      "byteOffset": 20328,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 60984,
+      "byteOffset": 81312,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40656,
+      "byteOffset": 142296,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4608,
+      "byteOffset": 182952,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13824,
+      "byteOffset": 187560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13824,
+      "byteOffset": 201384,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9216,
+      "byteOffset": 215208,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24576,
+      "byteOffset": 224424,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73728,
+      "byteOffset": 249000,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73728,
+      "byteOffset": 322728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49152,
+      "byteOffset": 396456,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1104,
+      "byteOffset": 445608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 900,
+      "byteOffset": 446712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 900,
+      "byteOffset": 447612,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 600,
+      "byteOffset": 448512,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 449112,
+      "uri": "GlassHurricaneCandleHolder.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_transmission",
+    "KHR_materials_volume"
+  ],
+  "images": [
+    {
+      "uri": "GlassHurricaneCandleHolder_basecolor.png"
+    },
+    {
+      "uri": "GlassHurricaneCandleHolder_thickness.png"
+    },
+    {
+      "uri": "GlassHurricaneCandleHolder_orm.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "GlassHurricaneCandleHolder-opaque",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0
+        },
+        "KHR_materials_volume": {
+          "attenuationColor": [
+            0.800000011920929,
+            0.949999988079071,
+            1.0
+          ],
+          "attenuationDistance": 0.0010000000474974513,
+          "thicknessFactor": 0.10000000149011612,
+          "thicknessTexture": {
+            "index": 1
+          }
         }
-    ],
-    "nodes": [
-        {
-            "mesh": 0,
-            "name": "GlassHurricaneCandleHolder-opaque"
-        },
-        {
-            "mesh": 1,
-            "rotation": [
-                0.7071068,
-                0.0,
-                0.0,
-                0.7071067
-            ],
-            "name": "GlassHurricaneCandleHolder-glass"
+      },
+      "name": "GlassHurricaneCandleHolder-glass",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "name": "GlassHurricaneCandleHolder-decals",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
         }
-    ],
-    "meshes": [
-        {
-            "primitives": [
-                {
-                    "attributes": {
-                        "POSITION": 1,
-                        "NORMAL": 2,
-                        "TEXCOORD_0": 3
-                    },
-                    "indices": 0,
-                    "material": 0
-                }
-            ],
-            "name": "GlassHurricaneCandleHolder-opaque"
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0
         },
-        {
-            "primitives": [
-                {
-                    "attributes": {
-                        "POSITION": 5,
-                        "NORMAL": 6,
-                        "TEXCOORD_0": 7
-                    },
-                    "indices": 4,
-                    "material": 1
-                }
-            ],
-            "name": "GlassHurricaneCandleHolder-glass"
+        "KHR_materials_volume": {
+          "attenuationColor": [
+            0.800000011920929,
+            0.949999988079071,
+            1.0
+          ],
+          "attenuationDistance": 0.0010000000474974513,
+          "thicknessFactor": 0.10000000149011612,
+          "thicknessTexture": {
+            "index": 1
+          }
         }
-    ],
-    "accessors": [
-        {
-            "bufferView": 0,
-            "componentType": 5123,
-            "count": 5082,
-            "type": "SCALAR",
-            "name": "accessorIndices"
+      },
+      "name": "GlassHurricaneCandleHolder-glass-roughness",
+      "pbrMetallicRoughness": {
+        "metallicRoughnessTexture": {
+          "index": 2
         },
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "GlassHurricaneCandleHolder-opaque",
+      "primitives": [
         {
-            "bufferView": 1,
-            "componentType": 5126,
-            "count": 1006,
-            "max": [
-                0.0707887039,
-                0.27212593,
-                0.0707886741
-            ],
-            "min": [
-                -0.0707887039,
-                0.0,
-                -0.0707887262
-            ],
-            "type": "VEC3",
-            "name": "accessorPositions"
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 12072,
-            "componentType": 5126,
-            "count": 1006,
-            "type": "VEC3",
-            "name": "accessorNormals"
-        },
-        {
-            "bufferView": 2,
-            "componentType": 5126,
-            "count": 1006,
-            "type": "VEC2",
-            "name": "accessorUVs"
-        },
-        {
-            "bufferView": 0,
-            "byteOffset": 10164,
-            "componentType": 5123,
-            "count": 7296,
-            "type": "SCALAR",
-            "name": "accessorIndices"
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 24144,
-            "componentType": 5126,
-            "count": 1380,
-            "max": [
-                0.09516754,
-                0.09516747,
-                -0.09550226
-            ],
-            "min": [
-                -0.09516754,
-                -0.0951675251,
-                -0.3065758
-            ],
-            "type": "VEC3",
-            "name": "accessorPositions"
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 40704,
-            "componentType": 5126,
-            "count": 1380,
-            "type": "VEC3",
-            "name": "accessorNormals"
-        },
-        {
-            "bufferView": 2,
-            "byteOffset": 8048,
-            "componentType": 5126,
-            "count": 1380,
-            "type": "VEC2",
-            "name": "accessorUVs"
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
         }
-    ],
-    "bufferViews": [
+      ]
+    },
+    {
+      "name": "GlassHurricaneCandleHolder-glass",
+      "primitives": [
         {
-            "buffer": 0,
-            "byteLength": 24756,
-            "name": "bufferViewScalar",
-            "target": 34963
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
         },
         {
-            "buffer": 0,
-            "byteOffset": 24756,
-            "byteLength": 57264,
-            "byteStride": 12,
-            "name": "bufferViewFloatVec3",
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 82020,
-            "byteLength": 19088,
-            "byteStride": 8,
-            "name": "bufferViewFloatVec2",
-            "target": 34962
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 3,
+          "mode": 4
         }
-    ],
-    "buffers": [
+      ]
+    },
+    {
+      "name": "GlassHurricaneCandleHolder-decals",
+      "primitives": [
         {
-            "uri": "GlassHurricaneCandleHolder.bin",
-            "byteLength": 101108
+          "attributes": {
+            "NORMAL": 14,
+            "POSITION": 13,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 2,
+          "mode": 4
         }
-    ],
-    "materials": [
-        {
-            "pbrMetallicRoughness": {
-                "baseColorTexture": {
-                    "index": 1
-                },
-                "metallicRoughnessTexture": {
-                    "index": 0
-                }
-            },
-            "occlusionTexture": {
-                "index": 0
-            },
-            "name": "GlassHurricaneCandleHolder-opaque"
-        },
-        {
-            "pbrMetallicRoughness": {
-                "baseColorTexture": {
-                    "index": 1
-                },
-                "metallicRoughnessTexture": {
-                    "index": 0
-                }
-            },
-            "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1
-                },
-                "KHR_materials_volume": {
-                    "thicknessFactor": 0.1,
-                    "thicknessTexture": {
-                        "index": 2
-                    },
-                    "attenuationColor": [
-                        0.8,
-                        0.95,
-                        1.0
-                    ],
-                    "attenuationDistance": 0.001
-                }
-            },
-            "occlusionTexture": {
-                "index": 0
-            },
-            "name": "GlassHurricaneCandleHolder-glass"
-        }
-    ],
-    "textures": [
-        {
-            "sampler": 0,
-            "source": 0,
-            "name": "GlassHurricaneCandleHolder_orm.png"
-        },
-        {
-            "sampler": 0,
-            "source": 1,
-            "name": "GlassHurricaneCandleHolder_basecolor.png"
-        },
-        {
-            "sampler": 0,
-            "source": 2,
-            "name": "GlassHurricaneCandleHolder_thickness.png"
-        }
-    ],
-    "images": [
-        {
-            "uri": "GlassHurricaneCandleHolder_orm.png"
-        },
-        {
-            "uri": "GlassHurricaneCandleHolder_basecolor.png"
-        },
-        {
-            "uri": "GlassHurricaneCandleHolder_thickness.png"
-        }
-    ],
-    "samplers": [
-        {
-            "magFilter": 9729,
-            "minFilter": 9987
-        }
-    ]
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "GlassHurricaneCandleHolder-opaque",
+      "rotation": [
+        -2.1855694143368964e-08,
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "GlassHurricaneCandleHolder-glass",
+      "rotation": [
+        -0.7071068286895752,
+        -0.0,
+        -0.0,
+        -0.7071067094802856
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "GlassHurricaneCandleHolder-decals",
+      "rotation": [
+        -0.7071068286895752,
+        -0.0,
+        -0.0,
+        -0.7071067094802856
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        0.9999999403953552
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
 }
