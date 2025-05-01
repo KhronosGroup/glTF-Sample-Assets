@@ -62,6 +62,8 @@ The Autodesk Standard Surface Materials from the FBX were converted into glTF Ma
 
 The watch band was given a carbon fiber material, by reusing the normal map texture from another sample asset [CarbonFibre](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarbonFibre#screenshot). For this asset the glTF extension [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_anisotropy/README.md#khr_materials_anisotropy) was not needed. While this material is not strictly physically accurate, the normal map alone was considered good enough. Whenever possible, it is a good practice to use as few extensions as possible, since it's not always guaranteed that all renderers will support all extensions.
 
+Normal maps should always be normalized before final delivery, to make sure the vectors are mathematically correct for optimal shading. Normal maps can be easily normalized using this custom Adobe 3D Substance Designer graph: [Substance_Normalize3D.zip](screenshot/Substance_Normalize3D.zip). This is a Substance 3D Asset which can be used with [Adobe Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) and other [applications which support SBSAR](https://helpx.adobe.com/substance-3d-integrations/home.html).
+
 ![Carbon fiber materials and normal map](screenshot/carbon-fiber.jpg)
 <br/>_Carbon fiber normal map, and the resulting material variants._
 
@@ -84,7 +86,7 @@ After adding the texture transforms, the logos were scaled and moved into the co
 
 ## Optimization
 
-The model was imported into Blender for optimization, amd the [RapidPipeline Blender Plugin](https://docs.rapidpipeline.com/docs/componentDocs/BlenderPlugin/blender-plugin-overview) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
+The model was imported into Blender for optimization, and the [RapidPipeline Blender Plugin](https://docs.rapidpipeline.com/docs/componentDocs/BlenderPlugin/blender-plugin-overview) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
 
 ![Meshes shown in Blender, organized into Collections](screenshot/blender-collections.jpg)
 <br/>_The meshes in Blender, organized into Collections. The meshes for the watch face are selected and highlighted in green._
@@ -129,6 +131,8 @@ The best solution here was to accept a few more more triangles and to not use a 
 
 The materials for this asset were all authored using pure white values, then variants were created using the same methods as explained in the [readme for the CarConcept](https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/CarConcept/README.md#material-variants) sample asset.
 
+Alternative methods exist for editing materials to use with KHR_material_variants, with varying degrees of control. 3ds Max has a paid plugin [HS glTF Importer/Exporter](https://nu1963u.wixsite.com/custom3dsmax/gltfpluginfor3dsmax) which uses a Material Switcher node to set up variants. [Blender includes a glTF Variants add-on](https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html#gltf-variants) that can manage and assign variants. The [Gestaltor standalone glTF editor](https://docs.gestaltor.com/docs/guides/material_variants/) has support for creating and editing material variants.
+
 An additional trick employed here was to set the "gold" materials for the default variant. This was accomplished by first compiling a numbered list of all the materials in the glTF asset (shown at left), then changing the default materials in the "meshes" sections to match the desired material indices (as shown on the right):
 
 ![Shading methods for smooth metallic surfaces.](screenshot/material-defaults.jpg)
@@ -143,3 +147,28 @@ Because this asset uses a normal map for the carbon fiber on the watch band, it 
 ![Shading methods for smooth metallic surfaces.](screenshot/tangent-space-missing.jpg)
 <br/>_Issues with the glTF were resolved using the glTF Validator and RapidPipeline 3D Processor._
 
+
+## Texture Compression
+
+The asset was output with three different texture formats:
+
+| folder | format | disk size | memory size |
+| --- | --- | --- | --- |
+| \glTF and \glTF-Binary | PNG | 8.0mb | 75.8mb |
+| \glTF-KTX | KTX2 | 5.6mb | 13.1mb |
+| \glTF-WebP | WebP | 5.4mb | 75.8mb |
+
+PNG textures were converted to 8 bits per pixel (256 colors) where it was possible without losing quality; only the `carbonfiber_normal` and `watchface_orm` required 24 bits per pixel. 
+
+KTX2 textures were converted using ETC1S for most textures to achieve smaller file sizes, and only the normal map was converted using UASTC (with super compression) because the normals were more prone to artifacting.
+
+WebP textures were converted at compression level 85, except the normal map which was compressed using lossless mode.
+
+![Texture formats compared, at a distance](screenshot/png-ktx-webp-distant.jpg)
+<br/>_At normal viewing distances, the texture formats are nearly indistinguishable._
+
+![Texture formats compared, in closeup](screenshot/png-ktx-webp-closeup.jpg)
+<br/>_Zooming into the watch face, texture compression artifacts can be seen._
+
+![Texture formats compared, carbon fiber in closeup](screenshot/png-ktx-webp-carbon-fiber.jpg)
+<br/>_The carbon fiber textures show virtually no difference, even when viewed closeup._
