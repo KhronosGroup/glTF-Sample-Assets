@@ -16,7 +16,7 @@ It was then optimized and converted into a well-formed glTF asset, to showcase t
 
 ## Model Cleanup
 
-The source model is provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edge loop workflows during content authoring.
+The source model was provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edge loop workflows during content authoring.
 
 The source FBX file was imported into 3ds Max for initial editing and animation. 
 
@@ -32,26 +32,26 @@ To fix this, the whole model was moved forward slightly such that the world orig
 
 ## Animation
 
-Animation was created for the second hand at 24 frames per second. This will allow the model to be imported more easily into Blender later for optimization. 
+Animation was created for the second hand at 24 frames per second, to allow the model to be imported more easily into Blender later for optimization. 
 
-To show the typical non-smooth "tick-tock" rotation between the second markings on the watch face, the hand was rotated using "Step" tangents which creates a binary motion, without any interpolation between keyframes. The second hand stays at the 12 position for 24 frames (frame 0 to frame 23) then suddenly jumps to the 1st second mark at frame 24.
+To show the typical non-smooth "tick-tock" rotation between the second markings on the watch face, the hand was rotated using "Step" tangents which created a binary motion, without any interpolation between keyframes. This caused the second hand to stay at the 12 position for 24 frames (frame 0 to frame 23) then suddenly jump to the 1st second mark at frame 24.
 
 ![Screenshot from 3ds Max](screenshot/animation-step-tangents.jpg)
 <br/>_Screenshot from 3ds Max showing the Step tangents for the second hand._
 
 The total rotation around the watch face is 360 degrees, so dividing this into 60 seconds meant the second hand needed to be rotated 6 degrees for each second. 
 
-To repeat the second hand motion, the animation controller was set to use "Relative Repeat". This meant only two animation keyframes needed to be create, at zero and six degrees, and the controller would cause the binary rotation to repeat indefinitely. 
+To repeat the second hand motion, the animation controller was set to use "Relative Repeat". This meant only two animation keyframes needed to be created, at zero and six degrees, and the controller would cause the binary rotation to repeat indefinitely. 
 
 ![Screenshot from 3ds Max](screenshot/animation-out-of-range-types.jpg)
 <br/>_Screenshot from 3ds Max showing the Relative Repeat controller._
 
-Then the total time range was set to 1440 frames, which is 24 frames per second x 60 seconds. This causes the second hand to complete a whole circuit of the watch face at frame 1440. 
+Then the total time range was set to 1440 frames, which is 24 frames per second x 60 seconds. This caused the second hand to complete a whole circuit of the watch face at frame 1440. 
 
 ![Screenshot from 3ds Max](screenshot/hs-gltf-exporter.jpg)
 <br/>_Screenshot from 3ds Max showing the glTF export settings._
 
-The model was then exported out of 3ds Max in glTF format, using the [HS glTF Exporter](https://nu1963u.wixsite.com/custom3dsmax/gltfpluginfor3dsmax), and setting the option to `Bake Anim (FullFrame)` which converts the parametric animation of Relative Repeat into actual keyframes, insuring the full animation is preserved in the glTF file.
+The model was then exported out of 3ds Max in glTF format, using the [HS glTF Importer/Exporter](https://nu1963u.wixsite.com/custom3dsmax/gltfpluginfor3dsmax), and setting the option to `Bake Anim (FullFrame)` which converted the parametric animation of Relative Repeat into actual keyframes, insuring the full animation was preserved in the glTF file.
 
 ![Screenshot from 3ds Max](screenshot/baked-keyframes.jpg)
 <br/>_The baked keyframes._
@@ -60,7 +60,7 @@ The model was then exported out of 3ds Max in glTF format, using the [HS glTF Ex
 
 The Autodesk Standard Surface Materials from the FBX were converted into glTF Materials, and assigned appropriate values. 
 
-The watch band was given a carbon fiber material, by reusing the normal map texture from another sample asset [CarbonFibre](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarbonFibre#screenshot). For this asset the glTF extension [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_anisotropy/README.md#khr_materials_anisotropy) was not needed. While this material is not strictly physically accurate, the normal map alone was considered good enough. Whenever possible, it is a good practice to use as few extensions as possible, since it's not always guaranteed that all renderers will support all extensions.
+The watch band was given a carbon fiber material, by reusing the normal map texture from the sample asset [CarbonFibre](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarbonFibre#screenshot). For this asset the glTF extension [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_anisotropy/README.md#khr_materials_anisotropy) was not needed. While this material is not strictly physically accurate, the normal map alone was considered good enough. Whenever possible, it is a good practice to use as few extensions as possible, since it's not always guaranteed that all renderers will support all extensions.
 
 Normal maps should always be normalized before final delivery, to make sure the vectors are mathematically correct for optimal shading. Normal maps can be easily normalized using this custom Adobe 3D Substance Designer graph: [Substance_Normalize3D.zip](screenshot/Substance_Normalize3D.zip). This is a Substance 3D Asset which can be used with [Adobe Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) and other [applications which support SBSAR](https://helpx.adobe.com/substance-3d-integrations/home.html).
 
@@ -69,7 +69,7 @@ Normal maps should always be normalized before final delivery, to make sure the 
 
 To customize the watch for glTF use, the Blender and Mudmaster logo meshes were removed, then the Khronos Group and 3D Commerce and DGG logos were applied as textures. The 3D Commerce logo was set up to be baked along with the rest of the meshes comprising the watch face, into one cohesive texture set (see below for details about using the Remesher). 
 
-The Khronos Group and DGG logos were created as cropped textures, which didn't strictly match the dimensions of the meshes. Instead, the UV was set to roughly fit the meshes, and the glTF texture Samplers were set to use the wrap mode `ClampToEdge`. This allows the texture to be applied to the whole surface, then to use [KHR_texture_transform](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_transform#khr_texture_transform) for precise placement, and the colors of the edge pixels will simply repeat out to the edges of the material for a seamless decal. 
+The Khronos Group and DGG logos were created as cropped textures, which didn't strictly match the dimensions of the meshes. Instead, the UV was set to roughly fit the meshes, and the glTF texture Samplers were set to use the wrap mode `ClampToEdge`. This allowed each texture to be applied to the whole surface, then to use [KHR_texture_transform](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_transform#khr_texture_transform) for precise placement, and the colors of the edge pixels simply repeated out to the edges of the material, for a seamless decal. 
 
 ![glTF code for the texture samplers](screenshot/sampler-wrapmodes.jpg)
 <br/>_The texture samplers, showing the wrapS and wrapT values for `ClampToEdge`._
@@ -86,12 +86,12 @@ After adding the texture transforms, the logos were scaled and moved into the co
 
 ## Optimization
 
-The model was imported into Blender for optimization, and the [RapidPipeline Blender Plugin](https://docs.rapidpipeline.com/docs/componentDocs/BlenderPlugin/blender-plugin-overview) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
+The model was imported into Blender for optimization, and the [RapidPipeline Blender Add-On](https://docs.rapidpipeline.com/docs/componentDocs/BlenderPlugin/blender-plugin-overview) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
 
 ![Meshes shown in Blender, organized into Collections](screenshot/blender-collections.jpg)
 <br/>_The meshes in Blender, organized into Collections. The meshes for the watch face are selected and highlighted in green._
 
-The watch face under the glass was built out of 55 individual mesh parts; each letter is its own mesh part. Optimizing these with straightforward decimation would be counterproductive since there is no way to achieve significant savings without severely distorting the shapes. 
+The watch face under the glass was built out of 55 individual mesh parts; each letter was its own mesh part. Optimizing these with straightforward decimation would have been counterproductive since there was no way to achieve significant savings without severely distorting the shapes. 
 
 Instead to solve this it was decided to use a Remesher to shrink-wrap a new unified mesh overtop the existing meshes, then bake all the original mesh details into new textures. This allowed the shrink-wrapped mesh to be decimated significantly, while preserving all the fine detail from the original separated surfaces.
 
@@ -103,7 +103,7 @@ The large numerals for 12/3/6/9 were kept separate from the watch face, to allow
 ![Watch face variants](screenshot/watch-face-variants.jpg)
 <br/>_The four material variants, showing coloration of the large numerals._
 
-Most of the rest of the asset was organized into a Collection for decimation. The tiling and localized transforms needed to be preserved for the carbon fiber texture and for the logos, and the meshes needed to be combined by material to reduce draw calls. So for example all the buttons should be combined into a single combined mesh with one material. 
+Most of the rest of the asset was organized into a Collection for decimation. The tiling and localized transforms needed to be preserved for the carbon fiber texture and for the logos, and the meshes needed to be combined by material to reduce draw calls. So for example all the buttons needed to be combined into a single combined mesh with one material. 
 
 ![Collection for decimation](screenshot/collection-for-decimation.jpg)
 <br/>_The meshes for decimation and UV preservation._
@@ -118,12 +118,12 @@ The final asset has two AO textures, one for the remeshed watch face and the oth
 ![Ambient occlusion compared.](screenshot/ambient-occlusion-comparison.jpg)
 <br/>_Without ambient occlusion (left), with AO (middle), and AO alone (right)._
 
-The backplate for the watch is entirely metal and mostly flat with subtle curvature. Smooth metallic surfaces present a particular problem in real-time rendering as they stress most optimization techniques. For this asset the best approach is to not decimate the original geometry, and to not use normal mapping as shown below. 
+The backplate for the watch is entirely metal and mostly flat with subtle curvature. Smooth metallic surfaces present a particular problem in real-time rendering as they stress most optimization techniques. For this asset the best approach was to not decimate the original geometry, and to avoid normal mapping. 
 
 ![Shading methods for smooth metallic surfaces.](screenshot/backplate-geometry.jpg)
 <br/>_Geometry alone (left), decimated and normal mapped (middle), decimated alone (right)._
 
-The original mesh for the backplate is already fairly optimized at only 2816 triangles (left). If the mesh is decimated it shows tesselation artifacts (far right). One common solution for low-resolution meshes (as shown in the middle) is to bake a normal map from the high-res surface. However smooth metallic surfaces expose the limitations of using an 8-bits-per-channel normal map, because there is not enough precision to represent subtle surface curvature. 
+The original mesh for the backplate was already fairly optimized at only 2816 triangles (left). If the mesh was decimated it showed tesselation artifacts (far right). One common solution for low-resolution meshes (as shown in the middle) is to bake a normal map from the high-res surface. However smooth metallic surfaces expose the limitations of using an 8-bits-per-channel normal map, because there is not enough precision to represent subtle surface curvature. 
 
 The best solution here was to accept a few more more triangles and to not use a normal map at all. This also ends up saving file size and video memory, since high-definition textures can be fairly expensive in memory.
 
@@ -142,7 +142,7 @@ An additional trick employed here was to set the "gold" materials for the defaul
 
 To create a well-formed glTF asset that will work reliably in multiple renderers, it is a good practice to load the asset into the [glTF Validator](https://github.khronos.org/glTF-Validator/) and take note of any issues reported.
 
-Because this asset uses a normal map for the carbon fiber on the watch band, it needs the tangent space added to the mesh. [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) was used to make sure all issues reported by the validator were fixed, giving the asset a clean "bill of health".
+Because this asset uses a normal map for the carbon fiber on the watch band, it needed the tangent space added to the mesh. [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) was used to make sure all issues reported by the Validator were fixed, giving the asset a clean "bill of health".
 
 ![Shading methods for smooth metallic surfaces.](screenshot/tangent-space-missing.jpg)
 <br/>_Issues with the glTF were resolved using the glTF Validator and RapidPipeline 3D Processor._
