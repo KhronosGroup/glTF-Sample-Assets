@@ -335,9 +335,9 @@
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
     "variants": {
-      "glTF-WebP": "ChronographWatch-WebP.gltf",
       "glTF": "ChronographWatch.gltf",
-      "glTF-KTX": "ChronographWatch-KTX.gltf",
+      "glTF-WEBP": "ChronographWatch.gltf",
+      "glTF-KTX-BasisU": "ChronographWatch.gltf",
       "glTF-Binary": "ChronographWatch.glb"
     }
   },
