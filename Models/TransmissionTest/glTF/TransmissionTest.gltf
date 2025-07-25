@@ -428,13 +428,13 @@
     "images": [
         {
             "name": "texture28577",
-            "uri": "TransmissionTest_images/texture28577.jpg",
-            "mimeType": "image/jpeg"
+            "uri": "TransmissionTest_images/texture28577.png",
+            "mimeType": "image/png"
         },
         {
             "name": "texture14184",
-            "uri": "TransmissionTest_images/texture14184.jpg",
-            "mimeType": "image/jpeg"
+            "uri": "TransmissionTest_images/texture14184.png",
+            "mimeType": "image/png"
         },
         {
             "name": "texture214190",
@@ -468,8 +468,8 @@
         },
         {
             "name": "texture15366",
-            "uri": "TransmissionTest_images/texture15366.jpg",
-            "mimeType": "image/jpeg"
+            "uri": "TransmissionTest_images/texture15366.png",
+            "mimeType": "image/png"
         }
     ],
     "materials": [
