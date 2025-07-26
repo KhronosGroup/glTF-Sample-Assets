@@ -473,9 +473,9 @@
 	],
 	"images":[
 		{
-			"mimeType":"image/jpeg",
+			"mimeType":"image/png",
 			"name":"checkerboard",
-			"uri":"checkerboard.jpg"
+			"uri":"checkerboard.png"
 		},
 		{
 			"mimeType":"image/png",
