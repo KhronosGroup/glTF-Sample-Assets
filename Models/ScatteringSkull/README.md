@@ -7,7 +7,7 @@
 ## Extensions Used
 
 * KHR_xmp_json_ld
-* KHR_materials_transmission
+* KHR_materials_diffuse_transmission
 * KHR_materials_volume
 * KHR_materials_dispersion
 * KHR_materials_volume_scatter
