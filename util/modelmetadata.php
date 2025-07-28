@@ -718,11 +718,10 @@ class ModelMetadata
 	private function _handleScreenshot () {
 		$path = $this->metadata['path'];
 		$pathSafe = str_replace (' ', '%20', $path);
-		$this->metadata['path'] = $path;
+		$folder = $this->metadata['folder'];
+		$folderSafe = str_replace (' ', '%20', $folder);
 		$this->metadata['pathSafe'] = $pathSafe;
-
-		$tmp = explode ('/', $pathSafe);				// Get the model directory. It is 
-		$modelDirectory = $tmp[count($tmp)-1];		// the last item in $path
+		$this->metadata['folderSafe'] = $folderSafe;
 		
 		$shotHeight = 150;
 		$screenshot = $this->metadata['screenshot'];
@@ -736,15 +735,15 @@ class ModelMetadata
 		$this->metadata['basePath']			= $pathSafe . '/';
 		$this->metadata['basePathModel']	= 'path-to-model';
 		$this->metadata['basePathShot']		= $path . '/' . $this->metadata['screenshot'];
-		$this->metadata['safePathShot']		= $pathSafe . '/' . $this->metadata['screenshot'];
+		$this->metadata['safePathShot']		= $folderSafe . '/' . $this->metadata['screenshot'];
 		$this->metadata['folderShot'] 		= $this->metadata['folder'] . '/' . $this->metadata['screenshot'];
 		$this->metadata['UriShot']			= $this->metadata['basePathShot'];
 		$this->metadata['shotHeight'] = sprintf ('%s-x%d.%s', $shotPathName, $shotHeight, $shotExtension);
 		$this->metadata['basePathHeight'] = $path . '/' . $this->metadata['shotHeight'];
 		
-		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $pathSafe, $modelDirectory);
+		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $pathSafe, $folderSafe);
 		$this->metadata['pathModel']	= $this->metadata['modelPath'];
-		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $pathSafe, $modelDirectory);
+		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $pathSafe, $folderSafe);
 		$this->metadata['hasGLB']		= file_exists ($this->metadata['pathGLB']);
 
 		return;
@@ -783,6 +782,7 @@ class ModelMetadata
 			}
 		}
 		$folder->close();
+		ksort($variants);
 		$this->metadata['variants'] = $variants;
 		return;
 	}
