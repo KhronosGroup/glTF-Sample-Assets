@@ -4,7 +4,7 @@
 
 # glTF V2.0 Sample Assets
 
-[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=main)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
+[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions/workflows/ci.yml)
 
 
 |  |  |
