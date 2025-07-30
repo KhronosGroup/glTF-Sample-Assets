@@ -243,16 +243,6 @@ class ModelMetadata
 			$this->metadata[$key] = $value;
 		}
 		
-/*
- *	// Special testing for "weird" directory paths
-		if ($path == './Models/Box With Spaces') {
-			//$this->debugOutput = $this->DebugModel;
-			$this->debugOutput = $this->DebugDetail;
-			print "$path: ".$this->debugOutput."\n";
-		} else {
-			$this->debugOutput = $this->DebugNone;
-		}
-*/		
 		if ($path != '') {
 			$this->load ($path, $file);
 		}
@@ -421,7 +411,7 @@ class ModelMetadata
 			if ($path == '') {
 				$tagList[] = sprintf ('%s', $this->metadata['tags'][$ii]);
 			} else {
-				$tagList[] = sprintf ('[%s](../../%s)', $this->metadata['tags'][$ii], $path);
+				$tagList[] = sprintf ('[%s](../%s)', $this->metadata['tags'][$ii], $path);
 			}
 		}
 		$tagString = join (', ', $tagList);
