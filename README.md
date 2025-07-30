@@ -2,7 +2,7 @@
 <img src="Models/glTF_RGB_June16.svg" height="100">
 </p>
 
-# glTF V2.0 Sample Models
+# glTF V2.0 Sample Assets
 
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Assets/workflows/glTF%20Validation/badge.svg?branch=main)](https://github.com/KhronosGroup/glTF-Sample-Assets/actions)
 
