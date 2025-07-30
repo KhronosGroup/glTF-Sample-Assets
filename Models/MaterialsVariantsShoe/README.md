@@ -2,7 +2,7 @@
 
 ## Tags
 
-[extension](../../Models-extension.md), [showcase](../../Models-showcase.md), [written](../../Models-written.md)
+[extension](../Models-extension.md), [showcase](../Models-showcase.md), [written](../Models-written.md)
 
 ## Extensions Used
 

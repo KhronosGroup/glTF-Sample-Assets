@@ -2,7 +2,7 @@
 
 ## Tags
 
-[video](../../Models-video.md), [extension](../../Models-extension.md)
+[video](../Models-video.md), [extension](../Models-extension.md)
 
 ## Extensions Used
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-[extension](../../Models-extension.md)
+[extension](../Models-extension.md)
 
 ## Extensions Used
 

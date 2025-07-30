@@ -2,7 +2,7 @@
 
 ## Tags
 
-[core](../../Models-core.md)
+[core](../Models-core.md)
 
 ## Summary
 
