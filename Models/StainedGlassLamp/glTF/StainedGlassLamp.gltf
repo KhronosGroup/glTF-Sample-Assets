@@ -1023,7 +1023,7 @@
         {
             "sampler": 0,
             "source": 15,
-            "name": "StainedGlassLamp_glass_occlusion-rough-metal_transmission.png"
+            "name": "StainedGlassLamp_glass_occlusion-rough-metal.png"
         },
         {
             "sampler": 0,
@@ -1055,7 +1055,7 @@
             "uri": "StainedGlassLamp_grill_basecolor-alpha.png"
         },
         {
-            "uri": "StainedGlassLamp_steel_occlusion-rough-metal.png"
+            "uri": "StainedGlassLamp_steel_occlusion.png"
         },
         {
             "uri": "StainedGlassLamp_hardware_normal.png"
@@ -1082,13 +1082,13 @@
             "uri": "StainedGlassLamp_base_basecolor.png"
         },
         {
-            "uri": "StainedGlassLamp_bulbs_occlusion-rough-metal.png"
+            "uri": "StainedGlassLamp_bulbs_occlusion.png"
         },
         {
             "uri": "StainedGlassLamp_glass_normal.png"
         },
         {
-            "uri": "StainedGlassLamp_glass_occlusion-rough-metal_transmission.png"
+            "uri": "StainedGlassLamp_glass_occlusion-rough-metal.png"
         },
         {
             "uri": "StainedGlassLamp_glass_emissive.png"
