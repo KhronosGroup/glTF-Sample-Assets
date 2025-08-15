@@ -160,7 +160,7 @@
       "uri": "HotCoals_emissive.jpg"
     },
     {
-      "uri": "HotCoals_orm.jpg"
+      "uri": "HotCoals_occlusion.jpg"
     },
     {
       "uri": "CopperPot_basecolor.jpg"
@@ -197,10 +197,7 @@
           "index": 0
         },
         "metallicFactor": 0,
-        "metallicRoughnessTexture": {
-          "index": 3
-        },
-        "roughnessFactor": 0.89
+        "roughnessFactor": 0.712
       }
     },
     {
