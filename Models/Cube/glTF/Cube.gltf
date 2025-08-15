@@ -127,9 +127,6 @@
    "images" : [
       {
          "uri" : "Cube_BaseColor.png"
-      },
-      {
-         "uri" : "Cube_MetallicRoughness.png"
       }
    ],
    "materials" : [
@@ -139,9 +136,8 @@
             "baseColorTexture" : {
                "index" : 0
             },
-            "metallicRoughnessTexture" : {
-               "index" : 1
-            }
+            "metallicFactor": 0,
+            "roughnessFactor": 0.079
          }
       }
    ],
@@ -184,10 +180,6 @@
       {
          "sampler" : 0,
          "source" : 0
-      },
-      {
-         "sampler" : 0,
-         "source" : 1
       }
    ]
 }
