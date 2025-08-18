@@ -16,8 +16,7 @@
     "tags": ["core","testing"],
     "variants": {
       "glTF": "AlphaBlendModeTest.gltf",
-      "glTF-Binary": "AlphaBlendModeTest.glb",
-      "glTF-Embedded": "AlphaBlendModeTest.gltf"
+      "glTF-Binary": "AlphaBlendModeTest.glb"
     }
   },
   {
