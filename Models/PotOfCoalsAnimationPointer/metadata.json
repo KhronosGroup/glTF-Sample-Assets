@@ -40,7 +40,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "PotOfCoalsAnimationPointer",
+    "name": "Pot of Coals Animation Pointer",
     "path": "./Models/PotOfCoalsAnimationPointer",
     "summary": "Burnt copper pot with a clearcoat, containing emissive hot coals, and animated heat refraction.",
     "createReadme": true

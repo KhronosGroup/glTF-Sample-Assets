@@ -18,7 +18,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "DiffuseTransmissionTeacup",
+    "name": "Diffuse Transmission Teacup",
     "path": "./Models/DiffuseTransmissionTeacup",
     "summary": "DiffuseTransmissionTeacup model using Diffuse Transmission extension.",
     "createReadme": true

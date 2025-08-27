@@ -29,7 +29,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "CommercialRefrigerator",
+    "name": "Commercial Refrigerator",
     "path": "./Models/CommercialRefrigerator",
     "summary": "Commercial refrigerator with glass condensation, champagne bottles, and door animation.",
     "createReadme": true
