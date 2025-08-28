@@ -40,7 +40,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "CarConcept",
+    "name": "Car Concept",
     "path": "./Models/CarConcept",
     "summary": "Concept car with Khronos logos and material variants",
     "createReadme": true
