@@ -273,7 +273,7 @@
     }
   },
   {
-    "label": "CarConcept",
+    "label": "Car Concept",
     "name": "CarConcept",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -329,7 +329,7 @@
     }
   },
   {
-    "label": "ChronographWatch",
+    "label": "Chronograph Watch",
     "name": "ChronographWatch",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -371,7 +371,7 @@
     }
   },
   {
-    "label": "CommercialRefrigerator",
+    "label": "Commercial Refrigerator",
     "name": "CommercialRefrigerator",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -572,7 +572,7 @@
     }
   },
   {
-    "label": "DiffuseTransmissionPlant",
+    "label": "Diffuse Transmission Plant",
     "name": "DiffuseTransmissionPlant",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -582,7 +582,7 @@
     }
   },
   {
-    "label": "DiffuseTransmissionTeacup",
+    "label": "Diffuse Transmission Teacup",
     "name": "DiffuseTransmissionTeacup",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -595,7 +595,7 @@
     "label": "DiffuseTransmissionTest",
     "name": "DiffuseTransmissionTest",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["video","written","showcase","extension"],
+    "tags": ["video","written","extension"],
     "variants": {
       "glTF": "DiffuseTransmissionTest.gltf",
       "glTF-Binary": "DiffuseTransmissionTest.glb"
@@ -625,7 +625,7 @@
     "label": "Dragon Attenuation",
     "name": "DragonAttenuation",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "DragonAttenuation.gltf",
       "glTF-Binary": "DragonAttenuation.glb",
@@ -636,7 +636,7 @@
     "label": "Dragon Dispersion",
     "name": "DragonDispersion",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "DragonDispersion.gltf",
       "glTF-Binary": "DragonDispersion.glb"
@@ -738,7 +738,7 @@
     "label": "IORTestGrid",
     "name": "IORTestGrid",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "IORTestGrid.gltf",
       "glTF-Binary": "IORTestGrid.glb"
@@ -1016,7 +1016,7 @@
     }
   },
   {
-    "label": "PotOfCoalsAnimationPointer",
+    "label": "Pot of Coals Animation Pointer",
     "name": "PotOfCoalsAnimationPointer",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -1088,7 +1088,7 @@
     }
   },
   {
-    "label": "SheenChair",
+    "label": "Sheen Chair",
     "name": "SheenChair",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","video","extension"],
@@ -1110,14 +1110,14 @@
     "label": "SheenTestGrid",
     "name": "SheenTestGrid",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "SheenTestGrid.gltf",
       "glTF-Binary": "SheenTestGrid.glb"
     }
   },
   {
-    "label": "SheenWoodLeatherSofa",
+    "label": "Sheen Wood Leather Sofa",
     "name": "SheenWoodLeatherSofa",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -1207,7 +1207,7 @@
     }
   },
   {
-    "label": "SpecularSilkPouf",
+    "label": "Specular Silk Pouf",
     "name": "SpecularSilkPouf",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -1236,7 +1236,7 @@
     }
   },
   {
-    "label": "StainedGlassLamp",
+    "label": "Stained Glass Lamp",
     "name": "StainedGlassLamp",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -1247,7 +1247,7 @@
     }
   },
   {
-    "label": "SunglassesKhronos",
+    "label": "Sunglasses Khronos",
     "name": "SunglassesKhronos",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": ["showcase","extension"],
@@ -1371,7 +1371,7 @@
     "label": "TransmissionThinwallTestGrid",
     "name": "TransmissionThinwallTestGrid",
     "screenshot": "screenshot/screenshot.jpg",
-    "tags": ["showcase","extension"],
+    "tags": ["extension"],
     "variants": {
       "glTF": "TransmissionThinwallTestGrid.gltf",
       "glTF-Binary": "TransmissionThinwallTestGrid.glb"

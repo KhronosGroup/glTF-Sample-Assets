@@ -1,4 +1,4 @@
-# SheenChair
+# Sheen Chair
 
 ## Tags
 

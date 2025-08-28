@@ -2,7 +2,7 @@
 
 ## Tags
 
-[video](../Models-video.md), [written](../Models-written.md), [showcase](../Models-showcase.md), [extension](../Models-extension.md)
+[video](../Models-video.md), [written](../Models-written.md), [extension](../Models-extension.md)
 
 ## Extensions
 

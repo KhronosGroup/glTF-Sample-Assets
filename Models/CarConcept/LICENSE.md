@@ -1,4 +1,4 @@
-# LICENSE file for the model: CarConcept
+# LICENSE file for the model: Car Concept
 
 All files in this directory tree are licensed as indicated below.
 

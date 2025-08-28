@@ -1,4 +1,4 @@
-# LICENSE file for the model: ChronographWatch
+# LICENSE file for the model: Chronograph Watch
 
 All files in this directory tree are licensed as indicated below.
 

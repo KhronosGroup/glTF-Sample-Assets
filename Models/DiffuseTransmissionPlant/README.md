@@ -1,4 +1,4 @@
-# DiffuseTransmissionPlant
+# Diffuse Transmission Plant
 
 ## Tags
 

@@ -1,4 +1,4 @@
-# SpecularSilkPouf
+# Specular Silk Pouf
 
 ## Tags
 

@@ -1,4 +1,4 @@
-# PotOfCoalsAnimationPointer
+# Pot of Coals Animation Pointer
 
 ## Tags
 

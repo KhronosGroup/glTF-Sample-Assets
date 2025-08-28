@@ -1,4 +1,4 @@
-# DiffuseTransmissionTeacup
+# Diffuse Transmission Teacup
 
 ## Tags
 

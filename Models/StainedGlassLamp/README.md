@@ -1,4 +1,4 @@
-# StainedGlassLamp
+# Stained Glass Lamp
 
 ## Tags
 

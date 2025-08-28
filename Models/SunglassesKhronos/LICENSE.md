@@ -1,4 +1,4 @@
-# LICENSE file for the model: SunglassesKhronos
+# LICENSE file for the model: Sunglasses Khronos
 
 All files in this directory tree are licensed as indicated below.
 

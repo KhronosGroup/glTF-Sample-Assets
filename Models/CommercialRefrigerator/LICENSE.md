@@ -1,4 +1,4 @@
-# LICENSE file for the model: CommercialRefrigerator
+# LICENSE file for the model: Commercial Refrigerator
 
 All files in this directory tree are licensed as indicated below.
 

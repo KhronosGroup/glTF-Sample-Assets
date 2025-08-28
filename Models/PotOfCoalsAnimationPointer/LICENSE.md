@@ -1,4 +1,4 @@
-# LICENSE file for the model: PotOfCoalsAnimationPointer
+# LICENSE file for the model: Pot of Coals Animation Pointer
 
 All files in this directory tree are licensed as indicated below.
 
