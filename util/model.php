@@ -425,7 +425,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 			fwrite ($F, "| Model   | Legal | Description |\n");
 			fwrite ($F, "|---------|-------|-------------|\n");
 		}
-		$fmtString = "| [%s](%s) <br> ![](%s) | %s | %s |\n";
+		$fmtString = "| [[%s](%s)<br>[![%s](%s)](%s) | %s | %s |\n";
 
 		for ($ii=0; $ii<count($metaAll); $ii++) {
 			$modelMeta = $metaAll[$ii]->getMetadata();
@@ -435,9 +435,11 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 				echo "{dryrun}  - Writing Image-type entry for ".$metaAll[$ii]->{'name'}."\n";
 			} else {
 				fwrite ($F, sprintf ($fmtString, 
-							$modelMeta['name'], 
-							$modelMeta['path'].'/README.md',
-							$modelMeta['basePathShot'],
+							$modelMeta['name'],
+							$modelMeta['folderSafe'].'/README.md',
+							$modelMeta['name'],
+							$modelMeta['safePathShot'],
+							$modelMeta['folderSafe'].'/README.md',
 							join("<br>", $modelMeta['credit']),
 							$summary,
 							));
@@ -450,7 +452,6 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 			fwrite ($F, "| Model   | Description |\n");
 			fwrite ($F, "|---------|-------------|\n");
 		}
-		$fmtString = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show in Sample Viewer](%s?model=%s/%s) | %s<br>Credit:<br>%s |\n";
 		$fmtColumn1 = "| [%s](%s)<br>[![%s](%s)](%s)<br>[Show](%s?model=%s/%s) ";
 		$fmtColumn2 = "| %s<br>Credit:<br>%s |\n";
 		$fmtDownload = "-- [Download GLB](%s/%s) ";
@@ -462,19 +463,19 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 				$pathModel = ($modelMeta['hasGLB']) ? $modelMeta['pathGLB'] : $modelMeta['pathModel'];
 
 				if ($dryRun) {
-					$tmp = sprintf ($fmtColumn1, $modelMeta['name'], $modelMeta['folder'].'/README.md', '!!', $modelMeta['folderShot'], '!!', '!!', '!!', '!!');
+					$tmp = sprintf ($fmtColumn1, $modelMeta['name'], $modelMeta['folderSafe'].'/README.md', '!!', $modelMeta['safePathShot'], '!!', '!!', '!!', '!!');
 					echo "{dryrun}  - Writing List-type entry for ".$modelMeta['name']."\n";
 					echo "{dryrun}  --- 'name': ".$modelMeta['name']."\n";
 					echo "{dryrun}  --- 'folder': ".$modelMeta['folder']."\n";
-					echo "{dryrun}  --- 'shot': ".$modelMeta['folderShot']."\n";
+					echo "{dryrun}  --- 'shot': ".$modelMeta['safePathShot']."\n";
 					echo "{dryrun}  --- : $tmp\n";
 				} else {
 					fwrite ($F, sprintf ($fmtColumn1, 
-							$modelMeta['name'], 
-							$modelMeta['folder'].'/README.md',			// was 'path'
-							$modelMeta['name'], 
-							$modelMeta['folderShot'],
-							$modelMeta['folder'].'/README.md',
+							$modelMeta['name'],
+							$modelMeta['folderSafe'].'/README.md',
+							$modelMeta['name'],
+							$modelMeta['safePathShot'],
+							$modelMeta['folderSafe'].'/README.md',
 							UrlSampleViewer, UrlModelRepoRaw, $pathModel
 							));
 					if ($modelMeta['hasGLB']) {

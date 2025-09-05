@@ -1,4 +1,4 @@
-# LICENSE file for the model: DiffuseTransmissionTeacup
+# LICENSE file for the model: Diffuse Transmission Teacup
 
 All files in this directory tree are licensed as indicated below.
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-[testing](../../Models-testing.md)
+[testing](../Models-testing.md)
 
 ## Summary
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-[core](../../Models-core.md), [testing](../../Models-testing.md), [extension](../../Models-extension.md)
+[core](../Models-core.md), [testing](../Models-testing.md), [extension](../Models-extension.md)
 
 ## Extensions Used
 

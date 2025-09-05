@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Eric Chadwick",
+            "year": "2025",
+            "owner": "Darmstadt Graphics Group GmbH",
+            "what": "Model and textures and all images in the README.md",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Sean Thomas",
+            "year": "2025",
+            "owner": "Sean Thomas",
+            "what": "This work is based on 'Commercial Fridge' (https://sketchfab.com/3d-models/commercial-fridge-2174e1e4f1f24f1a95aa110ee060f473) by Sean Thomas (https://sketchfab.com/foon.) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "extension"
+    ],
+    "screenshot": "screenshot/screenshot.jpg",
+    "name": "Commercial Refrigerator",
+    "path": "./Models/CommercialRefrigerator",
+    "summary": "Commercial refrigerator with glass condensation, champagne bottles, and door animation.",
+    "createReadme": true
+}

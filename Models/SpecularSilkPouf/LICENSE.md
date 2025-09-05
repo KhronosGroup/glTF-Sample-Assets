@@ -1,4 +1,4 @@
-# LICENSE file for the model: SpecularSilkPouf
+# LICENSE file for the model: Specular Silk Pouf
 
 All files in this directory tree are licensed as indicated below.
 

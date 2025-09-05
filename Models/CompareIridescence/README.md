@@ -2,7 +2,7 @@
 
 ## Tags
 
-[extension](../../Models-extension.md), [testing](../../Models-testing.md), pbrtest
+[extension](../Models-extension.md), [testing](../Models-testing.md), pbrtest
 
 ## Extensions Used
 

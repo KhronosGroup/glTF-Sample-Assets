@@ -20,6 +20,11 @@ Copyright:
  2018 Analytical Graphics, Inc.
 License: CC-BY-4.0
 
+Files: Models/AnimatedColorsCube/*
+Copyright: 
+ 2024 Public
+License: CC0-1.0
+
 Files: Models/AnimatedCube/*
 Copyright: 
  2017 UX3D
@@ -34,6 +39,11 @@ Files: Models/AnimatedTriangle/*
 Copyright: 
  2017 Public
 License: CC0-1.0
+
+Files: Models/AnimationPointerUVs/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+License: CC-BY-4.0
 
 Files: Models/AnisotropyBarnLamp/*
 Copyright: 
@@ -134,6 +144,13 @@ Copyright:
  2017 Public
 License: CC0-1.0
 
+Files: Models/CarConcept/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
 Files: Models/CarbonFibre/*
 Copyright: 
  2023 Wayfair
@@ -156,6 +173,14 @@ Copyright:
  2021 Wayfair
 License: CC-BY-4.0
 
+Files: Models/ChronographWatch/*
+Copyright: 
+ 2025 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+ 2020 Darmstadt Graphics Group GmbH
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos AND 
+
 Files: Models/ClearCoatCarPaint/*
 Copyright: 
  2023 Public
@@ -170,6 +195,12 @@ Files: Models/ClearcoatWicker/*
 Copyright: 
  2023 Public
 License: CC0-1.0
+
+Files: Models/CommercialRefrigerator/*
+Copyright: 
+ 2025 Darmstadt Graphics Group GmbH
+ 2025 Sean Thomas
+License: CC-BY-4.0
 
 Files: Models/CompareAlphaCoverage/*
 Copyright: 
@@ -294,6 +325,13 @@ Files: Models/DiffuseTransmissionTeacup/*
 Copyright: 
  2023 Public domain
 License: CC0-1.0
+
+Files: Models/DiffuseTransmissionTest/*
+Copyright: 
+ 2025 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
 
 Files: Models/DirectionalLight/*
 Copyright: 
@@ -507,9 +545,21 @@ Copyright:
  2024 Inter IKEA Systems B.V.
 License: CC BY-NC-SA 4.0
 
+Files: Models/PointLightIntensityTest/*
+Copyright: 
+ 2025 Public
+License: CC0-1.0
+
 Files: Models/PotOfCoals/*
 Copyright: 
  2023 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
+Files: Models/PotOfCoalsAnimationPointer/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
  2015 Khronos Group
  2017 Khronos Group
 License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
@@ -533,6 +583,11 @@ Files: Models/RiggedSimple/*
 Copyright: 
  2017 Cesium
 License: CC-BY-4.0
+
+Files: Models/ScatteringSkull/*
+Copyright: 
+ 2025 Public
+License: CC0-1.0
 
 Files: Models/SciFiHelmet/*
 Copyright: 
@@ -621,6 +676,13 @@ Copyright:
  2021 Wayfair
 License: CC-BY-4.0
 
+Files: Models/SunglassesKhronos/*
+Copyright: 
+ 2024 Darmstadt Graphics Group GmbH
+ 2015 Khronos Group
+ 2017 Khronos Group
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos
+
 Files: Models/Suzanne/*
 Copyright: 
  2017 UX3D
@@ -660,6 +722,12 @@ Files: Models/ToyCar/*
 Copyright: 
  2020 Public
  2020 Public
+License: CC0-1.0
+
+Files: Models/TransmissionOrderTest/*
+Copyright: 
+ 2025 Public
+ 2021 Public
 License: CC0-1.0
 
 Files: Models/TransmissionRoughnessTest/*

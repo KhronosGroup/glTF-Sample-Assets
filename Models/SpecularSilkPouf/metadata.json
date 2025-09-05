@@ -18,7 +18,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "SpecularSilkPouf",
+    "name": "Specular Silk Pouf",
     "path": "./Models/SpecularSilkPouf",
     "summary": "Wayfair SpecularSilkPouf model using sheen and specular extensions.",
     "createReadme": true

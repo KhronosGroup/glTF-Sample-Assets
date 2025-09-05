@@ -1,4 +1,4 @@
-# LICENSE file for the model: SheenWoodLeatherSofa
+# LICENSE file for the model: Sheen Wood Leather Sofa
 
 All files in this directory tree are licensed as indicated below.
 

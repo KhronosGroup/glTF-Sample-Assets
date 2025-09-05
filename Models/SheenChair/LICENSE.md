@@ -1,4 +1,4 @@
-# LICENSE file for the model: SheenChair
+# LICENSE file for the model: Sheen Chair
 
 All files in this directory tree are licensed as indicated below.
 

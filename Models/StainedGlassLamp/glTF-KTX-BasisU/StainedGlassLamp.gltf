@@ -1121,7 +1121,7 @@
         },
         {
             "mimeType": "image/ktx2",
-            "uri": "StainedGlassLamp_steel_occlusion-rough-metal.ktx2"
+            "uri": "StainedGlassLamp_steel_occlusion.ktx2"
         },
         {
             "mimeType": "image/ktx2",
@@ -1157,7 +1157,7 @@
         },
         {
             "mimeType": "image/ktx2",
-            "uri": "StainedGlassLamp_bulbs_occlusion-rough-metal.ktx2"
+            "uri": "StainedGlassLamp_bulbs_occlusion.ktx2"
         },
         {
             "mimeType": "image/ktx2",
@@ -1165,7 +1165,7 @@
         },
         {
             "mimeType": "image/ktx2",
-            "uri": "StainedGlassLamp_glass_occlusion-rough-metal_transmission.ktx2"
+            "uri": "StainedGlassLamp_glass_occlusion-rough-metal.ktx2"
         },
         {
             "mimeType": "image/ktx2",

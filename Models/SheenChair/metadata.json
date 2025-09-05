@@ -19,7 +19,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "SheenChair",
+    "name": "Sheen Chair",
     "path": "./Models/SheenChair",
     "summary": "Chair using material variants and sheen.",
     "createReadme": true

@@ -2,7 +2,7 @@
 
 ## Tags
 
-[core](../../Models-core.md), [testing](../../Models-testing.md), [written](../../Models-written.md)
+[core](../Models-core.md), [testing](../Models-testing.md), [written](../Models-written.md)
 
 ## Summary
 

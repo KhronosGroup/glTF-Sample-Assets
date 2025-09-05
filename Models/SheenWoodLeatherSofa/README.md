@@ -1,8 +1,8 @@
-# SheenWoodLeatherSofa
+# Sheen Wood Leather Sofa
 
 ## Tags
 
-[showcase](../../Models-showcase.md), [extension](../../Models-extension.md)
+[showcase](../Models-showcase.md), [extension](../Models-extension.md)
 
 ## Extensions
 

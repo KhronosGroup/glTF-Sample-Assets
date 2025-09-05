@@ -2,7 +2,7 @@
 
 ## Tags
 
-[core](../../Models-core.md), [showcase](../../Models-showcase.md), [testing](../../Models-testing.md), [video](../../Models-video.md)
+[core](../Models-core.md), [showcase](../Models-showcase.md), [testing](../Models-testing.md), [video](../Models-video.md)
 
 ## Summary
 

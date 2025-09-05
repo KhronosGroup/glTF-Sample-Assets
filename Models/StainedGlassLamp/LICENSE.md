@@ -1,4 +1,4 @@
-# LICENSE file for the model: StainedGlassLamp
+# LICENSE file for the model: Stained Glass Lamp
 
 All files in this directory tree are licensed as indicated below.
 

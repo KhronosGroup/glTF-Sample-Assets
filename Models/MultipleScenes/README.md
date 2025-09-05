@@ -2,7 +2,7 @@
 
 ## Tags
 
-[core](../../Models-core.md), [testing](../../Models-testing.md)
+[core](../Models-core.md), [testing](../Models-testing.md)
 
 ## Summary
 
@@ -31,6 +31,6 @@ property, so viewers should initially show the scene containing the square.
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
- - Public for Everthing
+ - Public for Everything
 
 #### Assembled by modelmetadata

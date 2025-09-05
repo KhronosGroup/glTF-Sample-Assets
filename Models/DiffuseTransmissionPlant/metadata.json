@@ -29,7 +29,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "DiffuseTransmissionPlant",
+    "name": "Diffuse Transmission Plant",
     "path": "./Models/DiffuseTransmissionPlant",
     "summary": "Potted plant asset using Diffuse Transmission extension.",
     "createReadme": true

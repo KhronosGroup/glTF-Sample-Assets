@@ -29,7 +29,7 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "SheenWoodLeatherSofa",
+    "name": "Sheen Wood Leather Sofa",
     "path": "./Models/SheenWoodLeatherSofa",
     "summary": "Sofa asset using sheen, specular, and high-quality tiling textures.",
     "createReadme": true

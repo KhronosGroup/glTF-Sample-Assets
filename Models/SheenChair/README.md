@@ -1,8 +1,8 @@
-# SheenChair
+# Sheen Chair
 
 ## Tags
 
-[showcase](../../Models-showcase.md), [video](../../Models-video.md), [extension](../../Models-extension.md)
+[showcase](../Models-showcase.md), [video](../Models-video.md), [extension](../Models-extension.md)
 
 ## Extensions
 

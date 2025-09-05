@@ -1,10 +1,13 @@
 name: glTF Validation
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches: [ main ]
 
 env:
   CI: true
-  LINK: "https://github.com/KhronosGroup/glTF-Validator/releases/download/2.0.0-dev.3.8/gltf_validator-2.0.0-dev.3.8-linux64.tar.xz"
+  LINK: "https://github.com/KhronosGroup/glTF-Validator/releases/download/2.0.0-dev.3.10/gltf_validator-2.0.0-dev.3.10-linux64.tar.xz"
 
 jobs:
   build:

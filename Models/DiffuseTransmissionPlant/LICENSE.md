@@ -1,4 +1,4 @@
-# LICENSE file for the model: DiffuseTransmissionPlant
+# LICENSE file for the model: Diffuse Transmission Plant
 
 All files in this directory tree are licensed as indicated below.
 

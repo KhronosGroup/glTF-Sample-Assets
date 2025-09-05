@@ -805,7 +805,7 @@
             "uri": "StainedGlassLamp_grill_basecolor-alpha.png"
         },
         {
-            "uri": "StainedGlassLamp_steel_occlusion-rough-metal.jpg"
+            "uri": "StainedGlassLamp_steel_occlusion.jpg"
         },
         {
             "uri": "StainedGlassLamp_hardware_normal.jpg"
@@ -832,7 +832,7 @@
             "uri": "StainedGlassLamp_base_basecolor.jpg"
         },
         {
-            "uri": "StainedGlassLamp_bulbs_occlusion-rough-metal.jpg"
+            "uri": "StainedGlassLamp_bulbs_occlusion.jpg"
         },
         {
             "uri": "StainedGlassLamp_glass_normal.jpg"
