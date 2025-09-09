@@ -6,6 +6,7 @@
     "tags": ["showcase","video","extension"],
     "variants": {
       "glTF": "ABeautifulGame.gltf",
+      "glTF-Binary": "ABeautifulGame.glb",
       "glTF-Binary-KTX-ETC1S-Draco": "ABeautifulGame.glb"
     }
   },
