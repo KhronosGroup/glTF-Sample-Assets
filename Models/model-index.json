@@ -280,6 +280,7 @@
     "tags": ["showcase","extension"],
     "variants": {
       "glTF": "CarConcept.gltf",
+      "glTF-Binary": "CarConcept.glb",
       "glTF-JPG": "CarConcept.gltf",
       "glTF-KTX-BasisU-Draco": "CarConcept.gltf",
       "glTF-WEBP": "CarConcept.gltf"
