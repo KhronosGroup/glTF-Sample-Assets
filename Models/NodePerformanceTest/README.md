@@ -4,6 +4,17 @@
 
 [core](../Models-core.md), [testing](../Models-testing.md)
 
+## Extensions
+
+### Required
+
+* KHR_lights_punctual
+
+### Used
+
+* KHR_lights_punctual
+* KHR_lights_punctual
+
 ## Summary
 
 Node, mesh, primitive and texture count performance test

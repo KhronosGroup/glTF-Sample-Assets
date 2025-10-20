@@ -209,7 +209,7 @@ WebP textures were converted at compression level 85, except the normal map whic
 
  - Non-copyrightable logo for 3D Commerce logo
 
-&copy; 2020, Darmstadt Graphics Group GmbH. [LicenseRef-LegalMark-DGG]()
+&copy; 2020, Darmstadt Graphics Group GmbH. [DGG Trademark or Logo]()
 
  - Copyrightable logo for DGG logo
 
