@@ -10,7 +10,7 @@ All files in this directory tree are licensed as indicated below.
 
   * [Khronos Trademark or Logo]("") [SPDX license identifier: "LicenseRef-LegalMark-Khronos"]
 
-  * [LicenseRef-LegalMark-DGG]("") [SPDX license identifier: ""]
+  * [DGG Trademark or Logo]("") [SPDX license identifier: "LicenseRef-LegalMark-DGG"]
 
 * This file and all other metadocumentation files including "metadata.json":
 

@@ -20,6 +20,6 @@
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Stained Glass Lamp",
     "path": "./Models/StainedGlassLamp",
-    "summary": " ",
+    "summary": "A real product, a Tiffany-style stained glass table lamp sold on the Wayfair website.",
     "createReadme": true
 }

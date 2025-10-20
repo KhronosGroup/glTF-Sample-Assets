@@ -20,6 +20,6 @@
     "screenshot": "screenshot/screenshot.jpg",
     "name": "Corset",
     "path": "./Models/Corset",
-    "summary": " ",
+    "summary": "A female fabric mannequin with a corset and a collar.",
     "createReadme": true
 }

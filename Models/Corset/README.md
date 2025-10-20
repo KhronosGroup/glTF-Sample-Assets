@@ -6,7 +6,7 @@
 
 ## Summary
 
- 
+A female fabric mannequin with a corset and a collar.
 
 ## Operations
 
@@ -21,6 +21,7 @@
 ## Description
 
 A female fabric mannequin with a corset and a collar.
+
 
 ## Legal
 

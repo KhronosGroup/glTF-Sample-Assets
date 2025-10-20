@@ -22,6 +22,7 @@ The COLLADA duck. One texture.
 
 A rubber ducky bath toy.
 
+
 ## Legal
 
 &copy; 2006, Sony. [SCEA Shared Source License, Version 1.0](https://spdx.org/licenses/SCEA.html)

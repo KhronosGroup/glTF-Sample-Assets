@@ -27,6 +27,7 @@ This model compares base color methods.
 
 This model is used on the Khronos glTF PBR website to contrast the states of a specific PBR feature; in this case Base Color. This asset shows the differences between three states: baseColorFactor, baseColorTexture, and baseColorTexture with Vertex Color.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo]()

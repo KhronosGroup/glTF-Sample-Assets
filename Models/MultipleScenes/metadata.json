@@ -20,6 +20,6 @@
     "screenshot": "screenshot/screenshot.png",
     "name": "Multiple Scenes",
     "path": "./Models/MultipleScenes",
-    "summary": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
+    "summary": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh.",
     "createReadme": true
 }

@@ -28,7 +28,6 @@ This asset tests rendering of point, line, and triangle primitive modes with and
 - The remaining columns, all three modes with normals, should be rendered with smooth shading and full PBR material model.
 
 
-
 ## Legal
 
 &copy; 2020, public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
