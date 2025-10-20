@@ -27,13 +27,14 @@ DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Description
 
-This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface transmission of light through a thin ceramic teacup and saucer. 
+This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface transmission of light through a thin ceramic teacup and saucer.
 
 ![With the extension, versus without it.](screenshot/with-vs-without.jpg)
 <br/>_With the extension, versus without it._
 
 ![The ingredients used for Diffuse Transmission](screenshot/diffuse-transmission-features.jpg)
 <br/>_The ingredients used for Diffuse Transmission: diffuseTransmissionColorFactor, and diffuseTransmissionFactor._
+
 
 ## Legal
 

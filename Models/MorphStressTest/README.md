@@ -79,7 +79,6 @@ BabylonJS has shared some technical details of their "Infinite Morph Targets" im
 in [this YouTube video](https://www.youtube.com/watch?v=LBPRmGgU0PE).
 
 
-
 ## Legal
 
 &copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

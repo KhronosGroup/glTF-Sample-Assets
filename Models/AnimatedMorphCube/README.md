@@ -24,10 +24,11 @@ Demonstrates a simple cube with two simple morph targets and an animation that t
 
 The cube contains two morph targets in it:
 
-  * **`thin`** : moves the vertices so that it becomes super-thin 
+  * **`thin`** : moves the vertices so that it becomes super-thin
   * **`angle`** : moves the vertices so that it forms a ramp
 
 The animation loops, morphing between these two states.
+
 
 ## Legal
 

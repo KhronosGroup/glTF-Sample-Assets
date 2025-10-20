@@ -34,7 +34,6 @@ The following images show the data layout of this sample:
 ![skinningData](screenshot/skinningData.png)
 
 
-
 ## Legal
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

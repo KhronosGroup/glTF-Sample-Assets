@@ -22,7 +22,8 @@ A natural object created with Core glTF 2.0
 
 ## Description
 
-A cut avocado showing the pit and flesh, using a hand-painted texture. 
+A cut avocado showing the pit and flesh, using a hand-painted texture.
+
 
 ## Legal
 

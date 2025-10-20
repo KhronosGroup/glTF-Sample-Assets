@@ -43,7 +43,6 @@ Model by Loïc Norgeot and mosquito scan by Geoffrey Marchal for Sketchfab licen
 - Generator: "Sketchfab-7.51.0, hand-edited to add additional PBR glTF extensions."
 
 
-
 ## Legal
 
 &copy; 2018, Sketchfab. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

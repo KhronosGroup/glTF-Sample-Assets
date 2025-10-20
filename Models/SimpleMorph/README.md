@@ -32,8 +32,6 @@ The following image shows the data layout of this sample:
 ![simpleMorphStructure](screenshot/simpleMorphStructure.png)
 
 
-
-
 ## Legal
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

@@ -6,9 +6,9 @@
 
 ## Description
 
-This asset represents a pair of sunglasses with iridescent coated lenses, including the 3D Commerce and Khronos Group logos. 
+This asset represents a pair of sunglasses with iridescent coated lenses, including the 3D Commerce and Khronos Group logos.
 
-The asset was created to demonstrate a high quality asset for e-commerce use, and to provide instructions on how to create similar assets using current industry-accepted 3D content creation techniques. 
+The asset was created to demonstrate a high quality asset for e-commerce use, and to provide instructions on how to create similar assets using current industry-accepted 3D content creation techniques.
 
 
 ## Preparation
@@ -18,14 +18,14 @@ To begin creating a 3D asset it helps to gather reference photography. If possib
 ![Photograph of real sunglasses](screenshot/sunglasses_photo.jpg)
 <br/>_A photograph of real sunglasses, a physical sample being used as reference._
 
-The glTF asset was designed to be similar to a pair of inexpensive sunglasses in the author's possession. Usually e-commerce 3D assets are used to sell a real product, so matching the real object is crucial. However in this case, the 3D model is being released in the glTF Sample Assets repository with a permissive license, therefore key design elements were altered to avoid infringing on third-party designs and trademarks. 
+The glTF asset was designed to be similar to a pair of inexpensive sunglasses in the author's possession. Usually e-commerce 3D assets are used to sell a real product, so matching the real object is crucial. However in this case, the 3D model is being released in the glTF Sample Assets repository with a permissive license, therefore key design elements were altered to avoid infringing on third-party designs and trademarks.
 
 On the real sunglasses, the insides of the lenses are coated with a subtle iridescent layer. However for the 3D asset, an iridescent glaze was added on the outside for a stronger visual impact.
 
 
 ## Dimensions and Units
 
-For e-commerce assets (and for most 3D assets in general) it is best to model using real-world dimensions. The [official glTF Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) indicates models are to use a scale of 1 unit = 1 meter. The real sunglasses measure 14.5 cm across, so the glTF asset was createdat a similar size, about 15 cm across. 
+For e-commerce assets (and for most 3D assets in general) it is best to model using real-world dimensions. The [official glTF Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) indicates models are to use a scale of 1 unit = 1 meter. The real sunglasses measure 14.5 cm across, so the glTF asset was createdat a similar size, about 15 cm across.
 
 Accurate dimensions allow the 3D asset to be used properly in real spaces via augmented reality, or alongside other 3D models in other contexts like in web 3D viewers or in virtual reality.
 
@@ -47,9 +47,9 @@ From top to bottom: the low-resolution control mesh, the mesh subdivided once, t
 
 ## Modeling with Face-Weighted Normals
 
-Face-weighted normals are a good choice for flat surfaces with curved bevels along the edges. The articulated "temples" on the sides of the sunglasses use this technique to create the illusion of rounded bevels but using very few vertices. 
+Face-weighted normals are a good choice for flat surfaces with curved bevels along the edges. The articulated "temples" on the sides of the sunglasses use this technique to create the illusion of rounded bevels but using very few vertices.
 
-For fast real-time rendering and quick downloading of e-commerce 3D models, it is best to use as few vertices as possible while maintaining the necessary details. 
+For fast real-time rendering and quick downloading of e-commerce 3D models, it is best to use as few vertices as possible while maintaining the necessary details.
 
 ![Closeup of a metal temple on the sunglasses](screenshot/temple_bevels.jpg)
 <br/>_Flat surfaces with smooth bevels._
@@ -61,16 +61,16 @@ Each vertex of a 3D surface has one or more "vertex normals" which contribute to
 
 Left to right in the image above:
 1. Simple geometry with face-aligned vertex normals (flat shading).
-2. Vertex normals averaged across neighboring faces (smooth shading). 
+2. Vertex normals averaged across neighboring faces (smooth shading).
 3. Bevels added.
-4. Vertex normals weighted to align with the largest faces. 
+4. Vertex normals weighted to align with the largest faces.
 
 With this technique, the transitions in smooth shading are confined to the beveled faces of the model, resulting in clean well-ordered shading with a minimal number of vertices.
 
 
 ## Pivots for Articulation
 
-Eyeglasses often have hinges at the temples, allowing the earhooks to be rotated inwards. To allow for manipulation and animation of the 3D model, the pivots of the metal temples have been set to the same location and orientation as the cylindrical hinges. 
+Eyeglasses often have hinges at the temples, allowing the earhooks to be rotated inwards. To allow for manipulation and animation of the 3D model, the pivots of the metal temples have been set to the same location and orientation as the cylindrical hinges.
 
 ![Pivots for the temples](screenshot/sunglasses_pivots.jpg)
 <br/>_Pivots for the temples were adjusted to match the 3D hinges. From left: front view, side view, top view._
@@ -80,9 +80,9 @@ These aligned pivots allow the earhooks to be rotated without disconnecting them
 
 ## Materials & Textures
 
-The materials are set to use mostly numerical values; this keeps the file small and efficient. 
+The materials are set to use mostly numerical values; this keeps the file small and efficient.
 
-Textures often incur the most file size and memory storage for an asset, so minimizing their use whenever possible allows the file to be efficient. 
+Textures often incur the most file size and memory storage for an asset, so minimizing their use whenever possible allows the file to be efficient.
 
 This asset uses only one texture, for the Khronos Group logos on the black earhooks. The image is 1024 x 128 pixels, which is the closest resolution using powers-of-two dimensions which can contain both logos comfortably without causing blurriness when shown on the model. It is best to use powers-of-two dimensions for textures to support mip-mapping, which improves rendering performance and reduces aliasing artifacts.
 
@@ -107,13 +107,13 @@ A partial metallic value could be used, but this is not advisable because partia
 For the iridescence on the lenses there are seven material controls to be adjusted:
 1. `baseColorFactor`: this can use a dark color for stronger iridescence, but it cannot be completely black or else transmission will disappear.
 1. `metallicFactor`: this should be zero to keep transmission active, and to be physically accurate.
-1. `ior`: this is for the glass material, setting it to 1.0 creates a stronger iridescence but also disables refraction, which is OK since the glass is very thin. 
+1. `ior`: this is for the glass material, setting it to 1.0 creates a stronger iridescence but also disables refraction, which is OK since the glass is very thin.
 1. `iridescenceFactor`: this is the strength of the iridescence.
 1. `iridescenceIor`: this is the IOR for the iridescent film, and has a strong influence on the iridescent colors.
 1. `iridescenceThicknessMaximum`: this is the thickness of the iridescent film, and also has a strong influence on which iridescent colors will appear.
 1. `transmissionFactor`: this controls the amount of refraction for the glass lens underneath the iridescent film. It can be set to full strength and the baseColorFactor can then be darkened to reduce the transmission amount as much as desired.
 
-In the glTF Sample Assets repository there is a helpful asset called [iridescenceDielectricSpheres.gltf](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/iridescenceDielectricSpheres#screenshot) which can be used interactively to arrive at the desired look and derive the corresponding values to be used. 
+In the glTF Sample Assets repository there is a helpful asset called [iridescenceDielectricSpheres.gltf](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/iridescenceDielectricSpheres#screenshot) which can be used interactively to arrive at the desired look and derive the corresponding values to be used.
 
 ![screenshot of iridescenceDielectricSpheres.gltf](screenshot/babylonjs-iridescence-editing.jpg)
 <br/>_Adjusting material values in the [Babylon.js Sandbox](https://sandbox.babylonjs.com/)._
@@ -125,7 +125,7 @@ To figure out which values to use, the sample asset can be opened in a glTF edit
 
 * `baseColorFactor`: 0.1
 * `metallicFactor`: 0.0
-* `ior`: 1.0 
+* `ior`: 1.0
 * `iridescenceFactor`: 1.0
 * `iridescenceIor`: 2.0
 * `iridescenceThicknessMaximum`: 300
@@ -136,12 +136,12 @@ These values can then be input into the asset's material to achieve the desired 
 
 ## Texture Coordinates
 
-Only the earhooks use a texture, to place the Khronos Group logos there. The logos have been packed into a single texture, because this reduces the number of materials needed which improves performance. 
+Only the earhooks use a texture, to place the Khronos Group logos there. The logos have been packed into a single texture, because this reduces the number of materials needed which improves performance.
 
 ![screenshot of texture coordinates](screenshot/texcoords.jpg)
 <br/>_Texture coordinates in 3ds Max._
 
-Homogeneous texture coordinates are only assigned to the polygons where the logos are displayed. All the other polygons (marked here in red) are collapsed to a single coordinate point (upper left corner in the editor) to reduce texture coordinate data for the unmapped vertices... they only need a solid color, so an unused corner of the texture works fine.  
+Homogeneous texture coordinates are only assigned to the polygons where the logos are displayed. All the other polygons (marked here in red) are collapsed to a single coordinate point (upper left corner in the editor) to reduce texture coordinate data for the unmapped vertices... they only need a solid color, so an unused corner of the texture works fine.
 
 Only the earhook meshes need texture coordinates. Because unused data increases the file size, it is best to remove unused texture coordinates from meshes that don't need them. All the meshes except the earhooks have had their texcoord data removed.
 
@@ -162,6 +162,6 @@ Materials were created using [Autodesk 3ds Max](https://www.autodesk.com/product
 
 Copyright metadata was added using [Microsoft Visual Studio Code](https://code.visualstudio.com) with the [Cesium glTF Tools Extension](https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode).
 
-After conversion, the resulting glTF was then optimized with [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) to compact the data by removing unneeded information. In this case no decimation was required since the model uses only 13,396 triangles. 
+After conversion, the resulting glTF was then optimized with [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) to compact the data by removing unneeded information. In this case no decimation was required since the model uses only 13,396 triangles.
 
 A variant with lossy compression was created with another run of RapidPipeline 3D Processor, applying Draco geometry compression and WebP texture compression. This compressed the glTF from 371,212 bytes down to 63,146 bytes, a 83% reduction in size.

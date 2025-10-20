@@ -60,6 +60,7 @@ A mesh was placed above the coals and assigned a refractive material with [KHR_m
 
 The extension [KHR_materials_specular](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_specular#khr_materials_specular) was added to the refraction mesh to disable all reflections. This prevents the mesh from looking like reflective glass or water, but more like non-reflective air being refracted by heat.
 
+
 ## Legal
 
 &copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
