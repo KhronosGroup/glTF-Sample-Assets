@@ -13,8 +13,6 @@
 
 ### Used
 
-* KHR_materials_unlit
-* KHR_lights_punctual
 * KHR_materials_diffuse_transmission
 * KHR_materials_unlit
 * KHR_lights_punctual

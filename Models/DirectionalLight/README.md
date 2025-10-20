@@ -13,7 +13,6 @@
 ### Used
 
 * KHR_lights_punctual
-* KHR_lights_punctual
 
 ## Summary
 

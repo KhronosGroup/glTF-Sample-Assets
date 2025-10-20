@@ -13,7 +13,6 @@
 ### Used
 
 * KHR_texture_transform
-* KHR_texture_transform
 * KHR_materials_sheen
 
 ## Summary

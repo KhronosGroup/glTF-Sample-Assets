@@ -13,7 +13,6 @@
 ### Used
 
 * KHR_materials_unlit
-* KHR_materials_unlit
 
 ## Summary
 

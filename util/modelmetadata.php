@@ -448,6 +448,7 @@ class ModelMetadata
 					$extList[] = "* " . $this->metadata['extensions']['Required'][$ii];
 				}
 				$readme[] = join("\n", $extList);
+				$extList = [];
 				$readme[] = "### Used";
 				for ($ii=0; $ii<count($this->metadata['extensions']['Used']); $ii++) {
 					$extList[] = "* " . $this->metadata['extensions']['Used'][$ii];
