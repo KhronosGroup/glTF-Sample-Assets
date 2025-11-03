@@ -16,7 +16,7 @@ When a viewer does not support the extension, then the asset will indicate this 
 
 ![NotSupported](screenshot/NotSupported.png)
 
-When a viewer supports the extension, but falsely defaults the `visible` flag to `true`, then this will be indicated by the asset as shown in the following screenshot:
+When a viewer supports the extension, but falsely defaults the `visible` flag to `false`, then this will be indicated by the asset as shown in the following screenshot:
 
 ![NoProperDefaults](screenshot/NoProperDefaults.png)
 
