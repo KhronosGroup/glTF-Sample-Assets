@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Aaron Franke",
+            "year": "2025",
+            "owner": "Khronos Group",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot_animated.webp",
+    "name": "Light Visiblity test for KHR_node_visibility",
+    "path": "./Models/LightVisibility",
+    "summary": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
+    "createReadme": true
+}

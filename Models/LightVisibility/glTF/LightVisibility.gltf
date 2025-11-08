@@ -1,0 +1,56 @@
+{
+    "accessors": [
+        { "bufferView": 0, "componentType": 5126, "count": 4, "max": [3.0, 1.5, 0.0], "min": [-3.0, -1.5, 0.0], "normalized": false, "type": "VEC3" },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4,
+            "max": [-1.5259254723787308e-5, -1.5259254723787308e-5, 1.0],
+            "min": [-1.5259254723787308e-5, -1.5259254723787308e-5, 1.0],
+            "normalized": false,
+            "type": "VEC3"
+        },
+        { "bufferView": 2, "componentType": 5121, "count": 6, "max": [3], "min": [0], "normalized": false, "type": "SCALAR" },
+        { "bufferView": 3, "componentType": 5126, "count": 11, "max": [5.0], "min": [0.0], "normalized": false, "type": "SCALAR" },
+        { "bufferView": 4, "componentType": 5121, "count": 11, "max": [1], "min": [0], "normalized": false, "type": "SCALAR" }
+    ],
+    "animations": [
+        {
+            "channels": [{ "sampler": 0, "target": { "extensions": { "KHR_animation_pointer": { "pointer": "/nodes/5/extensions/KHR_node_visibility/visible" } }, "path": "pointer" } }],
+            "name": "BlinkingBlueLight",
+            "samplers": [{ "input": 3, "interpolation": "STEP", "output": 4 }]
+        }
+    ],
+    "asset": { "copyright": "2025 The Khronos Group", "generator": "Godot Engine v4.6.dev.custom_build", "version": "2.0" },
+    "bufferViews": [
+        { "buffer": 0, "byteLength": 48, "byteStride": 12, "target": 34962 },
+        { "buffer": 0, "byteLength": 48, "byteOffset": 48, "byteStride": 12, "target": 34962 },
+        { "buffer": 0, "byteLength": 6, "byteOffset": 96, "target": 34963 },
+        { "buffer": 0, "byteLength": 44, "byteOffset": 104 },
+        { "buffer": 0, "byteLength": 11, "byteOffset": 148 }
+    ],
+    "buffers": [{ "byteLength": 159, "uri": "LightVisibility0.bin" }],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                { "color": [1.0, 0.0, 0.0], "intensity": 5.0, "range": 5.0, "spot": { "innerConeAngle": 0.65, "outerConeAngle": 0.8 }, "type": "spot" },
+                { "color": [0.0, 1.0, 0.0], "intensity": 5.0, "range": 5.0, "spot": { "innerConeAngle": 0.65, "outerConeAngle": 0.8 }, "type": "spot" },
+                { "color": [0.0, 0.125, 1.0], "intensity": 6.0, "range": 5.0, "spot": { "innerConeAngle": 0.65, "outerConeAngle": 0.8 }, "type": "spot" }
+            ]
+        }
+    },
+    "extensionsRequired": ["KHR_lights_punctual", "KHR_node_visibility"],
+    "extensionsUsed": ["KHR_animation_pointer", "KHR_lights_punctual", "KHR_node_visibility"],
+    "meshes": [{ "primitives": [{ "attributes": { "NORMAL": 1, "POSITION": 0 }, "indices": 2, "mode": 4 }] }],
+    "nodes": [
+        { "children": [1, 4, 5, 6], "name": "LightVisibility" },
+        { "children": [2], "extensions": { "KHR_lights_punctual": { "light": 0 }, "KHR_node_visibility": { "visible": false } }, "name": "InvisibleLight", "translation": [-1.5, 0.0, 1.0] },
+        { "children": [3], "extensions": { "KHR_lights_punctual": { "light": 0 } }, "name": "ChildOfInvisibleShouldBeInvisible" },
+        { "extensions": { "KHR_lights_punctual": { "light": 0 } }, "name": "DescendantOfInvisibleShouldBeInvisible" },
+        { "extensions": { "KHR_lights_punctual": { "light": 1 } }, "name": "VisibleLight", "translation": [0.0, 0.0, 1.0] },
+        { "extensions": { "KHR_lights_punctual": { "light": 2 }, "KHR_node_visibility": { "visible": true } }, "name": "AnimatedVisibility", "translation": [1.5, 0.0, 1.0] },
+        { "mesh": 0, "name": "QuadMeshNode" }
+    ],
+    "scene": 0,
+    "scenes": [{ "nodes": [0] }]
+}
