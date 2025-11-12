@@ -13,7 +13,6 @@
 ### Used
 
 * KHR_materials_sheen
-* KHR_materials_sheen
 
 ## Summary
 

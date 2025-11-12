@@ -12,7 +12,6 @@
 
 ### Used
 
-* KHR_materials_transmission
 * KHR_materials_clearcoat
 * KHR_materials_transmission
 

@@ -13,8 +13,6 @@
 
 ### Used
 
-* KHR_texture_transform
-* EXT_texture_webp
 * KHR_materials_specular
 * KHR_materials_sheen
 * KHR_texture_transform
