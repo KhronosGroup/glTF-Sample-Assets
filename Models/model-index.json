@@ -563,6 +563,16 @@
     }
   },
   {
+    "label": "Cube Visiblity test for KHR_node_visibility",
+    "name": "CubeVisibility",
+    "screenshot": "screenshot/screenshot_animated.webp",
+    "tags": ["testing"],
+    "variants": {
+      "glTF": "CubeVisibility.gltf",
+      "glTF-Binary": "CubeVisibility.glb"
+    }
+  },
+  {
     "label": "Damaged Helmet",
     "name": "DamagedHelmet",
     "screenshot": "screenshot/screenshot.png",
@@ -824,6 +834,16 @@
       "glTF-Binary": "Lantern.glb",
       "glTF-Draco": "Lantern.gltf",
       "glTF-Quantized": "Lantern.gltf"
+    }
+  },
+  {
+    "label": "Light Visiblity test for KHR_node_visibility",
+    "name": "LightVisibility",
+    "screenshot": "screenshot/screenshot_animated.webp",
+    "tags": ["testing"],
+    "variants": {
+      "glTF": "LightVisibility.gltf",
+      "glTF-Binary": "LightVisibility.glb"
     }
   },
   {

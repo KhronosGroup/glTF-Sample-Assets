@@ -309,6 +309,11 @@ Copyright:
  2017 UX3D
 License: CC0-1.0
 
+Files: Models/CubeVisibility/*
+Copyright: 
+ 2025 Khronos Group
+License: CC0-1.0
+
 Files: Models/DamagedHelmet/*
 Copyright: 
  2018 ctxwing
@@ -453,6 +458,11 @@ Files: Models/Lantern/*
 Copyright: 
  2017 Microsoft
  2018 Frank Galligan
+License: CC0-1.0
+
+Files: Models/LightVisibility/*
+Copyright: 
+ 2025 Khronos Group
 License: CC0-1.0
 
 Files: Models/LightsPunctualLamp/*
