@@ -12,7 +12,6 @@
 
 ### Used
 
-* KHR_node_visibility
 * KHR_animation_pointer
 * KHR_node_visibility
 
