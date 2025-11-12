@@ -1,0 +1,47 @@
+{
+    "accessors": [
+        { "bufferView": 0, "componentType": 5126, "count": 24, "max": [0.5, 0.5, 0.5], "min": [-0.5, -0.5, -0.5], "normalized": false, "type": "VEC3" },
+        { "bufferView": 1, "componentType": 5126, "count": 24, "max": [1.0, 1.0, 1.0], "min": [-1.0, -1.0, -1.0], "normalized": false, "type": "VEC3" },
+        { "bufferView": 2, "componentType": 5121, "count": 36, "max": [23], "min": [0], "normalized": false, "type": "SCALAR" },
+        { "bufferView": 3, "componentType": 5126, "count": 11, "max": [5.0], "min": [0.0], "normalized": false, "type": "SCALAR" },
+        { "bufferView": 4, "componentType": 5121, "count": 11, "max": [1], "min": [0], "normalized": false, "type": "SCALAR" }
+    ],
+    "animations": [
+        {
+            "channels": [{ "sampler": 0, "target": { "extensions": { "KHR_animation_pointer": { "pointer": "/nodes/5/extensions/KHR_node_visibility/visible" } }, "path": "pointer" } }],
+            "name": "BlinkingBlueCube",
+            "samplers": [{ "input": 3, "interpolation": "STEP", "output": 4 }]
+        }
+    ],
+    "asset": { "copyright": "2025 The Khronos Group", "generator": "Godot Engine v4.6.dev.custom_build", "version": "2.0" },
+    "bufferViews": [
+        { "buffer": 0, "byteLength": 288, "byteStride": 12, "target": 34962 },
+        { "buffer": 0, "byteLength": 288, "byteOffset": 288, "byteStride": 12, "target": 34962 },
+        { "buffer": 0, "byteLength": 36, "byteOffset": 576, "target": 34963 },
+        { "buffer": 0, "byteLength": 44, "byteOffset": 612 },
+        { "buffer": 0, "byteLength": 11, "byteOffset": 656 }
+    ],
+    "buffers": [{ "byteLength": 667, "uri": "CubeVisibility0.bin" }],
+    "extensionsRequired": ["KHR_node_visibility"],
+    "extensionsUsed": ["KHR_animation_pointer", "KHR_node_visibility"],
+    "materials": [
+        { "pbrMetallicRoughness": { "baseColorFactor": [0.855, 0.0, 0.0, 1.0], "metallicFactor": 0.0, "roughnessFactor": 1.0 } },
+        { "pbrMetallicRoughness": { "baseColorFactor": [0.0, 0.855, 0.0, 1.0], "metallicFactor": 0.0, "roughnessFactor": 1.0 } },
+        { "pbrMetallicRoughness": { "baseColorFactor": [0.0, 0.0, 0.855, 1.0], "metallicFactor": 0.0, "roughnessFactor": 1.0 } }
+    ],
+    "meshes": [
+        { "primitives": [{ "attributes": { "NORMAL": 1, "POSITION": 0 }, "indices": 2, "material": 0, "mode": 4 }] },
+        { "primitives": [{ "attributes": { "NORMAL": 1, "POSITION": 0 }, "indices": 2, "material": 1, "mode": 4 }] },
+        { "primitives": [{ "attributes": { "NORMAL": 1, "POSITION": 0 }, "indices": 2, "material": 2, "mode": 4 }] }
+    ],
+    "nodes": [
+        { "children": [1, 4, 5], "name": "CubeVisibility" },
+        { "children": [2], "extensions": { "KHR_node_visibility": { "visible": false } }, "mesh": 0, "name": "InvisibleCube", "translation": [-1.5, 0.0, 0.0] },
+        { "children": [3], "mesh": 0, "name": "ChildOfInvisibleShouldBeInvisible", "translation": [0.0, 1.5, 0.0] },
+        { "mesh": 0, "name": "DescendantOfInvisibleShouldBeInvisible", "translation": [0.0, 1.5, 0.0] },
+        { "mesh": 1, "name": "VisibleCube" },
+        { "extensions": { "KHR_node_visibility": { "visible": true } }, "mesh": 2, "name": "AnimatedVisibility", "translation": [1.5, 0.0, 0.0] }
+    ],
+    "scene": 0,
+    "scenes": [{ "nodes": [0] }]
+}
