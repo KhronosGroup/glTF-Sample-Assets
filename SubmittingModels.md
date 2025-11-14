@@ -20,16 +20,16 @@ All models must pass the glTF-Validator. This is automatically run on submission
 The documentation accompanying a model must also be valid. Valid documentation includes the following
 
 1. A correctly written README that describes the model and the features of the model that make it appropriate of this repo. This must be structured and formatted according to the description below.
-1. Correct metadata in the file associated with the model. The metadata must include the correct and complete legal information (ownership, copyright, and license) 
+1. Correct metadata in the file associated with the model. The metadata must include the correct and complete legal information (ownership, copyright, and license)
 1. A properly formatted screen capture of the model
 
 ### Model Approvals
 
 **Model Reviews:** We invite everyone to review a submission. The primary criteria is that the model does what is claimed in the README. Suitability of the model for the repo will be determined separately.
 
-**Model Updates:** The PR needs to describe what has changed from the current version and why this was done. Model update PRs need to be approved by at least one person besides the original creator. 
+**Model Updates:** The PR needs to describe what has changed from the current version and why this was done. Model update PRs need to be approved by at least one person besides the original creator.
 
-**New Models:** The PR needs at least one approval from active members of the repo community. New submissions should following the process described below. If the model is to support a new extension, then 
+**New Models:** The PR needs at least one approval from active members of the repo community. New submissions should following the process described below. If the model is to support a new extension, then
 
 * The README must clearly state that it is a Test model for the extension
 * At least one of the reviewers needs to be involved in the creation of the extension
@@ -71,7 +71,7 @@ To contribute a model, open a pull request with a new subdirectory containing th
     1. The description file must include the following items.
         1. Second-level (`##`) tag for the model screenshot
         1. Second-level (`##`) tag for the model description
-    1. The description should also have a screen shot. 
+    1. The description should also have a screen shot.
         1. This screen shot should have the horizontal dimension between 1000 to 2000 pixels
         1. The vertical dimension should be between 500 to 1000 pixels
         1. The model needs to retain the proper perspective.
@@ -101,7 +101,7 @@ The system will attemtp to list the copyrights with the oldest one first. Some m
 
 #### Displayed License & Credit Format
 
-The system automatically generates a license and credit block in the format below. Do not include the license and credit block. You may include details that require explanation beyond that in the credit block. 
+The system automatically generates a license and credit block in the format below. Do not include the license and credit block. You may include details that require explanation beyond that in the credit block.
 
 The format of the automatically generated credit block is:
 
@@ -112,7 +112,7 @@ The format of the automatically generated credit block is:
 
 ### Tags
 
-All assets in the repository are assigned tags by the asset submittor and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays. 
+All assets in the repository are assigned tags by the asset submittor and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays.
 
 ### Example Metadata File
 
@@ -152,7 +152,7 @@ The _legal_ structure contains information about each owner of the model. It com
 
 |  |  |  |  |
 |--|--|--|--|
-| Abbreviation | License Name | License | Legal 
+| Abbreviation | License Name | License | Legal
 | CC BY | Attribution-ShareAlike | [Deed](https://creativecommons.org/licenses/by/4.0/) | [Code](https://creativecommons.org/licenses/by/4.0/legalcode)
 | CC BY-SA | Attribution-ShareAlike | [Deed](https://creativecommons.org/licenses/by-sa/4.0/) | [Code](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 | CC BY-ND | Attribution-NoDerivatives | [Deed](https://creativecommons.org/licenses/by-nd/4.0/) | [Code](https://creativecommons.org/licenses/by-nd/4.0/legalcode)

@@ -5,9 +5,9 @@
 
 ## Description
 
-This asset demonstrates the use of KHR_materials_specular and KHR_materials_sheen to represent shot-silk fabric on a pouf pillow. 
+This asset demonstrates the use of KHR_materials_specular and KHR_materials_sheen to represent shot-silk fabric on a pouf pillow.
 
-The material is based on photo reference of real silk fabric, an <a href="http://evashistoricalcostumes.blogspot.com/p/italian-15th-century-gown-in-shot-silk.html">Italian 15th century gown in shot silk</a>. 
+The material is based on photo reference of real silk fabric, an <a href="http://evashistoricalcostumes.blogspot.com/p/italian-15th-century-gown-in-shot-silk.html">Italian 15th century gown in shot silk</a>.
 
 The fabric creates an iridescent-like effect by weaving two or more colors in opposing directions with warp and weft silk yarns.
 

@@ -28,7 +28,6 @@ Tests if the KHR_materials_transmission extension is supported properly.
 This model demonstrates the usage of the `KHR_materials_transmission`. The grid of spheres demonstrate different combinations of uniform transmission and textured transmission and how they should render in conjunction with opacity (`baseColor.a`) and surface roughness/metalicity.
 
 
-
 ## Legal
 
 &copy; 2020, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

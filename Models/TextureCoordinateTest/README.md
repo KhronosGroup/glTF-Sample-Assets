@@ -41,7 +41,6 @@ This model demonstrates the orientation of texture coordinates.  The materials a
 ```
 
 
-
 ## Legal
 
 &copy; 2017, Analytical Graphics, Inc.. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

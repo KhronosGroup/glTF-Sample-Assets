@@ -23,6 +23,7 @@ This model compares without occlusion versus with occlusion.
 
 This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Ambient Occlusion.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo]()

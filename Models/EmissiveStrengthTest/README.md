@@ -59,6 +59,7 @@ boxes will all appear to emit the same color.  For example:
 
 ![test fail screenshot](screenshot/test_fail.jpg)
 
+
 ## Legal
 
 &copy; 2022, AGI. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

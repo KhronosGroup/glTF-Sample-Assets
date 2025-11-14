@@ -58,7 +58,6 @@ For this reason, I decided to include `KHR_materials_unlit` in the `extensionsRe
 In your own models, if you consider using a lit material to be a reasonable fallback behavior for implementations that don't support this extension, you should omit `KHR_materials_unlit` from the `extensionsRequired` list.
 
 
-
 ## Legal
 
 &copy; 2019, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

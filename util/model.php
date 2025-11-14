@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Utility to process Assets. 
+ * Utility to process Assets.
  *	php model [--check] [--build] [<asset1> [<asset2> ...]]
  *
  * The application has several modes
@@ -20,8 +20,8 @@
  *
  *	Assets
  *		By default this application runs on all directories in $ModelDirectory (defined below)
- *		Assets may be checked individually by specifying them on the command line. Do not include 
- *		  all directories in $ModelDirectory. 
+ *		Assets may be checked individually by specifying them on the command line. Do not include
+ *		  all directories in $ModelDirectory.
  *
  * Processing control flags (these should eventually be moved to command line parameters)
  * These are only used when doing a mass update or conversion
@@ -36,7 +36,7 @@ $useUserModelTags = false;		// Update model tags
 $useUserModelData = false;		// Update model metadata
 
 /*
- * Define internal arrays. 
+ * Define internal arrays.
  *	$listings is a structure for managing supported tags. All supported tags & tag combinations
  *		need to be included here
 **/
@@ -84,7 +84,7 @@ $allModels = getAllModels ($assetList);
  *
  * --check is the default
  */
- 
+
 if (isset($runArgs['check'])) {
 	$errorCount = 0;
 	$warningCount = 0;
@@ -115,12 +115,12 @@ if (isset($runArgs['check'])) {
 }
 
 if (!$runArgs['dry-run']) {
-// If requested load the user input metadata for each model. 
+// If requested load the user input metadata for each model.
 	if ($useUserModelData) {
 		$modelMetadata = getModelData();
 		$allModels = updateModelsMetadata ($allModels, $modelMetadata, $listings);
 	}
-// If requested load the user tag settings for each model. 
+// If requested load the user tag settings for each model.
 	if ($useUserModelTags) {
 		$modelTagData = getModelTagData();
 		$allModels = updateModelsTags ($allModels, $modelTagData, $listings);
@@ -156,7 +156,7 @@ if (isset($runArgs['update'])) {
  *
  *	Skip all of these unless --process-repo is specified
  */
- 
+
 if (isset($runArgs['process-repo'])) {
 	if (isset($runArgs['verbose'])) {
 		print "===============================\n";
@@ -177,7 +177,7 @@ if (isset($runArgs['process-repo'])) {
 	}
 
 /*
- * Create CSV file for handling model tags. 
+ * Create CSV file for handling model tags.
  *	This structure can be used on input with $useUserModelTags
  *	It can also be built from allModels.json (see createModelList)
 **/
@@ -222,7 +222,7 @@ function getlistRequestedAssets ($clParameters, $modelFolder='') {
  *		position arguments
  */
 function clProcess($argv, $ModelDirectory) {
-	$clHelp = [	
+	$clHelp = [
 				array('switch'=>'help',			'long'=>'help',			'short'=>'h', 'text'=>'Displays this informaiton.'),
 				array('switch'=>'verbose',		'long'=>'verbose',		'short'=>'v', 'text'=>'Dump intermediate and debug infomation.'),
 				array('switch'=>'dry-run',		'long'=>'dry-run',		'short'=>'d', 'text'=>'Do requested checks and loop through files, but do not write anything.'),
@@ -291,14 +291,14 @@ function createModelList ($allModels, $dryRun=0) {
 		foreach ($modelMeta['variants'] as $folder=>$file) {
 			$variants[] = sprintf ('"%s": "%s"', $folder, $file);
 		}
-		$variant = (count($variants) < 1) ? '' : 
+		$variant = (count($variants) < 1) ? '' :
 					"\n      " . join(",\n      ", $variants) . "\n    ";
-		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }", 
-								$modelMeta['name'], 
-								$modelMeta['folder'], 
-								$modelMeta['screenshot'], 
-								//$modelMeta['path'], 
-								join('","', $modelMeta['tags']), 
+		$modelEntry = sprintf ("  {\n    \"label\": \"%s\",\n    \"name\": \"%s\",\n    \"screenshot\": \"%s\",\n    \"tags\": [\"%s\"],\n    \"variants\": {%s}\n  }",
+								$modelMeta['name'],
+								$modelMeta['folder'],
+								$modelMeta['screenshot'],
+								//$modelMeta['path'],
+								join('","', $modelMeta['tags']),
 								$variant);
 		if ($dryRun) {
 			echo "{dryrun}  - Writing entry for ".$modelMeta['name']."\n";
@@ -349,7 +349,7 @@ function createDep5 ($allModels) {
 				$licenseLast = $modelMeta['legal'][$jj]['spdx'];
 			}
 		}
-		fwrite ($F, sprintf ("Copyright: \n %s\n", join("\n ", $copyright)));
+		fwrite ($F, sprintf ("Copyright:\n %s\n", join("\n ", $copyright)));
 		fwrite ($F, sprintf ("License: %s\n", join(' AND ', $license)));
 		fwrite ($F, "\n");
 		if (count($license) < 1) {
@@ -363,7 +363,7 @@ function createDep5 ($allModels) {
 
 // Function for creating READMEs
 function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verbose=0, $dryRun=0) {
-	
+
 	if ($dryRun) {
 		echo "{dryrun} Opening ".$tagStrcture['path'].$tagStrcture['file']."\n";
 		$F = 0;
@@ -379,7 +379,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 	}
 	$type = $tagStrcture['type'];
 	if ($verbose > 0) {print "Generating $type for $section\n";}
-	
+
 	if ($dryRun) {
 		echo "{dryrun} Writing header\n";
 	} else {
@@ -387,7 +387,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 		fwrite ($F, "## $section\n\n");
 		fwrite ($F, $tagStrcture['summary']."\n\n");
 	}
-	
+
 	for ($ii=0; $ii<count($listings); $ii++) {
 		if (count($listings[$ii]['tags']) > 0) {
 			$tagItem = '#' . join(', #', $listings[$ii]['tags']);
@@ -410,8 +410,8 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 			if ($dryRun) {
 				echo "{dryrun}  - Writing Image-type entry for ".$metaAll[$ii]->{'name'}."\n";
 			} else {
-				fwrite ($F, sprintf ($fmtString, 
-							$metaAll[$ii]->{'name'}, 
+				fwrite ($F, sprintf ($fmtString,
+							$metaAll[$ii]->{'name'},
 							$metaAll[$ii]->{'UriHeight'},
 							$metaAll[$ii]->{'UriReadme'}
 							));
@@ -434,7 +434,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 			if ($dryRun) {
 				echo "{dryrun}  - Writing Image-type entry for ".$metaAll[$ii]->{'name'}."\n";
 			} else {
-				fwrite ($F, sprintf ($fmtString, 
+				fwrite ($F, sprintf ($fmtString,
 							$modelMeta['name'],
 							$modelMeta['folderSafe'].'/README.md',
 							$modelMeta['name'],
@@ -470,7 +470,7 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 					echo "{dryrun}  --- 'shot': ".$modelMeta['safePathShot']."\n";
 					echo "{dryrun}  --- : $tmp\n";
 				} else {
-					fwrite ($F, sprintf ($fmtColumn1, 
+					fwrite ($F, sprintf ($fmtColumn1,
 							$modelMeta['name'],
 							$modelMeta['folderSafe'].'/README.md',
 							$modelMeta['name'],
@@ -479,11 +479,11 @@ function createReadme ($tagStrcture, $metaAll, $listings, $tags=array(''), $verb
 							UrlSampleViewer, UrlModelRepoRaw, $pathModel
 							));
 					if ($modelMeta['hasGLB']) {
-						fwrite ($F, sprintf ($fmtDownload, 
+						fwrite ($F, sprintf ($fmtDownload,
 								UrlModelRepoRaw, $modelMeta['pathGLB']
 								));
 					}
-					fwrite ($F, sprintf ($fmtColumn2, 
+					fwrite ($F, sprintf ($fmtColumn2,
 								$summary,
 								join("<br>", $modelMeta['credit']),
 								));
@@ -524,7 +524,7 @@ function createTagCsv ($fname, $metaAll, $tagList) {
 	fclose ($F);
 	return;
 }
-	
+
 
 
 
@@ -537,7 +537,7 @@ function createTagCsv ($fname, $metaAll, $tagList) {
  *	Arguments
  *		$allModels - array of model objects (see getAllModels)
  *		$modelsTags	 - hash of model tags. All models need to have an entry in $modelsTags referred by modelName.
- *		$tagListings - Data structure of supported tags. 
+ *		$tagListings - Data structure of supported tags.
  *
  */
 
@@ -550,7 +550,7 @@ function updateModelsMetadata ($allModels, $modelUpdateMetadata, $tagListings) {
 			$allModels[$ii] = $allModels[$ii]
 								->addLicense ( array(
 										'license'=>$modelUpData[$modelName]['License'],
-										'licenseUrl'=>'', 
+										'licenseUrl'=>'',
 										'artist'=>$modelUpData[$modelName]['Author'],
 										'owner'=>$modelUpData[$modelName]['Owner'],
 										'year'=>$modelUpData[$modelName]['Year'],
@@ -575,7 +575,7 @@ function updateModelsMetadata ($allModels, $modelUpdateMetadata, $tagListings) {
  *	Arguments
  *		$allModels - array of model objects (see getAllModels)
  *		$modelsTags	 - hash of model tags. All models need to have an entry in $modelsTags referred by modelName.
- *		$tagListings - Data structure of supported tags. 
+ *		$tagListings - Data structure of supported tags.
  *
  */
 function updateModelsTags ($allModels, $modelsTags, $tagListings) {
@@ -633,7 +633,7 @@ function getModelData() {
 	$FH = fopen ($dataFile, "r");
 	$ModelData = array();
 	$keys = fgetcsv($FH, 5000);
-	while (($row = fgetcsv($FH, 5000)) !== false) { 
+	while (($row = fgetcsv($FH, 5000)) !== false) {
 		$new = array();
 		for ($ii=0; $ii<count($row); $ii++) {
 			$new[$keys[$ii]] = $row[$ii];
@@ -653,7 +653,7 @@ function getModelTagData() {
 	$FH = fopen ($dataFile, "r");
 	$ModelData = array();
 	$keys = fgetcsv($FH, 5000);
-	while (($row = fgetcsv($FH, 5000)) !== false) { 
+	while (($row = fgetcsv($FH, 5000)) !== false) {
 		$new = array();
 		for ($ii=1; $ii<count($row); $ii++) {
 			if ($row[$ii] == 'TRUE') {
