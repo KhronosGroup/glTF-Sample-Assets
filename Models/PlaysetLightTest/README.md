@@ -4,6 +4,18 @@
 
 test
 
+## Extensions
+
+### Required
+
+* KHR_lights_punctual
+* KHR_materials_emissive_strength
+
+### Used
+
+* KHR_lights_punctual
+* KHR_materials_emissive_strength
+
 ## Summary
 
 A 3D scene with IKEA assets
