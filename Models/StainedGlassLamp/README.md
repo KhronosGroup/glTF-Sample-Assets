@@ -14,7 +14,7 @@
 
 ## Summary
 
- 
+A real product, a Tiffany-style stained glass table lamp sold on the Wayfair website.
 
 ## Operations
 
