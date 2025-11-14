@@ -189,6 +189,12 @@ class ModelMetadata
 							'text'=>'Cesium Trademark or Logo',
 							'spdx'=>'LicenseRef-LegalMark-Cesium',
 							),
+			'LicenseRef-LegalMark-DGG' => array (
+							'icon'=>'',
+							'link'=>'',
+							'text'=>'DGG Trademark or Logo',
+							'spdx'=>'LicenseRef-LegalMark-DGG',
+							),
 			'LicenseRef-LegalMark-Khronos'	=> array (
 							'icon'=>'', 
 							'link'=>'',
