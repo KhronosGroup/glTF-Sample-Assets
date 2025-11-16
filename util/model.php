@@ -74,7 +74,7 @@ if ($directories[count($directories) - 1] == 'util')
 	chdir('..');
 
 // Get list of all assets to process
-$assetList = getlistRequestedAssets($runArgs, $ModelDirectory);
+$assetList = getListRequestedAssets($runArgs, $ModelDirectory);
 
 // Load all model objects
 $allModels = getAllModels($assetList);
@@ -189,7 +189,7 @@ if (isset($runArgs['process-repo'])) {
 
 exit;
 
-function getlistRequestedAssets($clParameters, $modelFolder = '')
+function getListRequestedAssets($clParameters, $modelFolder = '')
 {
 	if ($modelFolder == '') {
 		return null;
@@ -372,13 +372,13 @@ function createDep5($allModels)
 }
 
 // Function for creating READMEs
-function createReadme($tagStrcture, $metaAll, $listings, $tags = array(''), $verbose = 0, $dryRun = 0)
+function createReadme($tagStructure, $metaAll, $listings, $tags = array(''), $verbose = 0, $dryRun = 0)
 {
 	if ($dryRun) {
-		echo '{dryrun} Opening ' . $tagStrcture['path'] . $tagStrcture['file'] . "\n";
+		echo '{dryrun} Opening ' . $tagStructure['path'] . $tagStructure['file'] . "\n";
 		$F = 0;
 	} else {
-		$F = fopen($tagStrcture['path'] . $tagStrcture['file'], 'w');
+		$F = fopen($tagStructure['path'] . $tagStructure['file'], 'w');
 	}
 	$section = 'Tagged...';
 	if (count($tags) == 0 || $tags[0] == '') {
@@ -388,7 +388,7 @@ function createReadme($tagStrcture, $metaAll, $listings, $tags = array(''), $ver
 		$section = 'Models tagged with **' . join(', ', $tags) . '**';
 		$singleTag = $tags[0];
 	}
-	$type = $tagStrcture['type'];
+	$type = $tagStructure['type'];
 	if ($verbose > 0) {
 		print "Generating $type for $section\n";
 	}
@@ -398,7 +398,7 @@ function createReadme($tagStrcture, $metaAll, $listings, $tags = array(''), $ver
 	} else {
 		fwrite($F, "# glTF 2.0 Sample Assets\n\n");
 		fwrite($F, "## $section\n\n");
-		fwrite($F, $tagStrcture['summary'] . "\n\n");
+		fwrite($F, $tagStructure['summary'] . "\n\n");
 	}
 
 	for ($ii = 0; $ii < count($listings); $ii++) {
