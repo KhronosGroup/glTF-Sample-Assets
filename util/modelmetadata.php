@@ -190,19 +190,19 @@ class ModelMetadata
 		),
 		'LicenseRef-LegalMark-Cesium' => array(
 			'icon' => '',
-			'link' => '',
+			'link' => '../LICENSES/LicenseRef-LegalMark-Cesium.txt',
 			'text' => 'Cesium Trademark or Logo',
 			'spdx' => 'LicenseRef-LegalMark-Cesium',
 		),
 		'LicenseRef-LegalMark-Khronos' => array(
 			'icon' => '',
-			'link' => '',
+			'link' => '../LICENSES/LicenseRef-LegalMark-Khronos.txt',
 			'text' => 'Khronos Trademark or Logo',
 			'spdx' => 'LicenseRef-LegalMark-Khronos',
 		),
 		'LicenseRef-LegalMark-UX3D' => array(
 			'icon' => '',
-			'link' => '',
+			'link' => '../LICENSES/LicenseRef-LegalMark-UX3D.txt',
 			'text' => 'UX3D Trademark or Logo',
 			'spdx' => 'LicenseRef-LegalMark-UX3D',
 		),
@@ -214,7 +214,7 @@ class ModelMetadata
 		),
 		'LicenseRef-3DRT-Testing' => array(
 			'icon' => '',
-			'link' => '',
+			'link' => '../LICENSES/LicenseRef-3DRT-Testing.txt',
 			'text' => '3DRT license with allowances for glTF Testing',
 			'spdx' => 'LicenseRef-3DRT-Testing',
 		),
