@@ -974,6 +974,7 @@
     "screenshot": "screenshot/screenshot_large.jpg",
     "tags": ["core","testing"],
     "variants": {
+      "glTF": "NodePerformanceTest.gltf",
       "glTF-Binary": "NodePerformanceTest.glb"
     }
   },
