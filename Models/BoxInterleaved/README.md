@@ -22,6 +22,7 @@ Box example with interleaved position and normal attributes.
 
 Box example with interleaved position and normal attributes.
 
+
 ## Legal
 
 &copy; 2017, Cesium. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

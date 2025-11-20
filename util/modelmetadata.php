@@ -17,9 +17,9 @@
  *	Licensed under the Apache License, Version 2.0 (the "License");
  *	you may not use this file except in compliance with the License.
  *	You may obtain a copy of the License at
- *	
+ *
  *	    http://www.apache.org/licenses/LICENSE-2.0
- *	
+ *
  *	Unless required by applicable law or agreed to in writing, software
  *	distributed under the License is distributed on an "AS IS" BASIS,
  *	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -41,25 +41,25 @@
 	define ('DebugModel', 1);
 	define ('DebugDetail', 2);
 
-	
+
 // Define a class to handle a single model
 class ModelMetadata
 {
-	
-// Public constants 
+
+// Public constants
 	public $jsonVERSION = 2;
 /*
  * Debug output level
  *	0 - none
- *	1 - Model name and 
- *	2 - 
+ *	1 - Model name and
+ *	2 -
 **/
 	private $DebugNone = 0;
 	private $DebugModel = 1;
 	private $DebugDetail = 2;
 	public $debugOutput = 0;
 
-	
+
 // Public variables for internal states
 	public $isCurrent = false;
 	public $hasError = false;
@@ -90,7 +90,7 @@ class ModelMetadata
 
 // Placeholder for later use
 	private $metaPhp = 0;
-	
+
 // Array to convert from a variety of user values to PHP's true or false
 	public $TF = array (
 						'FALSE'	=> false,
@@ -112,121 +112,127 @@ class ModelMetadata
 // Array of standard model licenses
 	public $LICENSE = array (
 			'CC0'		=> array (
-							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png',
 							'link'=>'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
 							'text'=>'CC0 1.0 Universal',
 							'spdx'=>'CC0-1.0',
 							),
 			'PD'		=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'Public Domain',
 							'spdx'=>'PublicDomain',
 							),
 			'Public Domain'		=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'Public Domain',
 							'spdx'=>'PublicDomain',
 							),
 			'Public Domain / CC0'		=> array (
-							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/p/zero/1.0/88x31.png',
 							'link'=>'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
 							'text'=>'CC0 1.0 Universal',
 							'spdx'=>'CC0-1.0',
 							),
 			'CC-BY'		=> array (
-							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png',
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
 							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY-NC'		=> array (
-							'icon'=>'https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png', 
+							'icon'=>'https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png',
 							'link'=>'https://creativecommons.org/licenses/by-nc/4.0/legalcode',
 							'text'=>'CC BY-NC 4.0 International',
 							'spdx'=>'CC-BY-NC-4.0',
 							),
 			'CC-BY 4.0'	=> array (
-							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png',
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
 							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY-4.0'	=> array (
-							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png',
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
 							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'CC-BY International 4.0'	=> array (
-							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png',
 							'link'=>'https://creativecommons.org/licenses/by/4.0/legalcode',
 							'text'=>'CC BY 4.0 International',
 							'spdx'=>'CC-BY-4.0',
 							),
 			'SCEA'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'https://spdx.org/licenses/SCEA.html',
 							'text'=>'SCEA Shared Source License, Version 1.0',
 							'spdx'=>'SCEA',
 							),
 			'LicenseRef-Stanford-Graphics'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'https://graphics.stanford.edu/data/3Dscanrep/',
 							'text'=>'Stanford Graphics Library',
 							'spdx'=>'LicenseRef-Stanford-Graphics',
 							),
 			'LicenseRef-CC-BY-TM'	=> array (
-							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png', 
+							'icon'=>'https://licensebuttons.net/l/by/3.0/88x31.png',
 							'link'=>'',
 							'text'=>'CC-BY 4.0 International with Trademark Limitations',
 							'spdx'=>'LicenseRef-CC-BY-TM',
 							),
 			'LicenseRef-LegalMark-Cesium'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'Cesium Trademark or Logo',
 							'spdx'=>'LicenseRef-LegalMark-Cesium',
 							),
+			'LicenseRef-LegalMark-DGG' => array (
+							'icon'=>'',
+							'link'=>'',
+							'text'=>'DGG Trademark or Logo',
+							'spdx'=>'LicenseRef-LegalMark-DGG',
+							),
 			'LicenseRef-LegalMark-Khronos'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'Khronos Trademark or Logo',
 							'spdx'=>'LicenseRef-LegalMark-Khronos',
 							),
 			'LicenseRef-LegalMark-UX3D'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'UX3D Trademark or Logo',
 							'spdx'=>'LicenseRef-LegalMark-UX3D',
 							),
 			'LicenseRef-Khronos-Assumed'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'Assumed Khronos license, treat as TESTING only',
 							'spdx'=>'LicenseRef-Khronos-Assumed',
 							),
 			'LicenseRef-3DRT-Testing'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'',
 							'text'=>'3DRT license with allowances for glTF Testing',
 							'spdx'=>'LicenseRef-3DRT-Testing',
 							),
 			'LicenseRef-Adobe-Stock'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'https://stock.adobe.com/license-terms?prev_url=detail&comparison-full#enhanced-license-terms',
 							'text'=>'Adobe Stock License',
 							'spdx'=>'LicenseRef-Adobe-Stock',
 							),
 			'LicenseRef-Poser-EULA'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'https://archive.org/stream/poser-pro-2014-reference-manual/Poser_Pro_2014_reference_manual_djvu.txt',
 							'text'=>'Poser EULA',
 							'spdx'=>'LicenseRef-Poser-EULA',
 							),
 			'LicenseRef-CRYENGINE-Agreement'	=> array (
-							'icon'=>'', 
+							'icon'=>'',
 							'link'=>'https://www.cryengine.com/ce-terms',
 							'text'=>'Cryengine Limited License Agreement',
 							'spdx'=>'LicenseRef-CRYENGINE-Agreement',
@@ -235,14 +241,14 @@ class ModelMetadata
 
 // Model's metadata, either stored in the Repo or derrived from it
 	private $metadata = array();
-	
+
 // Method construct the object
 	public function __construct ($path='', $file=null) {
 		$this->metaPhp = json_decode ($this->metaJson, true);
 		foreach ($this->metaPhp as $key => $value) {
 			$this->metadata[$key] = $value;
 		}
-		
+
 		if ($path != '') {
 			$this->load ($path, $file);
 		}
@@ -267,14 +273,14 @@ class ModelMetadata
 			$this->metadata = $this->_createInitial ($path);
 			$this->hasError = false;
 		} else {
-			if ($this->debugOutput >= $this->DebugDetail) 
+			if ($this->debugOutput >= $this->DebugDetail)
 				print "Loading |$fullFile| and storing in ->metadata\n";
 			$this->metadata = $this->_readJson ($fullFile);
 			$this->isCurrent = true;
-			if ($this->debugOutput >= $this->DebugDetail) 
+			if ($this->debugOutput >= $this->DebugDetail)
 				print_r($this->metadata);
 		}
-		
+
 		if ($this->debugOutput >= $this->DebugDetail) {
 			print "After loading default\n";
 			print_r ($this);
@@ -290,7 +296,7 @@ class ModelMetadata
 			$this->isCurrent = false;
 		}
 
-		if ($this->debugOutput >= $this->DebugModel) 
+		if ($this->debugOutput >= $this->DebugModel)
 				print "Populating internal structures for ".$this->metadata['path']."\n";
 		$this->_populateInternal ();
 		return $this;
@@ -323,13 +329,13 @@ class ModelMetadata
 			if ($this->metadata['legal'][0]['artist'] == '' || str_starts_with ($this->metadata['legal'][0]['artist'], '_')) $errors[] = 'Missing artist';
 			if ($this->metadata['legal'][0]['what'] == '' || str_starts_with ($this->metadata['legal'][0]['what'], '_')) $errors[] = 'Missing work (what)';
 		}
-		
+
 		if (!file_exists($this->metadata['basePathShot'])) {
 			print 'Screenshot not fount: ' . $this->metadata['basePathShot'] . "\n";
 			$errors[] = 'Screenshot file not found';
 		} else {		// Check for proper size
 		}
-		
+
 		if ($this->metadata['createReadme']) {
 			// Verify that existing README.md is autogenerated
 			$fileReadme = $this->metadata['basePath'] . 'README.md';
@@ -363,7 +369,7 @@ class ModelMetadata
 		if ($this->isCurrent) {
 			return $this;
 		}
-		
+
 		$tmp = array();
 		foreach ($this->metaPhp as $key => $value) {
 			$tmp[$key] = $this->metadata[$key];
@@ -371,8 +377,8 @@ class ModelMetadata
 		$tmp['version'] = $this->jsonVERSION;
 		unset ($tmp['AutoGenerateREADME']);
 		$string = json_encode($tmp, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES);
-		
-		if ($this->debugOutput >= $this->DebugDetail) 
+
+		if ($this->debugOutput >= $this->DebugDetail)
 			print " .. writing METADATA to ".$this->metadata['fullPath']."\n";
 		if ($this->metadata['fullPath'] == '') {
 			print "*** Error: Full path is empty\n";
@@ -381,6 +387,7 @@ class ModelMetadata
 		}
 		$FH = fopen ($this->metadata['fullPath'], "w");
 		fwrite ($FH, $string);
+		fwrite ($FH, "\n");
 		fclose ($FH);
 
 		$this->hasError = false;
@@ -401,9 +408,9 @@ class ModelMetadata
 		$fileReadme = str_replace ('%20', ' ', $fileReadme);
 		$fileReadmeBody = $this->metadata['basePath'] . 'README.body.md';
 		if (!$this->metadata['createReadme']) {return $this; }
-		if ($this->debugOutput >= DebugModel) 
+		if ($this->debugOutput >= DebugModel)
 			print " .. Updating README\n";
-		
+
 		$screenshot = $this->metadata['screenshot'];
 		$tagList = array();
 		for ($ii=0; $ii<count($this->metadata['tags']); $ii++) {
@@ -464,7 +471,7 @@ class ModelMetadata
 		$sf1 = "* [Display](%s?model=%s/%s) in SampleViewer";
 		$sf2 = "* [Download GLB](%s/%s)";
 		$sf3 = "* [Model Directory](%s)";
-		
+
 		$pathModel = ($this->metadata['hasGLB']) ? $this->metadata['pathGLB'] : $this->metadata['pathModel'];
 		$operations = array (sprintf ($sf1, UrlSampleViewer, UrlModelRepoRaw, $pathModel));
 		if ($this->metadata['hasGLB']) {
@@ -477,7 +484,7 @@ class ModelMetadata
 
 /*
  * Insert body
- *	The body needs to include the screen shot because there may be 
+ *	The body needs to include the screen shot because there may be
  *	captions or multiple shots to illustrate the contents.
  *	BODY is included as a single string to preserve line structure from original.
  *	At a mininum, the following can be used in the BODY file
@@ -504,10 +511,10 @@ class ModelMetadata
 			$readme[] = $this->metadata['credit'][$ii];
 		}
 		//$readme[] = "#### Assembled by " . AppName . ' ' . AppVersion;
-		$readme[] = "#### Assembled by " . AppName;
+		$readme[] = "#### Assembled by " . AppName . "\n";
 		$output = join ("\n\n", $readme);
 
-		if ($this->debugOutput >= $this->DebugModel) 
+		if ($this->debugOutput >= $this->DebugModel)
 			print " .. writing README to $fileReadme\n";
 		$FO = fopen ("$fileReadme", 'w');
 		fwrite ($FO, $output);
@@ -543,7 +550,7 @@ class ModelMetadata
 		$readme[] = '  * [Creative Commons Attribtution 4.0 International]("'.$this->LICENSE['CC-BY 4.0']['link'].'") [SPDX license identifier: "CC-BY-4.0"]';
 		$readme[] = 'Full license text of these licenses are available at the links above';
 		//$readme[] = "#### Generated by " . AppName . ' ' . AppVersion;
-		$readme[] = "#### Generated by " . AppName;
+		$readme[] = "#### Generated by " . AppName . "\n";
 		$output = join ("\n\n", $readme);
 
 		$FO = fopen ($this->metadata['baseLicensePath'], 'w');
@@ -640,7 +647,7 @@ class ModelMetadata
  *	The fields are
  *		All fields related to screenshot (see _handleScreenshot)
  *		The 'variants' field containing a dictionary of glTF directories with associated glTF file (see _findVariants)
- */ 
+ */
 	private function _populateInternal () {
 		//$this->metadata->foo = f ($this->metadata->bar);
 		if (isset($this->metadata['name'])) {
@@ -656,7 +663,7 @@ class ModelMetadata
 
 		// Generate link to license if standard license and link not provided
 		$this->_cleanupLicense ();
-		
+
 		$this->metadata['legalGood'] = ($this->metadata['legal'][0]['owner'] == '_No Owner_' || $this->metadata['legal'][0]['year'] == 0) ? false : true;
 
 		$this->metadata['createReadme']	= (isset($this->metadata['AutoGenerateREADME'])) ? $this->metadata['AutoGenerateREADME'] && $this->metadata['createReadme'] : $this->metadata['createReadme'];
@@ -670,14 +677,14 @@ class ModelMetadata
 		$this->metadata['summary']		= ($this->metadata['summary'] == '') ? '_No Summary_' : $this->metadata['summary'];
 		$this->_handleScreenshot();
 		$this->_findVariants();
-		
+
 		$this->_getExtensionsList($this->metadata['pathModel']);
 
 		return;
 	}
 
 /*
- * Get the list of extensions used in this model. 
+ * Get the list of extensions used in this model.
  * Extensions come as 'Required' and 'Used'.
  * These categories are defined as arrays in $this->metadata['extensions']
  *	= array('used': array(), 'required': array())
@@ -698,14 +705,14 @@ class ModelMetadata
 		if (isset($glTF['extensionsRequired'])) {
 			$extensions['Required'] = $glTF['extensionsRequired'];
 		}
-		
+
 		$this->metadata['extensions'] = $extensions;
 		return;
 	}
 
 /*
  * Handles the screenshot for this model
-**/	
+**/
 	private function _handleScreenshot () {
 		$path = $this->metadata['path'];
 		$pathSafe = str_replace (' ', '%20', $path);
@@ -713,7 +720,7 @@ class ModelMetadata
 		$folderSafe = str_replace (' ', '%20', $folder);
 		$this->metadata['pathSafe'] = $pathSafe;
 		$this->metadata['folderSafe'] = $folderSafe;
-		
+
 		$shotHeight = 150;
 		$screenshot = $this->metadata['screenshot'];
 		$tmp = explode ('.', $screenshot);
@@ -731,7 +738,7 @@ class ModelMetadata
 		$this->metadata['UriShot']			= $this->metadata['basePathShot'];
 		$this->metadata['shotHeight'] = sprintf ('%s-x%d.%s', $shotPathName, $shotHeight, $shotExtension);
 		$this->metadata['basePathHeight'] = $path . '/' . $this->metadata['shotHeight'];
-		
+
 		$this->metadata['modelPath']	= sprintf ('%s/glTF/%s.gltf', $pathSafe, $folderSafe);
 		$this->metadata['pathModel']	= $this->metadata['modelPath'];
 		$this->metadata['pathGLB']		= sprintf ('%s/glTF-Binary/%s.glb', $pathSafe, $folderSafe);
@@ -747,10 +754,10 @@ class ModelMetadata
  *	The result is a structure containing at least one element of the form 'glTF*' with the value
  *		of a file name that ends '.glb' or '.gltf'
  */
- 
+
 	private function _findVariants () {
 		// Get all directories of the form $this->metadata['path'] + '/glTF*
-		// Search each of those for .glb or .gltf. 
+		// Search each of those for .glb or .gltf.
 		// Take first one
 		$variants = array();
 		$path = str_replace ('%20', ' ', $this->metadata['path']);
@@ -779,7 +786,7 @@ class ModelMetadata
 	}
 /*
  * Cleans up license information
-**/	
+**/
 	private function _cleanupLicense ($rebuildSpdx=false) {
 		if ($this->debugOutput >= $this->DebugDetail) {
 			print "In _cleanupLicense\n";
@@ -822,7 +829,7 @@ class ModelMetadata
 
 /*
  * Generates the credit entry for this model
-**/	
+**/
 	private function _generateCredits () {
 		$credit = array();
 		for ($ii=0; $ii<count($this->metadata['legal']); $ii++) {
@@ -834,7 +841,7 @@ class ModelMetadata
 				$credit[] = sprintf (" - %s for %s", $this->metadata['legal'][$ii]['artist'], $this->metadata['legal'][$ii]['what']);
 			}
 		}
-		
+
 		return $credit;
 	}
 
@@ -842,7 +849,7 @@ class ModelMetadata
  * Updates the low-version JSON structure to match the current version
  * Information updated:
  *	Legal & Credits
-**/	
+**/
 	private function _updateMetadata () {
 		$artist  = (isset($this->metadata->author) && $this->metadata->author != '') ? $this->metadata->author : '';
 		$artist  = (isset($this->metadata->artist)) ? $this->metadata->artist : $artist;
@@ -861,7 +868,7 @@ class ModelMetadata
 					);
 		$this->metadata['legal'] = $legal;
 	}
-	
+
 // Reads the JSON model metadata file and returns the data structure
 	private function _readJson ($fullFile) {
 		$localName = str_replace ('%20', ' ', $fullFile);

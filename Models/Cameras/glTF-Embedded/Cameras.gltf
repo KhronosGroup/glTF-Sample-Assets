@@ -19,7 +19,7 @@
       "camera" : 1
     }
   ],
-  
+
   "cameras" : [
     {
       "type": "perspective",
@@ -40,7 +40,7 @@
       }
     }
   ],
-  
+
   "meshes" : [
     {
       "primitives" : [ {
@@ -92,7 +92,7 @@
       "min" : [ 0.0, 0.0, 0.0 ]
     }
   ],
-  
+
   "asset" : {
     "version" : "2.0"
   }

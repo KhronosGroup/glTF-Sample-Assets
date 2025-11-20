@@ -31,7 +31,6 @@ A grid of spheres compares material roughness (horizontally) to anisotropy stren
 Note the `KHR_materials_anisotropy` specification provides formulas to clearly define how anisotropy strength interacts with material roughness.  The effects should be most apparent in the column with zero material roughness, and anisotropy should not offer any effect when material roughness is 1.0.
 
 
-
 ## Legal
 
 &copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

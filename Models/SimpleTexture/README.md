@@ -24,7 +24,6 @@ in the [Simple Texture](https://github.com/KhronosGroup/glTF-Tutorials/blob/mast
 section of the glTF tutorial.
 
 
-
 ## Legal
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

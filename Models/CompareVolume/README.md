@@ -28,6 +28,7 @@ This model compares volume methods.
 
 This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Transmission alone versus Transmission with Volume.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo]()

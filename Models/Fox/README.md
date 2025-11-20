@@ -24,6 +24,7 @@ This model demonstrates animated rigging with three different animation cycles: 
 
 glTF conversion [by @AsoboStudio and @scurest](https://github.com/KhronosGroup/glTF-Sample-Models/pull/150#issuecomment-406300118)
 
+
 ## Legal
 
 &copy; 2014, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
