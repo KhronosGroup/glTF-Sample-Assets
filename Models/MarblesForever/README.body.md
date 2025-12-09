@@ -1,6 +1,6 @@
 ## Screenshot
 
-![A screenshot of the marble run asset in Eoin McLaughlin's branch of the Babylonjs viewer built to showcase physics.](screenshot/screenshot_Large.jpg)
+![A screenshot of the marble run asset in Eoin Mcloughlin's branch of the Babylonjs viewer built to showcase physics.](screenshot/screenshot_Large.jpg)
 <br/>_Screenshot from [glTF_Physics_Babylon Viewer](https://eoineoineoin.github.io/glTF_Physics_Babylon/packages/demo/dist/#sceneIndex=6)._
 
 ## Description
