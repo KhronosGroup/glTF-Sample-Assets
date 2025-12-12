@@ -16,6 +16,10 @@
     "KHR_materials_volume",
     "KHR_animation_pointer"
   ],
+  "extensionsRequired": [
+    "KHR_physics_rigid_bodies",
+    "KHR_implicit_shapes"
+  ],
   "extensions": {
     "KHR_physics_rigid_bodies": {
       "physicsMaterials": [
