@@ -1202,11 +1202,11 @@
   ],
   "buffers": [
     {
-      "uri": "scene.bin",
+      "uri": "MeshoptCubeTest.bin",
       "byteLength": 10480
     },
     {
-      "uri": "scene-fallback.bin",
+      "uri": "MeshoptCubeTestFallback.bin",
       "byteLength": 9984,
       "extensions": {
         "KHR_meshopt_compression": {
