@@ -58,11 +58,11 @@
   ],
   "buffers":[
     {
-      "uri" : "simpleMorphGeometry.bin",
+      "uri" : "SimpleMorph_geometry.bin",
       "byteLength":116
     },
     {
-      "uri" : "simpleMorphAnimation.bin",
+      "uri" : "SimpleMorph_animation.bin",
       "byteLength":60
     }
   ],

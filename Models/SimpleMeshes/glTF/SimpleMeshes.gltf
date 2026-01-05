@@ -29,7 +29,7 @@
 
   "buffers" : [
     {
-      "uri" : "triangle.bin",
+      "uri" : "SimpleMeshes.bin",
       "byteLength" : 80
     }
   ],

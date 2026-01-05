@@ -24,7 +24,7 @@
 
   "buffers" : [
     {
-      "uri" : "triangleWithoutIndices.bin",
+      "uri" : "TriangleWithoutIndices.bin",
       "byteLength" : 36
     }
   ],
