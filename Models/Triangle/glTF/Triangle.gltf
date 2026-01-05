@@ -25,7 +25,7 @@
 
   "buffers" : [
     {
-      "uri" : "simpleTriangle.bin",
+      "uri" : "Triangle.bin",
       "byteLength" : 44
     }
   ],

@@ -45,11 +45,11 @@
 
   "buffers" : [
     {
-      "uri" : "simpleTriangle.bin",
+      "uri" : "AnimatedTriangle_geometry.bin",
       "byteLength" : 44
     },
     {
-      "uri" : "animation.bin",
+      "uri" : "AnimatedTriangle_animation.bin",
       "byteLength" : 100
     }
   ],

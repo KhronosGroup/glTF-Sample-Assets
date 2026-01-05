@@ -46,16 +46,16 @@
   } ],
   
   "buffers" : [ {
-    "uri" : "skinGeometry.bin",
+    "uri" : "SimpleSkin_geometry.bin",
     "byteLength" : 168
   }, {
-    "uri" : "skinningData.bin",
+    "uri" : "SimpleSkin_skinningData.bin",
     "byteLength" : 320
   }, {
-    "uri" : "inverseBindMatrices.bin",
+    "uri" : "SimpleSkin_inverseBindMatrices.bin",
     "byteLength" : 128
   }, {
-    "uri" : "skinAnimation.bin",
+    "uri" : "SimpleSkin_animation.bin",
     "byteLength" : 240
   } ],
   

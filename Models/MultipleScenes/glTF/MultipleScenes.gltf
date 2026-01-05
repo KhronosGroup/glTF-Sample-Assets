@@ -39,11 +39,11 @@
 
   "buffers" : [
     {
-      "uri" : "simpleTriangle.bin",
+      "uri" : "MultipleScenes_triangle.bin",
       "byteLength" : 44
     },
     {
-      "uri" : "simpleSquare.bin",
+      "uri" : "MultipleScenes_square.bin",
       "byteLength" : 60
     }
   ],
