@@ -1,6 +1,6 @@
 Use of Logo or Trademark Image owned by Cesium
 
-The logo or trademark incoirporated into this content is owned by 
+The logo or trademark incorporated into this content is owned by
 Cesium and is used by permission in accordance with the 
 Legal Mark Usage Guidelines at 
 https://github.com/AnalyticalGraphicsInc/cesium/wiki/CesiumTrademark.pdf.

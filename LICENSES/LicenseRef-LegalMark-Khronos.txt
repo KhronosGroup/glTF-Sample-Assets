@@ -1,6 +1,6 @@
 Use of Logo or Trademark Image owned by Khronos
 
-The logo or trademark incoirporated into this content is owned by 
+The logo or trademark incorporated into this content is owned by
 The Khronos Group and is used by permission in accordance with the 
 Legal Mark Usage Guidelines at https://www.Khronos.org/.
 
