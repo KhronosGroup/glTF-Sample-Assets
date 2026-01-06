@@ -1,4 +1,4 @@
-# LICENSE file for the model: Cube Visiblity test for KHR_node_visibility
+# LICENSE file for the model: CubeVisibility
 
 All files in this directory tree are licensed as indicated below.
 

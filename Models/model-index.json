@@ -563,7 +563,7 @@
     }
   },
   {
-    "label": "Cube Visiblity test for KHR_node_visibility",
+    "label": "CubeVisibility",
     "name": "CubeVisibility",
     "screenshot": "screenshot/screenshot_animated.webp",
     "tags": ["testing"],
@@ -837,7 +837,7 @@
     }
   },
   {
-    "label": "Light Visiblity test for KHR_node_visibility",
+    "label": "LightVisibility",
     "name": "LightVisibility",
     "screenshot": "screenshot/screenshot_animated.webp",
     "tags": ["testing"],

@@ -1,4 +1,4 @@
-# LICENSE file for the model: Light Visiblity test for KHR_node_visibility
+# LICENSE file for the model: LightVisibility
 
 All files in this directory tree are licensed as indicated below.
 
