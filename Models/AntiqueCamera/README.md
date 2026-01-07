@@ -22,6 +22,7 @@ Static model of old camera on a tripod. [Issues: non-Khronos mark]
 
 Static model of old camera on a tripod, with UX3D logo on one of the legs.
 
+
 ## Legal
 
 &copy; 2018, UX3D. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

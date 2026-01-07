@@ -27,6 +27,7 @@ This model compares emissive versus emissive plus emissive strength.
 
 This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Emissive versus Emissive plus Emissive Strength.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo]()

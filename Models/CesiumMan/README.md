@@ -22,6 +22,7 @@ Textured. Animations. Skins. [Issues: non-Khronos mark]
 
 Animated and skinned character with the Cesium logo.
 
+
 ## Legal
 
 &copy; 2017, Cesium. [CC-BY 4.0 International with Trademark Limitations]()

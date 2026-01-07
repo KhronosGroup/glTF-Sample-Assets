@@ -6,11 +6,11 @@ Above:  screenshot from [Babylon.js](https://sandbox.babylonjs.com/).
 
 ## Description
 
-This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https://www.wayfair.com/). 
+This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https://www.wayfair.com/).
 
 The model is made of eight parts, each with their own materials and using PNG textures, mostly 2048x2048. All UVs are arranged between 0 and 1, except for a few overlapping parts which have been offset 1 UV unit to avoid texture baking errors. The model uses 55,428 triangles and 51,174 vertices.
 
-The model demonstrates the following extensions: 
+The model demonstrates the following extensions:
 * [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md)
 * [KHR_materials_ior](https://github.com/KhronosGroup/glTF/pull/1718)
 * [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_transmission/README.md)
@@ -20,7 +20,7 @@ The model demonstrates the following extensions:
 
 ## Reference Photos
 
-The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. 
+The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products.
 
 ![photo reference next to screenshot](screenshot/photo_and_screenshot.jpg)
 
@@ -32,7 +32,7 @@ Below: additional reference photos of the real product.
 
 ## glTF-JPG-PNG
 
-The model in `\glTF-JPG-PNG` uses no extensions for the widest compatibility. Base color textures with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. 
+The model in `\glTF-JPG-PNG` uses no extensions for the widest compatibility. Base color textures with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model.
 
 The red embedded glass gems and the amber hanging plastic beads were set to Alpha Coverage in Blend mode, at 0.75. This approximates a transparent surface without requiring extensions. Real-world transparent surfaces often both reflect and transmit light, and completely clear glass transmits light from behind it but it is also very reflective. Alpha Coverage does not represent this behavior correctly, it simply controls the visibility of the surface; Alpha Coverage dims all surface characteristics at once. Partial alpha allows the Base Color and reflections to be partially seen, for a rough approximation of clear surfaces. This is better than no transparency at all but is not physically correct.
 
@@ -42,7 +42,7 @@ Above: screenshot from [Babylon.js](https://sandbox.babylonjs.com/) of model wit
 
 ## KHR_materials_variants
 
-The models in `\glTF` and `\glTF-KTX-BasisU` use the extension [KHR_materials_variants](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_variants/README.md) to add a variant with the emissive textures disabled to simulate the lights being turned off. 
+The models in `\glTF` and `\glTF-KTX-BasisU` use the extension [KHR_materials_variants](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_variants/README.md) to add a variant with the emissive textures disabled to simulate the lights being turned off.
 
 ![animated screenshot of variants](screenshot/screenshot_variants_on-off.gif)
 
@@ -60,13 +60,13 @@ The stained glass material uses roughness to simulate the microfacet scattering 
 
 ![animated screenshot of transmission](screenshot/screenshot_transmission_rotation.gif)
 
-The stained glass material uses alpha-as-coverge in MASK mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads. 
+The stained glass material uses alpha-as-coverge in MASK mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads.
 
 ## KHR_materials_clearcoat
 
 The models in `\glTF` and `\glTF-KTX-BasisU` use the extension [KHR_texture_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md) on the multicolored stained glass to add smooth reflections on top of the glass. The glass material must be rough for `KHR_materials_transmission` to create microsurface refractions, so clearcoat restores shiny surface reflections to the smooth outer surfaces of the stained glass.
 
-The two textures for transmissionTexture and clearcoatTexture have been packed together into a single bitmap `StainedGlassLamp_glass_transmission-clearcoat` using the red and green channels to optimize memory use. 
+The two textures for transmissionTexture and clearcoatTexture have been packed together into a single bitmap `StainedGlassLamp_glass_transmission-clearcoat` using the red and green channels to optimize memory use.
 
 ![animated screenshot of clearcoat](screenshot/screenshot_clearcoat_on-off.gif)
 
@@ -82,11 +82,11 @@ Above: animated GIF showing volume enabled and disabled, in [Babylon.js](https:/
 
 ## KHR_textures_basisu
 
-The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/). 
+The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/).
 
-The aim was to achieve the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size. 
+The aim was to achieve the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size.
 
-The textures were compressed from PNG source into KTX2 using [toktx](https://github.com/KhronosGroup/KTX-Software) via a combination of compression settings that favored high quality. UASTC was used for ORM and Normal textures and ETCS1 for Base Color and Emissive textures, however exceptions were made based on analyzing results... the `glass_basecolor-alpha` and `glass_emissive` textures were changed from ETC1S to UASTC since these were prominently displayed on the model and contained a lot of color variation. 
+The textures were compressed from PNG source into KTX2 using [toktx](https://github.com/KhronosGroup/KTX-Software) via a combination of compression settings that favored high quality. UASTC was used for ORM and Normal textures and ETCS1 for Base Color and Emissive textures, however exceptions were made based on analyzing results... the `glass_basecolor-alpha` and `glass_emissive` textures were changed from ETC1S to UASTC since these were prominently displayed on the model and contained a lot of color variation.
 
 toktx compression settings:
 ```
@@ -123,7 +123,7 @@ Above: screenshots from [Babylon.js](https://sandbox.babylonjs.com/): JPG and PN
 
 ## Path Traced Render Examples ##
 
-This model has been tested in a few other non-rasterized renderers, which often require a few adjustments. E.g. emissive textures that simulate light bounce should be removed, allowing the path tracing to create more accurate bounce lighting. 
+This model has been tested in a few other non-rasterized renderers, which often require a few adjustments. E.g. emissive textures that simulate light bounce should be removed, allowing the path tracing to create more accurate bounce lighting.
 
 ![model rendered in OSPRay Studio](screenshot/render_ospray.jpg)
 
@@ -135,7 +135,7 @@ Below: path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer]
 
 ## Authoring Details ##
 
-The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. [KTX Software](https://gltf-transform.donmccurdy.com/cli.html) was used to compress textures into KTX2 format. 
+The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. [KTX Software](https://gltf-transform.donmccurdy.com/cli.html) was used to compress textures into KTX2 format.
 
 The textures were created from photo reference, augmented with procedural textures and hand-painted detail. The emissive textures were pre-rendered in 3ds Max using the V-Ray renderer and sphere lights, and the textures were hand-tuned to work with baseColor and transmission.
 

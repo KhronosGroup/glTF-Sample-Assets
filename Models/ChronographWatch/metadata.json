@@ -41,8 +41,8 @@
             "year": "2020",
             "owner": "Darmstadt Graphics Group GmbH",
             "what": "DGG logo",
-            "text": "LicenseRef-LegalMark-DGG",
-            "spdx": "",
+            "text": "DGG Trademark or Logo",
+            "spdx": "LicenseRef-LegalMark-DGG",
             "icon": ""
         }
     ],
