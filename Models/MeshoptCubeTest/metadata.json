@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Arseny Kapoulkine",
+            "year": "2025",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Meshopt Cube Test",
+    "path": "./Models/MeshoptCubeTest",
+    "summary": "This model tests the KHR_meshopt_compression extension.",
+    "createReadme": true
+}
