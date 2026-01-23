@@ -1,4 +1,4 @@
-# Light Visiblity test for KHR_node_visibility
+# LightVisibility
 
 ## Tags
 

@@ -1,4 +1,4 @@
-# Cube Visiblity test for KHR_node_visibility
+# CubeVisibility
 
 ## Tags
 

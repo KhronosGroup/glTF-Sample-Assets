@@ -17,7 +17,7 @@
         "testing"
     ],
     "screenshot": "screenshot/screenshot_animated.webp",
-    "name": "Light Visiblity test for KHR_node_visibility",
+    "name": "LightVisibility",
     "path": "./Models/LightVisibility",
     "summary": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
     "createReadme": true

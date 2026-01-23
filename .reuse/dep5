@@ -179,7 +179,7 @@ Copyright:
  2015 Khronos Group
  2017 Khronos Group
  2020 Darmstadt Graphics Group GmbH
-License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos AND 
+License: CC-BY-4.0 AND LicenseRef-LegalMark-Khronos AND LicenseRef-LegalMark-DGG
 
 Files: Models/ClearCoatCarPaint/*
 Copyright: 
@@ -484,6 +484,11 @@ License: CC-BY-4.0
 Files: Models/MeshPrimitiveModes/*
 Copyright: 
  2023 Public
+License: CC0-1.0
+
+Files: Models/MeshoptCubeTest/*
+Copyright: 
+ 2025 Public
 License: CC0-1.0
 
 Files: Models/MetalRoughSpheres/*
