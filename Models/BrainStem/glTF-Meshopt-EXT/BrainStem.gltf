@@ -1,29 +1,29 @@
 {
-  "asset": {
-    "version": "2.0",
-    "generator": "gltfpack 1.0"
-  },
-  "extensionsUsed": [
-    "KHR_mesh_quantization",
-    "KHR_meshopt_compression"
-  ],
-  "extensionsRequired": [
-    "KHR_mesh_quantization",
-    "KHR_meshopt_compression"
-  ],
   "buffers": [
     {
       "uri": "BrainStem.bin",
-      "byteLength": 328492
+      "byteLength": 347840
     },
     {
       "byteLength": 1302348,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "fallback": true
         }
       }
     }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "gltfpack 0.20"
+  },
+  "extensionsUsed": [
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
   ],
   "bufferViews": [
     {
@@ -33,10 +33,10 @@
       "byteStride": 4,
       "target": 34962,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
           "byteOffset": 0,
-          "byteLength": 686,
+          "byteLength": 2646,
           "byteStride": 4,
           "mode": "ATTRIBUTES",
           "count": 34084
@@ -50,10 +50,10 @@
       "byteStride": 4,
       "target": 34962,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 688,
-          "byteLength": 67060,
+          "byteOffset": 2648,
+          "byteLength": 68972,
           "byteStride": 4,
           "mode": "ATTRIBUTES",
           "filter": "OCTAHEDRAL",
@@ -68,10 +68,10 @@
       "byteStride": 12,
       "target": 34962,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 67748,
-          "byteLength": 138908,
+          "byteOffset": 71620,
+          "byteLength": 148194,
           "byteStride": 12,
           "mode": "ATTRIBUTES",
           "filter": "EXPONENTIAL",
@@ -86,10 +86,10 @@
       "byteStride": 4,
       "target": 34962,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 206656,
-          "byteLength": 159,
+          "byteOffset": 219816,
+          "byteLength": 2165,
           "byteStride": 4,
           "mode": "ATTRIBUTES",
           "count": 34084
@@ -102,9 +102,9 @@
       "byteLength": 369996,
       "target": 34963,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 206816,
+          "byteOffset": 221984,
           "byteLength": 68380,
           "byteStride": 2,
           "mode": "TRIANGLES",
@@ -117,10 +117,10 @@
       "byteOffset": 1188012,
       "byteLength": 1152,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 275196,
-          "byteLength": 860,
+          "byteOffset": 290364,
+          "byteLength": 1044,
           "byteStride": 64,
           "mode": "ATTRIBUTES",
           "count": 18
@@ -132,10 +132,10 @@
       "byteOffset": 1189164,
       "byteLength": 4192,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 276056,
-          "byteLength": 2470,
+          "byteOffset": 291408,
+          "byteLength": 2542,
           "byteStride": 4,
           "mode": "ATTRIBUTES",
           "count": 1048
@@ -147,10 +147,10 @@
       "byteOffset": 1193356,
       "byteLength": 108992,
       "extensions": {
-        "KHR_meshopt_compression": {
+        "EXT_meshopt_compression": {
           "buffer": 0,
-          "byteOffset": 278528,
-          "byteLength": 49963,
+          "byteOffset": 293952,
+          "byteLength": 53886,
           "byteStride": 8,
           "mode": "ATTRIBUTES",
           "filter": "QUATERNION",
