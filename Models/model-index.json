@@ -886,6 +886,16 @@
     }
   },
   {
+    "label": "Meshopt Cube Test",
+    "name": "MeshoptCubeTest",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": ["extension","testing"],
+    "variants": {
+      "glTF": "MeshoptCubeTest.gltf",
+      "glTF-Meshopt": "MeshoptCubeTest.gltf"
+    }
+  },
+  {
     "label": "Metal-Rough Spheres",
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",

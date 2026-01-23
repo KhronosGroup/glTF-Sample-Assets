@@ -486,6 +486,11 @@ Copyright:
  2023 Public
 License: CC0-1.0
 
+Files: Models/MeshoptCubeTest/*
+Copyright: 
+ 2025 Public
+License: CC0-1.0
+
 Files: Models/MetalRoughSpheres/*
 Copyright: 
  2017 Analytical Graphics, Inc.
