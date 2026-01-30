@@ -37,7 +37,6 @@ For each of three material slots, four sample models are provided that use diffe
   ![non-ignored_metadata](screenshot/non-ignored_metadata.png)
 
 
-
 ## Legal
 
 &copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

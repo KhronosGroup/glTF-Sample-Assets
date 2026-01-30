@@ -61,7 +61,6 @@ In the screenshots presented here, the second transmissive column most clearly s
 This render is from Blender's Cycles path-tracing engine, using the same IBL as above.
 
 
-
 ## Legal
 
 &copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

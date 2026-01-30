@@ -15,4 +15,3 @@ The texture repeat test uses the repetition to produce the green checkmark.  If 
 The texture mirror test uses mirroring to find the green checkmark.  A non-mirrored repeat will result in a red "X", and texture clamping will result in a solid red block.
 
 All of the failure conditions are a different shape from the corresponding success condition, as well as being red in color.  Specifically, the only tests that expect a solid-green successful result do not offer a solid-red fail condition, they only offer X's.  This is so that people who are red/green colorblind can still easily compare the "Test" and "Sample" columns and easily spot any differences by shape.
-

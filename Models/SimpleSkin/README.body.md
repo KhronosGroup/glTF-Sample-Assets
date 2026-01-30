@@ -15,4 +15,3 @@ The following images show the data layout of this sample:
 ![skinAnimation](screenshot/skinAnimation.png)
 ![inverseBindMatrices](screenshot/inverseBindMatrices.png)
 ![skinningData](screenshot/skinningData.png)
-

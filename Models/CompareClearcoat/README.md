@@ -30,6 +30,7 @@ This model compares clearcoat methods.
 
 This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Clearcoat. This asset shows the differences between three states: metallic spheres with zero roughness, half roughness, and half roughness plus clearcoat.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo](../../LICENSES/LicenseRef-LegalMark-Khronos.txt)

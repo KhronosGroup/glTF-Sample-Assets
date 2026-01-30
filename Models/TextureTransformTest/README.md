@@ -27,10 +27,10 @@ Tests if the KHR_texture_transform extension is supported for BaseColor.
 
 This model demonstrates the usage of the KHR_texture_transform extension. There are six quads in this model using two main textures.
 
-UV  
+UV
 <img src="glTF/UV.png" height="172" height="172" />
 
-Arrow  
+Arrow
 <img src="glTF/Arrow.png" height="86" height="86" />
 
 Note: Both textures have a gray border and use a sampler that clamps and disables mipmapping.
@@ -50,7 +50,6 @@ The bottom middle quad tests the scale parameter with UV coordinates of `(0.0, 0
 ### All
 
 The bottom right quad tests offset, rotation, and scale at the same time. If everything is supported correctly, the arrow should point to the green marker.
-
 
 
 ## Legal

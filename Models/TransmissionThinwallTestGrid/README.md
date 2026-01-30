@@ -33,6 +33,7 @@ This asset tests the differences in index of refraction between thin-wall and vo
 
 The spheres in the bottom row are 2m in diameter with a volume `thicknessFactor` of 1m, to approximate an average thickness through each volume.
 
+
 ## Legal
 
 &copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

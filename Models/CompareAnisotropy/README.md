@@ -30,6 +30,7 @@ This model compares without anisotropy vs. with anisotropy.
 
 This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Anisotropy.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo](../../LICENSES/LicenseRef-LegalMark-Khronos.txt)

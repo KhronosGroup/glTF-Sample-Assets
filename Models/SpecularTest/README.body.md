@@ -23,4 +23,3 @@ The final row tests what happens when `specularColorFactor` is allowed to be gre
 ![screenshot](screenshot/purple.jpg)
 
 If you see purple coloring in the second row, it indicates a problem.  An older version of this specification (before ratification) did not separate `specularColorTexture` into its own field, and some older versions of available engines may still be using this draft interpretation.  The purple color is present in this model's `specularTexture` input on the RGB channels, which should not be used given the final specification (where color is permitted to be stored in a separate texture).
-

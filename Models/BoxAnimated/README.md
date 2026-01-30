@@ -43,6 +43,7 @@ In affected runtimes, the box will begin rotating before it has moved to the top
 position, and collide with the blue box.  If you see this, please file an issue
 on the affected runtime's issue tracker.
 
+
 ## Legal
 
 &copy; 2017, Cesium. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

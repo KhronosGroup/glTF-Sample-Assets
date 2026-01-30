@@ -53,6 +53,7 @@ The "Node Scale" row tests the interaction between thickness and scale.  Each cu
 
 In the final row, "Attenuation Distance", the cubes are a different size from all of the other rows.  This row features all unit-size cubes, and the attenuation distance of each cube has been adjusted to be the inverse of the cube's thickness on the other rows.  This means that although the size of these cubes may appear different, the shade of blue coloring of each cube should match the coloring of the rest of the column.
 
+
 ## Legal
 
 &copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

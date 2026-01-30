@@ -38,7 +38,6 @@ The following image shows the substitution of the values that takes place for th
 Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
 
 
-
 ## Legal
 
 &copy; 2017, Public. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
