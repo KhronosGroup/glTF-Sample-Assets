@@ -114,24 +114,29 @@ Inc., Size8 Software, Inc., and Automatic Sync Technologies
 LLC, each of whom retain the ownership, copyrights, 
 trademarks, and patents to their respective contributions to 
 the Program. Open source components include: Open source 
-components include: Boost C++ http://www.boost.org, Bullet 
+components include: 
 
-
-Physics http://bulletphysics.org, Embree http://embree.github. 
-
-
-com, FreeImage http://freeimage.sourceforge.net, FreeType 
-http://freetype.sourceforge.net, Geometric Tools http://www. 
-geometrictools.com, k-d tree point cloud: Henrik Wann Jensen, 
-libCurl http://curl.haxx.se/libeurl/, libjpeg http://www.ijg. 
-org, libtiff http://www.libtiff.org, numpy http://www.numpy. 
-org, OpenEXR http://www.openexr.com, OpenSSL http:// 
-www.openssl.org, pcre http://www.pcre.org, PIL http://www. 
-pythonware.com/products/pil, pthreads http://sourceware. 
-org/pthreads-win32, Python http://www.python.org, pthreads 
-http://sourceware.org/pthreads-win32, SFMT http://www. 
-math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT, XMLRPC++ 
-http://xmlrpepp.sourceforge.net, XMP http://www.adobe. 
-com/products/xmp Other Content that is subject to third-party 
+Boost C++ http://www.boost.org, 
+Bullet Physics http://bulletphysics.org, 
+Embree http://embree.github.com, 
+FreeImage http://freeimage.sourceforge.net, 
+FreeType http://freetype.sourceforge.net, 
+Geometric Tools http://www.geometrictools.com, 
+k-d tree point cloud: Henrik Wann Jensen, 
+libCurl http://curl.haxx.se/libeurl/, 
+libjpeg http://www.ijg.org, 
+libtiff http://www.libtiff.org, 
+numpy http://www.numpy.org, 
+OpenEXR http://www.openexr.com, 
+OpenSSL http://www.openssl.org, 
+pcre http://www.pcre.org, 
+PIL http://www.pythonware.com/products/pil, 
+pthreads http://sourceware.org/pthreads-win32, 
+Python http://www.python.org, 
+pthreads http://sourceware.org/pthreads-win32, 
+SFMT http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT, 
+XMLRPC++ http://xmlrpepp.sourceforge.net, 
+XMP http://www.adobe.com/products/xmp 
+Other Content that is subject to third-party 
 rights included with Program and Documentation is copyrighted 
 and owned by the original Content creators. 
