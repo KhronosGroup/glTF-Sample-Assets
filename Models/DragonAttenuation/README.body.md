@@ -42,13 +42,13 @@ If the dragon appears a deep red color, it may indicate that node scaling has no
 
 See the "Node Scale" row of the [Attenuation Test Model](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/AttenuationTest) for an example of this effect using uniform thickness values.
 
-## Attribution for the Dragon 
+## Attribution for the Dragon
 
-The dragon model is based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data).  
+The dragon model is based on the one from [Morgan McGuire's Computer Graphics Archive](https://casual-effects.com/data). \
 Original dragon mesh data based on a [Stanford Scan](http://www.graphics.stanford.edu/data/3Dscanrep/)
 &copy; 1996 Stanford University.
 
 ## Attribution for the Cloth Backdrop
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/) \
 To the extent possible under law, Adobe has waived all copyright and related or neighboring rights to this asset [the cloth backdrop].
