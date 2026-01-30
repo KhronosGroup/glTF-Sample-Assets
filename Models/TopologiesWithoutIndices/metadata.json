@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "prefrontal cortex", 
+            "owner": "public",
+            "year": "2024",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "core",
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "Topologies without indices",
+    "path": "./Models/TopologiesWithoutIndices",
+    "summary": "Lines, LineStrips, LineLoops, Triangles, TriangleStrips and TriangleFans primitives without indices.",
+    "createReadme": true
+}
