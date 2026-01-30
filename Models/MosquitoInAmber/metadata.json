@@ -10,7 +10,7 @@
             "what": "Model",
             "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
-            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+            "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
         },
         {
             "license": "CC-BY 4.0",
@@ -21,7 +21,7 @@
             "what": "Real-time refraction",
             "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
-            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+            "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
         }
     ],
     "tags": [

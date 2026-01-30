@@ -10,11 +10,11 @@
             "what": "Model and textures and all images in the README.md",
             "text": "CC BY 4.0 International",
             "spdx": "CC-BY-4.0",
-            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+            "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
         },
         {
             "license": "LicenseRef-LegalMark-Khronos",
-            "licenseUrl": "",
+            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
             "artist": "Non-copyrightable logo",
             "year": "2015",
             "owner": "Khronos Group",
@@ -25,7 +25,7 @@
         },
         {
             "license": "LicenseRef-LegalMark-Khronos",
-            "licenseUrl": "",
+            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
             "artist": "Non-copyrightable logo",
             "year": "2017",
             "owner": "Khronos Group",

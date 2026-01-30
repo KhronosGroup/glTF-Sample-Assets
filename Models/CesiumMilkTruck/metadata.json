@@ -14,7 +14,7 @@
         },
         {
             "license": "LicenseRef-LegalMark-Cesium",
-            "licenseUrl": "",
+            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Cesium.txt",
             "artist": "Non-copyrightable logo",
             "year": "2015",
             "owner": "Cesium",

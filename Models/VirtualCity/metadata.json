@@ -5,7 +5,7 @@
             "year": 2017,
             "owner": "3DRT",
             "license": "LicenseRef-3DRT-Testing",
-            "licenseUrl": "",
+            "licenseUrl": "../../LICENSES/LicenseRef-3DRT-Testing.txt",
             "artist": "3DRT",
             "what": "Everything",
             "text": "3DRT license with allowances for glTF Testing",
