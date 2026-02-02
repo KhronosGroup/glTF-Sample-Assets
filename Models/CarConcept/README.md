@@ -33,11 +33,11 @@ Concept car with Khronos logos and material variants
 
 ## Description
 
-This asset represents an automotive "concept car" with material variants. 
+This asset represents an automotive "concept car" with material variants.
 
 The asset was started from a public domain [3D model created by Unity Fan](https://sketchfab.com/3d-models/free-concept-car-004-public-domain-cc0-4cba124633eb494eadc3bb0c4660ad7e), then optimized and converted into a well-formed glTF asset, to showcase the potential for high graphical quality in glTF while maintaining a small download size.
 
-Instructions are provided on how to create similar assets using current industry-accepted 3D content creation techniques. 
+Instructions are provided on how to create similar assets using current industry-accepted 3D content creation techniques.
 
 
 ## Model Cleanup
@@ -57,9 +57,9 @@ To solve this, animation import was disabled, the model was re-imported, the bon
 
 ## Names and Pivots
 
-Model parts were changed to use logical names. This helps keep the model organized, and makes it easier for others to use the asset. 
+Model parts were changed to use logical names. This helps keep the model organized, and makes it easier for others to use the asset.
 
-Meshes had their transforms reset. This means the positions, rotations, and scales of the meshes were set to the default values. Clean transforms are necessary for a well-formed 3D asset, as they allow renderers and editing tools to transform the parts accurately. 
+Meshes had their transforms reset. This means the positions, rotations, and scales of the meshes were set to the default values. Clean transforms are necessary for a well-formed 3D asset, as they allow renderers and editing tools to transform the parts accurately.
 
 ![A screenshot of the mesh names, hierarchies, and the door being rotated open.](screenshot/naming_hierarchy_pivots.jpg)
 <br/>_The mesh names and hierarchies, and the left door being rotated open._
@@ -69,7 +69,7 @@ Meshes were linked together into hierarchies and pivots were adjusted, so parts 
 
 ## Double-Sided Surfaces
 
-Many parts in the source model were created as shells with thickness. This is inefficient for web 3D delivery, because it doubles the vertex count, which increases the file size for downloading, as well as the memory size and transform cost for rendering. 
+Many parts in the source model were created as shells with thickness. This is inefficient for web 3D delivery, because it doubles the vertex count, which increases the file size for downloading, as well as the memory size and transform cost for rendering.
 
 Instead of using costly extra vertices, these meshes can use the glTF material property `"doubleSided": true` as needed to force the backsides to be rendered.
 
@@ -79,7 +79,7 @@ Instead of using costly extra vertices, these meshes can use the glTF material p
 
 ## UV Coordinates
 
-Consistently-scaled and low-distortion texture coordinates were needed for the car body panels. The car paint materials use a normal map made of per-pixel noise, to emulate the effect of fine metallic flakes embedded within the paint. 
+Consistently-scaled and low-distortion texture coordinates were needed for the car body panels. The car paint materials use a normal map made of per-pixel noise, to emulate the effect of fine metallic flakes embedded within the paint.
 
 ![A screenshot of the red car paint material, with bright metallic flakes.](screenshot/car_paint_closeup.jpg)
 <br/>_The metallic flakes in the red car paint._
@@ -87,12 +87,12 @@ Consistently-scaled and low-distortion texture coordinates were needed for the c
 ![A screenshot of the texture coordinates, before and after cleanup. A texture with dark green and gray circles is used to show distortions, and bright green lines indicate UV seams.](screenshot/texture_coordinates.jpg)
 <br/>_Texture coordinates before and after. A circles texture helps show distortions, and UV seams are bright green._
 
-New UVs were generated for the body panels using the Least Squares Conformal Map (LSCM) technique, which minimizes distortion while requiring less cuts or seams. 
+New UVs were generated for the body panels using the Least Squares Conformal Map (LSCM) technique, which minimizes distortion while requiring less cuts or seams.
 
 
 ## Small Parts Removal
 
-The source model had many small parts which were removed to make a smaller file size. Individual nuts and bolts can add nice details to a model but they also increase the file size. Tradeoffs like these need to be made to achieve efficient real-time 3D models. 
+The source model had many small parts which were removed to make a smaller file size. Individual nuts and bolts can add nice details to a model but they also increase the file size. Tradeoffs like these need to be made to achieve efficient real-time 3D models.
 
 ![Two screenshots of the car interior, with bolts and without them.](screenshot/small_feature_removal.jpg)
 <br/>_Bolts on the door panels, before and after removal._
@@ -106,7 +106,7 @@ The source model had many small parts which were removed to make a smaller file 
 
 ## Wheels
 
-The black rubber wheels in the original model used detailed geometry for the treads. This was removed and a simple tube mesh was created with a tiled normal map. 
+The black rubber wheels in the original model used detailed geometry for the treads. This was removed and a simple tube mesh was created with a tiled normal map.
 
 This approach offered significant savings by reducing the number of vertices used by each wheel, from 10,260 down to only 324. A normal map also looked better at a distance than geometry alone, because texture filtering avoided the jagged edges caused by mesh aliasing.
 
@@ -116,27 +116,27 @@ This approach offered significant savings by reducing the number of vertices use
 The tread texture started with a CC0 vector file, was converted into a normal map, then was cropped to the smallest repeating segment, and scaled to the nearest powers-of-two dimensions (512 x 128).
 
 
-## Ambient Occlusion 
+## Ambient Occlusion
 
-Ambient occlusion (AO) can be added for increased rendering realism. This effect creates soft shadowing from environment lighting, which mimics the effect of real-world lighting. 
+Ambient occlusion (AO) can be added for increased rendering realism. This effect creates soft shadowing from environment lighting, which mimics the effect of real-world lighting.
 
 ![Two screenshots of the car interior, without and with ambient occlusion.](screenshot/ambient_occlusion.jpg)
 <br/>_Without ambient occlusion (left) versus with occlusion._
 
-AO vastly improves render quality when using a real-time _rasterizer_, which is the rendering technology used for augmented reality and with most web 3D viewers because it is very fast and thus interactive. 
+AO vastly improves render quality when using a real-time _rasterizer_, which is the rendering technology used for augmented reality and with most web 3D viewers because it is very fast and thus interactive.
 
 glTF assets can also be used by _pathtracers_ which are typically not real-time since they calculate all reflections and bounce lighting and shading. Pathtracers will simply ignore the AO texture if provided.
 
 AO was baked for the model using [RapidPipeline 3D Processor](https://docs.rapidpipeline.com/docs/componentDocs/3dProcessor/3d-processor-overview) which has the option to create a new second UV set automatically, and bake a single AO texture for the whole asset. This avoided each material requiring its own separate AO texture, which would have greatly increased the file size.
 
-RapidPipeline takes transmission and alpha into account when baking ambient occlusion. This prevents the windshield and other windows from occluding and darkening the interior. The glass also does not use texture space in the occlusion texture, improving the texture resolution for the rest of the model.  
+RapidPipeline takes transmission and alpha into account when baking ambient occlusion. This prevents the windshield and other windows from occluding and darkening the interior. The glass also does not use texture space in the occlusion texture, improving the texture resolution for the rest of the model.
 
-The hood, doors, and rear hatch were rotated into an open position, prior to baking the occlusion. This prevented occlusion from over-darkening the interior parts of the car, and helps improve shading if these parts are opened up interactively. After baking, the rotated parts were reset to their original "closed" rotations. 
+The hood, doors, and rear hatch were rotated into an open position, prior to baking the occlusion. This prevented occlusion from over-darkening the interior parts of the car, and helps improve shading if these parts are opened up interactively. After baking, the rotated parts were reset to their original "closed" rotations.
 
 ![Occlusion texture on the car exterior with the doors open.](screenshot/occlusion-doors-open.jpg)
 <br/>_Ambient occlusion was baked with doors rotated open._
 
-After closing the doors, the car paint materials displaued some unwanted shadows, where the panels had received occlusion from the open doors. To remove these shadows, the occlusionTextures in the car paint materials were set to `"strength": 0`. This was better than completely removing occlusion from these materials, because that caused the glTF Validator to spawn Warnings for unused texture coordinates. 
+After closing the doors, the car paint materials displaued some unwanted shadows, where the panels had received occlusion from the open doors. To remove these shadows, the occlusionTextures in the car paint materials were set to `"strength": 0`. This was better than completely removing occlusion from these materials, because that caused the glTF Validator to spawn Warnings for unused texture coordinates.
 
 ![Three screenshots of the car exterior, showing unwanted shadowing on the car paint.](screenshot/occlusion-car-paint.jpg)
 <br/>_Ambient occlusion was baked with doors open (left). Shadowing remained after closing the doors (middle). Setting the car paint occlusionTexture to zero removed unwanted shadows (right)._
@@ -174,7 +174,7 @@ Four versions of the car asset were created using [RapidPipeline 3D Processor](h
 
 The BasisU texture format in a KTX2 container stays compressed when the asset is uploaded to the GPU for rendering, which decreases the video memory cost from 48.8 MB down to 14.9 MB, and also reduces the time spent decompressing JPEG or PNG textures. These performance savings are especially important for configurators or any rendering setup that loads and unloads multiple models in a session.
 
-Only the `\glTF-KTX-BasisU-Draco` version uses geometry compression. The other versions could significantly reduce their download sizes by adding geometry compression. Typically the asset in the \glTF folder does not use geometry compression, but the assets in the other folders could implement this in the future by submitting a pull request with geometry compression applied. 
+Only the `\glTF-KTX-BasisU-Draco` version uses geometry compression. The other versions could significantly reduce their download sizes by adding geometry compression. Typically the asset in the \glTF folder does not use geometry compression, but the assets in the other folders could implement this in the future by submitting a pull request with geometry compression applied.
 
 
 ## Material Variants
@@ -185,13 +185,13 @@ Only the `\glTF-KTX-BasisU-Draco` version uses geometry compression. The other v
 <br/>_Variants can be viewed in the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)._
 
 To create the variants structure in a glTF file, it helps to examine an existing asset that has material variants already. In this case the [SheenChair.gltf](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenChair) from the glTF Sample Assets repo was used.
-    
+
 The "extensionsUsed" section of the car glTF needed "KHR_materials_variants" to be added. Then the "extensions" section from SheenChair was copied and added to the car glTF as a starting point. The names of the variants were edited, since these are the visible names which will appear in the UI as choices the user can pick. The car asset has three material variants: Carmine Candy, Pearly Swirly, and Torched Graphite.
 
 ![A screenshot of the car glTF in Visual Studio Code with the "extensions" section selected, showing the variant names.](screenshot/variants_extensions.jpg)
 <br/>_The "extensions" section for the car, with the variant names._
 
-In the "Materials" section of the car glTF, a material was chosen that needed a new variant created for it. All the lines that define this material were selected, copied, then pasted as a new material at the end of the Materials section. 
+In the "Materials" section of the car glTF, a material was chosen that needed a new variant created for it. All the lines that define this material were selected, copied, then pasted as a new material at the end of the Materials section.
 
 ![A screenshot of the car glTF in Visual Studio Code with the "Paint 1" material selected.](screenshot/variants_paint1_copy.jpg)
 <br/>_This "Paint 1 Carmine" material was selected and copied to start a new variant._
@@ -201,7 +201,7 @@ The new material was renamed. This is optional but unique names help keep the sc
 ![A screenshot of the car glTF in Babylon.js Sandbox with the material editing interface.](screenshot/babylon_material_editing.jpg)
 <br/>_Editing material values in the Babylon.js Sandbox._
 
-To understand which materials need to be assigned to each variant, it helps to compile a material index list. These indices are numbers used internally by the glTF asset to identify which material is which. In Visual Studio Code, the "Materials" section was examined, and a list was made of the materials in the order they appeared in. 
+To understand which materials need to be assigned to each variant, it helps to compile a material index list. These indices are numbers used internally by the glTF asset to identify which material is which. In Visual Studio Code, the "Materials" section was examined, and a list was made of the materials in the order they appeared in.
 
 Indices start with zero. In this list, 0-21 were the indices that were discovered to correspond to each of the car materials. New indices were then added afterwards, for the additional new materials which would be created for the variants.
 
@@ -236,15 +236,15 @@ Indices start with zero. In this list, 0-21 were the indices that were discovere
 25  Paint 2 Graphite
 26  Interior 3 Pearl
 27  Interior 3 Graphite
-28  Panel Sides 
+28  Panel Sides
 ```
 
-To designate which materials are used by which variants, an "extensions" section needed to be added to each of the meshes in the "Meshes" section of the car glTF. The SheenChair.gltf sample asset was used to copy the proper syntax. 
-    
+To designate which materials are used by which variants, an "extensions" section needed to be added to each of the meshes in the "Meshes" section of the car glTF. The SheenChair.gltf sample asset was used to copy the proper syntax.
+
 ![A screenshot of the SheenChair glTF in Visual Studio Code with the "extensions" section selected, showing the variant and material indices.](screenshot/variants_meshes_extensions.jpg)
 <br/>_The "extenions" section from SheenChair.gltf_
 
-In the "Meshes" section of the car glTF, a mesh was found which needed to have its materials switched. The copied "extensions" section was then pasted in as a child inside the "primitives" section. This "extenstions" section will control which materials are assigned to the mesh whenever a user chooses that variant. 
+In the "Meshes" section of the car glTF, a mesh was found which needed to have its materials switched. The copied "extensions" section was then pasted in as a child inside the "primitives" section. This "extenstions" section will control which materials are assigned to the mesh whenever a user chooses that variant.
 
 The values inside it were then edited to match the number of variants. The car uses three so these were the numbered "variants": `0` for Carmine Candy, `1` for Pearly Swirly, and `2` for Torched Graphite. Then the "material" indices were edited to match the numbers from the Material Index List above: `11` for Paint 1 Carmine, `22` for Paint 1 Pearl, and `23` for Paint 1 Graphite.
 
@@ -256,9 +256,9 @@ This process was repeated for each mesh that would get its materials changed, wh
 
 ### Testing the Material Variants
 
-The [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) has an easy way to test variants. 
+The [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) has an easy way to test variants.
 
-1. Drag-and-drop your edited glTF file (along with its BIN file and textures) into the Sample Viewer. 
+1. Drag-and-drop your edited glTF file (along with its BIN file and textures) into the Sample Viewer.
 1. In the Models tab, click on the variant radio buttons at lower right.
 
 ![A screenshot of the car glTF in glTF Sample Viewer with the variant selection interface.](screenshot/sample_viewer_variants.jpg)
@@ -267,7 +267,7 @@ The [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)
 
 ## Metallic Flake Car Paint
 
-The red car variant uses a couple tricks to emulate the sparkly look of metallic flake car paint. 
+The red car variant uses a couple tricks to emulate the sparkly look of metallic flake car paint.
 
 * Metallic base
 * Normal map with noise
@@ -279,13 +279,13 @@ The red car variant uses a couple tricks to emulate the sparkly look of metallic
 
 The red car paint uses a low-roughness metallic base layer for reflective contrast and colored reflections, a normal map containing per-pixel noise for the metallic flakes, nearest-neighbor texture filtering on the normal map to keep it sharp at close distances, and a clearcoat layer on top for smooth shiny reflections.
 
-Image textures in glTF can use Sampling filters to customize how they are antialiased at render time. To assign "nearest-neighbor" filtering to the flakes normal map, the car asset was loaded in the [Babylon.js Sandbox](https://sandbox.babylonjs.com/) which allows filtering to be tested interactively on individual textures. The filter "Nearest & linear mip" worked well for the red metallic flake effect, so a GLB was exported, then opened in Visual Studio Code to get the filtering codes to use. 
+Image textures in glTF can use Sampling filters to customize how they are antialiased at render time. To assign "nearest-neighbor" filtering to the flakes normal map, the car asset was loaded in the [Babylon.js Sandbox](https://sandbox.babylonjs.com/) which allows filtering to be tested interactively on individual textures. The filter "Nearest & linear mip" worked well for the red metallic flake effect, so a GLB was exported, then opened in Visual Studio Code to get the filtering codes to use.
 
 ![Using the Babylon.js Sandbox to set Sampling, exporting to GLB, and extracting values in VS Code.](screenshot/sampling-filter.jpg)
 <br/>_Using the Babylon.js Sandbox to set the Sampling type, exporting it to GLB, and extracting the values in VS Code._
 
 
-## Using the glTF Validator 
+## Using the glTF Validator
 
 It is important to use the [glTF Validator](https://github.khronos.org/glTF-Validator/) to test glTF assets periodically throughout the creation process, and especially at the end. Well-formed glTF models will behave in a predictable manner when used across the ecosystem, in different viewers and renderers, as well as when importing into other tools for editing.
 

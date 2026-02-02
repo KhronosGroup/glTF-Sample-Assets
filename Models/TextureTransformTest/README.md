@@ -27,10 +27,10 @@ Tests if the KHR_texture_transform extension is supported for BaseColor.
 
 This model demonstrates the usage of the KHR_texture_transform extension. There are six quads in this model using two main textures.
 
-UV  
+UV \
 <img src="glTF/UV.png" height="172" height="172" />
 
-Arrow  
+Arrow \
 <img src="glTF/Arrow.png" height="86" height="86" />
 
 Note: Both textures have a gray border and use a sampler that clamps and disables mipmapping.
@@ -41,7 +41,7 @@ The top row tests different combinations of the offset parameter with UV coordin
 
 ### Rotation
 
-The bottom left quad tests the rotation parameter with UV coordinates of `(0.0, 0.0)` to `(1.0, 1.0)` and a rotation angle of `‪0.392699‬` radians or `22.5` degrees, using the arrow texture. The green marker indicates the correct rotation. The yellow marker indicates the rotation was not applied. The red marker indicates the rotation was applied in the opposite direction.
+The bottom left quad tests the rotation parameter with UV coordinates of `(0.0, 0.0)` to `(1.0, 1.0)` and a rotation angle of `0.392699` radians or `22.5` degrees, using the arrow texture. The green marker indicates the correct rotation. The yellow marker indicates the rotation was not applied. The red marker indicates the rotation was applied in the opposite direction.
 
 ### Scale
 

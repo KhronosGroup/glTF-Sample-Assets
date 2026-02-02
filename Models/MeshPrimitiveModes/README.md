@@ -29,7 +29,7 @@ The example contains seven meshes, each with one mesh primitive. All mesh primit
 ```
        3
    4       2
-       0   
+       0
    5       1
        6
 ```
