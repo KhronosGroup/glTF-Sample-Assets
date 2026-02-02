@@ -59,4 +59,3 @@ and the remainder will be frozen the entire time.
 
 BabylonJS has shared some technical details of their "Infinite Morph Targets" implementation
 in [this YouTube video](https://www.youtube.com/watch?v=LBPRmGgU0PE).
-

@@ -1,52 +1,52 @@
-{ 
-  "buffers":[ 
-    { 
+{
+  "buffers":[
+    {
       "uri":"Duck.bin",
       "byteLength":63656
     }
   ],
-  "asset":{ 
+  "asset":{
     "version":"2.0",
     "generator":"gltfpack 0.13"
   },
-  "extensionsUsed":[ 
+  "extensionsUsed":[
     "KHR_mesh_quantization",
     "KHR_texture_transform"
   ],
-  "extensionsRequired":[ 
+  "extensionsRequired":[
     "KHR_mesh_quantization"
   ],
-  "bufferViews":[ 
-    { 
+  "bufferViews":[
+    {
       "buffer":0,
       "byteOffset":0,
       "byteLength":9596,
       "byteStride":4,
       "target":34962
     },
-    { 
+    {
       "buffer":0,
       "byteOffset":9596,
       "byteLength":19192,
       "byteStride":8,
       "target":34962
     },
-    { 
+    {
       "buffer":0,
       "byteOffset":28788,
       "byteLength":9596,
       "byteStride":4,
       "target":34962
     },
-    { 
+    {
       "buffer":0,
       "byteOffset":38384,
       "byteLength":25272,
       "target":34963
     }
   ],
-  "accessors":[ 
-    { 
+  "accessors":[
+    {
       "bufferView":0,
       "byteOffset":0,
       "componentType":5120,
@@ -54,31 +54,31 @@
       "type":"VEC3",
       "normalized":true
     },
-    { 
+    {
       "bufferView":1,
       "byteOffset":0,
       "componentType":5123,
       "count":2399,
       "type":"VEC3",
-      "min":[ 
+      "min":[
         0,
         0,
         0
       ],
-      "max":[ 
+      "max":[
         16383,
         15251,
         11411
       ]
     },
-    { 
+    {
       "bufferView":2,
       "byteOffset":0,
       "componentType":5123,
       "count":2399,
       "type":"VEC2"
     },
-    { 
+    {
       "bufferView":3,
       "byteOffset":0,
       "componentType":5123,
@@ -86,30 +86,30 @@
       "type":"SCALAR"
     }
   ],
-  "images":[ 
-    { 
+  "images":[
+    {
       "uri":"DuckCM.png"
     }
   ],
-  "textures":[ 
-    { 
+  "textures":[
+    {
       "source":0
     }
   ],
-  "materials":[ 
-    { 
+  "materials":[
+    {
       "name":"blinn3-fx",
-      "pbrMetallicRoughness":{ 
-        "baseColorTexture":{ 
+      "pbrMetallicRoughness":{
+        "baseColorTexture":{
           "index":0,
           "texCoord":0,
-          "extensions":{ 
-            "KHR_texture_transform":{ 
-              "offset":[ 
+          "extensions":{
+            "KHR_texture_transform":{
+              "offset":[
                 0.0264090002,
                 0.019963026
               ],
-              "scale":[ 
+              "scale":[
                 0.000233684244,
                 0.000234450286
               ]
@@ -120,11 +120,11 @@
       }
     }
   ],
-  "meshes":[ 
-    { 
-      "primitives":[ 
-        { 
-          "attributes":{ 
+  "meshes":[
+    {
+      "primitives":[
+        {
+          "attributes":{
             "NORMAL":0,
             "POSITION":1,
             "TEXCOORD_0":2
@@ -136,22 +136,22 @@
       ]
     }
   ],
-  "nodes":[ 
-    { 
+  "nodes":[
+    {
       "mesh":0,
-      "translation":[ 
+      "translation":[
         -0.692984998,
         0.0992936939,
         -0.613281965
       ],
-      "scale":[ 
+      "scale":[
         0.000101006161,
         0.000101006161,
         0.000101006161
       ]
     },
-    { 
-      "matrix":[ 
+    {
+      "matrix":[
         0.00999999978,
         0,
         0,
@@ -169,12 +169,12 @@
         0,
         1
       ],
-      "children":[ 
+      "children":[
         2
       ]
     },
-    { 
-      "matrix":[ 
+    {
+      "matrix":[
         -0.72896868,
         0,
         -0.684547067,
@@ -195,18 +195,18 @@
       "camera":0
     }
   ],
-  "scenes":[ 
-    { 
-      "nodes":[ 
+  "scenes":[
+    {
+      "nodes":[
         0,
         1
       ]
     }
   ],
-  "cameras":[ 
-    { 
+  "cameras":[
+    {
       "type":"perspective",
-      "perspective":{ 
+      "perspective":{
         "yfov":0.660592556,
         "znear":1,
         "aspectRatio":1.5,

@@ -3,11 +3,11 @@
   "scenes" : [ {
     "nodes" : [ 0 ]
   } ],
-  
+
   "nodes" : [ {
     "mesh" : 0
   } ],
-  
+
   "meshes" : [ {
     "primitives" : [ {
       "attributes" : {
@@ -16,12 +16,12 @@
       "indices" : 0
     } ]
   } ],
-  
+
   "buffers" : [ {
     "uri" : "data:application/gltf-buffer;base64,AAAIAAcAAAABAAgAAQAJAAgAAQACAAkAAgAKAAkAAgADAAoAAwALAAoAAwAEAAsABAAMAAsABAAFAAwABQANAAwABQAGAA0AAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAQAAAAAAAAAAAAABAQAAAAAAAAAAAAACAQAAAAAAAAAAAAACgQAAAAAAAAAAAAADAQAAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAAAAQAAAgD8AAAAAAABAQAAAgD8AAAAAAACAQAAAgD8AAAAAAACgQAAAgD8AAAAAAADAQAAAgD8AAAAACAAKAAwAAAAAAIA/AAAAQAAAAAAAAEBAAABAQAAAAAAAAKBAAACAQAAAAAA=",
     "byteLength" : 284
   } ],
-  
+
   "bufferViews" : [ {
     "buffer" : 0,
     "byteOffset" : 0,
@@ -40,7 +40,7 @@
     "byteOffset" : 248,
     "byteLength" : 36
   } ],
-  
+
   "accessors" : [ {
     "bufferView" : 0,
     "byteOffset" : 0,
@@ -70,7 +70,7 @@
       }
     }
   } ],
-  
+
   "asset" : {
     "version" : "2.0"
   }

@@ -23,4 +23,3 @@ This model demonstrates the orientation of texture coordinates.  The materials a
     "type" : "VEC2"
 },
 ```
-

@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This Repository is a curated collection of glTF models that illustrate one or more features or capabilities of glTF. 
+This Repository is a curated collection of glTF models that illustrate one or more features or capabilities of glTF.
 
 ## Lists
 

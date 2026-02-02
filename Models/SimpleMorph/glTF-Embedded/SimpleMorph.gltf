@@ -36,7 +36,7 @@
       ]
     }
   ],
-  
+
   "animations":[
     {
       "samplers":[
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  
+
   "buffers":[
     {
       "uri":"data:application/gltf-buffer;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAA/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAA=",
@@ -185,7 +185,7 @@
       ]
     }
   ],
-  
+
   "asset":{
     "version":"2.0"
   }

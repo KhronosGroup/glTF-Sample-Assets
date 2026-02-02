@@ -17,4 +17,3 @@ Model by Loïc Norgeot and mosquito scan by Geoffrey Marchal for Sketchfab licen
 - License: [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
 - Source: [real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1](https://sketchfab.com/3d-models/real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1)
 - Generator: "Sketchfab-7.51.0, hand-edited to add additional PBR glTF extensions."
-
