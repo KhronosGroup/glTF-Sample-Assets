@@ -14,7 +14,7 @@
       "translation" : [ 1.0, 0.0, 0.0 ]
     }
   ],
-  
+
   "meshes" : [
     {
       "primitives" : [ {
@@ -77,9 +77,8 @@
       "min" : [ 0.0, 0.0, 1.0 ]
     }
   ],
-  
+
   "asset" : {
     "version" : "2.0"
   }
 }
-
