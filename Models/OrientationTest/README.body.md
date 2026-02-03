@@ -17,4 +17,3 @@ Thus, if each colored arrow points directly at a target of the same color, the t
 This failed render shows what happens if the rotation quaternions are converted to transposed rotations (in this case, converted to a 3x3 rotation matrix that was transposed).  This same effect is caused if there is confusion between row-major and column-major matrix ordering.
 
 This image shows the red, green, and blue arrows, which all use rotation quaternions on the three axes.  On the opposite sides of the cube, the cyan, magenta, and yellow arrows perform the same kinds of tests (with slightly different angles) using node orientation matrices in the glTF directly.  Thus, it's possible that only one set or the other set of arrows will fail the test.
-

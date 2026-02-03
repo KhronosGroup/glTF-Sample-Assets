@@ -3,7 +3,7 @@
   "scenes" : [ {
     "nodes" : [ 0, 1 ]
   } ],
-  
+
   "nodes" : [ {
     "skin" : 0,
     "mesh" : 0
@@ -13,7 +13,7 @@
     "translation" : [ 0.0, 1.0, 0.0 ],
     "rotation" : [ 0.0, 0.0, 0.0, 1.0 ]
   } ],
-  
+
   "meshes" : [ {
     "primitives" : [ {
       "attributes" : {
@@ -29,7 +29,7 @@
     "inverseBindMatrices" : 4,
     "joints" : [ 1, 2 ]
   } ],
-  
+
   "animations" : [ {
     "channels" : [ {
       "sampler" : 0,
@@ -44,7 +44,7 @@
       "output" : 6
     } ]
   } ],
-  
+
   "buffers" : [ {
     "uri" : "data:application/gltf-buffer;base64,AAABAAMAAAADAAIAAgADAAUAAgAFAAQABAAFAAcABAAHAAYABgAHAAkABgAJAAgAAAAAvwAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAvwAAAD8AAAAAAAAAPwAAAD8AAAAAAAAAvwAAgD8AAAAAAAAAPwAAgD8AAAAAAAAAvwAAwD8AAAAAAAAAPwAAwD8AAAAAAAAAvwAAAEAAAAAAAAAAPwAAAEAAAAAA",
     "byteLength" : 168
@@ -58,7 +58,7 @@
     "uri" : "data:application/gltf-buffer;base64,AAAAAAAAAD8AAIA/AADAPwAAAEAAACBAAABAQAAAYEAAAIBAAACQQAAAoEAAALBAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAkxjEPkSLbD8AAAAAAAAAAPT9ND/0/TQ/AAAAAAAAAAD0/TQ/9P00PwAAAAAAAAAAkxjEPkSLbD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAkxjEvkSLbD8AAAAAAAAAAPT9NL/0/TQ/AAAAAAAAAAD0/TS/9P00PwAAAAAAAAAAkxjEvkSLbD8AAAAAAAAAAAAAAAAAAIA/",
     "byteLength" : 240
   } ],
-  
+
   "bufferViews" : [ {
     "buffer" : 0,
     "byteLength" : 48,
@@ -124,7 +124,7 @@
     "max" : [ 0.0, 0.0, 0.707, 1.0 ],
     "min" : [ 0.0, 0.0, -0.707, 0.707 ]
   } ],
- 
+
   "asset" : {
     "version" : "2.0"
   }

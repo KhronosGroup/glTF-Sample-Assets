@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="width=device-width, height=device-height, minimum-scale=1.0, initial-scale=1.0, user-scalable=0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
     <title>Sample Asset Metadata Generator</title>
-  
+
     <meta name="description" content="Assists the model submitter in generating the Metadata JSON file required for all models.">
     <meta property="og:title" content="The Khronos Group">
     <meta property="og:description" content="Deploying and developing royalty-free open standards for 3D graphics, Virtual and Augmented Reality, Parallel Computing, Neural Networks, and Vision Processing">
@@ -30,13 +30,13 @@
 .noshow {display:none; }
 	</style>
   </head>
-  
+
 <body>
 <div class='container'>
 <h1>Metadata Generator for glTF Sample Assets</h1>
 <h2 class='text-warning'>DRAFT - Testing & Development Only</h2>
 <h2>Introduction</h2>
-<p>All submissions to the glTF Sample Asset repo must include a JSON file containing metadata. 
+<p>All submissions to the glTF Sample Asset repo must include a JSON file containing metadata.
 This page prompts the user for the required and optional information and generates the
 JSON for the user.</p>
 
@@ -129,12 +129,12 @@ JSON for the user.</p>
 				<input type="button" id="CreateLegal" value="Create Another Legal Record" data-count="#LegalCount">
 			</div>
 		</div>
-		
+
 		<div style="margin-top:2em; ">
 			<input id='CreateJson' type='submit' value='Create JSON'>
 		</div>
 	</form>
-	
+
 	<textarea id='JSON' cols='80' rows='24'>
 	</textarea>
 </div>
@@ -232,7 +232,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		for (key in scalars) {
 			localMetadata[key] = scalars[key];
 		}
-		
+
 		// Deal with Arrays (just one)
 		// Process child elements (check boxes) for TAGS
 		ele = document.getElementById('itemTags');
@@ -245,7 +245,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		if (tags.length > 0) {
 			localMetadata['tags'] = tags;
 		}
-		
+
 		// Deal with Objects (Legal)
 		for (ii=1; ii<(document.getElementById('LegalCount')).value; ii++) {
 			ele = document.getElementById('legal_'+ii);
@@ -257,11 +257,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
 			scalars["icon"] = "";
 			localMetadata['legal'][localMetadata['legal'].length] = scalars;
 		}
-		
-		
+
+
 		// Convert to JSON
 		stringMetadata = JSON.stringify (localMetadata, null, 4);
-	
+
 		eOutput = document.getElementById ('JSON');
 		eOutput.value = stringMetadata;
 	});
@@ -269,4 +269,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 </script>
 </body>
-</html>		
+</html>

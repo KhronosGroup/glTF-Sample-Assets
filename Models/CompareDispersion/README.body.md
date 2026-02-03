@@ -5,4 +5,4 @@
 
 ## Description
 
-This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Dispersion. 
+This model is used on the Khronos glTF PBR website to contrast the omission versus addition of a specific PBR feature; in this case Dispersion.

@@ -30,4 +30,3 @@ The first list includes all extensions used by the current model, so there's no 
 For this reason, I decided to include `KHR_materials_unlit` in the `extensionsRequired` list in this case.  A conforming glTF implementation that does not support the `KHR_materials_unlit` extension should find an unknown value in the `extensionsRequired` list, and report an error rather than loading or displaying the model without the unlit material.
 
 In your own models, if you consider using a lit material to be a reasonable fallback behavior for implementations that don't support this extension, you should omit `KHR_materials_unlit` from the `extensionsRequired` list.
-
