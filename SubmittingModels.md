@@ -95,9 +95,9 @@ Each asset requires detailed information about the asset. The information includ
 
 An asset may have multiple copyrights and/or credits. For example, if Acme, Inc. created a model rocket and Wyle E Coyote animated it; there would be two copyrights, one for the model and one for the animation.
 
-Assets to be incldued in the Sample Asset repository must have a license that allows Khronos to publish the asset and allow others to use the asset in public. Khronos recommends use of a permissive license like [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) or even [Creative Commons 1.0 Universal Public Domain Dedication ](http://creativecommons.org/publicdomain/zero/1.0/). Assets with semi-restrictive licenses may be included in the repository provided arrangments are made prior to the Pull Request being posted.
+Assets to be included in the Sample Asset repository must have a license that allows Khronos to publish the asset and allow others to use the asset in public. Khronos recommends use of a permissive license like [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) or even [Creative Commons 1.0 Universal Public Domain Dedication ](http://creativecommons.org/publicdomain/zero/1.0/). Assets with semi-restrictive licenses may be included in the repository provided arrangements are made prior to the Pull Request being posted.
 
-The system will attemtp to list the copyrights with the oldest one first. Some manual adjustment may be necessary.
+The system will attempt to list the copyrights with the oldest one first. Some manual adjustment may be necessary.
 
 #### Displayed License & Credit Format
 
@@ -112,7 +112,7 @@ The format of the automatically generated credit block is:
 
 ### Tags
 
-All assets in the repository are assigned tags by the asset submittor and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays. 
+All assets in the repository are assigned tags by the asset submitter and potentially by Repository managers. These tags allow others to easily find the asset and related assets. You may assign any tag you wish; however, only a limited number of tags are used to construct the summary displays. 
 
 ### Example Metadata File
 
@@ -141,13 +141,13 @@ The metadata file is always called metadata.json and is located in the model roo
 
 The _legal_ structure contains information about each owner of the model. It comprises of the following elements:
 
-* _what_: What was done to get the model to this stage. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materrials; _Animation_ for movement; and _Conversion_ for converting to glTF.
+* _what_: What was done to get the model to this stage. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materials; _Animation_ for movement; and _Conversion_ for converting to glTF.
 * _artist_: The name of the artist(s) who performed the _what_.
 * _owner_: The owner of the model for this operation. This is may be the _artist_ or the organization responsible for the _artist_. If the work is in the Public Domain, then the _owner_ may be **Public**.
 * _year_: The year the work was created or modified.
 * _license_: The license assigned by the owner. Standard license names should be used and are listed in the table below.
-  * Only Creative Common liceses are listed here. These are generally the most suitable for use with creative content for this repoistory.
-  * _Other_ licenses may be used with agreement prior to submitting the Pull Request.
+  * Only Creative Common licenses are listed here. These are generally the most suitable for use with creative content for this repository.
+  * _Other_ licences may be used with agreement prior to submitting the Pull Request.
 
 
 |  |  |  |  |
