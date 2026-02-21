@@ -18,7 +18,9 @@ This Repository is a curated collection of glTF models that illustrate one or mo
 
 ## Lists
 
-All models are tagged to allow easier access. These lists simplify your access and review of the models. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available
+A website for browsing the sample assets can be found at [https://github.khronos.org/glTF-Assets/](https://github.khronos.org/glTF-Assets/). It allows searching for assets based on keywords and filtering the asset list based on tags. It offers an interactive preview of the sample assets, including basic inspection functionality and a summary of the description of the assets and their metadata.
+
+Additionally, dedicated lists of assets are generated as markdown files, for browsing them directly here on GitHub. All lists include the model name, screen shot, link to display the model in Sample Viewer, a short description, and the license/credits for the model. The following lists are available:
 
 * [Showcase](./Models/Models-showcase.md) (#showcase) for models that are showcased in Khronos publicity. These are usually complex models with high visual quality.
 * [Complete](./Models/Models.md) for a complete list of all models.
