@@ -1,7 +1,7 @@
 ## Screenshot
 
-![A screenshot of the marble run asset in Eoin Mcloughlin's branch of the Babylonjs viewer built to showcase physics.](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [glTF_Physics_Babylon Viewer](https://eoineoineoin.github.io/glTF_Physics_Babylon/packages/demo/dist/#sceneIndex=6)._
+![A screenshot of the marble run asset](screenshot/screenshot_Large.jpg)
+<br/>_Screenshot from [glTF Sample Viewer physics development version](https://github.khronos.org/glTF-Sample-Viewer-Release/physics/)._
 
 ## Description
 
@@ -31,7 +31,7 @@ Models and materials were generated in Autodesk 3ds Max. More information will b
 
 ## Physics and Animation
 
-Physics and animation were set up in Blender 4.3.2 using the [Blender glTF Physics toolset](https://github.com/eoineoineoin/glTF_Physics_Blender_Exporter). More information will be provided later about this process.
+Physics and animation were set up in Blender 5.0.1 using the [Blender glTF Physics toolset](https://github.com/eoineoineoin/glTF_Physics_Blender_Exporter). More information will be provided later about this process.
 
 ## Viewing and Interacting
 
@@ -43,9 +43,15 @@ To run the physics simulation, drag and drop this glTF asset into the [glTF_Phys
    * Moving the mouse will apply a force to the object.
    * Object can be reeled in or out using the mouse wheel.
 
-## To Do's and Challenges
+This can also be loaded in the [glTF Sample Viewer physics development version](https://github.khronos.org/glTF-Sample-Viewer-Release/physics/). Custom controls are avaliable in the Physics tab.
 
-As of December 2025, there is minimal support available for content creators using the new physics extensions. Developing this kind of content requires a lot of trial and error. 
+## To Do's and Challenges February 2026
+Most of the physics issues have been resolved, and duplicate textures have been removed. Some issues remain:
+
+![A screenshot showing rendering differences](screenshot/2026-02-26_issues.jpg)
+
+## To Do's and Challenges December 2025
+There is minimal support available for content creators using the new physics extensions. Developing this kind of content requires a lot of trial and error. 
 
 However, this asset seems to be in a state where it works well enough that other people could contribute their own expertise to help resolve these issues.
 
