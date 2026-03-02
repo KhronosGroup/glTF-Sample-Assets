@@ -1,8 +1,10 @@
 ## Screenshot
 
-![Screenshot from glTF Sample Viewer](screenshot/screenshot_large.jpg)
-<br/>_Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) with the environment Wide Street._
+![Screenshot of the asset in the three.js editor](screenshot/screenshot_large.jpg)
+<br/>_Screenshot from [three.js editor](https://threejs.org/editor/) with the environment Studio Neutral, "Realistic" (pathtraced) versus "Solid" (rasterized)._
 
+![Screenshot of three.js editor settings](screenshot/threejs-editor-lighting.jpg)
+<br/>_Environment lighting settings were adjusted in the three.js editor, to match the lighting as seen in the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)._
 
 ## Description
 
@@ -18,7 +20,7 @@ Various adjustments were made to the original USD asset, for optimal use with gl
  - UVs were adjusted on the outer material ball to reduce seams, by attaching an isolated UV island on the rear, and relaxing the result.
  - An ambient occlusion texture was baked for the outer material ball. 
  - A "thickness" texture was created for use with [KHR_materials_volume](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_volume/README.md#khr_materials_volume), by inverting the normals of the outer material ball mesh, then baking an ambient occlusion texture. This creates something similar to a thickness texture.
- - UVs were created for the "core/base/sss" meshes, and a shared ambient occlusion texture was baked for these three meshes.
+ - UVs were created for the "core" and "base" meshes, and a shared ambient occlusion texture was baked for these two meshes.
 
 ![Ambient occlusion textures shown on the 3d model](screenshot/screenshot_occlusion.jpg)
 <br/>_Ambient occlusion textures shown on the 3d model._
@@ -35,15 +37,13 @@ The inside surface of the red ball was assigned the first set of triangle number
 
 ## Materials
 
-The material ball features two materials, one for the outer "material" surface which is meant to be replaced with whatever material is desired, and the other for the inner surfaces which use a fully-rough and half-gray material.
+The material ball features two materials, one for the outer "material" surface which is meant to be replaced with whatever material is desired, and the other for the inner surfaces which use a fully-rough and 18%-gray material.
 
-The outer "material" surface has been assigned a material with `"baseColorFactor":[1,0,0,0.5]` and `"alphaMode":"BLEND"` simply to reveal the inner surfaces. 
+The outer "material" surface has been assigned a material with [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_transmission/README.md#khr_materials_transmission-) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_volume/README.md#khr_materials_volume). The `thicknessFactor` was set to 1cm to match the thickest parts of the surface. The attenuationColor and attenuationDistance were adjusted to look similar to the USD glass renders.
 
 A flat normal map was added to both materials, to force the generation of tangents since they may be needed by subsequent materials. 
 
 The occlusionTexture strength has been set to 0.5 for both materials; this can be adjusted as needed for subsequent materials.
-
-The `transmissionFactor` was set to 0.01 to force the inclusion of the [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_transmission/README.md#khr_materials_transmission-) extension, which is needed by KHR_materials_volume.
 
 ## Editing and Export
 
