@@ -676,13 +676,8 @@
         0,
         0
       ],
-      "normalTexture": {
-        "index": 0,
-        "texCoord": 0,
-        "scale": 0.01
-      },
       "occlusionTexture": {
-        "index": 1,
+        "index": 0,
         "texCoord": 0,
         "strength": 0.5
       }
@@ -711,7 +706,7 @@
         "KHR_materials_volume": {
           "thicknessFactor": 8.9,
           "thicknessTexture": {
-            "index": 3,
+            "index": 2,
             "texCoord": 0
           },
           "attenuationDistance": 0.01,
@@ -722,13 +717,8 @@
           ]
         }
       },
-      "normalTexture": {
-        "index": 0,
-        "texCoord": 0,
-        "scale": 0.01
-      },
       "occlusionTexture": {
-        "index": 2,
+        "index": 1,
         "texCoord": 0,
         "strength": 0.5
       }
@@ -745,7 +735,7 @@
         "metallicFactor": 0,
         "roughnessFactor": 1,
         "baseColorTexture": {
-          "index": 4,
+          "index": 3,
           "texCoord": 0
         }
       },
@@ -753,39 +743,29 @@
         0,
         0,
         0
-      ],
-      "normalTexture": {
-        "index": 0,
-        "texCoord": 0,
-        "scale": 0.01
-      }
+      ]
     }
   ],
   "textures": [
     {
       "sampler": 0,
-      "name": "flat_nm.png",
+      "name": "core_ao.png",
       "source": 0
     },
     {
       "sampler": 1,
-      "name": "core_ao.png",
+      "name": "material_ao.png",
       "source": 1
     },
     {
       "sampler": 2,
-      "name": "material_ao.png",
+      "name": "material_thick.png",
       "source": 2
     },
     {
       "sampler": 3,
-      "name": "material_thick.png",
-      "source": 3
-    },
-    {
-      "sampler": 4,
       "name": "sss_bars.png",
-      "source": 4
+      "source": 3
     }
   ],
   "samplers": [
@@ -812,20 +792,9 @@
       "minFilter": 9987,
       "wrapS": 33071,
       "wrapT": 33071
-    },
-    {
-      "magFilter": 9729,
-      "minFilter": 9987,
-      "wrapS": 10497,
-      "wrapT": 10497
     }
   ],
   "images": [
-    {
-      "uri": "flat_nm.png",
-      "mimeType": "image/png",
-      "name": "flat_nm.png"
-    },
     {
       "uri": "core_ao.png",
       "mimeType": "image/png",
