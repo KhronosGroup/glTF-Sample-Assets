@@ -552,7 +552,7 @@
       "mesh": 1
     },
     {
-      "name": "material",
+      "name": "material_surface",
       "matrix": [
         0.009999999776482582,
         0,
@@ -688,7 +688,7 @@
       }
     },
     {
-      "name": "material",
+      "name": "material_surface",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -709,7 +709,7 @@
           "transmissionFactor": 1
         },
         "KHR_materials_volume": {
-          "thicknessFactor": 0.01,
+          "thicknessFactor": 8.9,
           "thicknessTexture": {
             "index": 3,
             "texCoord": 0
