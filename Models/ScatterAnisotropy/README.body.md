@@ -1,6 +1,6 @@
 ## Screenshot
 
-![Screenshot of the asset in Babylon.js using OpenPBR](screenshot/screenshot_raytrace.png)
+![Screenshot of the asset in Adobe Substance 3D Stager](screenshot/screenshot_raytrace.png)
 <br/>_Pathtraced render from [Adobe Substance 3D Stager](https://www.adobe.com/products/substance3d/apps/stager.html) with the environment Harties Cliff View._
 ![Screenshot of the asset in Babylon.js using OpenPBR](screenshot/screenshot_rasterizer.png)
 <br/>_Rendered in Babylon.js using OpenPBR material._
