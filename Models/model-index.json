@@ -1443,6 +1443,16 @@
     }
   },
   {
+    "label": "USD Shader Ball for glTF",
+    "name": "USDShaderBallForGltf",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": ["showcase","extension"],
+    "variants": {
+      "glTF": "USDShaderBallForGltf.gltf",
+      "glTF-Binary": "USDShaderBallForGltf.glb"
+    }
+  },
+  {
     "label": "Unicode❤♻Test",
     "name": "Unicode❤♻Test",
     "screenshot": "screenshot/screenshot.png",
