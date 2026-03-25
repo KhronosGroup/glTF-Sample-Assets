@@ -6,7 +6,7 @@
 <br/>_Rendered in Babylon.js using OpenPBR material._
 
 ## Description
-This asset demonstrates varying amounts of scattering and absorption. Note that because this asset includes non-dense scattering, it makes use of the KHR_materials_transmission extension and not the KHR_materials_diffuse_transmission extension.
+This asset demonstrates varying amounts of scattering by varying both the attenuation distance and multiscatterColorFactor. As the scatter color tends to black, the effect of scattering will be replaced by absorption. Note that because this asset includes non-dense scattering, it makes use of the KHR_materials_transmission extension and not the KHR_materials_diffuse_transmission extension.
 
 ## Editing and Export
 The shader ball asset is the USD Standard Shader Ball, converted to glTF. The material setup and export was done in Babylon.js.
