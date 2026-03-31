@@ -42,7 +42,7 @@ Instructions are provided on how to create similar assets using current industry
 
 ## Model Cleanup
 
-The source model is provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edge loop workflows for content authoring.
+The source model is provided in FBX, glTF, and USDz formats. FBX is usually the best for editing because it preserves quads and polygons, which allows edgeloop workflows for content authoring.
 
 The source FBX file has skinned meshes with bone animations, however the meshes have non-uniform and negative transforms, which causes issues when importing the model into [3ds Max](https://www.autodesk.com/products/3ds-max/overview).
 
@@ -74,7 +74,7 @@ Many parts in the source model were created as shells with thickness. This is in
 Instead of using costly extra vertices, these meshes can use the glTF material property `"doubleSided": true` as needed to force the backsides to be rendered.
 
 ![A screenshot of the inner surface of a shell 3ds Max, selected and colored red.](screenshot/inner_surfaces.jpg)
-<br/>_The unseen inner surfaces of shells were deleted, using edge loop selection techniques._
+<br/>_The unseen inner surfaces of shells were deleted, using edgeloop selection techniques._
 
 
 ## UV Coordinates
@@ -136,7 +136,7 @@ The hood, doors, and rear hatch were rotated into an open position, prior to bak
 ![Occlusion texture on the car exterior with the doors open.](screenshot/occlusion-doors-open.jpg)
 <br/>_Ambient occlusion was baked with doors rotated open._
 
-After closing the doors, the car paint materials displayed some unwanted shadows, where the panels had received occlusion from the open doors. To remove these shadows, the occlusionTextures in the car paint materials were set to `"strength": 0`. This was better than completely removing occlusion from these materials, because that caused the glTF Validator to spawn Warnings for unused texture coordinates.
+After closing the doors, the car paint materials displaued some unwanted shadows, where the panels had received occlusion from the open doors. To remove these shadows, the occlusionTextures in the car paint materials were set to `"strength": 0`. This was better than completely removing occlusion from these materials, because that caused the glTF Validator to spawn Warnings for unused texture coordinates.
 
 ![Three screenshots of the car exterior, showing unwanted shadowing on the car paint.](screenshot/occlusion-car-paint.jpg)
 <br/>_Ambient occlusion was baked with doors open (left). Shadowing remained after closing the doors (middle). Setting the car paint occlusionTexture to zero removed unwanted shadows (right)._
@@ -154,7 +154,7 @@ Four versions of the car asset were created using [RapidPipeline 3D Processor](h
 1. `\glTF-KTX-BasisU-Draco` Draco geometry compression with KTX2 texture compression.
     * [Draco](https://google.github.io/draco/): positionQuantization: 10, normalQuantization: 10, uvQuantization: 10.
     * [BasisU](https://github.com/BinomialLLC/basis_universal?tab=readme-ov-file#basis_universal): ETC1S for baseColor, occlusion, and emissive.
-    * BasisU: UASTC for metallicRoughness, normal, and iridescenceThickness.
+    * BasisU: UASTC for metallicRoughness, normal, and iridescencethickness.
 1. `\glTF-JPG` Uncompressed geometry with JPG textures.
     * JPG level 100 for normal maps.
     * JPG level 65 for all other maps.
@@ -242,9 +242,9 @@ Indices start with zero. In this list, 0-21 were the indices that were discovere
 To designate which materials are used by which variants, an "extensions" section needed to be added to each of the meshes in the "Meshes" section of the car glTF. The SheenChair.gltf sample asset was used to copy the proper syntax.
 
 ![A screenshot of the SheenChair glTF in Visual Studio Code with the "extensions" section selected, showing the variant and material indices.](screenshot/variants_meshes_extensions.jpg)
-<br/>_The "extensions" section from SheenChair.gltf_
+<br/>_The "extenions" section from SheenChair.gltf_
 
-In the "Meshes" section of the car glTF, a mesh was found which needed to have its materials switched. The copied "extensions" section was then pasted in as a child inside the "primitives" section. This "extensions" section will control which materials are assigned to the mesh whenever a user chooses that variant.
+In the "Meshes" section of the car glTF, a mesh was found which needed to have its materials switched. The copied "extensions" section was then pasted in as a child inside the "primitives" section. This "extenstions" section will control which materials are assigned to the mesh whenever a user chooses that variant.
 
 The values inside it were then edited to match the number of variants. The car uses three so these were the numbered "variants": `0` for Carmine Candy, `1` for Pearly Swirly, and `2` for Torched Graphite. Then the "material" indices were edited to match the numbers from the Material Index List above: `11` for Paint 1 Carmine, `22` for Paint 1 Pearl, and `23` for Paint 1 Graphite.
 
