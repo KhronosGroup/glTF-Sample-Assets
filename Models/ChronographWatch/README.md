@@ -110,7 +110,7 @@ After adding the texture transforms, the logos were scaled and moved into the co
 
 ## Optimization
 
-The model was imported into Blender for optimization, and the [RapidPipeline Blender Add-On](https://rapidpipeline.com/en/blender/) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
+The model was imported into Blender for optimization, and the [RapidPipeline Blender Add-On](https://docs.rapidpipeline.com/docs/componentDocs/BlenderPlugin/blender-plugin-overview) was used to process different sets of meshes. The meshes were organized into Collections, to allow them to be processed using different optimization settings. 
 
 ![Meshes shown in Blender, organized into Collections](screenshot/blender-collections.jpg)
 <br/>_The meshes in Blender, organized into Collections. The meshes for the watch face are selected and highlighted in green._
