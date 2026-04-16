@@ -1,9 +1,14 @@
 ## Screenshot
 
-![Screenshot from Adobe Substance 3D Stager](screenshot/screenshot_raytraced.png)
+![Screenshot from Adobe Substance 3D Stager](screenshot/raytraced.png)
 <br/>_Screenshot from [Adobe Substance 3D Stager](https://www.adobe.com/products/substance3d/apps/stager.html)._
 
-![Screenshot from Babylon.js](screenshot/screenshot_rasterized.png)
+Rasterizer that supports multiple layers of transparency.
+![Screenshot from Adobe Substance 3D Stager](screenshot/multiple_layered_rasterizer.png)
+<br/>_Screenshot from [Adobe Substance 3D Stager](https://www.adobe.com/products/substance3d/apps/stager.html)._
+
+Rasterizer that only supports a single-layer of transparency. Notice that the volumetric materials include the double-tinting for both sides of the volume as an approximation while the thin-walled materials do not.
+![Screenshot from Babylon.js](screenshot/single_layered_rasterizer.png)
 <br/>_Screenshot from [Babylon.js](https://www.babylonjs.com/)._
 
 ## Description

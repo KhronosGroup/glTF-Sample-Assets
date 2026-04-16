@@ -16,7 +16,7 @@
     "tags": [
         "extension"
     ],
-    "screenshot": "screenshot/screenshot_raytraced.png",
+    "screenshot": "screenshot/raytraced.png",
     "name": "TransmissionTinting",
     "path": "./Models/TransmissionTinting",
     "summary": "Asset for testing transmission tinting for thin-walled and volumetric meshes.",
