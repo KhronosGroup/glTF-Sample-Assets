@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Marco Hutter (https://github.com/javagl/)",
+            "year": "2017",
+            "owner": "Public",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "testing"
+    ],
+    "screenshot": "screenshot/screenshot.png",
+    "name": "NodeVisibilityTest",
+    "path": "./Models/NodeVisibilityTest",
+    "summary": "A test for the KHR_node_visibility extension",
+    "createReadme": true
+}
