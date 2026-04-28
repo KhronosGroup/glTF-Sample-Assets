@@ -1,0 +1,3653 @@
+{
+    "asset": {
+        "copyright": "2025 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 2618748039d15ee0f0b2556842d7d4bc66b8708f",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp_json_ld": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1370,
+            "type": "VEC3",
+            "max": [
+                3.1424999237060549,
+                1.0800001621246338,
+                3.1424999237060549
+            ],
+            "min": [
+                -3.1424999237060549,
+                0.0,
+                -3.1424999237060549
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1370,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1370,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 1370,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 7776,
+            "type": "SCALAR",
+            "max": [
+                1369.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 3343,
+            "type": "VEC3",
+            "max": [
+                2.695894718170166,
+                7.142886161804199,
+                2.6958086490631105
+            ],
+            "min": [
+                -2.6925477981567385,
+                1.754855751991272,
+                -2.692633628845215
+            ]
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 3343,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 3343,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 3343,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5125,
+            "count": 18432,
+            "type": "SCALAR",
+            "max": [
+                3342.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 12069,
+            "type": "VEC3",
+            "max": [
+                4.461443901062012,
+                8.204633712768555,
+                4.4614434242248539
+            ],
+            "min": [
+                -4.462121963500977,
+                0.38515323400497439,
+                -4.462122440338135
+            ]
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5126,
+            "count": 12069,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 12069,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 12069,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 69276,
+            "type": "SCALAR",
+            "max": [
+                12068.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 660,
+            "type": "VEC3",
+            "max": [
+                3.6077330112457277,
+                8.05561637878418,
+                3.612475872039795
+            ],
+            "min": [
+                -0.4878491461277008,
+                5.0547027587890629,
+                -0.5115311145782471
+            ]
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 660,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 660,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 660,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5125,
+            "count": 3504,
+            "type": "SCALAR",
+            "max": [
+                659.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5126,
+            "count": 4972,
+            "type": "VEC3",
+            "max": [
+                0.036760251969099048,
+                0.02153320051729679,
+                1.19209286886246e-9
+            ],
+            "min": [
+                -0.03724365308880806,
+                -0.00035156248486600816,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 4972,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 4972,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5126,
+            "count": 4972,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5125,
+            "count": 17544,
+            "type": "SCALAR",
+            "max": [
+                4971.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 3724,
+            "type": "VEC3",
+            "max": [
+                0.04360107332468033,
+                0.02153320424258709,
+                2.38418573772492e-9
+            ],
+            "min": [
+                -0.04317626357078552,
+                -0.00035156248486600816,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 3724,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 3724,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 3724,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5125,
+            "count": 12948,
+            "type": "SCALAR",
+            "max": [
+                3723.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 12087,
+            "type": "VEC3",
+            "max": [
+                0.05044189468026161,
+                0.02153320237994194,
+                1.19209286886246e-9
+            ],
+            "min": [
+                -0.05092528834939003,
+                -0.0003515628632158041,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 12087,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 12087,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5126,
+            "count": 12087,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5125,
+            "count": 43122,
+            "type": "SCALAR",
+            "max": [
+                12086.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 11664,
+            "type": "VEC3",
+            "max": [
+                0.05044189468026161,
+                0.02153320237994194,
+                1.19209286886246e-9
+            ],
+            "min": [
+                -0.05092528834939003,
+                -0.00035156303783878684,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 11664,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5126,
+            "count": 11664,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 11664,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5125,
+            "count": 41580,
+            "type": "SCALAR",
+            "max": [
+                11663.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 23923,
+            "type": "VEC3",
+            "max": [
+                0.15546874701976777,
+                0.028632812201976777,
+                3.5762786065873799e-9
+            ],
+            "min": [
+                -0.15556640923023225,
+                -0.0004687522887252271,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5126,
+            "count": 23923,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 42,
+            "componentType": 5126,
+            "count": 23923,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 43,
+            "componentType": 5126,
+            "count": 23923,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 44,
+            "componentType": 5125,
+            "count": 84702,
+            "type": "SCALAR",
+            "max": [
+                23922.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 45,
+            "componentType": 5126,
+            "count": 26096,
+            "type": "VEC3",
+            "max": [
+                0.1863378882408142,
+                0.02910156175494194,
+                1.19209286886246e-9
+            ],
+            "min": [
+                -0.18385741114616395,
+                -0.00046875057159923017,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 46,
+            "componentType": 5126,
+            "count": 26096,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 47,
+            "componentType": 5126,
+            "count": 26096,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 48,
+            "componentType": 5126,
+            "count": 26096,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 49,
+            "componentType": 5125,
+            "count": 92340,
+            "type": "SCALAR",
+            "max": [
+                26095.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 50,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "max": [
+                0.014999999664723874,
+                0.0,
+                0.014999999664723874
+            ],
+            "min": [
+                -0.014999999664723874,
+                0.0,
+                -0.014999999664723874
+            ]
+        },
+        {
+            "bufferView": 51,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 52,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 53,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 54,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR",
+            "max": [
+                3.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 16440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 16440,
+            "byteLength": 16440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 32880,
+            "byteLength": 21920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 54800,
+            "byteLength": 10960,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 65760,
+            "byteLength": 31104,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96864,
+            "byteLength": 40116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 136980,
+            "byteLength": 40116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 177096,
+            "byteLength": 53488,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 230584,
+            "byteLength": 26744,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 257328,
+            "byteLength": 73728,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 331056,
+            "byteLength": 144828,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 475884,
+            "byteLength": 144828,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 620712,
+            "byteLength": 193104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 813816,
+            "byteLength": 96552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 910368,
+            "byteLength": 277104,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1187472,
+            "byteLength": 7920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1195392,
+            "byteLength": 7920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1203312,
+            "byteLength": 10560,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1213872,
+            "byteLength": 5280,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1219152,
+            "byteLength": 14016,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1233168,
+            "byteLength": 59664,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1292832,
+            "byteLength": 59664,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1352496,
+            "byteLength": 79552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1432048,
+            "byteLength": 39776,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1471824,
+            "byteLength": 70176,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1542000,
+            "byteLength": 44688,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1586688,
+            "byteLength": 44688,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1631376,
+            "byteLength": 59584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1690960,
+            "byteLength": 29792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1720752,
+            "byteLength": 51792,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1772544,
+            "byteLength": 145044,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1917588,
+            "byteLength": 145044,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2062632,
+            "byteLength": 193392,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2256024,
+            "byteLength": 96696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2352720,
+            "byteLength": 172488,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2525208,
+            "byteLength": 139968,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2665176,
+            "byteLength": 139968,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2805144,
+            "byteLength": 186624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2991768,
+            "byteLength": 93312,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3085080,
+            "byteLength": 166320,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3251400,
+            "byteLength": 287076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3538476,
+            "byteLength": 287076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3825552,
+            "byteLength": 382768,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4208320,
+            "byteLength": 191384,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4399704,
+            "byteLength": 338808,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4738512,
+            "byteLength": 313152,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5051664,
+            "byteLength": 313152,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5364816,
+            "byteLength": 417536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5782352,
+            "byteLength": 208768,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5991120,
+            "byteLength": 369360,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6360480,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6360528,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6360576,
+            "byteLength": 64,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6360640,
+            "byteLength": 32,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6360672,
+            "byteLength": 24,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6360696,
+            "uri": "ScatterColorAndDensity_binary.bin"
+        }
+    ],
+    "images": [
+        {
+            "name": "sampler",
+            "uri": "ScatterColorAndDensity_images/sampler.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "sampler_0",
+            "uri": "ScatterColorAndDensity_images/sampler_0.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "sss_bars (Base Color)",
+            "uri": "ScatterColorAndDensity_images/sss_bars (Base Color).jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.18000000715255738,
+                    0.18000000715255738,
+                    0.18000000715255738,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "name": "core5",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth1.44-colour_scale0.0",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.0144,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0.0
+            },
+            "name": "sss_bars5",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.0576-colour_scale0.0",
+            "extensions": {
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.000576,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth7.2-colour_scale0.11",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.08888888359069824,
+                        0.08888888359069824,
+                        0.011111109517514706
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.072,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth1.44-colour_scale0.11",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.08888888359069824,
+                        0.08888888359069824,
+                        0.011111109517514706
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.0144,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth7.2-colour_scale0.44",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.35555559396743777,
+                        0.35555559396743777,
+                        0.04444444552063942
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.072,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.0576-colour_scale0.11",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.08888888359069824,
+                        0.08888888359069824,
+                        0.011111109517514706
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.000576,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth7.2-colour_scale0.0",
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.072,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth1.44-colour_scale0.44",
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.0144,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.35555559396743777,
+                        0.35555559396743777,
+                        0.04444444552063942
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.288-colour_scale0.44",
+            "extensions": {
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.00288,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.35555559396743777,
+                        0.35555559396743777,
+                        0.04444444552063942
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.288-colour_scale0.0",
+            "extensions": {
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.00288,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.0576-colour_scale0.44",
+            "extensions": {
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.000576,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.35555559396743777,
+                        0.35555559396743777,
+                        0.04444444552063942
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.288-colour_scale0.11",
+            "extensions": {
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.00288,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.08888888359069824,
+                        0.08888888359069824,
+                        0.011111109517514706
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth7.2-colour_scale1.0",
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.072,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.09999999403953552
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth1.44-colour_scale1.0",
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "attenuationDistance": 0.0144,
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.09999999403953552
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.288-colour_scale1.0",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.09999999403953552
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.00288,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "depth0.0576-colour_scale1.0",
+            "extensions": {
+                "KHR_materials_volume_scatter": {
+                    "multiscatterColorFactor": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.09999999403953552
+                    ]
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.7497615922390413,
+                        0.36787944117144233,
+                        0.36787944117144233
+                    ],
+                    "attenuationDistance": 0.000576,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_diffuse_transmission": {
+                    "diffuseTransmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "default_material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "default_material4",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.08865560591220856,
+                    0.08865560591220856,
+                    0.010960093699395657,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "default_material4",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.3515326976776123,
+                    0.3515326976776123,
+                    0.04373502731323242,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "default_material4",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7991028428077698,
+                    0.7991028428077698,
+                    0.09989874064922333,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "default_material4",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "ShaderBall_3_2-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_2-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_2-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_2-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_0-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_0-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_0-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "TANGENT": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 14,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_0-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "TANGENT": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_3-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_3-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_3-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 4
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_3-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_2-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_2-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_2-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 5
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_2-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_3-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_3-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_3-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "TANGENT": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 14,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_3-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "TANGENT": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_0-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_0-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_0-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "TANGENT": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 14,
+                    "material": 7
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_0-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "TANGENT": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_3-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_3-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_3-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "TANGENT": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 14,
+                    "material": 8
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_3-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "TANGENT": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_2-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_2-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TANGENT": 7,
+                        "TEXCOORD_0": 8
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_2-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 10,
+                        "NORMAL": 11,
+                        "TANGENT": 12,
+                        "TEXCOORD_0": 13
+                    },
+                    "indices": 14,
+                    "material": 9
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_2-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "TANGENT": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_1-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_1-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_1-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 10
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_1-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_1-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_1-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_1-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 11
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_3_1-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_0-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_0-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_0-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 12
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_1_0-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_1-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_1-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_1-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 13
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_2_1-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_3-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_3-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_3-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 14
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_3-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_2-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_2-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_2-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 15
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_2-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_1-252Ebase_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_1-252Ecore_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_1-252Ematerial_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 16
+                }
+            ]
+        },
+        {
+            "name": "ShaderBall_0_1-252Esss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "base_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 3,
+                        "TANGENT": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "core_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 8,
+                        "TANGENT": 7,
+                        "NORMAL": 6,
+                        "POSITION": 5
+                    },
+                    "indices": 9,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "material_surface_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 13,
+                        "TANGENT": 12,
+                        "NORMAL": 11,
+                        "POSITION": 10
+                    },
+                    "indices": 14,
+                    "material": 17
+                }
+            ]
+        },
+        {
+            "name": "sss_bars_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 18,
+                        "TANGENT": 17,
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 19,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 20,
+                        "NORMAL": 21,
+                        "TANGENT": 22,
+                        "TEXCOORD_0": 23
+                    },
+                    "indices": 24,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 25,
+                        "NORMAL": 26,
+                        "TANGENT": 27,
+                        "TEXCOORD_0": 28
+                    },
+                    "indices": 29,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 30,
+                        "NORMAL": 31,
+                        "TANGENT": 32,
+                        "TEXCOORD_0": 33
+                    },
+                    "indices": 34,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 35,
+                        "NORMAL": 36,
+                        "TANGENT": 37,
+                        "TEXCOORD_0": 38
+                    },
+                    "indices": 39,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 40,
+                        "NORMAL": 41,
+                        "TANGENT": 42,
+                        "TEXCOORD_0": 43
+                    },
+                    "indices": 44,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "text#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 45,
+                        "NORMAL": 46,
+                        "TANGENT": 47,
+                        "TEXCOORD_0": 48
+                    },
+                    "indices": 49,
+                    "material": 18
+                }
+            ]
+        },
+        {
+            "name": "default_procedural_mesh_plane#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 50,
+                        "NORMAL": 51,
+                        "TANGENT": 52,
+                        "TEXCOORD_0": 53
+                    },
+                    "indices": 54,
+                    "material": 19
+                }
+            ]
+        },
+        {
+            "name": "default_procedural_mesh_plane#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 50,
+                        "NORMAL": 51,
+                        "TANGENT": 52,
+                        "TEXCOORD_0": 53
+                    },
+                    "indices": 54,
+                    "material": 20
+                }
+            ]
+        },
+        {
+            "name": "default_procedural_mesh_plane#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 50,
+                        "NORMAL": 51,
+                        "TANGENT": 52,
+                        "TEXCOORD_0": 53
+                    },
+                    "indices": 54,
+                    "material": 21
+                }
+            ]
+        },
+        {
+            "name": "default_procedural_mesh_plane#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 50,
+                        "NORMAL": 51,
+                        "TANGENT": 52,
+                        "TEXCOORD_0": 53
+                    },
+                    "indices": 54,
+                    "material": 22
+                }
+            ]
+        },
+        {
+            "name": "default_procedural_mesh_plane#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 50,
+                        "NORMAL": 51,
+                        "TANGENT": 52,
+                        "TEXCOORD_0": 53
+                    },
+                    "indices": 54,
+                    "material": 22
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4,
+                5
+            ],
+            "translation": [
+                0.189128115773201,
+                0.16409268975257874,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_3_2_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 0,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 1,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 2,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 3,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                7,
+                8,
+                9,
+                10
+            ],
+            "translation": [
+                0.189128115773201,
+                0.0,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_3_0_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 4,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 5,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 6,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 7,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                12,
+                13,
+                14,
+                15
+            ],
+            "translation": [
+                0.09989245235919953,
+                0.2461390197277069,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_2_3_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 8,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 9,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 10,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 11,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                17,
+                18,
+                19,
+                20
+            ],
+            "translation": [
+                0.09989245235919953,
+                0.16409268975257874,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_2_2_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 12,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 13,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 14,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 15,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                22,
+                23,
+                24,
+                25
+            ],
+            "translation": [
+                0.010656795464456082,
+                0.2461390197277069,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_1_3_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 16,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 17,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 18,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 19,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                27,
+                28,
+                29,
+                30
+            ],
+            "translation": [
+                0.09989245235919953,
+                0.0,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_2_0_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 20,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 21,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 22,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 23,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                32,
+                33,
+                34,
+                35
+            ],
+            "translation": [
+                0.189128115773201,
+                0.2461390197277069,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_3_3_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 24,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 25,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 26,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 27,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                37,
+                38,
+                39,
+                40
+            ],
+            "translation": [
+                0.010656795464456082,
+                0.16409268975257874,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_1_2_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 28,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 29,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 30,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 31,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                42,
+                43,
+                44,
+                45
+            ],
+            "translation": [
+                0.010656795464456082,
+                0.08204634487628937,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_1_1_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 32,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 33,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 34,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 35,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                47,
+                48,
+                49,
+                50
+            ],
+            "translation": [
+                0.189128115773201,
+                0.08204634487628937,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_3_1_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 36,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 37,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 38,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 39,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                52,
+                53,
+                54,
+                55
+            ],
+            "translation": [
+                0.010656795464456082,
+                0.0,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_1_0_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 40,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 41,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 42,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 43,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                57,
+                58,
+                59,
+                60
+            ],
+            "translation": [
+                0.09989245235919953,
+                0.08204634487628937,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_2_1_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 44,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 45,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 46,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 47,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                62,
+                63,
+                64,
+                65
+            ],
+            "translation": [
+                -0.07857885956764221,
+                0.2461390197277069,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_0_3_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 48,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 49,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 50,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 51,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                67,
+                68,
+                69,
+                70
+            ],
+            "translation": [
+                -0.07857885956764221,
+                0.16409268975257874,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_0_2_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 52,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 53,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 54,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 55,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                72,
+                73,
+                74,
+                75
+            ],
+            "translation": [
+                -0.07857885956764221,
+                0.08204634487628937,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_0_1_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 56,
+            "name": "base"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 57,
+            "name": "core"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 58,
+            "name": "material_surface"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 59,
+            "name": "sss_bars"
+        },
+        {
+            "children": [
+                77,
+                78,
+                79,
+                80
+            ],
+            "translation": [
+                -0.07857885956764221,
+                0.0,
+                0.000003395080511836568
+            ],
+            "name": "ShaderBall_0_0"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 60,
+            "name": "base_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 61,
+            "name": "core_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 62,
+            "name": "material_surface_n3d"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 63,
+            "name": "sss_bars_n3d"
+        },
+        {
+            "children": [
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92
+            ],
+            "translation": [
+                0.07077067345380783,
+                0.16409268975257874,
+                0.45942220091819765
+            ],
+            "name": "UI"
+        },
+        {
+            "translation": [
+                -0.2378973513841629,
+                0.11959168314933777,
+                -0.44208234548568728
+            ],
+            "mesh": 64,
+            "name": "25 cm"
+        },
+        {
+            "translation": [
+                -0.2378973513841629,
+                0.03674482926726341,
+                -0.44208234548568728
+            ],
+            "mesh": 65,
+            "name": "5 cm"
+        },
+        {
+            "translation": [
+                -0.2378973513841629,
+                -0.046453576534986499,
+                -0.44208234548568728
+            ],
+            "mesh": 66,
+            "name": "1 cm"
+        },
+        {
+            "translation": [
+                -0.2378973513841629,
+                -0.12965607643127442,
+                -0.44208234548568728
+            ],
+            "mesh": 67,
+            "name": "0.2 cm"
+        },
+        {
+            "translation": [
+                -0.296112596988678,
+                -0.0025027275551110508,
+                -0.44208234548568728
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.7071067690849304,
+                0.7071068286895752
+            ],
+            "scale": [
+                0.9999998211860657,
+                0.9999998211860657,
+                1.0
+            ],
+            "mesh": 68,
+            "name": "attenuationDistance"
+        },
+        {
+            "translation": [
+                -0.014515514485538006,
+                0.2237781137228012,
+                -0.4472152292728424
+            ],
+            "mesh": 69,
+            "name": "multiscatterColorFactor"
+        },
+        {
+            "translation": [
+                0.11565026640892029,
+                0.19671453535556794,
+                -0.45056793093681338
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999998807907105,
+                0.9999998807907105
+            ],
+            "mesh": 70,
+            "name": "Color Sample 4"
+        },
+        {
+            "translation": [
+                0.026496760547161104,
+                0.19671450555324555,
+                -0.4505678713321686
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "mesh": 71,
+            "name": "Color Sample 3"
+        },
+        {
+            "translation": [
+                -0.06265676766633988,
+                0.19671450555324555,
+                -0.4505678713321686
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "mesh": 72,
+            "name": "Color Sample 2"
+        },
+        {
+            "translation": [
+                -0.15181030333042146,
+                0.19671453535556794,
+                -0.45056793093681338
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "mesh": 73,
+            "name": "Color Sample 1"
+        },
+        {
+            "translation": [
+                -0.15181030333042146,
+                0.19671453535556794,
+                -0.45056793093681338
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "mesh": 74,
+            "name": "Color Sample 1"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1,
+                6,
+                11,
+                16,
+                21,
+                26,
+                31,
+                36,
+                41,
+                46,
+                51,
+                56,
+                61,
+                66,
+                71,
+                76,
+                81
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "sampler",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "sampler",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "tmp_image_pie_c854_abce_d4d4base_color",
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp_json_ld": {
+            "packets": [
+                {
+                    "@context": {
+                        "dc": "http://purl.org/dc/elements/1.1/"
+                    },
+                    "dc:date": "2026-03-25T22:26:41.64Z",
+                    "dc:title": "ScatterColorAndDensity.ssg",
+                    "xmp:CreatorTool": "Adobe Substance 3D Stager"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp_json_ld",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_diffuse_transmission",
+        "KHR_materials_volume_scatter"
+    ]
+}
