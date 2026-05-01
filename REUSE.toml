@@ -1,0 +1,898 @@
+version = 1
+SPDX-PackageName = "glTF V2.0 Sample Assets Repo"
+SPDX-PackageSupplier = "https://GitHub.com/KhronosGroup/glTF-Sample-Assets/"
+SPDX-PackageDownloadLocation = "glTF V2.0 models from various sources collected into a Repo"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2017-2023 Khronos Group"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/ABeautifulGame/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 ASWF", "2022 Ed Mackey"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/AlphaBlendModeTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/AnimatedColorsCube/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AnimatedCube/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AnimatedMorphCube/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AnimatedTriangle/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AnimationPointerUVs/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/AnisotropyBarnLamp/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Copyright 2023 Wayfair, LLC"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/AnisotropyDiscTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AnisotropyRotationTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/AnisotropyStrengthTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/AntiqueCamera/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 UX3D", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0 AND LicenseRef-LegalMark-UX3D"
+
+[[annotations]]
+path = "Models/AttenuationTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/Avocado/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/BarramundiFish/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/BoomBox/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/BoomBoxWithAxes/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/Box/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["Models/Box", "With", "Spaces/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Analytical Graphics, Inc.", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC0-1.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/BoxAnimated/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/BoxInterleaved/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/BoxTextured/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium", "2015 Cesium"]
+SPDX-License-Identifier = "LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium"
+
+[[annotations]]
+path = "Models/BoxTexturedNonPowerOfTwo/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium", "2015 Cesium"]
+SPDX-License-Identifier = "LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium"
+
+[[annotations]]
+path = "Models/BoxVertexColors/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/BrainStem/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Smith Micro Software, Inc."]
+SPDX-License-Identifier = "LicenseRef-Poser-EULA"
+
+[[annotations]]
+path = "Models/Cameras/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/CarConcept/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/CarbonFibre/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Wayfair"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/CesiumMan/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium", "2015 Cesium"]
+SPDX-License-Identifier = "LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium"
+
+[[annotations]]
+path = "Models/CesiumMilkTruck/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium", "2015 Cesium"]
+SPDX-License-Identifier = "LicenseRef-CC-BY-TM AND LicenseRef-LegalMark-Cesium"
+
+[[annotations]]
+path = "Models/ChairDamaskPurplegold/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Wayfair"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/ChronographWatch/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group", "2020 Darmstadt Graphics Group GmbH"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos AND LicenseRef-LegalMark-DGG"
+
+[[annotations]]
+path = "Models/ClearCoatCarPaint/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/ClearCoatTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/ClearcoatWicker/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/CommercialRefrigerator/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Darmstadt Graphics Group GmbH", "2025 Sean Thomas"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/CompareAlphaCoverage/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareAmbientOcclusion/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareAnisotropy/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareBaseColor/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareClearcoat/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareDispersion/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareEmissiveStrength/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareIor/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareIridescence/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareMetallic/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareNormal/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareRoughness/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareSheen/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareSpecular/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareTransmission/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/CompareVolume/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Khronos Group", "2024 Public"]
+SPDX-License-Identifier = "LicenseRef-LegalMark-Khronos AND CC0-1.0"
+
+[[annotations]]
+path = "Models/Corset/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/Cube/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/CubeVisibility/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Khronos Group"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/DamagedHelmet/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 ctxwing", "2016 theblueturtle_"]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC-BY-NC-4.0"
+
+[[annotations]]
+path = "Models/DiffuseTransmissionPlant/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH", "2021 Public domain"]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC0-1.0"
+
+[[annotations]]
+path = "Models/DiffuseTransmissionTeacup/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public domain"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/DiffuseTransmissionTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/DirectionalLight/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/DispersionTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 AGI"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/DragonAttenuation/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "1996 Stanford University Computer Graphics Laboratory", "2017 Morgan McGuire", "2021 Public"]
+SPDX-License-Identifier = "LicenseRef-Stanford-Graphics AND CC0-1.0"
+
+[[annotations]]
+path = "Models/DragonDispersion/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "1996 Stanford University Computer Graphics Laboratory", "2017 Morgan McGuire", "2021 Public"]
+SPDX-License-Identifier = "LicenseRef-Stanford-Graphics AND CC0-1.0"
+
+[[annotations]]
+path = "Models/Duck/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2006 Sony"]
+SPDX-License-Identifier = "SCEA"
+
+[[annotations]]
+path = "Models/EmissiveStrengthTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2022 AGI"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/EnvironmentTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Adobe"]
+SPDX-License-Identifier = "LicenseRef-Adobe-Stock"
+
+[[annotations]]
+path = "Models/FlightHelmet/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/Fox/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2014 Public", "2014 tomkranis", "2017 @AsoboStudio and @scurest"]
+SPDX-License-Identifier = "CC0-1.0 AND CC-BY-4.0"
+
+[[annotations]]
+path = "Models/GlamVelvetSofa/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Wayfair, LLC"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/GlassBrokenWindow/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Wayfair"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/GlassHurricaneCandleHolder/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Wayfair, LLC", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/GlassVaseFlowers/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/IORTestGrid/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/InterpolationTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/IridescenceAbalone/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2015 Abby Crawford", "2023 Eric Chadwick"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/IridescenceDielectricSpheres/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2019 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/IridescenceLamp/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2022 Wayfair, LLC"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/IridescenceMetallicSpheres/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2022 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/IridescenceSuzanne/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2022 UX3D", "2021 Pascal Schoen"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/IridescentDishWithOlives/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Wayfair, LLC"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/Lantern/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Microsoft", "2018 Frank Galligan"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/LightVisibility/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Khronos Group"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/LightsPunctualLamp/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 DGG"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MandarinOrange/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2015 zamdreamer", "2023 Wayfair"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MaterialsVariantsShoe/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Shopify"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MeshPrimitiveModes/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/MeshoptCubeTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/MetalRoughSpheres/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MetalRoughSpheresNoTextures/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2019 Public", "2019 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/MorphPrimitivesTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 ft-lab", "2020 Frank Galligan"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MorphStressTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MosquitoInAmber/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Sketchfab", "2019 Sketchfab"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/MultiUVTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Hilo 3D", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/MultipleScenes/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/NegativeScaleTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/NodePerformanceTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/NormalTangentMirrorTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/NormalTangentTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/OrientationTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Unknown"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/PlaysetLightTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Inter IKEA Systems B.V."]
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+
+[[annotations]]
+path = "Models/PointLightIntensityTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/PotOfCoals/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/PotOfCoalsAnimationPointer/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/PrimitiveModeNormalsTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/RecursiveSkeletons/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/RiggedFigure/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/RiggedSimple/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Cesium"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/ScatteringSkull/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SciFiHelmet/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SheenChair/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Wayfair, LLC"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SheenCloth/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Microsoft"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SheenTestGrid/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SheenWoodLeatherSofa/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH", "2021 Public domain"]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleInstancing/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleMaterial/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleMeshes/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleMorph/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleSkin/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SimpleSparseAccessor/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/SimpleTexture/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/SpecGlossVsMetalRough/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Microsoft"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/SpecularSilkPouf/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Copyright 2023 Wayfair, LLC"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/SpecularTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/Sponza/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2016 Crytek"]
+SPDX-License-Identifier = "LicenseRef-CRYENGINE-Agreement"
+
+[[annotations]]
+path = "Models/StainedGlassLamp/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Wayfair"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/SunglassesKhronos/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2024 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group"]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
+
+[[annotations]]
+path = "Models/Suzanne/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TextureCoordinateTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TextureEncodingTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TextureLinearInterpolationTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TextureSettingsTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/TextureTransformMultiTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/TextureTransformTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Microsoft"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/ToyCar/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Public", "2020 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TransmissionOrderTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2025 Public", "2021 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TransmissionRoughnessTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/TransmissionTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2020 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TransmissionThinwallTestGrid/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2023 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/Triangle/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TriangleWithoutIndices/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/TwoSidedPlane/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 UX3D"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/USDShaderBallForGltf/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2026 Eric Chadwick"]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/Unicode❤♻Test/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/UnlitTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2019 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/VertexColorTest/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2018 Analytical Graphics, Inc."]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Models/VirtualCity/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 3DRT"]
+SPDX-License-Identifier = "LicenseRef-3DRT-Testing"
+
+[[annotations]]
+path = "Models/WaterBottle/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2017 Public"]
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "Models/XmpMetadataRoundedCube/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["", "2021 Adam Morris"]
+SPDX-License-Identifier = "CC-BY-4.0"
