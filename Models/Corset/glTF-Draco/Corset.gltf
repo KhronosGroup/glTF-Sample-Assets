@@ -2,27 +2,27 @@
   "accessors": [
     {
       "componentType": 5123,
-      "count": 54972,
+      "count": 44502,
       "type": "SCALAR"
     },
     {
       "componentType": 5126,
-      "count": 11505,
+      "count": 10668,
       "type": "VEC2"
     },
     {
       "componentType": 5126,
-      "count": 11505,
+      "count": 10668,
       "type": "VEC3"
     },
     {
       "componentType": 5126,
-      "count": 11505,
+      "count": 10668,
       "type": "VEC4"
     },
     {
       "componentType": 5126,
-      "count": 11505,
+      "count": 10668,
       "type": "VEC3",
       "max": [
         0.019491157955837814,
@@ -44,13 +44,13 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 230113
+      "byteLength": 215786
     }
   ],
   "buffers": [
     {
       "name": "Corset",
-      "byteLength": 230116,
+      "byteLength": 215792,
       "uri": "Corset.bin"
     }
   ],

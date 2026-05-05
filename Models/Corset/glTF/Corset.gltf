@@ -37,7 +37,7 @@
     {
       "bufferView": 4,
       "componentType": 5123,
-      "count": 54972,
+      "count": 44502,
       "type": "SCALAR"
     }
   ],
@@ -68,13 +68,13 @@
     {
       "buffer": 0,
       "byteOffset": 552240,
-      "byteLength": 109944
+      "byteLength": 89004
     }
   ],
   "buffers": [
     {
       "uri": "Corset.bin",
-      "byteLength": 662184
+      "byteLength": 641244
     }
   ],
   "images": [
