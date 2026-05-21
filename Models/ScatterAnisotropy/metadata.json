@@ -17,7 +17,7 @@
         "showcase",
         "extension"
     ],
-    "screenshot": "screenshot/screenshot_raytrace.png",
+    "screenshot": "screenshot/screenshot.png",
     "name": "Scatter Anisotropy",
     "path": "./Models/ScatterAnisotropy",
     "summary": "Volume Scattering Anisotropy",
