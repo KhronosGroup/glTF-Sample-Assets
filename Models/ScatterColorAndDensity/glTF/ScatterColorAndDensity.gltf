@@ -896,7 +896,8 @@
             },
             "name": "depth1.44-colour_scale0.0",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0,
                         0,
@@ -937,8 +938,8 @@
             },
             "name": "depth0.0576-colour_scale0.0",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -952,7 +953,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0,
                         0,
@@ -968,7 +970,8 @@
             },
             "name": "depth7.2-colour_scale0.11",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.08888888359069824,
                         0.08888888359069824,
@@ -999,7 +1002,8 @@
             },
             "name": "depth1.44-colour_scale0.11",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.08888888359069824,
                         0.08888888359069824,
@@ -1030,7 +1034,8 @@
             },
             "name": "depth7.2-colour_scale0.44",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.35555559396743777,
                         0.35555559396743777,
@@ -1061,7 +1066,8 @@
             },
             "name": "depth0.0576-colour_scale0.11",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.08888888359069824,
                         0.08888888359069824,
@@ -1080,8 +1086,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 }
             }
         },
@@ -1107,7 +1113,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0,
                         0,
@@ -1138,7 +1145,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.35555559396743777,
                         0.35555559396743777,
@@ -1154,8 +1162,8 @@
             },
             "name": "depth0.288-colour_scale0.44",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -1169,7 +1177,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.35555559396743777,
                         0.35555559396743777,
@@ -1185,8 +1194,8 @@
             },
             "name": "depth0.288-colour_scale0.0",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -1200,7 +1209,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0,
                         0,
@@ -1216,8 +1226,8 @@
             },
             "name": "depth0.0576-colour_scale0.44",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -1231,7 +1241,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.35555559396743777,
                         0.35555559396743777,
@@ -1247,8 +1258,8 @@
             },
             "name": "depth0.288-colour_scale0.11",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -1262,7 +1273,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.08888888359069824,
                         0.08888888359069824,
@@ -1293,7 +1305,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.800000011920929,
                         0.800000011920929,
@@ -1324,7 +1337,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.800000011920929,
                         0.800000011920929,
@@ -1340,7 +1354,8 @@
             },
             "name": "depth0.288-colour_scale1.0",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.800000011920929,
                         0.800000011920929,
@@ -1359,8 +1374,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 }
             }
         },
@@ -1371,7 +1386,8 @@
             },
             "name": "depth0.0576-colour_scale1.0",
             "extensions": {
-                "KHR_materials_volume_scatter": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
                     "multiscatterColorFactor": [
                         0.800000011920929,
                         0.800000011920929,
@@ -1390,8 +1406,8 @@
                         "index": 1
                     }
                 },
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 }
             }
         },
@@ -3647,7 +3663,6 @@
         "KHR_xmp_json_ld",
         "KHR_materials_transmission",
         "KHR_materials_volume",
-        "KHR_materials_diffuse_transmission",
-        "KHR_materials_volume_scatter"
+        "KHR_materials_scatter"
     ]
 }

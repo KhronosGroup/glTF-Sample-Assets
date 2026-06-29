@@ -113,8 +113,8 @@
             },
             "name": "subsurface_material",
             "extensions": {
-                "KHR_materials_diffuse_transmission": {
-                    "diffuseTransmissionFactor": 1
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 },
                 "KHR_materials_dispersion": {
                     "dispersion": 0.5699999928474426
@@ -131,8 +131,9 @@
                         "index": 0
                     }
                 },
-                "KHR_materials_volume_scatter": {
-                    "multiscatterColor": [
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
+                    "multiscatterColorFactor": [
                         0.16827136278152467,
                         0.5271198749542236,
                         0.5906253457069397
@@ -208,10 +209,10 @@
     },
     "extensionsUsed": [
         "KHR_xmp_json_ld",
-        "KHR_materials_diffuse_transmission",
+        "KHR_materials_transmission",
         "KHR_materials_volume",
         "KHR_materials_dispersion",
-        "KHR_materials_volume_scatter",
+        "KHR_materials_scatter",
         "KHR_materials_ior"
     ]
 }
