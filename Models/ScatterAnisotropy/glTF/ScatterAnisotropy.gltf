@@ -993,7 +993,7 @@
                         0.7000006675720215,
                         0.04999988228082658
                     ],
-                    "scatterAnisotropy": 1
+                    "scatterAnisotropy": 0.95
                 }
             }
         },
@@ -1110,7 +1110,7 @@
                         0.8000006675720215,
                         0.09999988228082658
                     ],
-                    "scatterAnisotropy": 1
+                    "scatterAnisotropy": 0.95
                 }
             }
         },
@@ -1149,7 +1149,7 @@
                         0.7000006675720215,
                         0.04999988228082658
                     ],
-                    "scatterAnisotropy": -1
+                    "scatterAnisotropy": -0.95
                 },
                 "KHR_materials_volume": {
                     "attenuationColor": [
@@ -1182,7 +1182,7 @@
                         0.8000006675720215,
                         0.09999988228082658
                     ],
-                    "scatterAnisotropy": -1
+                    "scatterAnisotropy": -0.95
                 },
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1

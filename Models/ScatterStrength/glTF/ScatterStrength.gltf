@@ -830,8 +830,8 @@
           }
         },
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -840,14 +840,7 @@
         "KHR_materials_scatter": {
           "scatterStrengthFactor": 1,
           "scatterStrengthTexture": {
-            "index": 3,
-            "extensions": {
-              "KHR_texture_transform": {
-                "offset": [-0.9999999403953552, 0.9999999403953552],
-                "rotation": 1.5707963705062867,
-                "scale": [1, 1]
-              }
-            }
+            "index": 3
           },
           "multiscatterColorFactor": [
             0.8000006675720215, 0.8000006675720215, 0.09999988228082658
@@ -873,8 +866,8 @@
       "name": "trans1-strengthTex",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -883,14 +876,7 @@
         "KHR_materials_scatter": {
           "scatterStrengthFactor": 1,
           "scatterStrengthTexture": {
-            "index": 3,
-            "extensions": {
-              "KHR_texture_transform": {
-                "offset": [-0.9999999403953552, 0.9999999403953552],
-                "rotation": 1.5707963705062867,
-                "scale": [1, 1]
-              }
-            }
+            "index": 3
           },
           "multiscatterColorFactor": [
             0.8000006675720215, 0.8000006675720215, 0.09999988228082658
@@ -909,8 +895,8 @@
       "name": "transTex-stength1",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -938,8 +924,8 @@
       "name": "trans1-stength1",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -964,8 +950,8 @@
       "name": "transTex-stength0.5",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -993,8 +979,8 @@
       "name": "trans0.5-stength0.5",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1019,8 +1005,8 @@
       "name": "trans0.5-strengthTex",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1029,14 +1015,7 @@
         "KHR_materials_scatter": {
           "scatterStrengthFactor": 1,
           "scatterStrengthTexture": {
-            "index": 3,
-            "extensions": {
-              "KHR_texture_transform": {
-                "offset": [-0.9999999403953552, 0.9999999403953552],
-                "rotation": 1.5707963705062867,
-                "scale": [1, 1]
-              }
-            }
+            "index": 3
           },
           "multiscatterColorFactor": [
             0.8000006675720215, 0.8000006675720215, 0.09999988228082658
@@ -1055,8 +1034,8 @@
       "name": "trans1-stength0.5",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1081,8 +1060,8 @@
       "name": "trans0.5-stength1",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1107,8 +1086,8 @@
       "name": "transTex-stength0.0",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1136,8 +1115,8 @@
       "name": "trans0.5-stength0.0",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
@@ -1162,8 +1141,8 @@
       "name": "trans1-stength0.0",
       "extensions": {
         "KHR_materials_volume": {
-          "attenuationDistance": 0.0001,
-          "attenuationColor": [1.0, 0.9141, 0.9141],
+          "attenuationDistance": 0.00005,
+          "attenuationColor": [0.99, 0.9141, 0.9141],
           "thicknessFactor": 1,
           "thicknessTexture": {
             "index": 4
