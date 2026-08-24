@@ -22,5 +22,4 @@ The object refers to three accessors: One for the `TRANSLATION`, one for the `RO
 - The rotation ranges from 0.0 to 90.0 degrees along each axis
 - The scale ranges from 1.0 to 2.0 along each axis
 
-This means that the first instance that is rendered is the unmodified unit cube, and the last instance is a cube at (10.,10.0,10.0) that is rotated around the axis (1.0,1.0,1.0) by 90.0 degrees, and scaled by (2.0, 2.0, 2.0).
-
+This means that the first instance that is rendered is the unmodified unit cube, and the last instance is a cube at (10.0, 10.0, 10.0) that is rotated around the axis (1.0, 1.0, 1.0) by 90.0 degrees, and scaled by (2.0, 2.0, 2.0).

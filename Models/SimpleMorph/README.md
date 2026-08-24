@@ -12,7 +12,7 @@ A triangle with a morph animation applied
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleMorph/glTF/SimpleMorph.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleMorph/glTF/SimpleMorph.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -32,11 +32,9 @@ The following image shows the data layout of this sample:
 ![simpleMorphStructure](screenshot/simpleMorphStructure.png)
 
 
-
-
 ## Legal
 
-&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2017, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Marco Hutter (https://github.com/javagl/) for Everything
 

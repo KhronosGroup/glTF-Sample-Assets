@@ -12,7 +12,7 @@ Tests rendering of points, lines, and triangles with and without normals.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PrimitiveModeNormalsTest/glTF/PrimitiveModeNormalsTest.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PrimitiveModeNormalsTest/glTF/PrimitiveModeNormalsTest.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -30,10 +30,9 @@ This asset tests rendering of point, line, and triangle primitive modes with and
 - The remaining columns, all three modes with normals, should be rendered with smooth shading and full PBR material model.
 
 
-
 ## Legal
 
-&copy; 2020, public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2020, public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Unknown for Everything
 

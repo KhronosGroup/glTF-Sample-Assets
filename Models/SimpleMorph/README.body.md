@@ -13,5 +13,3 @@ section of the glTF tutorial.
 The following image shows the data layout of this sample:
 
 ![simpleMorphStructure](screenshot/simpleMorphStructure.png)
-
-

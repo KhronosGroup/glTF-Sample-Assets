@@ -17,8 +17,8 @@ This model tests the interactions between blend modes and transmission.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionOrderTest/glTF-Binary/TransmissionOrderTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionOrderTest/glTF-Binary/TransmissionOrderTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionOrderTest/glTF-Binary/TransmissionOrderTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionOrderTest/glTF-Binary/TransmissionOrderTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -54,11 +54,11 @@ Note also that the middle row shows that alpha masked materials did not disappea
 
 ## Legal
 
-&copy; 2025, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2025, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Ed Mackey for Everything but the cloth backdrop
 
-&copy; 2021, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2021, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Adobe for Cloth backdrop
 

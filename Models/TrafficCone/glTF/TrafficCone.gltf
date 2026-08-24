@@ -1,0 +1,425 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11089,
+      "min": [
+        -0.2099796086549759,
+        -0.2099796086549759,
+        -0.2695193290710449
+      ],
+      "max": [
+        0.2099796086549759,
+        0.2099796086549759,
+        0.2493087500333786
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 133068,
+      "componentType": 5126,
+      "count": 11089,
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11089,
+      "min": [
+        0.0001785983331501484,
+        0.0001785983331501484
+      ],
+      "max": [
+        0.794103741645813,
+        0.9998215436935424
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 25440,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 441,
+      "min": [
+        -9.845000267028809,
+        0.0,
+        -9.845000267028809
+      ],
+      "max": [
+        9.845000267028809,
+        0.0,
+        9.845000267028809
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 441,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 2400,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "Sketchfab-14.79.0 + NVIDIA vk_gltf_renderer",
+    "version": "2.0",
+    "extras": {
+      "author": "hinndia (https://sketchfab.com/hinndia)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/traffic-cone-573feef839d7450cb3e12da9986e7a98",
+      "title": "Traffic Cone"
+    }
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 101760,
+      "target": 34963,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 88712,
+      "byteStride": 8,
+      "byteOffset": 101760,
+      "target": 34962,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 266136,
+      "byteStride": 12,
+      "byteOffset": 190472,
+      "target": 34962,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5292,
+      "byteOffset": 456608,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5292,
+      "byteOffset": 461900,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9600,
+      "byteOffset": 470720,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "ConeMatRetro",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.35,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "extensions": {
+        "KHR_materials_retroreflection": {
+          "retroreflectionFactor": 1.0,
+          "retroreflectionTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "ConeBaseMat",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.35,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Plane Material",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.07534965872764587,
+          0.0753343403339386,
+          0.0753343403339386,
+          1.0
+        ],
+        "metallicFactor": 0.009999999776482582,
+        "roughnessFactor": 0.3799999952316284
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ],
+      "name": "ConeMesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 1,
+          "mode": 4
+        }
+      ],
+      "name": "ConeMeshCopy"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 6,
+          "material": 2,
+          "mode": 4
+        }
+      ],
+      "name": "Plane"
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "name": "Cones",
+      "children": [
+        1,
+        4
+      ]
+    },
+    {
+      "translation": [
+        -0.30000001192092896,
+        -0.0,
+        -0.0
+      ],
+      "mesh": 0,
+      "name": "Cone Retroreflection"
+    },
+    {
+      "translation": [
+        0.0,
+        0.1,
+        2.0
+      ],
+      "rotation": [
+        -0.02497659996151924,
+        -0.0,
+        -0.0,
+        0.9996880292892456
+      ],
+      "camera": 0,
+      "extras": {
+        "camera::center": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "camera::eye": [
+          0.0,
+          0.1,
+          2.0
+        ],
+        "camera::up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "Camera"
+    },
+    {
+      "translation": [
+        0.0,
+        0.10000000149011612,
+        1.2000000476837158
+      ],
+      "rotation": [
+        -0.06182723864912987,
+        0.023736871778964996,
+        -0.3576287031173706,
+        0.9315125942230225
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Point Light"
+    },
+    {
+      "translation": [
+        0.30000001192092896,
+        -0.0,
+        -0.0
+      ],
+      "mesh": 1,
+      "name": "Cone Normal"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.2690059244632721,
+        0.0
+      ],
+      "mesh": 2,
+      "name": "Plane"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        2,
+        3,
+        0,
+        5
+      ],
+      "name": "Sketchfab_Scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "name": "Camera",
+      "perspective": {
+        "zfar": 200.0,
+        "znear": 0.10000000149011612,
+        "aspectRatio": 1.7777777910232544,
+        "yfov": 0.62482787221397
+      }
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "name": "Point Light",
+          "intensity": 1.0,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": "point",
+          "extras": {
+            "radius": 0.0
+          }
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_retroreflection",
+    "KHR_materials_specular"
+  ],
+  "buffers": [
+    {
+      "byteLength": 480320,
+      "uri": "TrafficCone.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "ConeBaseMat_baseColor.png"
+    },
+    {
+      "uri": "ConeBaseMat_metallicRoughness.png"
+    }
+  ]
+}

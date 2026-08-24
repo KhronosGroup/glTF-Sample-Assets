@@ -12,8 +12,8 @@ A natural object created with Core glTF 2.0
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Avocado/glTF-Binary/Avocado.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Avocado/glTF-Binary/Avocado.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Avocado/glTF-Binary/Avocado.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Avocado/glTF-Binary/Avocado.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -22,11 +22,12 @@ A natural object created with Core glTF 2.0
 
 ## Description
 
-A cut avocado showing the pit and flesh, using a hand-painted texture. 
+A cut avocado showing the pit and flesh, using a hand-painted texture.
+
 
 ## Legal
 
-&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2017, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Microsoft for Everything
 

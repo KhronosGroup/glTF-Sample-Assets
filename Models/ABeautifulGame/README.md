@@ -17,8 +17,8 @@ Chess set using transmission and volume.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb)
 * [Model Directory](./)
 
 ## Screenshots
@@ -72,11 +72,11 @@ inspiration for more automated conversion tooling in the future.
 
 ## Legal
 
-&copy; 2020, ASWF. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2020, ASWF. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - MaterialX Project for Original model
 
-&copy; 2022, Ed Mackey. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2022, Ed Mackey. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Ed Mackey for Conversion to glTF
 

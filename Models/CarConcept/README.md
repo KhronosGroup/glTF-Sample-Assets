@@ -21,8 +21,8 @@ Concept car with Khronos logos and material variants
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarConcept/glTF-Binary/CarConcept.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarConcept/glTF-Binary/CarConcept.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarConcept/glTF-Binary/CarConcept.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarConcept/glTF-Binary/CarConcept.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -296,7 +296,7 @@ It is important to use the [glTF Validator](https://github.khronos.org/glTF-Vali
 
 ## Legal
 
-&copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2024, Darmstadt Graphics Group GmbH. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for Model and textures
 

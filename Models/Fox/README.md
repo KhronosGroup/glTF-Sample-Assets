@@ -12,8 +12,8 @@ Multiple animations cycles: Survey, Walk, Run.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Fox/glTF-Binary/Fox.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Fox/glTF-Binary/Fox.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Fox/glTF-Binary/Fox.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Fox/glTF-Binary/Fox.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -26,17 +26,18 @@ This model demonstrates animated rigging with three different animation cycles: 
 
 glTF conversion [by @AsoboStudio and @scurest](https://github.com/KhronosGroup/glTF-Sample-Models/pull/150#issuecomment-406300118)
 
+
 ## Legal
 
-&copy; 2014, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2014, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - PixelMannen for Model
 
-&copy; 2014, tomkranis. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2014, tomkranis. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - tomkranis for Rigging & Animation
 
-&copy; 2017, @AsoboStudio and @scurest. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2017, @AsoboStudio and @scurest. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - @AsoboStudio and @scurest for Conversion to glTF
 

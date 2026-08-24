@@ -12,8 +12,8 @@ Animations. Skins.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BrainStem/glTF-Binary/BrainStem.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BrainStem/glTF-Binary/BrainStem.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BrainStem/glTF-Binary/BrainStem.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/BrainStem/glTF-Binary/BrainStem.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -24,9 +24,10 @@ Animations. Skins.
 
 Articulated robot with animation and hierarchy.
 
+
 ## Legal
 
-&copy; 2017, Smith Micro Software, Inc.. [Poser EULA](https://archive.org/stream/poser-pro-2014-reference-manual/Poser_Pro_2014_reference_manual_djvu.txt)
+&copy; 2017, Smith Micro Software, Inc.. [Poser EULA](../../LICENSES/LicenseRef-Poser-EULA.txt)
 
  - Keith Hunter for Everything
 

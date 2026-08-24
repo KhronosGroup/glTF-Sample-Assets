@@ -6,13 +6,11 @@
 
 [extension](../Models-extension.md), [testing](../Models-testing.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_mesh_quantization
 
-### Used
+## Extensions Used
 
 * KHR_mesh_quantization
 * KHR_meshopt_compression
@@ -23,7 +21,7 @@ This model tests the KHR_meshopt_compression extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MeshoptCubeTest/glTF/MeshoptCubeTest.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MeshoptCubeTest/glTF/MeshoptCubeTest.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -66,7 +64,7 @@ Note that in both variants, buffer 0 (`MeshoptCubeTest.bin`) contains a mix of c
 
 ## Legal
 
-&copy; 2025, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2025, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Arseny Kapoulkine for Everything
 

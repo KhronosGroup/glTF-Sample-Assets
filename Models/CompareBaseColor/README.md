@@ -4,7 +4,7 @@
 
 ## Tags
 
-[core](../Models-core.md), [testing](../Models-testing.md), pbrtest
+[core](../Models-core.md), [testing](../Models-testing.md), [pbrtest](../Models-pbrtest.md)
 
 ## Extensions Used
 
@@ -16,8 +16,8 @@ This model compares base color methods.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CompareBaseColor/glTF-Binary/CompareBaseColor.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -29,13 +29,14 @@ This model compares base color methods.
 
 This model is used on the Khronos glTF PBR website to contrast the states of a specific PBR feature; in this case Base Color. This asset shows the differences between three states: baseColorFactor, baseColorTexture, and baseColorTexture with Vertex Color.
 
+
 ## Legal
 
 &copy; 2017, Khronos Group. [Khronos Trademark or Logo](../../LICENSES/LicenseRef-LegalMark-Khronos.txt)
 
  - Non-copyrightable logo for glTF logo
 
-&copy; 2024, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2024, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Eric Chadwick and DGG for Everything
 

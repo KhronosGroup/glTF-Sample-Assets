@@ -17,8 +17,8 @@ USD Shader Ball converted for glTF
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -74,7 +74,7 @@ The USD asset was edited using [Autodesk 3ds Max](https://www.autodesk.com/produ
 
 ## Legal
 
-&copy; 2026, Eric Chadwick. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2026, Eric Chadwick. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Geometry and textures: Chris Rydalch; original specification and validation: André Mazzone; original scene, inspiration and consultation: Thomas Anagnostou; glTF conversion: Eric Chadwick for Model and textures and all images in the README.md
 

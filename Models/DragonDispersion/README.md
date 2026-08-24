@@ -19,8 +19,8 @@ Dragon with background, using dispersion, transmission, and volume.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonDispersion/glTF-Binary/DragonDispersion.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonDispersion/glTF-Binary/DragonDispersion.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonDispersion/glTF-Binary/DragonDispersion.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DragonDispersion/glTF-Binary/DragonDispersion.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -51,15 +51,15 @@ To the extent possible under law, Adobe has waived all copyright and related or 
 
 ## Legal
 
-&copy; 1996, Stanford University Computer Graphics Laboratory. [Stanford Graphics Library](https://graphics.stanford.edu/data/3Dscanrep/)
+&copy; 1996, Stanford University Computer Graphics Laboratory. [Stanford Graphics Library](../../LICENSES/LicenseRef-Stanford-Graphics.txt)
 
  - Stanford University Computer Graphics Laboratory for Original dragon model
 
-&copy; 2017, Morgan McGuire. [Stanford Graphics Library](https://graphics.stanford.edu/data/3Dscanrep/)
+&copy; 2017, Morgan McGuire. [Stanford Graphics Library](../../LICENSES/LicenseRef-Stanford-Graphics.txt)
 
  - Morgan McGuire's Computer Graphics Archive for Conversion and clean up
 
-&copy; 2021, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2021, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Adobe for Cloth backdrop
 

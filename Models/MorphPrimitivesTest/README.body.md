@@ -17,5 +17,3 @@ If the red area or green area is missing, particularly in the Draco-compressed v
 ## Author
 
 Model by [@ft-lab](https://github.com/ft-lab).
-
-

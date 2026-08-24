@@ -1,25 +1,24 @@
 {
-    "version": 2,
-    "legal": [
-        {
-            "license": "SCEA",
-            "licenseUrl": "https://spdx.org/licenses/SCEA.html",
-            "artist": "Sony",
-            "year": "2006",
-            "owner": "Sony",
-            "what": "Everything",
-            "text": "SCEA Shared Source License, Version 1.0",
-            "spdx": "SCEA",
-            "icon": ""
-        }
-    ],
-    "tags": [
-        "core",
-        "testing"
-    ],
-    "screenshot": "screenshot/screenshot.png",
-    "name": "Duck",
-    "path": "./Models/Duck",
-    "summary": "The COLLADA duck. One texture.",
-    "createReadme": true
+  "version": 2,
+  "legal": [
+    {
+      "license": "SCEA",
+      "licenseUrl": "../../LICENSES/SCEA.txt",
+      "artist": "Sony",
+      "year": "2006",
+      "owner": "Sony",
+      "what": "Everything",
+      "text": "SCEA Shared Source License, Version 1.0",
+      "icon": ""
+    }
+  ],
+  "tags": [
+    "core",
+    "testing"
+  ],
+  "screenshot": "screenshot/screenshot.png",
+  "name": "Duck",
+  "path": "./Models/Duck",
+  "summary": "The COLLADA duck. One texture.",
+  "createReadme": true
 }

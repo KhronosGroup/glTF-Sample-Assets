@@ -6,14 +6,12 @@
 
 test
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_lights_punctual
 * KHR_materials_emissive_strength
 
-### Used
+## Extensions Used
 
 * KHR_lights_punctual
 * KHR_materials_emissive_strength
@@ -24,8 +22,8 @@ A 3D scene with IKEA assets
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -56,7 +54,7 @@ The IKEA 3D Model [PlaysetLightTest.glb] (the “Licensed Material”) is licens
 
 ## Legal
 
-&copy; 2024, Inter IKEA Systems B.V.. [Copyright © Inter IKEA Systems B.V. 2024](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+&copy; 2024, Inter IKEA Systems B.V.. [Creative Commons, Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
  - Inter IKEA Systems B.V. for Everything
 

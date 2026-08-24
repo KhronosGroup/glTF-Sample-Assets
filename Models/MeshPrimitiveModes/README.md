@@ -12,7 +12,7 @@ An example that shows rendering modes that are supported for mesh primitives in 
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -47,7 +47,7 @@ Each mesh primitive has a different `mode`, corresponding to the glTF [mesh topo
 
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Marco Hutter (https://github.com/javagl/) for Everything
 

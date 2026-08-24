@@ -12,8 +12,8 @@ Tests an engine's ability to load supplied tangent vectors for a normal map.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentMirrorTest/glTF-Binary/NormalTangentMirrorTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentMirrorTest/glTF-Binary/NormalTangentMirrorTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentMirrorTest/glTF-Binary/NormalTangentMirrorTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NormalTangentMirrorTest/glTF-Binary/NormalTangentMirrorTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -58,7 +58,7 @@ This is a common problem, that often indicates the rendering engine has mis-inte
 
 ## Legal
 
-&copy; 2018, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2018, Analytical Graphics, Inc.. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Ed Mackey for Everything
 

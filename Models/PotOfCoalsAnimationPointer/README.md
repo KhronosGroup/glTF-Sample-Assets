@@ -6,16 +6,14 @@
 
 [showcase](../Models-showcase.md), [extension](../Models-extension.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_materials_specular
 * KHR_materials_transmission
 * KHR_materials_volume
 * KHR_texture_transform
 
-### Used
+## Extensions Used
 
 * KHR_animation_pointer
 * KHR_materials_clearcoat
@@ -30,8 +28,8 @@ Burnt copper pot with a clearcoat, containing emissive hot coals, and animated h
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PotOfCoalsAnimationPointer/glTF-Binary/PotOfCoalsAnimationPointer.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PotOfCoalsAnimationPointer/glTF-Binary/PotOfCoalsAnimationPointer.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PotOfCoalsAnimationPointer/glTF-Binary/PotOfCoalsAnimationPointer.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/PotOfCoalsAnimationPointer/glTF-Binary/PotOfCoalsAnimationPointer.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -60,9 +58,10 @@ A mesh was placed above the coals and assigned a refractive material with [KHR_m
 
 The extension [KHR_materials_specular](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_specular#khr_materials_specular) was added to the refraction mesh to disable all reflections. This prevents the mesh from looking like reflective glass or water, but more like non-reflective air being refracted by heat.
 
+
 ## Legal
 
-&copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2024, Darmstadt Graphics Group GmbH. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for Model and textures
 

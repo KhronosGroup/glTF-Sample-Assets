@@ -16,8 +16,8 @@ Tests if the KHR_materials_clearcoat extension is supported properly.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -79,9 +79,10 @@ On this row, the same normal map has been applied to both the base layer and the
 
 This row uses a normal map on the coating, while the base layer is smooth.  In this case it is intended to look similar to clear plastic wrap (but without any roughness variation).  In the center column, the base layer's wide reflections should be visible under the coating's thin reflections.
 
+
 ## Legal
 
-&copy; 2020, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2020, Analytical Graphics, Inc.. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Ed Mackey for Everything
 

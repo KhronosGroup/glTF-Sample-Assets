@@ -6,13 +6,11 @@
 
 [core](../Models-core.md), [testing](../Models-testing.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_lights_punctual
 
-### Used
+## Extensions Used
 
 * KHR_lights_punctual
 
@@ -22,8 +20,8 @@ Node, mesh, primitive and texture count performance test
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -50,7 +48,7 @@ It is not intended to be used as a reference benchmark.
 
 ## Legal
 
-&copy; 2024, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2024, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Jon Aspeheim for Everything
 

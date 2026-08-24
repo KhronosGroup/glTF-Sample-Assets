@@ -16,8 +16,8 @@ A simple example for the EXT_mesh_gpu_instancing extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleInstancing/glTF-Binary/SimpleInstancing.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -44,13 +44,12 @@ The object refers to three accessors: One for the `TRANSLATION`, one for the `RO
 - The rotation ranges from 0.0 to 90.0 degrees along each axis
 - The scale ranges from 1.0 to 2.0 along each axis
 
-This means that the first instance that is rendered is the unmodified unit cube, and the last instance is a cube at (10.,10.0,10.0) that is rotated around the axis (1.0,1.0,1.0) by 90.0 degrees, and scaled by (2.0, 2.0, 2.0).
-
+This means that the first instance that is rendered is the unmodified unit cube, and the last instance is a cube at (10.0, 10.0, 10.0) that is rotated around the axis (1.0, 1.0, 1.0) by 90.0 degrees, and scaled by (2.0, 2.0, 2.0).
 
 
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Marco Hutter (https://github.com/javagl/) for Everything
 

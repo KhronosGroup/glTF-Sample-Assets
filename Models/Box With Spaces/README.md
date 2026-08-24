@@ -12,20 +12,25 @@ Box with URI-encoded spaces in the texture names used by a simple PBR material.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Box%20With%20Spaces/glTF/Box%20With%20Spaces.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Box%20With%20Spaces/glTF/Box%20With%20Spaces.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot_large.png)
 
 ## Description
 
-_None provided._
+The binary file is called `Box With Spaces.bin`, testing runtime support for the presence of spaces in a URI.  Three textures
+also have spaces in their URIs, but each space character is URI-encoded as `%20`.
+
+Client implementations are expected to URI-decode all URIs present in a glTF model, even when they represent files on a
+local disk.  See [#1449](https://github.com/KhronosGroup/glTF/issues/1449) for additional comments.
+
 
 ## Legal
 
-&copy; 2017, Analytical Graphics, Inc.. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2017, Analytical Graphics, Inc.. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Ed Mackey for Everything
 

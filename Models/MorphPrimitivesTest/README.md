@@ -12,8 +12,8 @@ Tests a morph target on multiple primitives.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MorphPrimitivesTest/glTF-Binary/MorphPrimitivesTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -37,15 +37,13 @@ If the red area or green area is missing, particularly in the Draco-compressed v
 Model by [@ft-lab](https://github.com/ft-lab).
 
 
-
-
 ## Legal
 
-&copy; 2018, ft-lab. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2018, ft-lab. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - ft-lab for Everything
 
-&copy; 2020, Frank Galligan. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2020, Frank Galligan. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Frank Galligan for DRACO compression
 

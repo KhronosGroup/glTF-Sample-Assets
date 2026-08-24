@@ -35,4 +35,3 @@ In the screenshots presented here, the second transmissive column most clearly s
 ![detail screenshot](screenshot/left-column-detail.jpg)
 
 This render is from Blender's Cycles path-tracing engine, using the same IBL as above.
-

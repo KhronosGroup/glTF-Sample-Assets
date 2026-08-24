@@ -16,7 +16,7 @@ Scattering of light through the tangerine using the glTF diffuse transmission ex
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MandarinOrange/glTF/MandarinOrange.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MandarinOrange/glTF/MandarinOrange.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -26,7 +26,7 @@ _Screenshot from the development version of the [glTF Sample Viewer](https://glt
 
 ## Description
 
-This asset is a test of the glTF extension [`KHR_materials_diffuse_transmission`](https://github.com/KhronosGroup/glTF/pull/1825) to demonstrate the scattering of light through the fruit of the orange. 
+This asset is a test of the glTF extension [`KHR_materials_diffuse_transmission`](https://github.com/KhronosGroup/glTF/pull/1825) to demonstrate the scattering of light through the fruit of the orange.
 
 ![screenshot](screenshot/with-without.jpg)
 _Two screenshots, with KHR_materials_diffuse_transmission (left) versus without._
@@ -37,14 +37,13 @@ _The textures. Top row from left: base color, occlusion, roughness. Bottom row f
 The [original model](https://sketchfab.com/3d-models/orange-774bc66d11c24855bf722e35249fddf7) on Sketchfab from zandreamer is a photogrammetry asset which only contains a base color texture. All the additional textures were created by processing the base color through a series of filters in various art tools.
 
 
-
 ## Legal
 
-&copy; 2015, zamdreamer. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2015, zamdreamer. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - zamdreamer for Initial creation
 
-&copy; 2023, Wayfair. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2023, Wayfair. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for glTF PBR material
 

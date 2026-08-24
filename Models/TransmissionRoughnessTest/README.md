@@ -18,8 +18,8 @@ Tests the interaction between roughness and IOR.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionRoughnessTest/glTF-Binary/TransmissionRoughnessTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionRoughnessTest/glTF-Binary/TransmissionRoughnessTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionRoughnessTest/glTF-Binary/TransmissionRoughnessTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionRoughnessTest/glTF-Binary/TransmissionRoughnessTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -61,10 +61,9 @@ In the screenshots presented here, the second transmissive column most clearly s
 This render is from Blender's Cycles path-tracing engine, using the same IBL as above.
 
 
-
 ## Legal
 
-&copy; 2021, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2021, Analytical Graphics, Inc.. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Ed Mackey for Everything
 
