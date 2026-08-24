@@ -1,6 +1,6 @@
 {
     "asset": {
-        "copyright": "2025 (c) Adobe Inc.",
+        "copyright": "2026 (c) Adobe Inc.",
         "generator": "Adobe Substance 3D Stager - 71e900fc2bce8c66db9475ffdc4ac3f89b2e4b0c",
         "version": "2.0",
         "extensions": {
@@ -197,44 +197,44 @@
         {
             "bufferView": 20,
             "componentType": 5126,
-            "count": 279,
+            "count": 5796,
             "type": "VEC3",
             "max": [
-                0.0028857418801635505,
+                0.02318115159869194,
                 0.02153320237994194,
-                0.0
+                2.38418573772492e-9
             ],
             "min": [
-                -0.004877929110080004,
-                0.0,
+                -0.02288818359375,
+                -0.00035156263038516045,
                 -0.009999999776482582
             ]
         },
         {
             "bufferView": 21,
             "componentType": 5126,
-            "count": 279,
+            "count": 5796,
             "type": "VEC3"
         },
         {
             "bufferView": 22,
             "componentType": 5126,
-            "count": 279,
+            "count": 5796,
             "type": "VEC4"
         },
         {
             "bufferView": 23,
             "componentType": 5126,
-            "count": 279,
+            "count": 5796,
             "type": "VEC2"
         },
         {
             "bufferView": 24,
             "componentType": 5125,
-            "count": 942,
+            "count": 20640,
             "type": "SCALAR",
             "max": [
-                278.0
+                5795.0
             ],
             "min": [
                 0.0
@@ -252,7 +252,7 @@
             ],
             "min": [
                 -0.016047362238168718,
-                -0.00035156263038516045,
+                -0.00035156248486600816,
                 -0.009999999776482582
             ]
         },
@@ -381,44 +381,44 @@
         {
             "bufferView": 40,
             "componentType": 5126,
-            "count": 307,
+            "count": 5824,
             "type": "VEC3",
             "max": [
-                0.006979980506002903,
+                0.027275390923023225,
                 0.02153320237994194,
-                0.0
+                2.38418573772492e-9
             ],
             "min": [
-                -0.010144042782485485,
-                0.0,
+                -0.027246087789535524,
+                -0.0003515625430736691,
                 -0.009999999776482582
             ]
         },
         {
             "bufferView": 41,
             "componentType": 5126,
-            "count": 307,
+            "count": 5824,
             "type": "VEC3"
         },
         {
             "bufferView": 42,
             "componentType": 5126,
-            "count": 307,
+            "count": 5824,
             "type": "VEC4"
         },
         {
             "bufferView": 43,
             "componentType": 5126,
-            "count": 307,
+            "count": 5824,
             "type": "VEC2"
         },
         {
             "bufferView": 44,
             "componentType": 5125,
-            "count": 1002,
+            "count": 20700,
             "type": "SCALAR",
             "max": [
-                306.0
+                5823.0
             ],
             "min": [
                 0.0
@@ -436,7 +436,7 @@
             ],
             "min": [
                 -0.04352783039212227,
-                -0.0003515642019920051,
+                -0.00035156248486600816,
                 -0.009999999776482582
             ]
         },
@@ -478,7 +478,7 @@
             "max": [
                 0.06770508736371994,
                 0.021474609151482583,
-                2.38418573772492e-9
+                1.19209286886246e-9
             ],
             "min": [
                 -0.06873045861721039,
@@ -687,247 +687,247 @@
         {
             "buffer": 0,
             "byteOffset": 1233168,
-            "byteLength": 3348,
+            "byteLength": 69552,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1236516,
-            "byteLength": 3348,
+            "byteOffset": 1302720,
+            "byteLength": 69552,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1239864,
-            "byteLength": 4464,
+            "byteOffset": 1372272,
+            "byteLength": 92736,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1244328,
-            "byteLength": 2232,
+            "byteOffset": 1465008,
+            "byteLength": 46368,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1246560,
-            "byteLength": 3768,
+            "byteOffset": 1511376,
+            "byteLength": 82560,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 1250328,
+            "byteOffset": 1593936,
             "byteLength": 42420,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1292748,
+            "byteOffset": 1636356,
             "byteLength": 42420,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1335168,
+            "byteOffset": 1678776,
             "byteLength": 56560,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1391728,
+            "byteOffset": 1735336,
             "byteLength": 28280,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1420008,
+            "byteOffset": 1763616,
             "byteLength": 50232,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 1470240,
+            "byteOffset": 1813848,
             "byteLength": 27000,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1497240,
+            "byteOffset": 1840848,
             "byteLength": 27000,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1524240,
+            "byteOffset": 1867848,
             "byteLength": 36000,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1560240,
+            "byteOffset": 1903848,
             "byteLength": 18000,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1578240,
+            "byteOffset": 1921848,
             "byteLength": 32256,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 1610496,
+            "byteOffset": 1954104,
             "byteLength": 42756,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1653252,
+            "byteOffset": 1996860,
             "byteLength": 42756,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1696008,
+            "byteOffset": 2039616,
             "byteLength": 57008,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1753016,
+            "byteOffset": 2096624,
             "byteLength": 28504,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1781520,
+            "byteOffset": 2125128,
             "byteLength": 50472,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 1831992,
-            "byteLength": 3684,
+            "byteOffset": 2175600,
+            "byteLength": 69888,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1835676,
-            "byteLength": 3684,
+            "byteOffset": 2245488,
+            "byteLength": 69888,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1839360,
-            "byteLength": 4912,
+            "byteOffset": 2315376,
+            "byteLength": 93184,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1844272,
-            "byteLength": 2456,
+            "byteOffset": 2408560,
+            "byteLength": 46592,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1846728,
-            "byteLength": 4008,
+            "byteOffset": 2455152,
+            "byteLength": 82800,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 1850736,
+            "byteOffset": 2537952,
             "byteLength": 75684,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 1926420,
+            "byteOffset": 2613636,
             "byteLength": 75684,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2002104,
+            "byteOffset": 2689320,
             "byteLength": 100912,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2103016,
+            "byteOffset": 2790232,
             "byteLength": 50456,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2153472,
+            "byteOffset": 2840688,
             "byteLength": 89304,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 2242776,
+            "byteOffset": 2929992,
             "byteLength": 90864,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2333640,
+            "byteOffset": 3020856,
             "byteLength": 90864,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2424504,
+            "byteOffset": 3111720,
             "byteLength": 121152,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2545656,
+            "byteOffset": 3232872,
             "byteLength": 60576,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2606232,
+            "byteOffset": 3293448,
             "byteLength": 106128,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 2712360,
+            "byteOffset": 3399576,
             "byteLength": 234984,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 2947344,
+            "byteOffset": 3634560,
             "byteLength": 234984,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 3182328,
+            "byteOffset": 3869544,
             "byteLength": 313312,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 3495640,
+            "byteOffset": 4182856,
             "byteLength": 156656,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 3652296,
+            "byteOffset": 4339512,
             "byteLength": 277056,
             "target": 34963
         }
     ],
     "buffers": [
         {
-            "byteLength": 3929352,
+            "byteLength": 4616568,
             "uri": "ScatterAnisotropy_binary.bin"
         }
     ],
@@ -962,14 +962,15 @@
             "occlusionTexture": {
                 "index": 0
             },
-            "name": "core5"
+            "name": "core5",
+            "doubleSided": true
         },
         {
             "pbrMetallicRoughness": {
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.30000001192092898
             },
-            "name": "volume_aniso_1",
+            "name": "volume_aniso_0.5",
             "extensions": {
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
@@ -993,7 +994,7 @@
                         0.7000006675720215,
                         0.04999988228082658
                     ],
-                    "scatterAnisotropy": 0.95
+                    "scatterAnisotropy": 0.5
                 }
             }
         },
@@ -1004,7 +1005,8 @@
                 },
                 "metallicFactor": 0.0
             },
-            "name": "sss_bars5"
+            "name": "sss_bars5",
+            "doubleSided": true
         },
         {
             "pbrMetallicRoughness": {
@@ -1098,7 +1100,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.30000001192092898
             },
-            "name": "thin_walled_aniso_1",
+            "name": "thin_walled_aniso_0.95",
             "extensions": {
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
@@ -1111,6 +1113,60 @@
                         0.09999988228082658
                     ],
                     "scatterAnisotropy": 0.95
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "volume_aniso_0.95",
+            "extensions": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
+                    "multiscatterColorFactor": [
+                        0.9000006675720215,
+                        0.7000006675720215,
+                        0.04999988228082658
+                    ],
+                    "scatterAnisotropy": 0.95
+                },
+                "KHR_materials_volume": {
+                    "attenuationColor": [
+                        0.405,
+                        0.5466,
+                        0.7
+                    ],
+                    "attenuationDistance": 0.01000000819563866,
+                    "thicknessFactor": 8.899999618530274,
+                    "thicknessTexture": {
+                        "index": 1
+                    }
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "thin_walled_aniso_0.5",
+            "extensions": {
+                "KHR_materials_scatter": {
+                    "scatterStrengthFactor": 1,
+                    "multiscatterColorFactor": [
+                        0.8000006675720215,
+                        0.8000006675720215,
+                        0.09999988228082658
+                    ],
+                    "scatterAnisotropy": 0.5
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
                 }
             }
         },
@@ -1140,7 +1196,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.30000001192092898
             },
-            "name": "volume_aniso-1",
+            "name": "volume_aniso-0.95",
             "extensions": {
                 "KHR_materials_scatter": {
                     "scatterStrengthFactor": 1,
@@ -1173,7 +1229,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.30000001192092898
             },
-            "name": "thin_walled_aniso_-1",
+            "name": "thin_walled_aniso_-0.95",
             "extensions": {
                 "KHR_materials_scatter": {
                     "scatterStrengthFactor": 1,
@@ -1200,61 +1256,8 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.30000001192092898
             },
-            "name": "default_material"
-        },
-        {
-            "pbrMetallicRoughness": {
-                "metallicFactor": 0.0,
-                "roughnessFactor": 0.30000001192092898
-            },
-            "name": "volume_aniso_0.5",
-            "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1
-                },
-                "KHR_materials_volume": {
-                    "attenuationColor": [
-                        0.405,
-                        0.5466,
-                        0.7
-                    ],
-                    "attenuationDistance": 0.01000000819563866,
-                    "thicknessFactor": 8.899999618530274,
-                    "thicknessTexture": {
-                        "index": 1
-                    }
-                },
-                "KHR_materials_scatter": {
-                    "scatterStrengthFactor": 1,
-                    "multiscatterColorFactor": [
-                        0.9000006675720215,
-                        0.7000006675720215,
-                        0.04999988228082658
-                    ],
-                    "scatterAnisotropy": 0.5
-                }
-            }
-        },
-        {
-            "pbrMetallicRoughness": {
-                "metallicFactor": 0.0,
-                "roughnessFactor": 0.30000001192092898
-            },
-            "name": "thin_walled_aniso_0.5",
-            "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1
-                },
-                "KHR_materials_scatter": {
-                    "scatterStrengthFactor": 1,
-                    "multiscatterColorFactor": [
-                        0.8000006675720215,
-                        0.8000006675720215,
-                        0.09999988228082658
-                    ],
-                    "scatterAnisotropy": 0.5
-                }
-            }
+            "name": "default_material",
+            "doubleSided": true
         }
     ],
     "meshes": [
@@ -1299,7 +1302,7 @@
                         "TEXCOORD_0": 13
                     },
                     "indices": 14,
-                    "material": 11
+                    "material": 1
                 }
             ]
         },
@@ -1599,7 +1602,7 @@
                         "POSITION": 10
                     },
                     "indices": 14,
-                    "material": 1
+                    "material": 7
                 }
             ]
         },
@@ -1659,7 +1662,7 @@
                         "POSITION": 10
                     },
                     "indices": 14,
-                    "material": 12
+                    "material": 8
                 }
             ]
         },
@@ -1719,7 +1722,7 @@
                         "POSITION": 10
                     },
                     "indices": 14,
-                    "material": 7
+                    "material": 9
                 }
             ]
         },
@@ -1779,7 +1782,7 @@
                         "TEXCOORD_0": 13
                     },
                     "indices": 14,
-                    "material": 8
+                    "material": 10
                 }
             ]
         },
@@ -1839,7 +1842,7 @@
                         "TEXCOORD_0": 13
                     },
                     "indices": 14,
-                    "material": 9
+                    "material": 11
                 }
             ]
         },
@@ -1869,7 +1872,7 @@
                         "TEXCOORD_0": 23
                     },
                     "indices": 24,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1884,7 +1887,7 @@
                         "TEXCOORD_0": 28
                     },
                     "indices": 29,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1899,7 +1902,7 @@
                         "TEXCOORD_0": 33
                     },
                     "indices": 34,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1914,7 +1917,7 @@
                         "TEXCOORD_0": 38
                     },
                     "indices": 39,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1929,7 +1932,7 @@
                         "TEXCOORD_0": 43
                     },
                     "indices": 44,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1944,7 +1947,7 @@
                         "TEXCOORD_0": 48
                     },
                     "indices": 49,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1959,7 +1962,7 @@
                         "TEXCOORD_0": 53
                     },
                     "indices": 54,
-                    "material": 10
+                    "material": 12
                 }
             ]
         },
@@ -1974,7 +1977,7 @@
                         "TEXCOORD_0": 58
                     },
                     "indices": 59,
-                    "material": 10
+                    "material": 12
                 }
             ]
         }
@@ -2503,18 +2506,18 @@
         },
         {
             "translation": [
-                0.19562354683876038,
-                0.10282356292009354,
-                -0.4462728500366211
+                0.19562360644340516,
+                0.10282360017299652,
+                -0.4462728798389435
             ],
             "mesh": 40,
             "name": "1"
         },
         {
             "translation": [
-                0.11213602125644684,
-                0.10282356292009354,
-                -0.4462728500366211
+                0.11213599890470505,
+                0.10282360017299652,
+                -0.4462728798389435
             ],
             "mesh": 41,
             "name": "0.5"
@@ -2522,26 +2525,26 @@
         {
             "translation": [
                 0.028150418773293496,
-                0.10282356292009354,
-                -0.4462728500366211
+                0.10282360017299652,
+                -0.4462728798389435
             ],
             "mesh": 42,
             "name": "0"
         },
         {
             "translation": [
-                -0.06033957377076149,
-                0.10282356292009354,
-                -0.4462728500366211
+                -0.06033957004547119,
+                0.10282360017299652,
+                -0.4462728798389435
             ],
             "mesh": 43,
             "name": "-0.5"
         },
         {
             "translation": [
-                -0.1499941200017929,
-                0.10282356292009354,
-                -0.4462728500366211
+                -0.14999409019947053,
+                0.10282360017299652,
+                -0.4462728798389435
             ],
             "mesh": 44,
             "name": "-1"
@@ -2549,7 +2552,7 @@
         {
             "translation": [
                 -0.2821771800518036,
-                0.034401703625917438,
+                0.034401699900627139,
                 -0.44208240509033205
             ],
             "mesh": 45,
@@ -2566,8 +2569,8 @@
         },
         {
             "translation": [
-                0.025875257328152658,
-                0.15111446380615235,
+                0.025875261053442956,
+                0.15111449360847474,
                 -0.44721519947052
             ],
             "mesh": 47,
