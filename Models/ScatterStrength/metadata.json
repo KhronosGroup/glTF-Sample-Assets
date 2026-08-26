@@ -2,7 +2,7 @@
     "version": 2,
     "legal": [
         {
-            "license": "CC-BY 4.0",
+            "license": "CC-BY-4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
             "artist": "Geometry and textures: Chris Rydalch; original specification and validation: André Mazzone; original scene, inspiration and consultation: Thomas Anagnostou; glTF conversion: Eric Chadwick",
             "year": "2026",
