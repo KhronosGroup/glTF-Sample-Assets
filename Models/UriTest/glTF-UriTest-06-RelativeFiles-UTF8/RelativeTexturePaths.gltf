@@ -1,0 +1,585 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_unlit"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "RelativeTexturePaths"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC3",
+      "max": [
+        1.4417014122009277,
+        2.0090982913970947,
+        0.0
+      ],
+      "min": [
+        -14.380227088928223,
+        -0.31283187866210938,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC2",
+      "max": [
+        0.9724423885345459,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.2297060489654541
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC2",
+      "max": [
+        2093567.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.99567478895187378
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 40,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5121,
+      "count": 60,
+      "type": "SCALAR",
+      "max": [
+        39.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Buffer.bin",
+      "byteLength": 18728
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 384,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 960,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 36,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1380,
+      "byteLength": 480,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1860,
+      "byteLength": 480,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2340,
+      "byteLength": 640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2980,
+      "byteLength": 320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3300,
+      "byteLength": 320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3620,
+      "byteLength": 640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4260,
+      "byteLength": 60,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "SameFolder%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%B8%96%E7%95%8C.jpg",
+      "name": "SameFolder こんにちは世界"
+    },
+    {
+      "uri": "Child%20Folder%20%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%2C%20%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE/ChildFolder%20%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C.jpg",
+      "name": "ChildFolder 你好，世界"
+    },
+    {
+      "uri": "3.png",
+      "name": "3"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "SameFolder"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "ChildFolder"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        }
+      },
+      "alphaMode": "BLEND",
+      "name": "LiberationSans SDF Material",
+      "extensions": {
+        "KHR_materials_unlit": {}
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "SameFolderAsGltf"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "SubFolderOfGltf"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10,
+            "COLOR_0": 11
+          },
+          "indices": 12,
+          "material": 2
+        }
+      ],
+      "name": "Text (TMP)"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        13
+      ],
+      "translation": [
+        0.9864774,
+        0.175967216,
+        0.2177962
+      ],
+      "name": "RelativeTexturePaths"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "UTF8 Paths"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "SameFolderAsGltf"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        1.25,
+        0.5,
+        0.0
+      ],
+      "name": "SubFolderOfGltf"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "translation": [
+        0.0,
+        1.25,
+        0.0
+      ],
+      "name": "JSON Escaping"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "SameFolderAsGltf"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        1.25,
+        0.5,
+        0.0
+      ],
+      "name": "SubFolderOfGltf"
+    },
+    {
+      "children": [
+        8,
+        9
+      ],
+      "translation": [
+        0.0,
+        2.5,
+        0.0
+      ],
+      "name": "Percent Encoding"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "SameFolderAsGltf"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        1.25,
+        0.5,
+        0.0
+      ],
+      "name": "SubFolderOfGltf"
+    },
+    {
+      "children": [
+        11,
+        12
+      ],
+      "translation": [
+        0.0,
+        3.75,
+        0.0
+      ],
+      "name": "Non-Normalized Paths"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "SameFolderAsGltf"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        1.25,
+        0.5,
+        0.0
+      ],
+      "name": "SubFolderOfGltf"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        -5.96046448E-08
+      ],
+      "scale": [
+        0.123989768,
+        0.123989768,
+        0.123989768
+      ],
+      "translation": [
+        -2.58,
+        0.46,
+        0.0
+      ],
+      "name": "Text (TMP)"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    },
+    {
+      "minFilter": 9729,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "SameFolder こんにちは世界"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "ChildFolder 你好，世界"
+    },
+    {
+      "sampler": 1,
+      "source": 2,
+      "name": "3"
+    }
+  ]
+}
