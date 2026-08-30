@@ -484,6 +484,20 @@
     }
   },
   {
+    "label": "Coat Parameter Sweep",
+    "name": "CoatParameterSweep",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": [
+      "testing",
+      "pbrtest",
+      "extension"
+    ],
+    "variants": {
+      "glTF": "CoatParameterSweep.gltf",
+      "glTF-Binary": "CoatParameterSweep.glb"
+    }
+  },
+  {
     "label": "Commercial Refrigerator",
     "name": "CommercialRefrigerator",
     "screenshot": "screenshot/screenshot.jpg",
@@ -774,6 +788,20 @@
     }
   },
   {
+    "label": "Diffuse Roughness Parameter Sweep",
+    "name": "DiffuseRoughnessParameterSweep",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": [
+      "testing",
+      "pbrtest",
+      "extension"
+    ],
+    "variants": {
+      "glTF": "DiffuseRoughnessParameterSweep.gltf",
+      "glTF-Binary": "DiffuseRoughnessParameterSweep.glb"
+    }
+  },
+  {
     "label": "Diffuse Transmission Plant",
     "name": "DiffuseTransmissionPlant",
     "screenshot": "screenshot/screenshot.jpg",
@@ -929,6 +957,20 @@
     "variants": {
       "glTF": "Fox.gltf",
       "glTF-Binary": "Fox.glb"
+    }
+  },
+  {
+    "label": "Fuzz Parameter Sweep",
+    "name": "FuzzParameterSweep",
+    "screenshot": "screenshot/screenshot.png",
+    "tags": [
+      "testing",
+      "pbrtest",
+      "extension"
+    ],
+    "variants": {
+      "glTF": "FuzzParameterSweep.gltf",
+      "glTF-Binary": "FuzzParameterSweep.glb"
     }
   },
   {
