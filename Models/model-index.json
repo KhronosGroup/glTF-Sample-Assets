@@ -915,7 +915,8 @@
       "testing"
     ],
     "variants": {
-      "glTF": "FlightHelmet.gltf"
+      "glTF": "FlightHelmet.gltf",
+      "glTF-KTX-BasisU": "FlightHelmet.gltf"
     }
   },
   {
