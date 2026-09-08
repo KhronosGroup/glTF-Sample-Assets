@@ -8,3 +8,8 @@ desktop.ini
 gltf_validator.exe
 *.csv
 metadata.template.json
+
+/util/node_modules
+/util/dist
+/util/package-lock.json
+/util/tsconfig.tsbuildinfo

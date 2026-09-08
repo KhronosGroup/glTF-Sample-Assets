@@ -132,7 +132,7 @@
                     }
                 },
                 "KHR_materials_volume_scatter": {
-                    "multiscatterColor": [
+                    "multiscatterColorFactor": [
                         0.16827136278152467,
                         0.5271198749542236,
                         0.5906253457069397

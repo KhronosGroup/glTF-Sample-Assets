@@ -18,8 +18,8 @@ Grid of spheres over a checkered backdrop to test Thinfilm and IOR rendering.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionThinwallTestGrid/glTF-Binary/TransmissionThinwallTestGrid.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionThinwallTestGrid/glTF-Binary/TransmissionThinwallTestGrid.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionThinwallTestGrid/glTF-Binary/TransmissionThinwallTestGrid.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TransmissionThinwallTestGrid/glTF-Binary/TransmissionThinwallTestGrid.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -33,9 +33,10 @@ This asset tests the differences in index of refraction between thin-wall and vo
 
 The spheres in the bottom row are 2m in diameter with a volume `thicknessFactor` of 1m, to approximate an average thickness through each volume.
 
+
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Eric Chadwick for Everything
 

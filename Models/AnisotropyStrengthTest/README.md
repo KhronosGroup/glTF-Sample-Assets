@@ -16,8 +16,8 @@ This model tests the strength parameter for KHR_materials_anisotropy.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyStrengthTest/glTF-Binary/AnisotropyStrengthTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -33,10 +33,9 @@ A grid of spheres compares material roughness (horizontally) to anisotropy stren
 Note the `KHR_materials_anisotropy` specification provides formulas to clearly define how anisotropy strength interacts with material roughness.  The effects should be most apparent in the column with zero material roughness, and anisotropy should not offer any effect when material roughness is 1.0.
 
 
-
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Ed Mackey for Everything
 

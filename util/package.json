@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "prettier": "2.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "build": "tsc --build --verbose --force",
+    "prettier": "prettier --write \"**/*\"",
+    "check": "ts-node ./src/main.ts --process-repo --check --verbose",
+    "update": "ts-node ./src/main.ts --process-repo --update --verbose"
+  }
+}

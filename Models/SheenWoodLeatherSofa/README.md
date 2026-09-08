@@ -6,14 +6,12 @@
 
 [showcase](../Models-showcase.md), [extension](../Models-extension.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_texture_transform
 * EXT_texture_webp
 
-### Used
+## Extensions Used
 
 * KHR_materials_specular
 * KHR_materials_sheen
@@ -26,8 +24,8 @@ Sofa asset using sheen, specular, and high-quality tiling textures.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -37,11 +35,11 @@ Sofa asset using sheen, specular, and high-quality tiling textures.
 
 ## Description
 
-This asset demonstrates the use of three different UV methods for textured assets, plus [KHR_materials_sheen](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_sheen/README.md) and [KHR_materials_specular](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_specular/README.md) for fabrics. 
+This asset demonstrates the use of three different UV methods for textured assets, plus [KHR_materials_sheen](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_sheen/README.md) and [KHR_materials_specular](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_specular/README.md) for fabrics.
 
-The original is available from [Polyhaven](https://polyhaven.com/a/sofa_03). The model was edited with 3ds Max to improve geometry, and to recreate UVs and materials. 
+The original is available from [Polyhaven](https://polyhaven.com/a/sofa_03). The model was edited with 3ds Max to improve geometry, and to recreate UVs and materials.
 
-![Screenshots from three.js Editor](screenshot/screenshot_BeforeAfter.jpg) 
+![Screenshots from three.js Editor](screenshot/screenshot_BeforeAfter.jpg)
 <br/>_Before and after, screenshots from [three.js Editor](https://threejs.org/editor/)_
 
 Three UV methods were used:
@@ -51,17 +49,18 @@ Three UV methods were used:
 
 The fabric materials use the glTF extensions KHR_materials_sheen and KHR_materials_specular for more realistic fabric shading. Specular was reduced to avoid a plastic-like specular response, and sheen emulates backscattering from fine threads sticking up from the surface.
 
-Alpha sorting errors for the pillow fringe have been fixed by manually re-arranging the vertex order. The geometry strips were detached from each other, backfaces were duplicated manually, and front-facing strips were re-attached in order from back to front... end pillows, then mid pillows, then center pillow, attaching them by alpha draw order to force the vertices to be drawn back to front. This was repeated for the back-facing strips... center pillow first, then mid pillows, then end pillows last. 
+Alpha sorting errors for the pillow fringe have been fixed by manually re-arranging the vertex order. The geometry strips were detached from each other, backfaces were duplicated manually, and front-facing strips were re-attached in order from back to front... end pillows, then mid pillows, then center pillow, attaching them by alpha draw order to force the vertices to be drawn back to front. This was repeated for the back-facing strips... center pillow first, then mid pillows, then end pillows last.
 
 To keep the asset at a reasonable file size (under 10mb) the textures were compressed with WEBP format, and use the glTF extension [EXT_texture_webp](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_texture_webp/README.md). The normal map for the wood and leather frame was compressed with lossless WEBP, because it was baked from geometry and is thus more susceptible to major shading errors.
 
+
 ## Legal
 
-&copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2024, Darmstadt Graphics Group GmbH. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for Improvements
 
-&copy; 2021, Public domain. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2021, Public domain. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Fran Calvente for Original asset
 

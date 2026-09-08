@@ -16,8 +16,8 @@ This model tests the texturemap for KHR_materials_anisotropy.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyDiscTest/glTF-Binary/AnisotropyDiscTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyDiscTest/glTF-Binary/AnisotropyDiscTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyDiscTest/glTF-Binary/AnisotropyDiscTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnisotropyDiscTest/glTF-Binary/AnisotropyDiscTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -44,7 +44,7 @@ Per the anisotropy specification, anisotropic strength increases the material's 
 
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Eric Chadwick for Everything
 

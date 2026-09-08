@@ -17,21 +17,30 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v4
 
-    - name: Set up PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: latest
-
-    - name: Execute PHP script to update Repo
+    - name: Run npm install
+      working-directory: ./util
       run: |
-        php util/model.php --no-warn --update --process-repo
+        npm install
+
+    - name: Run npm update
+      working-directory: ./util
+      run: |
+        npm run update
 
     - name: Commit changes to a new branch 
       uses: EndBug/add-and-commit@v9
       with:
-        # Defaults for most parameters are used
-        # Action assiged to "github_actor" (used by default with 'default_author')
         # This action merges all changes into 'main'
+
+        # Defaults for most parameters are used
+
+        # Action assigned to "Github actions"
+        default_author: github_actions
+
+        # The commit message will be
+        # "Commit from GitHub Actions (Rebuild All Model Assets)"
+        # with the last part being the name of this
+        # action, given at the top of this file.
 
         # The way the action should handle pathspec errors from the add and remove commands. Three options are available:
         # - ignore -> errors will be logged but the step won't fail

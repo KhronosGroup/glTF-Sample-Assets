@@ -1,49 +1,47 @@
 {
-    "version": 2,
-    "legal": [
-        {
-            "license": "CC-BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
-            "artist": "Eric Chadwick",
-            "year": "2021",
-            "owner": "Wayfair, LLC",
-            "what": "Model and textures",
-            "text": "CC BY 4.0 International",
-            "spdx": "CC-BY-4.0",
-            "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-        },
-        {
-            "license": "LicenseRef-LegalMark-Khronos",
-            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
-            "artist": "Non-copyrightable logo",
-            "year": "2015",
-            "owner": "Khronos Group",
-            "what": "Khronos logo",
-            "text": "Khronos Trademark or Logo",
-            "spdx": "LicenseRef-LegalMark-Khronos",
-            "icon": ""
-        },
-        {
-            "license": "LicenseRef-LegalMark-Khronos",
-            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
-            "artist": "Non-copyrightable logo",
-            "year": "2017",
-            "owner": "Khronos Group",
-            "what": "glTF logo",
-            "text": "Khronos Trademark or Logo",
-            "spdx": "LicenseRef-LegalMark-Khronos",
-            "icon": ""
-        }
-    ],
-    "tags": [
-        "video",
-        "written",
-        "showcase",
-        "extension"
-    ],
-    "screenshot": "screenshot/screenshot.jpg",
-    "name": "Glass Hurricane Candle Holder",
-    "path": "./Models/GlassHurricaneCandleHolder",
-    "summary": "Glass holder using Materials Tranmission and Materials Volume extensions.",
-    "createReadme": true
+  "version": 2,
+  "legal": [
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "Eric Chadwick",
+      "year": "2021",
+      "owner": "Wayfair, LLC",
+      "what": "Model and textures",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    {
+      "license": "LicenseRef-LegalMark-Khronos",
+      "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
+      "artist": "Non-copyrightable logo",
+      "year": "2015",
+      "owner": "Khronos Group",
+      "what": "Khronos logo",
+      "text": "Khronos Trademark or Logo",
+      "icon": ""
+    },
+    {
+      "license": "LicenseRef-LegalMark-Khronos",
+      "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Khronos.txt",
+      "artist": "Non-copyrightable logo",
+      "year": "2017",
+      "owner": "Khronos Group",
+      "what": "glTF logo",
+      "text": "Khronos Trademark or Logo",
+      "icon": ""
+    }
+  ],
+  "tags": [
+    "video",
+    "written",
+    "showcase",
+    "extension"
+  ],
+  "screenshot": "screenshot/screenshot.jpg",
+  "name": "Glass Hurricane Candle Holder",
+  "path": "./Models/GlassHurricaneCandleHolder",
+  "summary": "Glass holder using Materials Tranmission and Materials Volume extensions.",
+  "createReadme": true
 }

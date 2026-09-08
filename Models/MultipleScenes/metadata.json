@@ -1,25 +1,25 @@
 {
-    "version": 2,
-    "legal": [
-        {
-            "year": "2017",
-            "owner": "Public",
-            "license": "Public Domain / CC0",
-            "artist": "Public",
-            "what": "Everything",
-            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-            "text": "CC0 1.0 Universal",
-            "spdx": "CC0-1.0",
-            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-        }
-    ],
-    "tags": [
-        "core",
-        "testing"
-    ],
-    "screenshot": "screenshot/screenshot.png",
-    "name": "Multiple Scenes",
-    "path": "./Models/MultipleScenes",
-    "summary": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
-    "createReadme": true
+  "version": 2,
+  "legal": [
+    {
+      "year": "2017",
+      "owner": "Public",
+      "license": "CC0-1.0",
+      "artist": "Public",
+      "what": "Everything",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    }
+  ],
+  "tags": [
+    "core",
+    "testing"
+  ],
+  "screenshot": "screenshot/screenshot.png",
+  "name": "Multiple Scenes",
+  "path": "./Models/MultipleScenes",
+  "summary": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
+  "createReadme": true
 }

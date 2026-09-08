@@ -16,8 +16,8 @@ DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -27,7 +27,7 @@ DiffuseTransmissionTeacup model using Diffuse Transmission extension.
 
 ## Description
 
-This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface transmission of light through a thin ceramic teacup and saucer. 
+This asset demonstrates the use of KHR_materials_diffuse_transmission to represent thin-surface transmission of light through a thin ceramic teacup and saucer.
 
 ![With the extension, versus without it.](screenshot/with-vs-without.jpg)
 <br/>_With the extension, versus without it._
@@ -35,9 +35,10 @@ This asset demonstrates the use of KHR_materials_diffuse_transmission to represe
 ![The ingredients used for Diffuse Transmission](screenshot/diffuse-transmission-features.jpg)
 <br/>_The ingredients used for Diffuse Transmission: diffuseTransmissionColorFactor, and diffuseTransmissionFactor._
 
+
 ## Legal
 
-&copy; 2023, Public domain. [CC0 1.0 Universal](https://creativecommons.org/share-your-work/public-domain/cc0)
+&copy; 2023, Public domain. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Polyhaven.com, and Eric Chadwick for Models and Textures
 

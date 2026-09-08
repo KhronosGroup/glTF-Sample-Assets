@@ -55,4 +55,3 @@ But an additional limitation is revealed here:  In the "Occlusion" "UV 0" test i
 The Clearcoat tests can be dark and low-contrast, an unfortunate consequence of the subtle nature of the clear coating.  Use a bright reflection environment, or possibly post-process the resulting image in a paint program to bring out more contrast, as shown here.  Two of the rows have curved test boxes, to help reflect more of the surrounding environment.
 
 The "UV 1" boxes shown here are blank due to a known limitation in this rendering engine, described above.  But the "UV 0" boxes are showing the crossed-out circle.  This indicates that KHR_texture_transform has not been applied to any of the Clearcoat inputs.
-

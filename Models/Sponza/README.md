@@ -12,7 +12,7 @@ Building interior, often used to test lighting.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Sponza/glTF/Sponza.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/Sponza/glTF/Sponza.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -87,7 +87,7 @@ http://crytek.com/sites/default/files/20100301_lpv.pdf
 
 ## Legal
 
-&copy; 2016, Crytek. [Cryengine Limited License Agreement](https://www.cryengine.com/ce-terms)
+&copy; 2016, Crytek. [Cryengine Limited License Agreement](../../LICENSES/LicenseRef-CRYENGINE-Agreement.txt)
 
  - Crytek for Everything
 

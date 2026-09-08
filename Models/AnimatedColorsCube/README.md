@@ -16,8 +16,8 @@ This model demonstrates animating a base color with KHR_animation_pointer.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimatedColorsCube/glTF-Binary/AnimatedColorsCube.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimatedColorsCube/glTF-Binary/AnimatedColorsCube.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimatedColorsCube/glTF-Binary/AnimatedColorsCube.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimatedColorsCube/glTF-Binary/AnimatedColorsCube.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -39,7 +39,7 @@ This model was created in Blender 4.2.0 by placing keyframes for a material's de
 
 ## Legal
 
-&copy; 2024, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2024, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Ed Mackey for Everything
 

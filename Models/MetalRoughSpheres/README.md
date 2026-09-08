@@ -12,8 +12,8 @@ Tests various metal and roughness values (texture mapped).
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -24,9 +24,10 @@ Tests various metal and roughness values (texture mapped).
 
 Tests various metal and roughness values (texture mapped).
 
+
 ## Legal
 
-&copy; 2017, Analytical Graphics, Inc.. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2017, Analytical Graphics, Inc.. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Ed Mackey for Everything
 

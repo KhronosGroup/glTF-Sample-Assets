@@ -6,14 +6,12 @@
 
 [extension](../Models-extension.md), [testing](../Models-testing.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_materials_unlit
 * KHR_lights_punctual
 
-### Used
+## Extensions Used
 
 * KHR_materials_transmission
 * KHR_materials_volume
@@ -34,8 +32,8 @@ This model tests UV transform animations with KHR_animation_pointer.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimationPointerUVs/glTF-Binary/AnimationPointerUVs.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimationPointerUVs/glTF-Binary/AnimationPointerUVs.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimationPointerUVs/glTF-Binary/AnimationPointerUVs.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/AnimationPointerUVs/glTF-Binary/AnimationPointerUVs.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -66,9 +64,9 @@ This model tests UV transform animations with [KHR_animation_pointer](https://gi
 * `transmissionTexture` from [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_transmission/README.md)
 * `thicknessTexture` from [KHR_materials_volume](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_volume/README.md)
 
-Each material contains a "control" texture which is not animated, to test that only the desired texture is being animated instead of all textures in the material. 
+Each material contains a "control" texture which is not animated, to test that only the desired texture is being animated instead of all textures in the material.
 
-Each texture includes a text label for easier verification of which are animated versus static. 
+Each texture includes a text label for easier verification of which are animated versus static.
 
 ![screenshot](screenshot/anisotropyAnimated.gif)
 <br clear="all"/>_Animation of KHR_materials_anisotropy_
@@ -79,9 +77,10 @@ Cameras are provided for views of each extension or property type.
 
 The asset was created in 3ds Max 2024, and exported with the [HS glTF Exporter](https://nu1963u.wixsite.com/custom3dsmax/gltfpluginfor3dsmax). Textures were generated with [Filter Forge](https://www.filterforge.com/).
 
+
 ## Legal
 
-&copy; 2024, Darmstadt Graphics Group GmbH. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2024, Darmstadt Graphics Group GmbH. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for 3D asset and textures
 

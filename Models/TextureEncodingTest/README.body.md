@@ -17,4 +17,3 @@ For each of three material slots, four sample models are provided that use diffe
 * Models from the third and fourth columns represent the same materials using 1x1 textures with custom gamma values and custom ICC profiles respectively. Stored 8-bit pixel values are the same as for the second column. An example of incorrect handling of these cases is presented on the following screenshot.
 
   ![non-ignored_metadata](screenshot/non-ignored_metadata.png)
-

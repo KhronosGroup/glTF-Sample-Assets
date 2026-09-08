@@ -1,37 +1,36 @@
 {
-    "version": 2,
-    "legal": [
-        {
-            "license": "LicenseRef-CC-BY-TM",
-            "licenseUrl": "",
-            "artist": "Cesium",
-            "year": "2017",
-            "owner": "Cesium",
-            "what": "Everything",
-            "text": "CC-BY 4.0 International with Trademark Limitations",
-            "spdx": "LicenseRef-CC-BY-TM",
-            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
-        },
-        {
-            "license": "LicenseRef-LegalMark-Cesium",
-            "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Cesium.txt",
-            "artist": "Non-copyrightable logo",
-            "year": "2015",
-            "owner": "Cesium",
-            "what": "Cesium logo",
-            "text": "Cesium Trademark or Logo",
-            "spdx": "LicenseRef-LegalMark-Cesium",
-            "icon": ""
-        }
-    ],
-    "tags": [
-        "core",
-        "issues",
-        "testing"
-    ],
-    "screenshot": "screenshot/screenshot.png",
-    "name": "Box Textured not 2^N",
-    "path": "./Models/BoxTexturedNonPowerOfTwo",
-    "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures. [Issues: non-Khronos mark]",
-    "createReadme": true
+  "version": 2,
+  "legal": [
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "Cesium",
+      "year": "2017",
+      "owner": "Cesium",
+      "what": "Everything",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    {
+      "license": "LicenseRef-LegalMark-Cesium",
+      "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Cesium.txt",
+      "artist": "Non-copyrightable logo",
+      "year": "2015",
+      "owner": "Cesium",
+      "what": "Cesium logo",
+      "text": "Cesium Trademark or Logo",
+      "icon": ""
+    }
+  ],
+  "tags": [
+    "core",
+    "issues",
+    "testing"
+  ],
+  "screenshot": "screenshot/screenshot.png",
+  "name": "Box Textured not 2^N",
+  "path": "./Models/BoxTexturedNonPowerOfTwo",
+  "summary": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures. [Issues: non-Khronos mark]",
+  "createReadme": true
 }

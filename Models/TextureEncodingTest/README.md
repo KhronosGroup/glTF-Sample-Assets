@@ -12,8 +12,8 @@ This asset tests that textures are sampled with correct transfer functions.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureEncodingTest/glTF-Binary/TextureEncodingTest.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureEncodingTest/glTF-Binary/TextureEncodingTest.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureEncodingTest/glTF-Binary/TextureEncodingTest.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/TextureEncodingTest/glTF-Binary/TextureEncodingTest.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -37,10 +37,9 @@ For each of three material slots, four sample models are provided that use diffe
   ![non-ignored_metadata](screenshot/non-ignored_metadata.png)
 
 
-
 ## Legal
 
-&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2017, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - lexaknyazev for Everything
 

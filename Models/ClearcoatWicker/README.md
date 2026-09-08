@@ -16,8 +16,8 @@ This model is a sphere using the glTF ClearCoat to create a wicker material cove
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,13 +28,12 @@ Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-
 
 ## Description
 
-This model is a sphere using the glTF extension [`KHR_materials_clearcoat`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat) to create a wicker material covered with a wrinkled plastic clearcoat, to demonstrate the usage of a clearcoat bump texture. 
-
+This model is a sphere using the glTF extension [`KHR_materials_clearcoat`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat) to create a wicker material covered with a wrinkled plastic clearcoat, to demonstrate the usage of a clearcoat bump texture.
 
 
 ## Legal
 
-&copy; 2023, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2023, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Eric Chadwick for Everything
 

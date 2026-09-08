@@ -12,7 +12,7 @@ A simple scene with two nodes, both containing the same mesh, namely a mesh with
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleMeshes/glTF/SimpleMeshes.gltf) in SampleViewer
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/SimpleMeshes/glTF/SimpleMeshes.gltf) in SampleViewer
 * [Model Directory](./)
 
 ## Screenshot
@@ -21,10 +21,10 @@ A simple scene with two nodes, both containing the same mesh, namely a mesh with
 
 ## Notes
 
-This is an example showing how the same mesh may be appended to 
-several nodes, to be rendered multiple times. It also shows 
-how additional vertex attributes are defined in a `mesh.primitive` - 
-namely, attributes for the vertex normals. 
+This is an example showing how the same mesh may be appended to
+several nodes, to be rendered multiple times. It also shows
+how additional vertex attributes are defined in a `mesh.primitive` -
+namely, attributes for the vertex normals.
 
 **Note:** The additional vertex normal attribute in this example is not yet used. This may
 cause a warning to be printed during the validation. The normal attribute will be used in
@@ -40,7 +40,7 @@ The following image shows the data layout of this sample:
 
 ## Legal
 
-&copy; 2017, Public. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2017, Public. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Marco Hutter (https://github.com/javagl/) for Everything
 

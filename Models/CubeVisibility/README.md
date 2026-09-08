@@ -6,13 +6,11 @@
 
 [testing](../Models-testing.md)
 
-## Extensions
-
-### Required
+## Extensions Required
 
 * KHR_node_visibility
 
-### Used
+## Extensions Used
 
 * KHR_animation_pointer
 * KHR_node_visibility
@@ -23,8 +21,8 @@ This model demonstrates the `KHR_node_visibility` extension and its interaction 
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CubeVisibility/glTF-Binary/CubeVisibility.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CubeVisibility/glTF-Binary/CubeVisibility.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CubeVisibility/glTF-Binary/CubeVisibility.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CubeVisibility/glTF-Binary/CubeVisibility.glb)
 * [Model Directory](./)
 
 This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.
@@ -40,7 +38,7 @@ Animated screenshot of the test model in action:
 
 ## Legal
 
-&copy; 2025, Khronos Group. [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+&copy; 2025, Khronos Group. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
  - Aaron Franke for Everything
 

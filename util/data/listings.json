@@ -1,0 +1,47 @@
+[
+  {
+    "file": "Models.md",
+    "tags": [],
+    "summary": "All models listed alphabetically."
+  },
+  {
+    "file": "Models-core.md",
+    "tags": ["core"],
+    "summary": "Models that only use the core glTF 2.0 features and capabilities."
+  },
+  {
+    "file": "Models-extension.md",
+    "tags": ["extension"],
+    "summary": "Models that use one or more extensions."
+  },
+  {
+    "file": "Models-issues.md",
+    "tags": ["issues"],
+    "summary": "Models with one or more issues with respect to ownership, license, or markings."
+  },
+  {
+    "file": "Models-showcase.md",
+    "tags": ["showcase"],
+    "summary": "Models that are featured in some glTF/Khronos publicity."
+  },
+  {
+    "file": "Models-testing.md",
+    "tags": ["testing"],
+    "summary": "Models that are used for testing various features or capabilities of importers, viewers, or converters."
+  },
+  {
+    "file": "Models-pbrtest.md",
+    "tags": ["pbrtest"],
+    "summary": "Models that are used for illustrating the effect of PBR properties."
+  },
+  {
+    "file": "Models-video.md",
+    "tags": ["video"],
+    "summary": "Models used in any glTF video tutorial."
+  },
+  {
+    "file": "Models-written.md",
+    "tags": ["written"],
+    "summary": "Models used in any written glTF tutorial or guide."
+  }
+]

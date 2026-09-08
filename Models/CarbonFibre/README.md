@@ -16,8 +16,8 @@ Example of anisotropy applied to a ball with a simulated carbon fiber surface.
 
 ## Operations
 
-* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarbonFibre/glTF-Binary/CarbonFibre.glb) in SampleViewer
-* [Download GLB](https://raw.GithubUserContent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarbonFibre/glTF-Binary/CarbonFibre.glb)
+* [Display](https://github.khronos.org/glTF-Sample-Viewer-Release/?model=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarbonFibre/glTF-Binary/CarbonFibre.glb) in SampleViewer
+* [Download GLB](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/./Models/CarbonFibre/glTF-Binary/CarbonFibre.glb)
 * [Model Directory](./)
 
 ## Screenshot
@@ -28,16 +28,16 @@ Screenshot from the [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-
 
 ## Description
 
-This model is a sphere using the glTF extension [`KHR_materials_anisotropy`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_anisotropy) to create a carbon fibre material. 
+This model is a sphere using the glTF extension [`KHR_materials_anisotropy`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_anisotropy) to create a carbon fibre material.
 
-The normalTexture is a higher resolution than the others to preserve more details in the shapes of individual fibres. The anisotropyTexture could in theory be only 4x4 pixels however that tends to introduce upscale artifacts. 
+The normalTexture is a higher resolution than the others to preserve more details in the shapes of individual fibres. The anisotropyTexture could in theory be only 4x4 pixels however that tends to introduce upscale artifacts.
 
 ![textures](screenshot/textures.jpg)
 
 
 ## Legal
 
-&copy; 2023, Wayfair. [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+&copy; 2023, Wayfair. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
  - Eric Chadwick for Models and Textures
 
