@@ -217,6 +217,12 @@ SPDX-FileCopyrightText = "2023 Public"
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
+path = "Models/CoatParameterSweep/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Leia Inc."
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
 path = "Models/CommercialRefrigerator/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = [ "2025 Darmstadt Graphics Group GmbH", "2025 Sean Thomas" ]
@@ -343,6 +349,12 @@ SPDX-FileCopyrightText = [ "2018 ctxwing", "2016 theblueturtle_" ]
 SPDX-License-Identifier = "CC-BY-4.0 AND CC-BY-NC-4.0"
 
 [[annotations]]
+path = "Models/DiffuseRoughnessParameterSweep/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Leia Inc."
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
 path = "Models/DiffuseTransmissionPlant/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = [ "2024 Darmstadt Graphics Group GmbH", "2021 Public domain" ]
@@ -413,6 +425,12 @@ path = "Models/Fox/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = [ "2014 Public", "2014 tomkranis", "2017 @AsoboStudio and @scurest" ]
 SPDX-License-Identifier = "CC0-1.0 AND CC-BY-4.0"
+
+[[annotations]]
+path = "Models/FuzzParameterSweep/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Leia Inc."
+SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
 path = "Models/GlamVelvetSofa/*"
