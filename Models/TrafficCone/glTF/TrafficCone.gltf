@@ -7,7 +7,7 @@
 			"license":"CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
 			"source":"https://sketchfab.com/3d-models/traffic-cone-573feef839d7450cb3e12da9986e7a98",
 			"title":"Traffic Cone",
-			"additionally":"asphalt_02 textures CC0 by PolyHaven, https://polyhaven.com/a/asphalt_02"
+			"comment":"asphalt_02 textures CC0 by PolyHaven, https://polyhaven.com/a/asphalt_02"
 		}
 	},
 	"extensionsUsed":[
@@ -24,7 +24,7 @@
 						1,
 						1
 					],
-					"intensity":1.0,
+					"intensity":1.0000000158213433,
 					"type":"point",
 					"name":"Point Light"
 				}
@@ -39,7 +39,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -111,17 +112,26 @@
 		},
 		{
 			"mesh":2,
-			"name":"Plane",
+			"name":"GroundPlane",
 			"translation":[
 				0,
 				-0.0009765625,
 				0
 			]
+		},
+		{
+			"mesh":3,
+			"name":"Bulb",
+			"translation":[
+				0,
+				0.3700000047683716,
+				1.2000000476837158
+			]
 		}
 	],
 	"cameras":[
 		{
-			"name":"Camera.001",
+			"name":"Example View",
 			"perspective":{
 				"aspectRatio":1.7777777777777777,
 				"yfov":0.6248278617858887,
@@ -195,6 +205,23 @@
 					"index":5
 				}
 			}
+		},
+		{
+			"doubleSided":true,
+			"emissiveFactor":[
+				0.8999999761581421,
+				0.6571260094642639,
+				0.07006581872701645
+			],
+			"name":"BulbMaterial",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0,
+					0,
+					0,
+					1
+				]
+			}
 		}
 	],
 	"meshes":[
@@ -237,6 +264,20 @@
 					},
 					"indices":7,
 					"material":2
+				}
+			]
+		},
+		{
+			"name":"BulbMesh",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":8,
+						"NORMAL":9,
+						"TEXCOORD_0":10
+					},
+					"indices":11,
+					"material":3
 				}
 			]
 		}
@@ -366,6 +407,40 @@
 			"componentType":5123,
 			"count":96,
 			"type":"SCALAR"
+		},
+		{
+			"bufferView":8,
+			"componentType":5126,
+			"count":172,
+			"max":[
+				0.05249999463558197,
+				0.05250000208616257,
+				5.097275046495042e-09
+			],
+			"min":[
+				-0.05249999463558197,
+				-0.12337672710418701,
+				-1.0952012274856315e-07
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":9,
+			"componentType":5126,
+			"count":172,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":172,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":11,
+			"componentType":5123,
+			"count":504,
+			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -416,6 +491,30 @@
 			"byteLength":192,
 			"byteOffset":217344,
 			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":2064,
+			"byteOffset":217536,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2064,
+			"byteOffset":219600,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":1376,
+			"byteOffset":221664,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":1008,
+			"byteOffset":223040,
+			"target":34963
 		}
 	],
 	"samplers":[
@@ -426,7 +525,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":217536,
+			"byteLength":224048,
 			"uri":"TrafficCone.bin"
 		}
 	]
