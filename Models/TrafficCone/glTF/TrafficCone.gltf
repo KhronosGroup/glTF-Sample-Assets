@@ -13,7 +13,8 @@
 	"extensionsUsed":[
 		"KHR_materials_specular",
 		"KHR_materials_retroreflection",
-		"KHR_lights_punctual"
+		"KHR_lights_punctual",
+		"KHR_materials_unlit"
 	],
 	"extensions":{
 		"KHR_lights_punctual":{
@@ -80,15 +81,15 @@
 			"camera":0,
 			"name":"Camera",
 			"rotation":[
-				-0.02497648447751999,
+				-0.06104852631688118,
 				0,
 				0,
-				0.9996880292892456
+				0.9981349110603333
 			],
 			"translation":[
 				0,
 				0.3690060079097748,
-				2
+				1.190000057220459
 			]
 		},
 		{
@@ -136,7 +137,7 @@
 				"aspectRatio":1.7777777777777777,
 				"yfov":0.6248278617858887,
 				"zfar":200,
-				"znear":0.10000000149011612
+				"znear":0.009999999776482582
 			},
 			"type":"perspective"
 		}
@@ -208,17 +209,15 @@
 		},
 		{
 			"doubleSided":true,
-			"emissiveFactor":[
-				0.8999999761581421,
-				0.6571260094642639,
-				0.07006581872701645
-			],
+			"extensions":{
+				"KHR_materials_unlit":{}
+			},
 			"name":"BulbMaterial",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0,
-					0,
-					0,
+					0.8962642550468445,
+					0.65837562084198,
+					0.07036028802394867,
 					1
 				]
 			}
