@@ -6,6 +6,8 @@
 
 We are actively accepting new or revised models for the Sample Assets repo. This keeps the repo active and relevant. All changes, whether they are new models or updates of existing ones, are handled as Pull Requests (PR) and must meet the same quality requirements.
 
+See also [ReviewProcess.md](ReviewProcess.md) for how PRs are reviewed and approved (working draft, intended to eventually merge into this guide).
+
 ## Model Quality Requirements
 
 A summary of the quality requirements for models is given here. Details for submitting new models will be given in the next section.
