@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "year": "2026",
+            "owner": "Public",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "artist": "Michael Bond",
+            "what": "Everything",
+            "text": "CC0 1.0 Universal",
+            "spdx": "CC0-1.0",
+            "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "extension"
+    ],
+    "screenshot": "screenshot/raytraced.png",
+    "name": "TransmissionTinting",
+    "path": "./Models/TransmissionTinting",
+    "summary": "Asset for testing transmission tinting for thin-walled and volumetric meshes.",
+    "createReadme": true
+}
