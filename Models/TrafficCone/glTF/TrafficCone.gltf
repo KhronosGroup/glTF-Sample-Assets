@@ -1,14 +1,8 @@
 {
 	"asset":{
+		"copyright": "Traffic cone mesh CC-BY-4.0 hinndia on Sketchfab, https://sketchfab.com/3d-models/traffic-cone-573feef839d7450cb3e12da9986e7a98 - asphalt_02 textures CC0 by PolyHaven, https://polyhaven.com/a/asphalt_02 - Light bulb icon and final asset edits CC0 by Ed Mackey, 2026",
 		"generator":"Khronos glTF Blender I/O v4.4.55, with hand-edits for retroreflection",
-		"version":"2.0",
-		"extras": {
-			"author":"hinndia (https://sketchfab.com/hinndia)",
-			"license":"CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-			"source":"https://sketchfab.com/3d-models/traffic-cone-573feef839d7450cb3e12da9986e7a98",
-			"title":"Traffic Cone",
-			"comment":"asphalt_02 textures CC0 by PolyHaven, https://polyhaven.com/a/asphalt_02"
-		}
+		"version":"2.0"
 	},
 	"extensionsUsed":[
 		"KHR_materials_specular",
