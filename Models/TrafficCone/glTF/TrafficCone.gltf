@@ -516,9 +516,6 @@
 			"minFilter":9987
 		},
 		{
-			"extras":{
-				"comment":"This sampler has mipmapping turned off, to keep the reflections from creeping up and down the sides of the traffic cone."
-			},
 			"magFilter":9729,
 			"minFilter":9729
 		}
