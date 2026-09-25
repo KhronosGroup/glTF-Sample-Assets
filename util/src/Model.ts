@@ -608,7 +608,7 @@ export class Model {
     );
     const license = Licenses.LICENSE["CC-BY-4.0"];
     md.push(
-      `  * [${license.text}]("${license.link}") [SPDX license identifier: "CC-BY-4.0"]`
+      `  * [${license.text}](${license.link}) [SPDX license identifier: "CC-BY-4.0"]`
     );
 
     // Footer

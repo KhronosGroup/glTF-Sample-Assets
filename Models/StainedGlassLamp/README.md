@@ -165,7 +165,6 @@ The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/)
 The textures were created from photo reference, augmented with procedural textures and hand-painted detail. The emissive textures were pre-rendered in 3ds Max using the V-Ray renderer and sphere lights, and the textures were hand-tuned to work with baseColor and transmission.
 
 
-
 ## Legal
 
 &copy; 2021, Wayfair. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

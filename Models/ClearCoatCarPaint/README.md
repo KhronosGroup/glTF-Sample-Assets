@@ -18,7 +18,7 @@
 
 ## Summary
 
-This model is a sphere using the glTF ClearCoat extension overtop a car paint base material. 
+This model is a sphere using the glTF ClearCoat extension overtop a car paint base material.
 
 ## Operations
 

@@ -15,7 +15,7 @@ A summary of the quality requirements for models is given here. Details for subm
 - Each model is contained in a subdirectory of the `./Models` directory. This subdirectory contains all model variants and associated files.
 - Each model must pass the [glTF-Validator](https://github.khronos.org/glTF-Validator/).
 - Each model must have an associated `README.md` markdown file that describes the model and the features of the model that make it appropriate for this repo
-- Each model must have an associated `metadata.json` file that includes legal information (ownership, copyright, and license) 
+- Each model must have an associated `metadata.json` file that includes legal information (ownership, copyright, and license)
 - Each model must have a properly formatted screenshot. For details, see the [screenshot section](#the-screenshot).
 
 ## Submitting New Models
@@ -53,7 +53,7 @@ The meaning of the fields:
 - `name`: A name for the model that will be used to refer to be model in titles and link descriptions. This will usually resemble the name of the subdirectory that contains the model. For example, the `name` of a model that is contained in `./Models/AnimatedTriangle` may be `"Animated Triangle"`.
 - `path`: The path to the model, referring to the root of the repository. For example, `"./Models/AnimatedTriangle"`.
 - `summary`: A short summary of the model, to be displayed in tables and overviews. It should usually be a single sentence or short paragraph, and _not_ a full description of the model. For example, a summary might be `"A simple triangle with a rotation animation"`.
-- `screenshot`: The path to a screenshot that should be displayed for the model, suitable for being displayed in an overview table. 
+- `screenshot`: The path to a screenshot that should be displayed for the model, suitable for being displayed in an overview table.
 - `tags`: An array of tags that are used for classifying the model. See the [Tags](#tags) section for the set of tags that are currently supported.
 - `legal`: An array with at least one entry, summarizing the copyright information of the model. Details are given below.
 
@@ -62,7 +62,7 @@ Each element of the `legal` array contains information about the copyright and l
 
 - `license`: The license assigned by the owner. This should be a valid [SPDX](https://spdx.org/licenses/) license identifier. See the [Licenses](#licenses) section for a list of supported licenses. Other, custom licenses may be used with agreement prior to submitting the Pull Request. See the section about [Custom Licenses](#custom-licenses) below.
 - `year`: The year the work was created or modified.
-- `artist`: The name of the artist(s) who created or modified (parts of) the model. 
+- `artist`: The name of the artist(s) who created or modified (parts of) the model.
 * `what`: What was done by the artist. Standard terminology includes _Everything_ or _Creation_ for the initial work; _Mesh_ for the geometry; _Texture_ for all materials; _Animation_ for movement; and _Conversion_ for converting to glTF.
 - `owner`: The owner of the model. This is may be the same as the `artist`, or the organization responsible for the `artist`. If the work is in the Public Domain, then the `owner` may be `"Public"`.
 
@@ -80,7 +80,7 @@ For the case that (parts of) the model should be published with a license that i
 
 ```json
 {
-  "license": "",  
+  "license": "",
   "text": "",
   "year": "",
   "artist": "",
@@ -105,7 +105,7 @@ The screenshot must be in the `screenshot` subdirectory of the model. The path t
 
 #### The README body
 
-Each model must have a file that is called `README.body.md`. This file should contain additional details of the model. The contents of this file will automatically be inserted into the main `README.md` of the model. This `README.body.md` can contain additional subsections and text explaining the purpose and structure of the model. The lowest indentation level for the sections in this file should be `##`. This file may also refer to additional screenshots that may be included in the `screenshot` directory of the model. 
+Each model must have a file that is called `README.body.md`. This file should contain additional details of the model. The contents of this file will automatically be inserted into the main `README.md` of the model. This `README.body.md` can contain additional subsections and text explaining the purpose and structure of the model. The lowest indentation level for the sections in this file should be `##`. This file may also refer to additional screenshots that may be included in the `screenshot` directory of the model.
 
 #### The Actual Model
 

@@ -8,7 +8,7 @@
 
 ## Summary
 
-A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. 
+A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute.
 
 ## Operations
 
