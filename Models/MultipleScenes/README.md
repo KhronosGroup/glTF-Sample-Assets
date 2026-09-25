@@ -8,7 +8,7 @@
 
 ## Summary
 
-A simple glTF asset with two scenes. Each scene consists of one node with one mesh. 
+A simple glTF asset with two scenes. Each scene consists of one node with one mesh.
 
 ## Operations
 

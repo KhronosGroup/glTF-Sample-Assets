@@ -55,7 +55,6 @@ For this reason the reflective tape is given an elevated dielectric reflectance 
 The scene is lit by a single `KHR_lights_punctual` point light placed just in front of the cones, near the camera. Retroreflection peaks when the light and view directions are aligned, so this headlight-like placement is what makes the bands light up — move the light away from the camera and the effect fades.
 
 
-
 ## Legal
 
 &copy; 2024, hinndia. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
