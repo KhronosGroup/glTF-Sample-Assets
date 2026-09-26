@@ -40,4 +40,3 @@ However, the darker blocks are indicative of a separate problem with normal vect
 The lower portion of the model contains spheres.  The `-1.0` column shown on the right has a negative scale applied, so the double-sided spheres are inside-out.  However, the above renderer has not correctly flipped the normal vectors, so the diffuse light is hitting this column from the wrong side.  This is especially visible on the white sphere in this example.  The two white spheres should be lit the same, regardless of the negative scaling on one of them.
 
 This problem with normal vectors is likely also the cause the upper "check" and "X" blocks that appear to be lit differently from the samples.
-

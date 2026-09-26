@@ -23,10 +23,3 @@ When a viewer supports the extension, but falsely defaults the `visible` flag to
 When a viewer supports the extension, but does not follow the rule from the specification that requires a node to be visible only when itself and all its ancestors are visible, then this will be indicated by the asset as shown in this screenshot:
 
 ![NoProperHierarchy](screenshot/NoProperHierarchy.png)
-
-
-
-
-
-
-
