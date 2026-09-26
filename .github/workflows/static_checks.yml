@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: The Khronos Group Inc.
+# SPDX-License-Identifier: CC-BY-4.0
+name: 📊 Static Checks
+on: [push, pull_request]
+
+concurrency:
+  group: ci-${{ github.actor }}-${{ github.head_ref || github.run_number }}-${{ github.ref }}-static
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  static-checks:
+    name: Code style and file formatting
+    runs-on: ubuntu-26.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+
+      - name: Style checks via pre-commit
+        id: pre-commit
+        uses: pre-commit/action@v3.0.1
+        continue-on-error: true
+        with:
+          extra_args: --all-files
+
+      - name: Find existing status comment
+        if: github.event_name == 'pull_request'
+        id: find-comment
+        uses: peter-evans/find-comment@v3
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: "github-actions[bot]"
+          body-includes: <!-- static-checks-status -->
+
+      - name: Post or update failure comment
+        if: github.event_name == 'pull_request' && steps.pre-commit.outcome == 'failure'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
+          body: |
+            <!-- static-checks-status -->
+            ❌ **Static checks failed.** This indicates either a formatting problem, or a broken Markdown link. Please run `pre-commit` on your computer in order to reproduce and/or fix the problem locally. The `.pre-commit-config.yaml` file in the repository root contains instructions on how to install and run `pre-commit`.
+
+      - name: Update comment on success
+        if: github.event_name == 'pull_request' && steps.pre-commit.outcome == 'success' && steps.find-comment.outputs.comment-id != ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          edit-mode: replace
+          body: |
+            <!-- static-checks-status -->
+            ✅ Static checks passed.
+
+      - name: Fail job if checks failed
+        if: steps.pre-commit.outcome == 'failure'
+        run: exit 1
