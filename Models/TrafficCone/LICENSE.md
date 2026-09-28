@@ -6,6 +6,8 @@ All files in this directory tree are licensed as indicated below.
 
   * [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) [SPDX license identifier: "CC-BY-4.0"]
 
+  * [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode) [SPDX license identifier: "CC0-1.0"]
+
 * This file and all other metadocumentation files including "metadata.json":
 
   * [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) [SPDX license identifier: "CC-BY-4.0"]

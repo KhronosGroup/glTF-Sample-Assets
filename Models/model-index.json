@@ -1819,7 +1819,8 @@
       "extension"
     ],
     "variants": {
-      "glTF": "TrafficCone.gltf"
+      "glTF": "TrafficCone.gltf",
+      "glTF-Binary": "TrafficCone.glb"
     }
   },
   {
