@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "Fuzz Parameter Sweep",
+  "path": "./Models/FuzzParameterSweep",
+  "summary": "Parameter sweep for KHR_materials_fuzz, with a KHR_materials_sheen reference row.",
+  "screenshot": "screenshot/screenshot.png",
+  "tags": [
+    "testing",
+    "pbrtest",
+    "extension"
+  ],
+  "createReadme": true,
+  "legal": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "year": "2026",
+      "artist": "DisplayXR",
+      "what": "Entire Model",
+      "owner": "Leia Inc."
+    }
+  ]
+}
