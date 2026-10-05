@@ -1679,6 +1679,18 @@
     }
   },
   {
+    "label": "Spruce Tree with Opacity Micromaps",
+    "name": "SpruceOmm",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": [
+      "extension"
+    ],
+    "variants": {
+      "glTF": "SpruceOmm.gltf",
+      "glTF-Binary": "SpruceOmm.glb"
+    }
+  },
+  {
     "label": "Stained Glass Lamp",
     "name": "StainedGlassLamp",
     "screenshot": "screenshot/screenshot.jpg",

@@ -757,6 +757,12 @@ SPDX-FileCopyrightText = "2016 Crytek"
 SPDX-License-Identifier = "LicenseRef-CRYENGINE-Agreement"
 
 [[annotations]]
+path = "Models/SpruceOmm/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [ "2025 Georgeous", "2026 NVIDIA" ]
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
 path = "Models/StainedGlassLamp/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2021 Wayfair"
