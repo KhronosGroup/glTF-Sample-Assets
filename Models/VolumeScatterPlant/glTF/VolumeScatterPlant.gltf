@@ -2146,7 +2146,7 @@
       "doubleSided": true,
       "extensions": {
         "KHR_materials_transmission": {
-          "transmissionFactor": 0.1
+          "transmissionFactor": 1
         },
         "KHR_materials_volume_scatter": {
           "multiscatterColorFactor": [
