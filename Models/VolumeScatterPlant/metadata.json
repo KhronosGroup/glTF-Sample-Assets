@@ -29,8 +29,8 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.jpg",
-    "name": "DiffuseTransmissionPlant",
-    "path": "./Models/DiffuseTransmissionPlant",
-    "summary": "Potted plant asset using Diffuse Transmission extension.",
+    "name": "VolumeScatterPlant",
+    "path": "./Models/VolumeScatterPlant",
+    "summary": "Potted plant asset using Volume Scatter extension.",
     "createReadme": true
 }

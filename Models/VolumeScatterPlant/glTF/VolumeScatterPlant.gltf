@@ -2035,7 +2035,7 @@
   ],
   "buffers": [
     {
-      "uri": "DiffuseTransmissionPlant.bin",
+      "uri": "VolumeScatterPlant.bin",
       "byteLength": 2156988
     }
   ],
@@ -2089,6 +2089,7 @@
   },
   "extensionsUsed": [
     "KHR_lights_punctual",
+    "KHR_materials_transmission",
     "KHR_materials_volume",
     "KHR_materials_volume_scatter"
   ],
@@ -2144,6 +2145,9 @@
       "alphaMode": "MASK",
       "doubleSided": true,
       "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.1
+        },
         "KHR_materials_volume_scatter": {
           "multiscatterColorFactor": [
             1,
