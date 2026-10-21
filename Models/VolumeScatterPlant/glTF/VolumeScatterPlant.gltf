@@ -2160,7 +2160,7 @@
           }
         },
         "KHR_materials_volume": {
-          "thicknessFactor": 0
+          "thicknessFactor": 0.001
         }
       },
       "name": "leaves",
