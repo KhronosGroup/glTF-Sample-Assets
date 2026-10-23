@@ -60,13 +60,13 @@ The stained glass material uses roughness to simulate the microfacet scattering 
 
 ![animated screenshot of transmission](screenshot/screenshot_transmission_rotation.gif)
 
-The stained glass material uses alpha-as-coverge in MASK mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads.
+The stained glass material uses alpha-as-coverage in MASK mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads.
 
 ## KHR_materials_clearcoat
 
 The models in `\glTF` and `\glTF-KTX-BasisU` use the extension [KHR_texture_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md) on the multicolored stained glass to add smooth reflections on top of the glass. The glass material must be rough for `KHR_materials_transmission` to create microsurface refractions, so clearcoat restores shiny surface reflections to the smooth outer surfaces of the stained glass.
 
-The two textures for transmissionTexture and clearcoatTexture have been packed together into a single bitmap `StainedGlassLamp_glass_transmission-clearcoat` using the red and green channels to optimize memory use.
+The two textures for transmissionTexture and clearcoatTexture use the same bitmap `StainedGlassLamp_glass_transmission-clearcoat`, a single-channel grayscale texture. This texture confines these two effects to only be applied to the glass and not to the metal lattice that holds the stained glass.
 
 ![animated screenshot of clearcoat](screenshot/screenshot_clearcoat_on-off.gif)
 
@@ -86,22 +86,22 @@ The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/Khrono
 
 The aim was to achieve the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size.
 
-The textures were compressed from PNG source into KTX2 using [toktx](https://github.com/KhronosGroup/KTX-Software) via a combination of compression settings that favored high quality. UASTC was used for ORM and Normal textures and ETCS1 for Base Color and Emissive textures, however exceptions were made based on analyzing results... the `glass_basecolor-alpha` and `glass_emissive` textures were changed from ETC1S to UASTC since these were prominently displayed on the model and contained a lot of color variation.
+The textures were compressed from PNG source into KTX2 using [toktx](https://github.com/KhronosGroup/KTX-Software) via a combination of compression settings that favored high quality. UASTC was used for ORM and Normal textures and ETC1S for Base Color and Emissive textures, however exceptions were made based on analyzing results... the `glass_basecolor-alpha` and `glass_emissive` textures were changed from ETC1S to UASTC since these were prominently displayed on the model and contained a lot of color variation.
 
 toktx compression settings:
 ```
 set mipmap=--genmipmap
 set uastc=--uastc 4 --uastc_rdo_l .5 --uastc_rdo_d 65536 --zcmp 22
 set uastchq=--uastc 4 --uastc_rdo_l .25 --uastc_rdo_d 65536 --zcmp 22
-set etcs1=--bcmp --clevel 4 --qlevel 255
-toktx %mipmap% %etcs1% StainedGlassLamp_base_basecolor.ktx2 StainedGlassLamp_base_basecolor.png
-toktx %mipmap% %etcs1% StainedGlassLamp_base_emissive.ktx2 StainedGlassLamp_base_emissive.png
+set etc1s=--bcmp --clevel 4 --qlevel 255
+toktx %mipmap% %etc1s% StainedGlassLamp_base_basecolor.ktx2 StainedGlassLamp_base_basecolor.png
+toktx %mipmap% %etc1s% StainedGlassLamp_base_emissive.ktx2 StainedGlassLamp_base_emissive.png
 toktx %mipmap% %uastc% StainedGlassLamp_glass_basecolor-alpha.ktx2 StainedGlassLamp_glass_basecolor-alpha.png
 toktx %mipmap% %uastc% StainedGlassLamp_glass_emissive.ktx2 StainedGlassLamp_glass_emissive.png
-toktx %mipmap% %etcs1% StainedGlassLamp_grill_basecolor-alpha.ktx2 StainedGlassLamp_grill_basecolor-alpha.png
-toktx %mipmap% %etcs1% StainedGlassLamp_grill_emissive.ktx2 StainedGlassLamp_grill_emissive.png
-toktx %mipmap% %etcs1% StainedGlassLamp_hardware_basecolor.ktx2 StainedGlassLamp_hardware_basecolor.png
-toktx %mipmap% %etcs1% StainedGlassLamp_hardware_emissive.ktx2 StainedGlassLamp_hardware_emissive.png
+toktx %mipmap% %etc1s% StainedGlassLamp_grill_basecolor-alpha.ktx2 StainedGlassLamp_grill_basecolor-alpha.png
+toktx %mipmap% %etc1s% StainedGlassLamp_grill_emissive.ktx2 StainedGlassLamp_grill_emissive.png
+toktx %mipmap% %etc1s% StainedGlassLamp_hardware_basecolor.ktx2 StainedGlassLamp_hardware_basecolor.png
+toktx %mipmap% %etc1s% StainedGlassLamp_hardware_emissive.ktx2 StainedGlassLamp_hardware_emissive.png
 toktx %mipmap% %uastchq% --assign_oetf linear --assign_primaries none StainedGlassLamp_base_normal.ktx2 StainedGlassLamp_base_normal.png
 toktx %mipmap% %uastchq% --assign_oetf linear --assign_primaries none StainedGlassLamp_base_occlusion-rough-metal.ktx2 StainedGlassLamp_base_occlusion-rough-metal.png
 toktx %mipmap% %uastc% --assign_oetf linear --assign_primaries none StainedGlassLamp_bulbs_occlusion-rough-metal.ktx2 StainedGlassLamp_bulbs_occlusion-rough-metal.png
