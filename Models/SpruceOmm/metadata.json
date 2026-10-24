@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "legal": [
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "Georgeous",
+      "year": "2025",
+      "owner": "Georgeous",
+      "what": "Original model and textures",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "Martin-Karl Lefrançois",
+      "year": "2026",
+      "owner": "NVIDIA",
+      "what": "Opacity micromap data and scene edits",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    }
+  ],
+  "tags": [
+    "extension"
+  ],
+  "screenshot": "screenshot/screenshot.jpg",
+  "name": "Spruce Tree with Opacity Micromaps",
+  "path": "./Models/SpruceOmm",
+  "summary": "A spruce tree with alpha-tested foliage demonstrating the EXT_mesh_opacity_micromap extension, which stores ray tracing opacity micromaps baked from the alpha mask.",
+  "createReadme": true
+}
