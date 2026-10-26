@@ -18,8 +18,8 @@
         "extension"
     ],
     "screenshot": "screenshot/screenshot.png",
-    "name": "Scatter Strength",
-    "path": "./Models/ScatterStrength",
+    "name": "Scatter Strength Thin-Walled",
+    "path": "./Models/ScatterStrengthThin-Walled",
     "summary": "Thin-Walled Scattering Strength",
     "createReadme": true
 }
