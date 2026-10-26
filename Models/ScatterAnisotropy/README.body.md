@@ -6,7 +6,7 @@
 <br/>_Rendered in Babylon.js using OpenPBR material._
 
 ## Description
-This asset demonstrates the effect of anisotropic scattering. Each shader ball uses the `KHR_materials_volume_scatter` extension with values for `scatterAnisotropy` ranging from -1 (backscattering) to +1 (forward scattering).
+This asset demonstrates the effect of anisotropic scattering. Each shader ball uses the `KHR_materials_scatter` extension with values for `scatterAnisotropy` ranging from -0.95 (backscattering) to +0.95 (forward scattering).
 
 ## Editing and Export
 The shader ball asset is the USD Standard Shader Ball, converted to glTF. The material setup and export was done in Babylon.js.
