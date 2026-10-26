@@ -63,7 +63,6 @@ The Peacock Velvet material uses 1.0 metalness. While not being physically accur
 The model was created in Autodesk 3ds Max 2020 and exported using the [`Max2Babylon`](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. To add `KHR_materials_sheen` and `KHR_materials_variants` the glTF file was edited manually.
 
 
-
 ## Legal
 
 &copy; 2020, Wayfair, LLC. [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)

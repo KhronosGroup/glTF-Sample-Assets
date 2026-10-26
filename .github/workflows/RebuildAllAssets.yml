@@ -1,8 +1,8 @@
 name: Rebuild All Model Assets
 
 # Only need to handle pushes to 'main' because merged PRs do that
-# along with direct pushes. 
-on: 
+# along with direct pushes.
+on:
   push:
     branches:
       - 'main'
@@ -27,7 +27,7 @@ jobs:
       run: |
         npm run update
 
-    - name: Commit changes to a new branch 
+    - name: Commit changes to a new branch
       uses: EndBug/add-and-commit@v9
       with:
         # This action merges all changes into 'main'
@@ -48,4 +48,3 @@ jobs:
         # - exitAtEnd -> the action will go on, every pathspec error will be logged at the end, the step will fail.
         # Default: ignore
         pathspec_error_handling: exitAtEnd
-

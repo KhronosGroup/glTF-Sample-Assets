@@ -30,4 +30,3 @@ Both cones share the same physically-based material: `metallicFactor` is `0` (th
 For this reason the reflective tape is given an elevated dielectric reflectance with `KHR_materials_specular` (`specularColorFactor` of `4`, giving F0 ≈ 0.16) rather than by raising `metallicFactor`, which would be non-physical. `specularColorFactor` values above 1 are explicitly permitted for this purpose; the resulting F0 is clamped to 1 so the material stays energy-conserving.
 
 The scene is lit by a single `KHR_lights_punctual` point light placed just in front of the cones, near the camera. Retroreflection peaks when the light and view directions are aligned, so this headlight-like placement is what makes the bands light up — move the light away from the camera and the effect fades.
-

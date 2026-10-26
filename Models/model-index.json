@@ -543,7 +543,6 @@
     "name": "CompareBaseColor",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": [
-      "core",
       "testing",
       "pbrtest"
     ],
@@ -819,7 +818,6 @@
     "name": "DirectionalLight",
     "screenshot": "screenshot/screenshot.png",
     "tags": [
-      "core",
       "testing"
     ],
     "variants": {
@@ -913,12 +911,12 @@
     "name": "FlightHelmet",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": [
-      "core",
       "showcase",
       "testing"
     ],
     "variants": {
-      "glTF": "FlightHelmet.gltf"
+      "glTF": "FlightHelmet.gltf",
+      "glTF-KTX-BasisU": "FlightHelmet.gltf"
     }
   },
   {
@@ -1292,7 +1290,6 @@
     "name": "NodePerformanceTest",
     "screenshot": "screenshot/screenshot_large.jpg",
     "tags": [
-      "core",
       "testing"
     ],
     "variants": {
@@ -1465,7 +1462,6 @@
     "name": "ScatteringSkull",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": [
-      "core",
       "testing"
     ],
     "variants": {
@@ -1663,7 +1659,6 @@
     "name": "SpecularTest",
     "screenshot": "screenshot/screenshot.jpg",
     "tags": [
-      "core",
       "testing",
       "extension"
     ],
@@ -1824,7 +1819,8 @@
       "extension"
     ],
     "variants": {
-      "glTF": "TrafficCone.gltf"
+      "glTF": "TrafficCone.gltf",
+      "glTF-Binary": "TrafficCone.glb"
     }
   },
   {

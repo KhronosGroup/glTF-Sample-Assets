@@ -819,8 +819,8 @@ SPDX-License-Identifier = "CC0-1.0"
 [[annotations]]
 path = "Models/TrafficCone/*"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2024 hinndia"
-SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileCopyrightText = [ "2024 hinndia", "2020 PolyHaven" ]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC0-1.0"
 
 [[annotations]]
 path = "Models/TransmissionOrderTest/*"

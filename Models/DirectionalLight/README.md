@@ -4,7 +4,7 @@
 
 ## Tags
 
-[core](../Models-core.md), [testing](../Models-testing.md)
+[testing](../Models-testing.md)
 
 ## Extensions Required
 

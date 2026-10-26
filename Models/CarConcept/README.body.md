@@ -264,4 +264,3 @@ It is important to use the [glTF Validator](https://github.khronos.org/glTF-Vali
 
 ![A screenshot of the glTF Validator with with the car glTF loaded.](screenshot/gltf_validator.jpg)
 <br/>_The glTF Validator can catch many common problems with malformed glTF assets._
-

@@ -4,7 +4,7 @@
 
 ## Tags
 
-[core](../Models-core.md), [testing](../Models-testing.md), [pbrtest](../Models-pbrtest.md)
+[testing](../Models-testing.md), [pbrtest](../Models-pbrtest.md)
 
 ## Extensions Used
 

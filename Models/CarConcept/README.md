@@ -293,7 +293,6 @@ It is important to use the [glTF Validator](https://github.khronos.org/glTF-Vali
 <br/>_The glTF Validator can catch many common problems with malformed glTF assets._
 
 
-
 ## Legal
 
 &copy; 2024, Darmstadt Graphics Group GmbH. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

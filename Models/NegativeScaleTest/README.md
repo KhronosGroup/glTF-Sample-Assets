@@ -60,7 +60,6 @@ The lower portion of the model contains spheres.  The `-1.0` column shown on the
 This problem with normal vectors is likely also the cause the upper "check" and "X" blocks that appear to be lit differently from the samples.
 
 
-
 ## Legal
 
 &copy; 2023, Analytical Graphics, Inc.. [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)

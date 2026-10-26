@@ -76,8 +76,17 @@ export class Model {
 
     this.variants = this.findVariants(baseDirectory, issues);
     const extensions = this.readExtensionsInfo(baseDirectory);
+
     this.extensionsUsed = extensions.used;
     this.extensionsRequired = extensions.required;
+
+    const tags = this.getTags();
+    if (this.extensionsUsed.length > 0 && tags.includes("core")) {
+      const errors = issues.errors;
+      errors.push(
+        `Model is tagged as 'core' but uses extensions ${this.extensionsUsed}`
+      );
+    }
   }
 
   /**
@@ -599,7 +608,7 @@ export class Model {
     );
     const license = Licenses.LICENSE["CC-BY-4.0"];
     md.push(
-      `  * [${license.text}]("${license.link}") [SPDX license identifier: "CC-BY-4.0"]`
+      `  * [${license.text}](${license.link}) [SPDX license identifier: "CC-BY-4.0"]`
     );
 
     // Footer
