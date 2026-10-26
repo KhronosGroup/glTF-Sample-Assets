@@ -1,0 +1,365 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.2.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 6,
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 7,
+      "normalized": true,
+      "byteOffset": 24,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5120,
+      "count": 18,
+      "normalized": true,
+      "byteOffset": 52,
+      "bufferView": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 6,
+      "max": [
+        32767,
+        0,
+        13105
+      ],
+      "min": [
+        -32767,
+        0,
+        -13105
+      ],
+      "normalized": true,
+      "byteOffset": 0,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 7,
+      "max": [
+        32767,
+        0,
+        32767
+      ],
+      "min": [
+        -32767,
+        0,
+        -32767
+      ],
+      "normalized": true,
+      "byteOffset": 48,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 18,
+      "max": [
+        28379,
+        0,
+        32767
+      ],
+      "min": [
+        -28379,
+        0,
+        -32767
+      ],
+      "normalized": true,
+      "byteOffset": 104,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 10,
+      "max": [
+        32767,
+        0,
+        32767
+      ],
+      "min": [
+        -32767,
+        0,
+        -32767
+      ],
+      "normalized": true,
+      "byteOffset": 248,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 8,
+      "max": [
+        32767,
+        0,
+        32767
+      ],
+      "min": [
+        -32767,
+        0,
+        -32767
+      ],
+      "normalized": true,
+      "byteOffset": 328,
+      "bufferView": 1
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 16,
+      "max": [
+        32767,
+        0,
+        32767
+      ],
+      "min": [
+        -32767,
+        0,
+        -32767
+      ],
+      "normalized": true,
+      "byteOffset": 392,
+      "bufferView": 1
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 124,
+      "target": 34962,
+      "byteStride": 4,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 0,
+          "byteLength": 37,
+          "mode": "ATTRIBUTES",
+          "filter": "OCTAHEDRAL",
+          "byteStride": 4,
+          "count": 31
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 124,
+      "byteLength": 520,
+      "target": 34962,
+      "byteStride": 8,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "buffer": 0,
+          "byteOffset": 40,
+          "byteLength": 274,
+          "mode": "ATTRIBUTES",
+          "byteStride": 8,
+          "count": 65
+        }
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "TopologiesWithoutIndices.bin",
+      "byteLength": 316
+    },
+    {
+      "byteLength": 644,
+      "extensions": {
+        "EXT_meshopt_compression": {
+          "fallback": true
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "TriangleStrip",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 0,
+            "POSITION": 3
+          },
+          "mode": 5
+        }
+      ]
+    },
+    {
+      "name": "TriangleFan",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 4
+          },
+          "mode": 6
+        }
+      ]
+    },
+    {
+      "name": "Triangles",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 5
+          },
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "LineStrip",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6
+          },
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "name": "LineLoop",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "mode": 2
+        }
+      ]
+    },
+    {
+      "name": "Lines",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "mode": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "TriangleStrip",
+      "translation": [
+        -0.5,
+        0,
+        0
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "TriangleFan",
+      "translation": [
+        5,
+        1,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Triangles",
+      "translation": [
+        -6.000000029802322,
+        0,
+        0
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "LineStrip",
+      "translation": [
+        -6,
+        0,
+        6
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "LineLoop",
+      "translation": [
+        -1,
+        0,
+        6
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "mesh": 4
+    },
+    {
+      "name": "Lines",
+      "translation": [
+        -11,
+        0,
+        6
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "mesh": 5
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}
