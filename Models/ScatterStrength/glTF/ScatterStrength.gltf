@@ -2568,10 +2568,8 @@
   },
   "extensionsUsed": [
     "KHR_xmp_json_ld",
-    "KHR_texture_transform",
     "KHR_materials_transmission",
     "KHR_materials_scatter",
     "KHR_materials_volume"
-  ],
-  "extensionsRequired": ["KHR_texture_transform"]
+  ]
 }
