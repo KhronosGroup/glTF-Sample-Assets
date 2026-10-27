@@ -1966,7 +1966,7 @@
             1
           ],
           "scatterAnisotropy": 0.999,
-          "scatterStrengthFactor": 1.0,
+          "scatterStrengthFactor": 0.5,
           "multiscatterColorTexture": {
             "index": 7
           }
