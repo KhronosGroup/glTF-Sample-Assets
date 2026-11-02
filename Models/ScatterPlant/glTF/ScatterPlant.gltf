@@ -1957,7 +1957,7 @@
       "doubleSided": true,
       "extensions": {
         "KHR_materials_transmission": {
-          "transmissionFactor": 1
+          "transmissionFactor": 0.5
         },
         "KHR_materials_scatter": {
           "multiscatterColorFactor": [
@@ -1966,7 +1966,7 @@
             1
           ],
           "scatterAnisotropy": 0.999,
-          "scatterStrengthFactor": 0.5,
+          "scatterStrengthFactor": 1.0,
           "multiscatterColorTexture": {
             "index": 7
           }
