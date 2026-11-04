@@ -1957,7 +1957,7 @@
       "doubleSided": true,
       "extensions": {
         "KHR_materials_transmission": {
-          "transmissionFactor": 0.5
+          "transmissionFactor": 0.2
         },
         "KHR_materials_scatter": {
           "multiscatterColorFactor": [

@@ -1,7 +1,7 @@
 ## Screenshot
 
-![Screenshot from Vulkan RTX Path Tracer](screenshot/screenshot_Large.jpg)
-<br/>_Screenshot from [Vulkan RTX Path Tracer](https://github.com/nvpro-samples/vk_gltf_renderer#vulkan-rtx-path-tracer--gltf-scene-editor--pbr-material-reference)._
+![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
+<br/>_Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)._
 
 ## Description
 
@@ -16,12 +16,20 @@ The leaves are assigned the scatter extension with a red `multiscatterColorTextu
 ![multiscatterColorTexture on the model](screenshot/multiscatterColorTexture.jpg)
 <br/>_The multiscatterColorTexture isolated on the model._
 
-Fireflies were added, with emissive textures and point lights, and animated to follow a looping path. 
+Fireflies were added, with emissive textures and point lights, and animated to follow a looping path.
 
-Point lights were added slightly behind the firefly meshes, instead of inside, because rendering with a pathtracer would cause the firefly bodies to exclude the lights. 
+Point lights were added slightly behind the firefly meshes, instead of inside, because rendering with a pathtracer would cause the firefly bodies to exclude the lights.
 
 Chase cameras were added behind the fireflies, with a bit of shaky motion to mimic the fireflies ahead of them.
 
 Stem intersections with obvious shading differences were adjusted so their vertices could be welded together.
 
 For optimal texture quality, lossless versions of the textures were re-downloaded from Polyhaven, then the asset was optimized and ambient occlusion for the rocks was baked using vertex color.
+
+![comparison between plant models](screenshot/comparison.jpg)
+<br/>_Comparison between the two plant models._
+
+![comparison between the materials](screenshot/materials.png)
+<br/>_The two models use similar materials except with different extensions._
+
+DiffuseTransmissionPlant uses diffuseTransmissionFactor 0.1 while ScatterPlant uses transmissionFactor 0.2 which is slightly stronger to increase the scattering through the leaves.
