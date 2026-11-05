@@ -1805,7 +1805,6 @@
     {
       "name": "chase_firefly1",
       "perspective": {
-        "aspectRatio": 1.7777777910232544,
         "yfov": 0.7853981852531433,
         "zfar": 1.0,
         "znear": 0.0010000000474974513
@@ -1815,7 +1814,6 @@
     {
       "name": "chase_firefly2",
       "perspective": {
-        "aspectRatio": 1.7777777910232544,
         "yfov": 0.7853981852531433,
         "zfar": 1.0,
         "znear": 0.0010000000474974513
