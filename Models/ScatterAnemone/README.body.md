@@ -1,6 +1,6 @@
 ## Screenshot
 
-![Screenshot from glTF Sample Viewer](screenshots/screenshot_Large.jpg)
+![Screenshot from glTF Sample Viewer](screenshot/screenshot_Large.jpg)
 <br/>_Screenshot from [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/)._
 
 ## Description
