@@ -655,6 +655,12 @@ SPDX-FileCopyrightText = "2017 Cesium"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
+path = "Models/ScatterPlant/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [ "2024 Darmstadt Graphics Group GmbH", "2021 Public domain" ]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC0-1.0"
+
+[[annotations]]
 path = "Models/ScatteringSkull/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2025 Public"

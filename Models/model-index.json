@@ -1458,6 +1458,19 @@
     }
   },
   {
+    "label": "ScatterPlant",
+    "name": "ScatterPlant",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": [
+      "showcase",
+      "extension"
+    ],
+    "variants": {
+      "glTF": "ScatterPlant.gltf",
+      "glTF-Binary": "ScatterPlant.glb"
+    }
+  },
+  {
     "label": "Skull",
     "name": "ScatteringSkull",
     "screenshot": "screenshot/screenshot.jpg",
