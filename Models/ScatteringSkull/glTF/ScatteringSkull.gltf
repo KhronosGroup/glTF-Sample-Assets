@@ -126,7 +126,7 @@
                         0.3964099884033203
                     ],
                     "attenuationDistance": 0.016891848295927049,
-                    "thicknessFactor": 1,
+                    "thicknessFactor": 0.2,
                     "thicknessTexture": {
                         "index": 0
                     }
