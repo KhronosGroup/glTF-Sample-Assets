@@ -126,7 +126,7 @@
                         0.3964099884033203
                     ],
                     "attenuationDistance": 0.016891848295927049,
-                    "thicknessFactor": 1,
+                    "thicknessFactor": 0.2,
                     "thicknessTexture": {
                         "index": 0
                     }
@@ -137,7 +137,8 @@
                         0.16827136278152467,
                         0.5271198749542236,
                         0.5906253457069397
-                    ]
+                    ],
+                    "scatterAnisotropy": 0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3799999952316285
