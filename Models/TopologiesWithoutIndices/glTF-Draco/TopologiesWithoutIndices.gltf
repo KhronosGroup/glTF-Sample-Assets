@@ -1,0 +1,383 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.2.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 18
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18,
+      "max": [
+        0.866025447845459,
+        -1,
+        1
+      ],
+      "min": [
+        -0.8660255074501038,
+        -1,
+        -1
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 18
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6,
+      "max": [
+        4,
+        0,
+        1
+      ],
+      "min": [
+        -1,
+        0,
+        -1
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 7,
+      "max": [
+        2,
+        0,
+        3
+      ],
+      "min": [
+        -2,
+        0,
+        -1
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 7,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 10,
+      "max": [
+        2,
+        0,
+        3
+      ],
+      "min": [
+        -2,
+        0,
+        -1
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        2,
+        0,
+        3
+      ],
+      "min": [
+        -2,
+        0,
+        -1
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        2,
+        0,
+        3
+      ],
+      "min": [
+        -2,
+        0,
+        -1
+      ],
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6,
+      "bufferView": 5,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7,
+      "bufferView": 5,
+      "byteOffset": 12
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 10,
+      "bufferView": 5,
+      "byteOffset": 28
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 8,
+      "bufferView": 5,
+      "byteOffset": 48
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 16,
+      "bufferView": 5,
+      "byteOffset": 64
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 144,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 144,
+      "byteLength": 168,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 312,
+      "byteLength": 120,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 432,
+      "byteLength": 96,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 528,
+      "byteLength": 192,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 720,
+      "byteLength": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 816,
+      "byteLength": 214
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "TopologiesWithoutIndices.bin",
+      "byteLength": 1030
+    }
+  ],
+  "meshes": [
+    {
+      "name": "TriangleStrip",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "mode": 5,
+          "indices": 10
+        }
+      ]
+    },
+    {
+      "name": "TriangleFan",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6
+          },
+          "mode": 6,
+          "indices": 11
+        }
+      ]
+    },
+    {
+      "name": "Triangles",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "mode": 4,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "LineStrip",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "mode": 3,
+          "indices": 12
+        }
+      ]
+    },
+    {
+      "name": "LineLoop",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8
+          },
+          "mode": 2,
+          "indices": 13
+        }
+      ]
+    },
+    {
+      "name": "Lines",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9
+          },
+          "mode": 1,
+          "indices": 14
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "TriangleStrip",
+      "translation": [
+        -2,
+        0,
+        0
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "TriangleFan",
+      "translation": [
+        5,
+        1,
+        -1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Triangles",
+      "translation": [
+        -6,
+        1,
+        0
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "LineStrip",
+      "translation": [
+        -6,
+        0,
+        5
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "LineLoop",
+      "translation": [
+        -1,
+        0,
+        5
+      ],
+      "mesh": 4
+    },
+    {
+      "name": "Lines",
+      "translation": [
+        -11,
+        0,
+        5
+      ],
+      "mesh": 5
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}
