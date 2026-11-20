@@ -655,10 +655,22 @@ SPDX-FileCopyrightText = "2017 Cesium"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
+path = "Models/ScatterAnemone/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Eric Chadwick"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
 path = "Models/ScatterPlant/*"
 precedence = "aggregate"
 SPDX-FileCopyrightText = [ "2024 Darmstadt Graphics Group GmbH", "2021 Public domain" ]
 SPDX-License-Identifier = "CC-BY-4.0 AND CC0-1.0"
+
+[[annotations]]
+path = "Models/ScatterTest/*"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [ "2025 Darmstadt Graphics Group GmbH", "2015 Khronos Group", "2017 Khronos Group" ]
+SPDX-License-Identifier = "CC-BY-4.0 AND LicenseRef-LegalMark-Khronos"
 
 [[annotations]]
 path = "Models/ScatteringSkull/*"

@@ -1458,6 +1458,19 @@
     }
   },
   {
+    "label": "ScatterAnemone",
+    "name": "ScatterAnemone",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": [
+      "showcase",
+      "extension"
+    ],
+    "variants": {
+      "glTF": "ScatterAnemone.gltf",
+      "glTF-Binary": "ScatterAnemone.glb"
+    }
+  },
+  {
     "label": "ScatterPlant",
     "name": "ScatterPlant",
     "screenshot": "screenshot/screenshot.jpg",
@@ -1468,6 +1481,20 @@
     "variants": {
       "glTF": "ScatterPlant.gltf",
       "glTF-Binary": "ScatterPlant.glb"
+    }
+  },
+  {
+    "label": "ScatterTest",
+    "name": "ScatterTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "tags": [
+      "extension",
+      "pbrtest",
+      "testing"
+    ],
+    "variants": {
+      "glTF": "ScatterTest.gltf",
+      "glTF-Binary": "ScatterTest.glb"
     }
   },
   {
