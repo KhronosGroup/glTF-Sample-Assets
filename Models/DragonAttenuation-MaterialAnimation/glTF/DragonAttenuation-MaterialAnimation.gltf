@@ -1,0 +1,809 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_volume",
+    "KHR_materials_ior",
+    "KHR_materials_transmission",
+    "KHR_animation_pointer",
+    "KHR_materials_iridescence"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "DragonAttenuation-MaterialAnimation"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC3",
+      "max": [
+        0.98094433546066284,
+        1.0221298933029175,
+        1.4283748865127563
+      ],
+      "min": [
+        -0.82166594266891479,
+        0.0015843699220567942,
+        -0.46063709259033203
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC3",
+      "max": [
+        0.90256166458129883,
+        1.0,
+        0.99997919797897339
+      ],
+      "min": [
+        -0.9306495189666748,
+        -1.0,
+        -0.97392123937606812
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC2",
+      "max": [
+        0.66259652376174927,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 131337,
+      "type": "SCALAR",
+      "max": [
+        62569.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC3",
+      "max": [
+        7.0467000007629395,
+        3.1512999534606934,
+        0.0
+      ],
+      "min": [
+        -7.0467000007629395,
+        -3.1512999534606934,
+        -9.9399003982543945
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC3",
+      "max": [
+        0.999977171421051,
+        0.9999968409538269,
+        0.99999988079071045
+      ],
+      "min": [
+        -0.99998939037323,
+        -0.99999672174453735,
+        -0.99998819828033447
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 273648,
+      "type": "SCALAR",
+      "max": [
+        76808.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        4.7300000190734863
+      ],
+      "min": [
+        0.51999998092651367
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        0.33998763561248779
+      ],
+      "min": [
+        0.019999999552965164
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        2.1109795570373535
+      ],
+      "min": [
+        1.3480000495910645
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 581,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.22641506791114807,
+        0.22641506791114807,
+        0.22641506791114807,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 581,
+      "type": "SCALAR",
+      "max": [
+        19.333333969116211
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 581,
+      "type": "VEC3",
+      "max": [
+        0.92156863212585449,
+        0.70784455537796021,
+        0.92156863212585449
+      ],
+      "min": [
+        0.062745027244091034,
+        0.062745049595832825,
+        0.062788568437099457
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/pbrMetallicRoughness/metallicFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/pbrMetallicRoughness/roughnessFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_volume/thicknessFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationDistance"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceIor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_transmission/transmissionFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/pbrMetallicRoughness/baseColorFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationColor"
+              }
+            }
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        },
+        {
+          "input": 10,
+          "interpolation": "LINEAR",
+          "output": 11
+        },
+        {
+          "input": 12,
+          "interpolation": "LINEAR",
+          "output": 13
+        },
+        {
+          "input": 14,
+          "interpolation": "LINEAR",
+          "output": 15
+        },
+        {
+          "input": 16,
+          "interpolation": "LINEAR",
+          "output": 17
+        },
+        {
+          "input": 18,
+          "interpolation": "LINEAR",
+          "output": 19
+        },
+        {
+          "input": 20,
+          "interpolation": "LINEAR",
+          "output": 21
+        },
+        {
+          "input": 22,
+          "interpolation": "LINEAR",
+          "output": 23
+        },
+        {
+          "input": 24,
+          "interpolation": "LINEAR",
+          "output": 25
+        }
+      ],
+      "name": "DragonMaterialAnim"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DragonAttenuation-MaterialAnimation.bin",
+      "byteLength": 5870848
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 750840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 750840,
+      "byteLength": 750840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1501680,
+      "byteLength": 500560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2002240,
+      "byteLength": 262676,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2264916,
+      "byteLength": 921708,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3186624,
+      "byteLength": 921708,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4108332,
+      "byteLength": 614472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4722804,
+      "byteLength": 1094592,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5817396,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5819720,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5822044,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5824368,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5826692,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5829016,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5831340,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5833664,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5835988,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5838312,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5840636,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5842960,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5845284,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5847608,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5849932,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5852256,
+      "byteLength": 9296
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5861552,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5863876,
+      "byteLength": 6972
+    }
+  ],
+  "images": [
+    {
+      "uri": "DragonAttenuation-1.jpg",
+      "name": "1"
+    },
+    {
+      "uri": "DragonAttenuation-2.jpg",
+      "name": "2"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4934999942779541
+      },
+      "name": "Cloth Backdrop"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "name": "Dragon with Attenuation",
+      "extensions": {
+        "KHR_materials_volume": {
+          "thicknessFactor": 2.27,
+          "attenuationDistance": 0.155,
+          "attenuationColor": [
+            0.921,
+            0.6399999,
+            0.06399998
+          ],
+          "thicknessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "KHR_materials_ior": {
+          "ior": 1.5
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0
+        },
+        "KHR_materials_iridescence": {}
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "DragonAttenuation-MaterialAnimation"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        3.5,
+        3.5,
+        3.5
+      ],
+      "translation": [
+        -0.154701293,
+        -0.8415843,
+        -0.170368731
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        0.0,
+        -0.730648,
+        0.0
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "2"
+    }
+  ]
+}
